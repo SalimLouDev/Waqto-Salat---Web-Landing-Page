@@ -1,0 +1,99 @@
+import { motion } from "motion/react";
+import { AppMockup } from "./AppMockup";
+import { Compass, Bell, LayoutDashboard, Heart } from "lucide-react";
+
+export function FeatureSections() {
+  const features = [
+    {
+      id: "prayer-times",
+      title: "Accurate Prayer Times",
+      description: "Uses globally recognized calculation methods. Perfectly synced with your device location and timezone down to the minute.",
+      icon: <Bell className="w-5 h-5" />,
+      imageSrc: "/screenshot-2.png",
+      reverse: false
+    },
+    {
+      id: "qibla",
+      title: "Minimalist Qibla Compass",
+      description: "Finding the direction of the Kaaba should be straightforward. Our compass is designed to be highly legible and completely free of clutter.",
+      icon: <Compass className="w-5 h-5" />,
+      imageSrc: "/screenshot-3.png",
+      reverse: true
+    },
+    {
+      id: "widgets",
+      title: "Glanceable Widgets",
+      description: "Keep tracking your next prayer right on your home screen or lock screen with beautifully crafted and distraction-free widgets.",
+      icon: <LayoutDashboard className="w-5 h-5" />,
+      imageSrc: "/screenshot-4.png",
+      reverse: false
+    },
+    {
+      id: "calm",
+      title: "Calm By Design",
+      description: "No loud animations. No stressful red text. Just deep greens, warm gold, and a layout that breathes. Designed to lower your heart rate, not raise it.",
+      icon: <Heart className="w-5 h-5" />,
+      imageSrc: "/screenshot-5.png",
+      reverse: true
+    }
+  ];
+
+  return (
+    <section className="py-32 overflow-hidden bg-off-white">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-40">
+        {features.map((feature, idx) => (
+          <div 
+            key={feature.id} 
+            className={`flex flex-col lg:flex-row items-center gap-16 lg:gap-24 ${
+              feature.reverse ? 'lg:flex-row-reverse' : ''
+            }`}
+          >
+            {/* Text Content */}
+            <div className="flex-1 text-center lg:text-left">
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                className="inline-flex items-center justify-center p-3 rounded-2xl bg-islamic-green/10 text-islamic-green mb-6"
+              >
+                {feature.icon}
+              </motion.div>
+              <motion.h2 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ delay: 0.1 }}
+                className="text-3xl md:text-5xl font-display font-medium text-islamic-green mb-6 leading-tight"
+              >
+                {feature.title}
+              </motion.h2>
+              <motion.p 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ delay: 0.2 }}
+                className="text-lg md:text-xl text-muted-green leading-relaxed"
+              >
+                {feature.description}
+              </motion.p>
+            </div>
+
+            {/* Visual / Mockup */}
+            <div className="flex-1 flex justify-center w-full">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                className="relative"
+              >
+                <div className="absolute inset-0 bg-islamic-gold/10 blur-3xl transform scale-150 rounded-full" />
+                <AppMockup imageSrc={feature.imageSrc} alt={feature.title} />
+              </motion.div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Waqto Salat",
+  "description": "A calm, ad-free prayer companion built around your day. Accurate prayer times, smart alarms, Qibla direction, and home screen widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
