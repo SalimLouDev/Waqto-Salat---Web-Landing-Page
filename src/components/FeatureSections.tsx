@@ -41,7 +41,7 @@ export function FeatureSections() {
   return (
     <section className="py-32 overflow-hidden bg-off-white">
       <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-40">
-        {features.map((feature, idx) => (
+        {features.map((feature) => (
           <div 
             key={feature.id} 
             className={`flex flex-col lg:flex-row items-center gap-16 lg:gap-24 ${
@@ -54,7 +54,7 @@ export function FeatureSections() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
-                className="inline-flex items-center justify-center p-3 rounded-2xl bg-islamic-green/10 text-islamic-green mb-6"
+                className="inline-flex items-center justify-center p-3 rounded-lg bg-islamic-green/10 text-islamic-green mb-6"
               >
                 {feature.icon}
               </motion.div>
@@ -87,7 +87,6 @@ export function FeatureSections() {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 className="relative"
               >
-                <div className="absolute inset-0 bg-islamic-gold/10 blur-3xl transform scale-150 rounded-full" />
                 <AppMockup imageSrc={feature.imageSrc} alt={feature.title} />
               </motion.div>
             </div>

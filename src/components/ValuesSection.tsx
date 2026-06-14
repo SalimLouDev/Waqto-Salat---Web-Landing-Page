@@ -1,4 +1,4 @@
-import { MapPin, Bell, Compass, LayoutDashboard, Globe } from "lucide-react";
+import { Bell, Compass, LayoutDashboard, Globe } from "lucide-react";
 import { motion } from "motion/react";
 
 export function ValuesSection() {
@@ -49,9 +49,9 @@ export function ValuesSection() {
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
             key={i} 
-            className="p-8 rounded-3xl bg-off-white border border-border-light shadow-sm hover:shadow-md transition-shadow"
+            className="p-8 rounded-lg bg-off-white border border-border-light shadow-sm hover:shadow-md transition-shadow"
           >
-            <div className="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center mb-6">
+            <div className="w-12 h-12 rounded-lg bg-emerald-50 flex items-center justify-center mb-6">
               {v.icon}
             </div>
             <h3 className="text-xl font-semibold mb-3 text-islamic-green">{v.title}</h3>
@@ -61,13 +61,12 @@ export function ValuesSection() {
           </motion.div>
         ))}
         
-        {/* Placeholder to make grid complete beautifully */}
         <motion.div 
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
-          className="p-8 rounded-3xl bg-islamic-green text-white flex flex-col justify-center border border-islamic-green/20"
+          className="p-8 rounded-lg bg-islamic-green text-white flex flex-col justify-center border border-islamic-green/20"
         >
           <h3 className="text-xl font-display italic mb-3">Made with Ihsan</h3>
           <p className="text-white/80 text-sm leading-relaxed">
