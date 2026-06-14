@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { assetPath } from "../lib/assets";
 
 const screenshots = [
-  { png: "/screenshot-1.png", webp: "/screenshot-1.webp", alt: "Waqto Salat prayer dashboard" },
-  { png: "/screenshot-2.png", webp: "/screenshot-2.webp", alt: "Waqto Salat prayer times screen" },
-  { png: "/screenshot-3.png", webp: "/screenshot-3.webp", alt: "Waqto Salat Qibla compass screen" },
-  { png: "/screenshot-4.png", webp: "/screenshot-4.webp", alt: "Waqto Salat home widget screen" },
-  { png: "/screenshot-5.png", webp: "/screenshot-5.webp", alt: "Waqto Salat calm settings screen" },
-  { png: "/screenshot-6.png", webp: "/screenshot-6.webp", alt: "Waqto Salat additional app screen" },
+  { png: "screenshot-1.png", webp: "screenshot-1.webp", alt: "Waqto Salat prayer dashboard" },
+  { png: "screenshot-2.png", webp: "screenshot-2.webp", alt: "Waqto Salat prayer times screen" },
+  { png: "screenshot-3.png", webp: "screenshot-3.webp", alt: "Waqto Salat Qibla compass screen" },
+  { png: "screenshot-4.png", webp: "screenshot-4.webp", alt: "Waqto Salat home widget screen" },
+  { png: "screenshot-5.png", webp: "screenshot-5.webp", alt: "Waqto Salat calm settings screen" },
+  { png: "screenshot-6.png", webp: "screenshot-6.webp", alt: "Waqto Salat additional app screen" },
 ];
 
 export function MockupSlider() {
@@ -46,9 +47,9 @@ export function MockupSlider() {
             exit={{ opacity: 0, filter: "blur(8px)" }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
-            <source srcSet={current.webp} type="image/webp" />
+            <source srcSet={assetPath(current.webp)} type="image/webp" />
             <img
-              src={current.png}
+              src={assetPath(current.png)}
               alt={current.alt}
               width="640"
               height="1137"

@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { assetPath } from "../lib/assets";
 
 export function Navbar() {
   return (
@@ -10,7 +11,7 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 h-20 flex items-center justify-between gap-4">
         <div className="min-w-0 flex items-center gap-3 text-islamic-green">
-          <img src="/logo.png" alt="Waqto Salat Logo" className="w-8 h-8 rounded-full object-cover" />
+          <img src={assetPath("logo.png")} alt="Waqto Salat Logo" className="w-8 h-8 rounded-full object-cover" />
           <span className="font-display font-medium text-xl sm:text-2xl tracking-tight whitespace-nowrap">Waqto Salat</span>
         </div>
         

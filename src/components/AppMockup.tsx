@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { assetPath } from "../lib/assets";
 
 function webpFromPng(src: string) {
   return src.endsWith(".png") ? src.replace(".png", ".webp") : src;
@@ -14,9 +15,9 @@ export function AppMockup({ imageSrc, alt }: { imageSrc?: string; alt?: string }
     >
       {imageSrc ? (
         <picture className="block h-full w-full">
-          <source srcSet={webpFromPng(imageSrc)} type="image/webp" />
+          <source srcSet={assetPath(webpFromPng(imageSrc))} type="image/webp" />
           <img
-            src={imageSrc}
+            src={assetPath(imageSrc)}
             alt={alt || "Waqto Salat app screenshot"}
             width="640"
             height="1137"
