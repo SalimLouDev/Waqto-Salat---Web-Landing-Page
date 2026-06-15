@@ -17,11 +17,13 @@
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Waqto Salat Android salah reminder app preview." />
     <meta property="og:site_name" content="Waqto Salat" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Salah Reminder App for Android | Waqto Salat" />
     <meta name="twitter:description" content="Dynamic salah reminders that move with prayer times in a calm ad-free Android app." />
     <meta name="twitter:image" content="https://waqtosalat.com/og-image-v4.jpg" />
+    <meta name="twitter:image:alt" content="Waqto Salat dynamic salah reminder app preview." />
     <title>Salah Reminder App for Android | Waqto Salat</title>
     <script type="application/ld+json">
       {
@@ -54,28 +56,50 @@
   <body>
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
       <header class="fixed top-0 inset-x-0 z-[100] border-b border-border-light/80 bg-off-white/95 shadow-[0_10px_24px_rgba(10,61,45,0.035)] backdrop-blur-xl">
-        <div class="mx-auto flex h-20 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 md:px-12">
+        <div class="mx-auto flex h-20 max-w-7xl w-full items-center justify-between gap-3 px-4 sm:px-6 md:px-12">
           <a href="/" class="inline-flex min-w-0 items-center gap-3 rounded-full text-islamic-green">
             <img src="/logo.png" alt="Waqto Salat Logo" class="h-8 w-8 rounded-full object-cover" />
             <span class="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">Waqto Salat</span>
           </a>
+          <nav aria-label="Resource navigation" class="hidden items-center gap-7 text-sm font-semibold text-muted-green md:flex">
+            <a href="/" class="hover:text-islamic-green">Home</a>
+            <a href="/#resources" class="hover:text-islamic-green">Resources</a>
+            <a href="/#faq" class="hover:text-islamic-green">FAQ</a>
+          </nav>
           <a href="https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat" class="rounded-full bg-islamic-green px-4 py-3 text-xs font-bold uppercase tracking-widest text-white">Get App</a>
         </div>
       </header>
 
       <main class="pt-20">
-        <section class="bg-footer-bg px-6 py-20 md:px-12 md:py-28">
-          <div class="mx-auto max-w-5xl">
-            <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Prayer reminders</p>
-            <h1 class="font-display text-4xl font-medium leading-tight md:text-6xl">Salah reminder app for Android</h1>
-            <p class="mt-6 max-w-3xl text-lg leading-8 text-muted-green">
-              Set reminders before or after Fajr, Dhuhr, Asr, Maghrib, or Isha once. Waqto Salat updates them automatically as daily prayer times change.
-            </p>
+        <section class="bg-islamic-green px-6 py-20 text-white md:px-12 md:py-28">
+          <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
+            <div>
+              <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Prayer reminders</p>
+              <h1 class="max-w-4xl font-display text-4xl font-medium leading-tight md:text-6xl">Salah reminder app for Android</h1>
+              <p class="mt-6 max-w-3xl text-lg leading-8 text-white/82">
+                Set reminders before or after Fajr, Dhuhr, Asr, Maghrib, or Isha once. Waqto Salat updates them automatically as daily prayer times change.
+              </p>
+            </div>
+            <div class="rounded-lg border border-white/12 bg-white/8 p-6">
+              <p class="text-sm leading-7 text-white/78">
+                Quick answer: Waqto Salat keeps reminders tied to salah times instead of fixed clock alarms.
+              </p>
+            </div>
           </div>
         </section>
 
         <section class="px-6 py-16 md:px-12 md:py-24">
-          <article class="mx-auto max-w-4xl space-y-10 text-base leading-8 text-muted-green">
+          <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.7fr_1.3fr]">
+            <aside class="space-y-3 text-sm text-muted-green lg:sticky lg:top-28 lg:self-start">
+              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">Resource guides</p>
+              <a href="/" class="block hover:text-islamic-green">Home</a>
+              <a href="/ad-free-prayer-times-app/" class="block hover:text-islamic-green">Ad-free prayer times</a>
+              <a href="/salah-reminder-app/" class="block font-semibold text-islamic-green">Salah reminder app</a>
+              <a href="/qibla-compass-app/" class="block hover:text-islamic-green">Qibla compass app</a>
+              <a href="/prayer-times-widget-android/" class="block hover:text-islamic-green">Prayer times widget</a>
+              <a href="/how-prayer-times-are-calculated/" class="block hover:text-islamic-green">Prayer time accuracy</a>
+            </aside>
+            <article class="space-y-10 text-base leading-8 text-muted-green">
             <section>
               <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">What a useful salah reminder should do</h2>
               <p>
@@ -99,9 +123,20 @@
               <a href="/qibla-compass-app/" class="rounded-lg border border-border-light bg-white p-5 font-semibold text-islamic-green shadow-sm">Qibla compass</a>
               <a href="/how-prayer-times-are-calculated/" class="rounded-lg border border-border-light bg-white p-5 font-semibold text-islamic-green shadow-sm">Prayer time accuracy</a>
             </section>
-          </article>
+            </article>
+          </div>
         </section>
       </main>
+      <footer class="border-t border-border-light bg-footer-bg px-6 py-10 md:px-12">
+        <div class="mx-auto flex max-w-7xl flex-col gap-4 text-sm text-muted-green md:flex-row md:items-center md:justify-between">
+          <p>&copy; 2026 Waqto Salat. All rights reserved.</p>
+          <div class="flex flex-wrap gap-4">
+            <a href="/privacy-policy/" class="hover:text-islamic-green">Privacy Policy</a>
+            <a href="/terms-of-service/" class="hover:text-islamic-green">Terms of Service</a>
+            <a href="mailto:salimloudev@gmail.com" class="hover:text-islamic-green">Contact</a>
+          </div>
+        </div>
+      </footer>
     </div>
     <script type="module" src="/src/static-page.ts"></script>
   </body>
