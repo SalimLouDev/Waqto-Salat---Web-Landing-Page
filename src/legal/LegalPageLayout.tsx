@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
 import { ArrowLeft, Mail } from "lucide-react";
-import { assetPath } from "../lib/assets";
 import "../index.css";
 
 type LegalSection = {
@@ -34,7 +33,7 @@ export function LegalPageLayout({
             className="inline-flex min-w-0 items-center gap-3 rounded-full text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
           >
             <img
-              src={assetPath("logo.png")}
+              src="/logo.png"
               alt="Waqto Salat Logo"
               className="w-8 h-8 rounded-full object-cover"
             />
