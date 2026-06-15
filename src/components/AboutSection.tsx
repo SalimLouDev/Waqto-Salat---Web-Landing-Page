@@ -19,7 +19,7 @@ export function AboutSection() {
             A clear focus on Salah.
           </h2>
           <p className="text-xl md:text-2xl text-white/88 leading-relaxed font-display italic">
-            Built to help Muslims organize their day around salah without distractions, ads, or locked features.
+            Built to help Muslims organize their day around salah with reminders that move as prayer times change.
           </p>
         </motion.div>
 
@@ -31,8 +31,8 @@ export function AboutSection() {
           />
           <AboutCard
             icon={<Sparkles className="h-5 w-5" />}
-            title="Prayer essentials"
-            body="Prayer times, dynamic reminders, Qibla direction, widgets, calibration, and multilingual support."
+            title="Prayer-based reminders"
+            body="Set reminders before or after salah times once, then let them follow the daily prayer schedule."
           />
           <AboutCard
             icon={<HeartHandshake className="h-5 w-5" />}

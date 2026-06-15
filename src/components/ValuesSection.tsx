@@ -9,8 +9,8 @@ export function ValuesSection() {
       icon: <span className="text-islamic-green font-bold text-xl">100</span>
     },
     {
-      title: "Smart Alarms",
-      description: "Alarms automatically adjust as prayer times naturally shift throughout the year.",
+      title: "Dynamic Salah Reminders",
+      description: "Set reminders before or after any prayer time and let them move with the daily salah schedule.",
       icon: <Bell className="w-6 h-6 text-islamic-green" />
     },
     {
@@ -34,10 +34,10 @@ export function ValuesSection() {
     <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl font-display font-medium text-islamic-green mb-4">
-          Core Features
+          Built around your daily salah
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Built to be the only prayer app you need. Respectful of your time and attention.
+          A focused Android prayer app for reminders, prayer times, Qibla direction, widgets, and calm daily use.
         </p>
       </div>
 

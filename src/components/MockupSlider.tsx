@@ -3,12 +3,12 @@ import { AnimatePresence, motion } from "motion/react";
 import { assetPath } from "../lib/assets";
 
 const screenshots = [
-  { png: "screenshot-1.png", webp: "screenshot-1.webp", alt: "Waqto Salat prayer dashboard" },
-  { png: "screenshot-2.png", webp: "screenshot-2.webp", alt: "Waqto Salat prayer times screen" },
-  { png: "screenshot-3.png", webp: "screenshot-3.webp", alt: "Waqto Salat Qibla compass screen" },
-  { png: "screenshot-4.png", webp: "screenshot-4.webp", alt: "Waqto Salat home widget screen" },
-  { png: "screenshot-5.png", webp: "screenshot-5.webp", alt: "Waqto Salat calm settings screen" },
-  { png: "screenshot-6.png", webp: "screenshot-6.webp", alt: "Waqto Salat additional app screen" },
+  { png: "screenshot-1.png", webp: "screenshot-1.webp", alt: "Waqto Salat calm Android prayer dashboard" },
+  { png: "screenshot-2.png", webp: "screenshot-2.webp", alt: "Waqto Salat Android prayer app screen" },
+  { png: "screenshot-3.png", webp: "screenshot-3.webp", alt: "Waqto Salat Android app showing prayer times and reminders" },
+  { png: "screenshot-4.png", webp: "screenshot-4.webp", alt: "Waqto Salat Android Qibla compass direction screen" },
+  { png: "screenshot-5.png", webp: "screenshot-5.webp", alt: "Waqto Salat Android settings screen for prayer preferences" },
+  { png: "screenshot-6.png", webp: "screenshot-6.webp", alt: "Waqto Salat Android home screen prayer times widget" },
 ];
 
 export function MockupSlider() {

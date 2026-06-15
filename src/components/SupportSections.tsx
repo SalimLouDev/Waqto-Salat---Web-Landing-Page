@@ -20,10 +20,10 @@ export function SupportSections() {
               Android prayer companion
             </div>
             <h2 className="text-3xl md:text-5xl font-display font-medium text-islamic-green leading-tight mb-6">
-              Prayer times that stay close to your day.
+              Make your day revolve around salah, not fixed alarms.
             </h2>
             <p className="text-lg text-muted-green leading-relaxed max-w-2xl mb-8">
-              Waqto Salat brings accurate salah times, smart reminders, Qibla direction, and home widgets into a focused Android app with no ads and no subscription.
+              Download Waqto Salat for dynamic salah reminders, accurate prayer times, Qibla direction, and home widgets in a focused Android app with no ads and no subscription.
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
               <GooglePlayBadge />

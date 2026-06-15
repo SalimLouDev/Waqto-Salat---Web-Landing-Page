@@ -1,10 +1,12 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { ValuesSection } from "./components/ValuesSection";
+import { ReminderSystemSection } from "./components/ReminderSystemSection";
 import { FeatureSections } from "./components/FeatureSections";
 import { AboutSection } from "./components/AboutSection";
 import { SupportSections } from "./components/SupportSections";
 import { FAQSection } from "./components/FAQSection";
+import { ResourceLinksSection } from "./components/ResourceLinksSection";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -13,6 +15,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <ReminderSystemSection />
         <div id="features">
           <ValuesSection />
           <FeatureSections />
@@ -21,6 +24,7 @@ export default function App() {
         <AboutSection />
         <SupportSections />
         <FAQSection />
+        <ResourceLinksSection />
       </main>
       <Footer />
     </div>

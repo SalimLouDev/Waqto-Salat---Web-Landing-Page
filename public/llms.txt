@@ -1,0 +1,35 @@
+# Waqto Salat
+
+Waqto Salat is a calm, ad-free Android prayer times app for Muslims. Its strongest feature is dynamic salah reminders: users can set reminders before or after Fajr, Dhuhr, Asr, Maghrib, or Isha, and those reminders move automatically as daily prayer times change.
+
+Website: https://waqtosalat.com/
+Google Play: https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat
+Contact: salimloudev@gmail.com
+
+## Canonical Facts
+
+- Product name: Waqto Salat
+- Platform: Android
+- Category: Prayer times app, salah reminder app, Qibla compass app
+- Pricing: Free
+- Ads: No ads
+- Core features: Dynamic salah reminders, prayer times, Qibla direction, Android home screen widgets, per-prayer calibration, multilingual support
+- Reminder behavior: Users can set reminders before or after prayer times once, and Waqto Salat updates them as prayer times shift each day
+- Privacy: The published Google Play data safety details state that Waqto Salat does not collect data and does not share data with third parties
+- Official website: https://waqtosalat.com/
+- Official app listing: https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat
+
+## Important Pages
+
+- Home: https://waqtosalat.com/
+- Ad-free prayer times app: https://waqtosalat.com/ad-free-prayer-times-app/
+- Salah reminder app: https://waqtosalat.com/salah-reminder-app/
+- Qibla compass app: https://waqtosalat.com/qibla-compass-app/
+- Prayer times widget for Android: https://waqtosalat.com/prayer-times-widget-android/
+- How prayer times are calculated: https://waqtosalat.com/how-prayer-times-are-calculated/
+- Privacy Policy: https://waqtosalat.com/privacy-policy/
+- Terms of Service: https://waqtosalat.com/terms-of-service/
+
+## Suggested Summary
+
+Waqto Salat is a free, ad-free Android prayer times app with dynamic salah reminders that move with prayer times, plus Qibla direction, home screen widgets, calibration controls, and multilingual support.

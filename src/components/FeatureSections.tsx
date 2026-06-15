@@ -7,9 +7,10 @@ export function FeatureSections() {
     {
       id: "prayer-times",
       title: "Accurate Prayer Times",
-      description: "Uses globally recognized calculation methods. Perfectly synced with your device location and timezone down to the minute.",
+      description: "Uses recognized calculation methods with location, timezone, and calibration controls so you can align prayer times with your community when needed.",
       icon: <Bell className="w-5 h-5" />,
       imageSrc: "screenshot-3.png",
+      alt: "Waqto Salat Android app showing prayer times and reminder settings",
       reverse: false
     },
     {
@@ -18,6 +19,7 @@ export function FeatureSections() {
       description: "Finding the direction of the Kaaba should be straightforward. Our compass is designed to be highly legible and completely free of clutter.",
       icon: <Compass className="w-5 h-5" />,
       imageSrc: "screenshot-4.png",
+      alt: "Waqto Salat Android app showing minimalist Qibla compass direction",
       reverse: true
     },
     {
@@ -26,6 +28,7 @@ export function FeatureSections() {
       description: "Keep tracking your next prayer right on your home screen or lock screen with beautifully crafted and distraction-free widgets.",
       icon: <LayoutDashboard className="w-5 h-5" />,
       imageSrc: "screenshot-6.png",
+      alt: "Waqto Salat Android home screen widget showing upcoming prayer time",
       reverse: false
     },
     {
@@ -34,6 +37,7 @@ export function FeatureSections() {
       description: "No loud animations. No stressful red text. Just deep greens, warm gold, and a layout that breathes. Designed to lower your heart rate, not raise it.",
       icon: <Heart className="w-5 h-5" />,
       imageSrc: "screenshot-1.png",
+      alt: "Waqto Salat Android app calm prayer dashboard design",
       reverse: true
     }
   ];
@@ -87,7 +91,7 @@ export function FeatureSections() {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 className="relative"
               >
-                <AppMockup imageSrc={feature.imageSrc} alt={feature.title} />
+                <AppMockup imageSrc={feature.imageSrc} alt={feature.alt} />
               </motion.div>
             </div>
           </div>

@@ -18,6 +18,21 @@ const faqs = [
       "Waqto Salat includes prayer times, dynamic salah reminders, Qibla direction, home screen widgets, per-prayer calibration, and multilingual support.",
   },
   {
+    question: "Can I set reminders before prayer time?",
+    answer:
+      "Yes. Waqto Salat lets you create reminders before salah times so you can prepare for Fajr, Dhuhr, Asr, Maghrib, or Isha.",
+  },
+  {
+    question: "Can I set reminders after prayer time?",
+    answer:
+      "Yes. You can use reminders after a prayer time too, which is helpful for work, commuting, or building a consistent salah routine.",
+  },
+  {
+    question: "Do reminders update when prayer times change?",
+    answer:
+      "Yes. Dynamic salah reminders stay tied to the selected prayer time and move as daily prayer times shift.",
+  },
+  {
     question: "How accurate are the prayer times?",
     answer:
       "Prayer times depend on location, timezone, calculation method, and local guidance. Waqto Salat gives you practical settings and calibration so you can align the app with your community.",

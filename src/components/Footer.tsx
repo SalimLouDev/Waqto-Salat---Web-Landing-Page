@@ -12,13 +12,21 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-8 sm:gap-12 md:justify-self-end">
+        <div className="grid gap-8 sm:grid-cols-3 sm:gap-10 md:justify-self-end">
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Application</span>
             <a href="#features" className="hover:text-islamic-green transition-colors">Features</a>
             <a href="#about" className="hover:text-islamic-green transition-colors">About Us</a>
             <a href="#faq" className="hover:text-islamic-green transition-colors">FAQ</a>
             <a href="#download" className="hover:text-islamic-green transition-colors text-islamic-green font-medium">Download for Android</a>
+          </div>
+          <div className="flex flex-col gap-3 text-sm text-muted-green">
+            <span className="font-semibold text-islamic-green mb-1">Resources</span>
+            <a href="/ad-free-prayer-times-app/" className="hover:text-islamic-green transition-colors">Ad-Free Prayer Times</a>
+            <a href="/salah-reminder-app/" className="hover:text-islamic-green transition-colors">Salah Reminders</a>
+            <a href="/qibla-compass-app/" className="hover:text-islamic-green transition-colors">Qibla Compass</a>
+            <a href="/prayer-times-widget-android/" className="hover:text-islamic-green transition-colors">Android Widgets</a>
+            <a href="/how-prayer-times-are-calculated/" className="hover:text-islamic-green transition-colors">Prayer Time Accuracy</a>
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Legal</span>
