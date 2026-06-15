@@ -15,7 +15,7 @@ export function Navbar() {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       aria-label="Primary navigation"
-      className="fixed top-0 inset-x-0 z-50 bg-off-white/95 backdrop-blur-xl border-b border-border-light/80 shadow-[0_10px_24px_rgba(10,61,45,0.035)]"
+      className="fixed top-0 inset-x-0 z-[100] bg-off-white/95 backdrop-blur-xl border-b border-border-light/80 shadow-[0_10px_24px_rgba(10,61,45,0.035)]"
     >
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 md:px-12 h-20 flex items-center justify-between gap-3 sm:gap-4">
         <a href="#" className="min-w-0 flex items-center gap-3 text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 rounded-full">

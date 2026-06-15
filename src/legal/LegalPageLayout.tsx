@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { ArrowLeft, Mail } from "lucide-react";
+import { assetPath } from "../lib/assets";
 import "../index.css";
 
 type LegalSection = {
@@ -26,16 +27,20 @@ export function LegalPageLayout({
 }: LegalPageLayoutProps) {
   return (
     <div className="min-h-screen bg-off-white font-sans text-islamic-green selection:bg-islamic-gold/30">
-      <header className="border-b border-border-light bg-off-white/95">
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-6 py-5 md:px-10 min-w-0">
+      <header className="fixed top-0 inset-x-0 z-[100] border-b border-border-light/80 bg-off-white/95 shadow-[0_10px_24px_rgba(10,61,45,0.035)] backdrop-blur-xl">
+        <div className="mx-auto flex h-20 max-w-7xl w-full items-center justify-between gap-3 px-4 sm:gap-4 sm:px-6 md:px-12 min-w-0">
           <a
             href="/"
             className="inline-flex min-w-0 items-center gap-3 rounded-full text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-islamic-gold/15 font-display text-lg text-islamic-gold">
-              W
+            <img
+              src={assetPath("logo.png")}
+              alt="Waqto Salat Logo"
+              className="w-8 h-8 rounded-full object-cover"
+            />
+            <span className="truncate whitespace-nowrap font-display text-xl font-medium tracking-tight sm:text-2xl">
+              Waqto Salat
             </span>
-            <span className="truncate font-display text-xl font-medium">Waqto Salat</span>
           </a>
           <a
             href="/"
@@ -48,7 +53,7 @@ export function LegalPageLayout({
         </div>
       </header>
 
-      <main>
+      <main className="pt-20">
         <section className="px-6 py-16 md:px-10 md:py-24">
           <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[0.75fr_1.25fr]">
             <aside className="lg:sticky lg:top-8 lg:self-start">
