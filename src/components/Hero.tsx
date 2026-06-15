@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-import { Bell, Compass, Play } from "lucide-react";
+import { Bell, Compass } from "lucide-react";
+import { GooglePlayBadge } from "./GooglePlayBadge";
 import { MockupSlider } from "./MockupSlider";
 
 export function Hero() {
@@ -50,10 +51,7 @@ export function Hero() {
             transition={{ delay: 0.2 }}
             className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
           >
-            <a href="#download" className="group rounded-full bg-[#0A3D2D] text-white px-8 py-4 font-bold uppercase tracking-widest text-sm flex items-center gap-3 hover:bg-islamic-green-hover transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5 w-full sm:w-auto justify-center">
-              <Play className="w-5 h-5 fill-white" />
-              Get it on Google Play
-            </a>
+            <GooglePlayBadge />
             <p className="text-xs uppercase tracking-widest text-muted-green font-semibold hidden sm:block">100% Free &middot; No Subscription &middot; No Ads</p>
           </motion.div>
         </div>

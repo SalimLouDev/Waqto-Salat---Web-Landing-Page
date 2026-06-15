@@ -1,9 +1,7 @@
-import { Mail, Play, ShieldCheck, Smartphone, Sparkles } from "lucide-react";
+import { Mail, ShieldCheck, Smartphone, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
+import { GooglePlayBadge } from "./GooglePlayBadge";
 
-const playStoreUrl =
-  import.meta.env.VITE_PLAY_STORE_URL ||
-  "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat";
 const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || "salimloudev@gmail.com";
 
 export function SupportSections() {
@@ -27,17 +25,11 @@ export function SupportSections() {
             <p className="text-lg text-muted-green leading-relaxed max-w-2xl mb-8">
               Waqto Salat brings accurate salah times, smart reminders, Qibla direction, and home widgets into a focused Android app with no ads and no subscription.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href={playStoreUrl}
-                className="rounded-full bg-[#0A3D2D] text-white px-7 py-4 font-bold uppercase tracking-widest text-sm inline-flex items-center justify-center gap-3 hover:bg-islamic-green-hover transition-colors shadow-lg"
-              >
-                <Play className="w-5 h-5 fill-white" />
-                Get the Android app
-              </a>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+              <GooglePlayBadge />
               <a
                 href={`mailto:${contactEmail}`}
-                className="rounded-full border border-border-light text-islamic-green px-7 py-4 font-bold uppercase tracking-widest text-sm inline-flex items-center justify-center gap-3 hover:border-islamic-green transition-colors"
+                className="rounded-full border border-border-light text-islamic-green px-7 py-3.5 font-bold uppercase tracking-widest text-xs sm:text-sm inline-flex items-center justify-center gap-3 hover:border-islamic-green transition-colors sm:min-h-14"
               >
                 <Mail className="w-5 h-5" />
                 Contact support
