@@ -9,14 +9,14 @@ export function GooglePlayBadge({ className = "" }: { className?: string }) {
     <a
       href={playStoreUrl}
       aria-label="Get Waqto Salat on Google Play"
-      className={`inline-flex min-h-20 items-center justify-center rounded-lg transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/40 sm:min-h-[5.25rem] ${className}`}
+      className={`relative inline-flex h-14 w-[11.875rem] shrink-0 items-center justify-center overflow-hidden rounded-lg transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/40 ${className}`}
     >
       <img
         src={assetPath("google-play-badge.png")}
         alt="Get it on Google Play"
         width="646"
         height="250"
-        className="h-20 w-auto max-w-full object-contain drop-shadow-sm sm:h-[5.25rem]"
+        className="absolute -left-3.5 -top-3.5 h-[5.25rem] w-auto max-w-none object-contain drop-shadow-sm"
       />
     </a>
   );
