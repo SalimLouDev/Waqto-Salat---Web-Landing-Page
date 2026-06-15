@@ -67,10 +67,10 @@ export function SupportSections() {
           <div className="lg:col-span-1">
             <div className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-islamic-green mb-6">
               <ShieldCheck className="h-4 w-4" />
-              Privacy first
+              Legal
             </div>
             <h2 className="text-3xl md:text-4xl font-display font-medium text-islamic-green leading-tight">
-              Respect for your attention starts with respect for your data.
+              Privacy, terms, and feedback in plain language.
             </h2>
           </div>
           <div className="lg:col-span-2 grid md:grid-cols-2 gap-6">
@@ -78,13 +78,18 @@ export function SupportSections() {
               id="privacy-policy"
               title="Privacy Policy"
               body="Waqto Salat is designed for prayer utility, not tracking. The published Google Play data safety details state that the app does not collect data or share data with third parties."
+              href="/privacy-policy/"
+              linkLabel="Read privacy policy"
             />
             <PolicyCard
               id="terms"
               title="Terms of Service"
               body="Prayer time calculations can vary by method, location, device settings, and local authority guidance. Use the app as a practical companion and adjust settings for your community."
+              href="/terms-of-service/"
+              linkLabel="Read terms"
             />
             <PolicyCard
+              id="contact"
               title="Contact / Feedback"
               body={`For support, correction requests, or feedback about calculation methods, contact ${contactEmail}.`}
             />
@@ -99,11 +104,31 @@ export function SupportSections() {
   );
 }
 
-function PolicyCard({ id, title, body }: { id?: string; title: string; body: string }) {
+function PolicyCard({
+  id,
+  title,
+  body,
+  href,
+  linkLabel,
+}: {
+  id?: string;
+  title: string;
+  body: string;
+  href?: string;
+  linkLabel?: string;
+}) {
   return (
     <div id={id} className="rounded-lg border border-border-light bg-white p-6 shadow-sm">
       <h3 className="text-lg font-semibold text-islamic-green mb-3">{title}</h3>
       <p className="text-sm leading-relaxed text-muted-green">{body}</p>
+      {href && linkLabel && (
+        <a
+          href={href}
+          className="mt-5 inline-flex text-sm font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4 hover:text-islamic-green-hover"
+        >
+          {linkLabel}
+        </a>
+      )}
     </div>
   );
 }

@@ -5,8 +5,8 @@ import { MockupSlider } from "./MockupSlider";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+    <section className="relative w-full overflow-hidden pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12">
+      <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center gap-16">
         <div className="flex-1 min-w-0 w-full text-center lg:text-left z-10">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-lg md:text-xl text-muted-green max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
+            className="text-lg md:text-xl text-muted-green max-w-[21rem] sm:max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
           >
             Prayer times, reminders, and Qibla direction. Calmly, accurately, and without ads.
             Built around your day.
@@ -31,14 +31,14 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl mx-auto lg:mx-0 mb-10"
+            className="grid w-full grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl mx-auto lg:mx-0 mb-10"
           >
-            <div className="rounded-lg border border-border-light bg-white/70 px-4 py-4 text-left shadow-sm">
+            <div className="min-w-0 rounded-lg border border-border-light bg-white/70 px-4 py-4 text-left shadow-sm">
               <Bell className="w-5 h-5 text-islamic-gold mb-3" />
               <div className="text-sm font-semibold text-islamic-green">Smart salah alarms</div>
               <div className="text-xs text-muted-green mt-1">Adjusts as prayer times shift</div>
             </div>
-            <div className="rounded-lg border border-border-light bg-white/70 px-4 py-4 text-left shadow-sm">
+            <div className="min-w-0 rounded-lg border border-border-light bg-white/70 px-4 py-4 text-left shadow-sm">
               <Compass className="w-5 h-5 text-islamic-gold mb-3" />
               <div className="text-sm font-semibold text-islamic-green">Clear Qibla direction</div>
               <div className="text-xs text-muted-green mt-1">Minimal compass, no clutter</div>
@@ -56,8 +56,8 @@ export function Hero() {
           </motion.div>
         </div>
 
-        <div className="flex-1 relative w-full max-w-md lg:max-w-none flex justify-center lg:justify-end">
-          <div className="relative w-full flex justify-center items-center">
+        <div className="flex-1 relative w-full min-w-0 max-w-md overflow-hidden lg:max-w-none flex justify-center lg:justify-end">
+          <div className="relative w-full min-w-0 flex justify-center items-center">
             <div className="relative z-10">
               <MockupSlider />
             </div>

@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer id="contact" className="border-t border-border-light bg-footer-bg py-12 px-6 md:px-12 text-left">
+    <footer className="border-t border-border-light bg-footer-bg py-12 px-6 md:px-12 text-left">
       <div className="max-w-7xl mx-auto grid gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-start">
         <div className="max-w-md">
           <div className="text-xl font-display font-medium text-islamic-green mb-4">Waqto Salat</div>
@@ -17,12 +17,13 @@ export function Footer() {
             <span className="font-semibold text-islamic-green mb-1">Application</span>
             <a href="#features" className="hover:text-islamic-green transition-colors">Features</a>
             <a href="#about" className="hover:text-islamic-green transition-colors">About Us</a>
+            <a href="#faq" className="hover:text-islamic-green transition-colors">FAQ</a>
             <a href="#download" className="hover:text-islamic-green transition-colors text-islamic-green font-medium">Download for Android</a>
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Legal</span>
-            <a href="#privacy" className="hover:text-islamic-green transition-colors">Privacy Policy</a>
-            <a href="#terms" className="hover:text-islamic-green transition-colors">Terms of Service</a>
+            <a href="/privacy-policy/" className="hover:text-islamic-green transition-colors">Privacy Policy</a>
+            <a href="/terms-of-service/" className="hover:text-islamic-green transition-colors">Terms of Service</a>
             <a href="#contact" className="hover:text-islamic-green transition-colors">Contact / Feedback</a>
           </div>
         </div>
