@@ -54,7 +54,7 @@ export function Hero() {
             <GooglePlayBadge />
             <a
               href="#reminders"
-              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-border-light bg-white px-6 py-3 text-xs font-bold uppercase tracking-widest text-islamic-green shadow-sm transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+              className="inline-flex h-14 min-w-[14rem] items-center justify-center gap-2 whitespace-nowrap rounded-full border border-border-light bg-white px-7 text-xs font-bold uppercase tracking-widest text-islamic-green shadow-sm transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
             >
               <PlayCircle className="h-4 w-4" />
               See how reminders work
