@@ -5,9 +5,9 @@ import { assetPath } from "../lib/assets";
 export function Navbar() {
   const navLinks = [
     { href: "#features", label: "Features" },
+    { href: "/learn/", label: "Learn" },
     { href: "#about", label: "About" },
     { href: "#faq", label: "FAQ" },
-    { href: "#contact", label: "Support" },
   ];
 
   return (
@@ -23,7 +23,7 @@ export function Navbar() {
           <span className="truncate whitespace-nowrap font-display text-xl font-medium tracking-tight sm:text-2xl">Waqto Salat</span>
         </a>
         
-        <div className="hidden md:flex items-center gap-9 text-sm font-semibold text-muted-green">
+        <div className="hidden md:flex items-center gap-7 text-sm font-semibold text-muted-green">
           {navLinks.map((link) => (
             <a
               key={link.href}

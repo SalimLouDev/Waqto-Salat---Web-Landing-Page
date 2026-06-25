@@ -22,6 +22,8 @@ export function Footer() {
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Resources</span>
+            <a href="/learn/" className="hover:text-islamic-green transition-colors font-medium text-islamic-green">Learn about Salah</a>
+            <a href="/learn/istikhara-prayer/" className="hover:text-islamic-green transition-colors">Istikhara Prayer</a>
             <a href="/ad-free-prayer-times-app/" className="hover:text-islamic-green transition-colors">Ad-Free Prayer Times</a>
             <a href="/salah-reminder-app/" className="hover:text-islamic-green transition-colors">Salah Reminders</a>
             <a href="/qibla-compass-app/" className="hover:text-islamic-green transition-colors">Qibla Compass</a>

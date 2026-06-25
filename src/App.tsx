@@ -6,6 +6,7 @@ import { FeatureSections } from "./components/FeatureSections";
 import { AboutSection } from "./components/AboutSection";
 import { SupportSections } from "./components/SupportSections";
 import { FAQSection } from "./components/FAQSection";
+import { LearnSection } from "./components/LearnSection";
 import { ResourceLinksSection } from "./components/ResourceLinksSection";
 import { Footer } from "./components/Footer";
 
@@ -24,6 +25,7 @@ export default function App() {
         <AboutSection />
         <SupportSections />
         <FAQSection />
+        <LearnSection />
         <ResourceLinksSection />
       </main>
       <Footer />
