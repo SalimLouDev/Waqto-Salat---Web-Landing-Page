@@ -26,6 +26,7 @@ export function Footer() {
             <span className="font-semibold text-islamic-green mb-1">Resources</span>
             <a href="/learn/" className={`${linkClass} font-medium text-islamic-green`}>Learn about Salah</a>
             <a href="/learn/istikhara-prayer/" className={linkClass}>Istikhara Prayer</a>
+            <a href="/learn/eid-al-fitr-and-eid-al-adha-prayer/" className={linkClass}>Eid al-Fitr and Eid al-Adha Prayer</a>
             <a href="/ad-free-prayer-times-app/" className={linkClass}>Ad-Free Prayer Times</a>
             <a href="/salah-reminder-app/" className={linkClass}>Salah Reminders</a>
             <a href="/qibla-compass-app/" className={linkClass}>Qibla Compass</a>

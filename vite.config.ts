@@ -25,6 +25,7 @@ export default defineConfig(() => {
           prayerTimesCalculation: path.resolve(__dirname, 'how-prayer-times-are-calculated/index.html'),
           learn: path.resolve(__dirname, 'learn/index.html'),
           istikharaPrayer: path.resolve(__dirname, 'learn/istikhara-prayer/index.html'),
+          eidPrayer: path.resolve(__dirname, 'learn/eid-al-fitr-and-eid-al-adha-prayer/index.html'),
         },
       },
     },

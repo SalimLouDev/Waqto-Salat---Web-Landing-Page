@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, Signpost } from "lucide-react";
+import { ArrowRight, BookOpen, CalendarDays, Signpost } from "lucide-react";
 import { motion } from "motion/react";
 
 export function LearnSection() {
@@ -19,34 +19,60 @@ export function LearnSection() {
           </h2>
           <p className="max-w-xl leading-relaxed text-muted-green">
             A Salah-only library covering obligatory, Sunnah, voluntary, and special prayers.
-            Begin with Istikhara, the prayer for seeking Allah's guidance in a decision.
+            Begin with Istikhara and the Eid prayer guides, with more Salah topics planned.
           </p>
         </motion.div>
 
-        <motion.a
-          href="/learn/istikhara-prayer/"
+        <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="group grid gap-6 rounded-lg border border-border-light bg-footer-bg p-7 shadow-sm transition-[transform,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-gold/50 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
+          className="grid gap-4"
         >
-          <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white">
-            <Signpost className="h-6 w-6" />
-          </span>
-          <span>
-            <span className="mb-2 block text-xs font-bold uppercase tracking-widest text-islamic-gold">
-              Available now
+          <a
+            href="/learn/istikhara-prayer/"
+            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
+          >
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
+              <Signpost className="h-6 w-6" />
             </span>
-            <span className="block font-display text-2xl font-medium text-islamic-green">
-              Istikhara Prayer
+            <span>
+              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
+                Available now
+              </span>
+              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
+                Istikhara Prayer
+              </span>
+              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
+                When to pray it, how to perform it, what its du'a asks for,
+                and why Istikhara does not depend on dreams or signs.
+              </span>
             </span>
-            <span className="mt-2 block text-sm leading-relaxed text-muted-green">
-              When to pray it, how to perform it, what its du'a asks for,
-              and why Istikhara does not depend on dreams or signs.
+            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
+          </a>
+
+          <a
+            href="/learn/eid-al-fitr-and-eid-al-adha-prayer/"
+            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
+          >
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
+              <CalendarDays className="h-6 w-6" />
             </span>
-          </span>
-          <ArrowRight className="h-5 w-5 text-islamic-green transition-transform group-hover:translate-x-1" />
-        </motion.a>
+            <span>
+              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
+                Available now
+              </span>
+              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
+                Eid al-Fitr and Eid al-Adha Prayer
+              </span>
+              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
+                A guide to Eid al-Fitr and Eid al-Adha prayer, timing, takbirs,
+                khutbah, and common questions.
+              </span>
+            </span>
+            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
+          </a>
+        </motion.div>
       </div>
     </section>
   );
