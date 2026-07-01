@@ -1,4 +1,6 @@
 export function Footer() {
+  const linkClass = "rounded-sm transition-colors hover:text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30";
+
   return (
     <footer className="border-t border-border-light bg-footer-bg py-12 px-6 md:px-12 text-left">
       <div className="max-w-7xl mx-auto grid gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-start">
@@ -15,26 +17,26 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-3 sm:gap-10 md:justify-self-end">
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Application</span>
-            <a href="#features" className="hover:text-islamic-green transition-colors">Features</a>
-            <a href="#about" className="hover:text-islamic-green transition-colors">About Us</a>
-            <a href="#faq" className="hover:text-islamic-green transition-colors">FAQ</a>
-            <a href="#download" className="hover:text-islamic-green transition-colors text-islamic-green font-medium">Download for Android</a>
+            <a href="#features" className={linkClass}>Features</a>
+            <a href="#about" className={linkClass}>About Us</a>
+            <a href="#faq" className={linkClass}>FAQ</a>
+            <a href="#download" className={`${linkClass} text-islamic-green font-medium`}>Download for Android</a>
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Resources</span>
-            <a href="/learn/" className="hover:text-islamic-green transition-colors font-medium text-islamic-green">Learn about Salah</a>
-            <a href="/learn/istikhara-prayer/" className="hover:text-islamic-green transition-colors">Istikhara Prayer</a>
-            <a href="/ad-free-prayer-times-app/" className="hover:text-islamic-green transition-colors">Ad-Free Prayer Times</a>
-            <a href="/salah-reminder-app/" className="hover:text-islamic-green transition-colors">Salah Reminders</a>
-            <a href="/qibla-compass-app/" className="hover:text-islamic-green transition-colors">Qibla Compass</a>
-            <a href="/prayer-times-widget-android/" className="hover:text-islamic-green transition-colors">Android Widgets</a>
-            <a href="/how-prayer-times-are-calculated/" className="hover:text-islamic-green transition-colors">Prayer Time Accuracy</a>
+            <a href="/learn/" className={`${linkClass} font-medium text-islamic-green`}>Learn about Salah</a>
+            <a href="/learn/istikhara-prayer/" className={linkClass}>Istikhara Prayer</a>
+            <a href="/ad-free-prayer-times-app/" className={linkClass}>Ad-Free Prayer Times</a>
+            <a href="/salah-reminder-app/" className={linkClass}>Salah Reminders</a>
+            <a href="/qibla-compass-app/" className={linkClass}>Qibla Compass</a>
+            <a href="/prayer-times-widget-android/" className={linkClass}>Android Widgets</a>
+            <a href="/how-prayer-times-are-calculated/" className={linkClass}>Prayer Time Accuracy</a>
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Legal</span>
-            <a href="/privacy-policy/" className="hover:text-islamic-green transition-colors">Privacy Policy</a>
-            <a href="/terms-of-service/" className="hover:text-islamic-green transition-colors">Terms of Service</a>
-            <a href="#contact" className="hover:text-islamic-green transition-colors">Contact / Feedback</a>
+            <a href="/privacy-policy/" className={linkClass}>Privacy Policy</a>
+            <a href="/terms-of-service/" className={linkClass}>Terms of Service</a>
+            <a href="#contact" className={linkClass}>Contact / Feedback</a>
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ export function ResourceLinksSection() {
               <a
                 key={resource.href}
                 href={resource.href}
-                className="group rounded-lg border border-border-light bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:border-islamic-gold/50 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+                className="group rounded-lg border border-border-light bg-white p-5 shadow-sm transition-[transform,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-gold/50 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
               >
                 <span className="mb-5 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-islamic-green/8 text-islamic-green transition-colors group-hover:bg-islamic-green group-hover:text-white">
                   <Icon className="h-5 w-5" />

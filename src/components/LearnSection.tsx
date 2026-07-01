@@ -28,7 +28,7 @@ export function LearnSection() {
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="group grid gap-6 rounded-lg border border-border-light bg-footer-bg p-7 shadow-sm transition-all hover:-translate-y-1 hover:border-islamic-gold/50 hover:shadow-md sm:grid-cols-[auto_1fr_auto] sm:items-center"
+          className="group grid gap-6 rounded-lg border border-border-light bg-footer-bg p-7 shadow-sm transition-[transform,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-gold/50 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
         >
           <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white">
             <Signpost className="h-6 w-6" />

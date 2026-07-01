@@ -29,7 +29,7 @@ export function SupportSections() {
               <GooglePlayBadge />
               <a
                 href={`mailto:${contactEmail}`}
-                className="rounded-full border border-border-light text-islamic-green px-7 py-3.5 font-bold uppercase tracking-widest text-xs sm:text-sm inline-flex items-center justify-center gap-3 hover:border-islamic-green transition-colors sm:min-h-14"
+                className="rounded-full border border-border-light text-islamic-green px-7 py-3.5 font-bold uppercase tracking-widest text-xs sm:text-sm inline-flex items-center justify-center gap-3 hover:border-islamic-green transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:min-h-14"
               >
                 <Mail className="w-5 h-5" />
                 Contact support
@@ -124,7 +124,7 @@ function PolicyCard({
       {href && linkLabel && (
         <a
           href={href}
-          className="mt-5 inline-flex text-sm font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4 hover:text-islamic-green-hover"
+          className="mt-5 inline-flex rounded-sm text-sm font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4 hover:text-islamic-green-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
         >
           {linkLabel}
         </a>

@@ -42,9 +42,9 @@ export function MockupSlider() {
           <motion.picture
             key={currentIndex}
             className="absolute inset-0 block h-full w-full"
-            initial={{ opacity: 0, filter: "blur(8px)" }}
-            animate={{ opacity: 1, filter: "blur(0px)" }}
-            exit={{ opacity: 0, filter: "blur(8px)" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
             <source srcSet={assetPath(current.webp)} type="image/webp" />
@@ -65,7 +65,8 @@ export function MockupSlider() {
         {screenshots.map((_, i) => (
           <span
             key={i}
-            className={`h-1.5 rounded-full transition-all ${i === currentIndex ? "w-5 bg-white" : "w-1.5 bg-white/40"}`}
+            aria-hidden="true"
+            className={`h-1.5 rounded-full transition-[width,background-color] ${i === currentIndex ? "w-5 bg-white" : "w-1.5 bg-white/40"}`}
           />
         ))}
       </div>

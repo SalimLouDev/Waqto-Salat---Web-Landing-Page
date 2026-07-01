@@ -35,6 +35,8 @@ export function LegalPageLayout({
             <img
               src="/logo.png"
               alt="Waqto Salat Logo"
+              width="32"
+              height="32"
               className="w-8 h-8 rounded-full object-cover"
             />
             <span className="truncate whitespace-nowrap font-display text-xl font-medium tracking-tight sm:text-2xl">
@@ -91,7 +93,7 @@ export function LegalPageLayout({
           <p>&copy; {new Date().getFullYear()} Waqto Salat. All rights reserved.</p>
           <a
             href={`mailto:${contactEmail}`}
-            className="inline-flex items-center gap-2 font-semibold text-islamic-green hover:text-islamic-green-hover"
+            className="inline-flex items-center gap-2 rounded-sm font-semibold text-islamic-green hover:text-islamic-green-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
           >
             <Mail className="h-4 w-4" />
             Contact / Feedback
