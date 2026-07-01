@@ -28,6 +28,7 @@ export default defineConfig(() => {
           eidPrayer: path.resolve(__dirname, 'learn/eid-al-fitr-and-eid-al-adha-prayer/index.html'),
           janazahPrayer: path.resolve(__dirname, 'learn/janazah-prayer/index.html'),
           eclipsePrayer: path.resolve(__dirname, 'learn/eclipse-prayer/index.html'),
+          taraweehPrayer: path.resolve(__dirname, 'learn/taraweeh-prayer/index.html'),
         },
       },
     },
