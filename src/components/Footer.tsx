@@ -28,6 +28,7 @@ export function Footer() {
             <a href="/learn/istikhara-prayer/" className={linkClass}>Istikhara Prayer</a>
             <a href="/learn/eid-al-fitr-and-eid-al-adha-prayer/" className={linkClass}>Eid al-Fitr and Eid al-Adha Prayer</a>
             <a href="/learn/janazah-prayer/" className={linkClass}>Janazah Prayer</a>
+            <a href="/learn/eclipse-prayer/" className={linkClass}>Eclipse Prayer</a>
             <a href="/ad-free-prayer-times-app/" className={linkClass}>Ad-Free Prayer Times</a>
             <a href="/salah-reminder-app/" className={linkClass}>Salah Reminders</a>
             <a href="/qibla-compass-app/" className={linkClass}>Qibla Compass</a>

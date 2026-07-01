@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, CalendarDays, Heart, Signpost } from "lucide-react";
+import { ArrowRight, BookOpen, CalendarDays, Heart, Moon, Signpost } from "lucide-react";
 import { motion } from "motion/react";
 
 export function LearnSection() {
@@ -19,7 +19,7 @@ export function LearnSection() {
           </h2>
           <p className="max-w-xl leading-relaxed text-muted-green">
             A Salah-only library covering obligatory, Sunnah, voluntary, and special prayers.
-            Begin with Istikhara, Eid, and Janazah prayer guides, with more Salah topics planned.
+            Begin with Istikhara, Eid, Janazah, and Eclipse prayer guides, with more Salah topics planned.
           </p>
         </motion.div>
 
@@ -90,6 +90,28 @@ export function LearnSection() {
               <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
                 How the Muslim funeral prayer is offered, what it means,
                 and the common questions around attending.
+              </span>
+            </span>
+            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
+          </a>
+
+          <a
+            href="/learn/eclipse-prayer/"
+            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
+          >
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
+              <Moon className="h-6 w-6" />
+            </span>
+            <span>
+              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
+                Available now
+              </span>
+              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
+                Eclipse Prayer
+              </span>
+              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
+                A guide to solar and lunar eclipse salah, its purpose,
+                format, and common questions.
               </span>
             </span>
             <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
