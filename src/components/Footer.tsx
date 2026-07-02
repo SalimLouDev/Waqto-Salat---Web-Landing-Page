@@ -25,6 +25,12 @@ export function Footer() {
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Resources</span>
             <a href="/learn/" className={`${linkClass} font-medium text-islamic-green`}>Learn about Salah</a>
+            <a href="/learn/five-daily-prayers/" className={linkClass}>Five Daily Prayers</a>
+            <a href="/learn/sunnah-prayers/" className={linkClass}>Sunnah Prayers</a>
+            <a href="/learn/witr-prayer/" className={linkClass}>Witr Prayer</a>
+            <a href="/learn/nafl-prayers/" className={linkClass}>Nafl Prayers</a>
+            <a href="/learn/duha-prayer/" className={linkClass}>Duha Prayer</a>
+            <a href="/learn/tahajjud-prayer/" className={linkClass}>Tahajjud Prayer</a>
             <a href="/learn/istikhara-prayer/" className={linkClass}>Istikhara Prayer</a>
             <a href="/learn/eid-al-fitr-and-eid-al-adha-prayer/" className={linkClass}>Eid al-Fitr and Eid al-Adha Prayer</a>
             <a href="/learn/janazah-prayer/" className={linkClass}>Janazah Prayer</a>
