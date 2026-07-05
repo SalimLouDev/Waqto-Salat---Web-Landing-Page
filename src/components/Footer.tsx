@@ -1,4 +1,5 @@
 export function Footer() {
+  const contactEmail = "contact@waqtosalat.com";
   const linkClass = "rounded-sm transition-colors hover:text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30";
 
   return (
@@ -49,7 +50,7 @@ export function Footer() {
             <span className="font-semibold text-islamic-green mb-1">Legal</span>
             <a href="/privacy-policy/" className={linkClass}>Privacy Policy</a>
             <a href="/terms-of-service/" className={linkClass}>Terms of Service</a>
-            <a href="#contact" className={linkClass}>Contact / Feedback</a>
+            <a href={`mailto:${contactEmail}`} className={linkClass}>Contact / Feedback</a>
           </div>
         </div>
       </div>

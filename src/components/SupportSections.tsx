@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import { GooglePlayBadge } from "./GooglePlayBadge";
 
 const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || "contact@waqtosalat.com";
+const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${contactEmail}`;
 
 export function SupportSections() {
   return (
@@ -122,11 +123,19 @@ function ContactCard() {
       </div>
 
       <a
-        href={`mailto:${contactEmail}?subject=Waqto%20Salat%20support`}
+        href={`mailto:${contactEmail}`}
         className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-border-light bg-off-white px-5 py-3 text-sm font-bold text-islamic-green transition-[background-color,border-color,box-shadow] hover:border-islamic-green hover:bg-white hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
       >
         <Mail className="h-4 w-4" />
         {contactEmail}
+      </a>
+      <a
+        href={gmailComposeUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-islamic-green px-5 py-3 text-sm font-bold text-white transition-[background-color,box-shadow] hover:bg-islamic-green-hover hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+      >
+        Open in Gmail
       </a>
 
       <ul className="mt-5 space-y-3 text-sm leading-relaxed text-muted-green">
