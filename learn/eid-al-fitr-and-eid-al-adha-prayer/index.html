@@ -125,7 +125,7 @@
           <nav aria-label="Learn navigation" class="hidden items-center gap-7 text-sm font-semibold text-muted-green md:flex">
             <a href="/" class="hover:text-islamic-green">Home</a>
             <a href="/learn/" class="text-islamic-green">Learn</a>
-            <a href="/learn/istikhara-prayer/" class="hover:text-islamic-green">Istikhara Prayer</a>
+            <a href="/#resources" class="hover:text-islamic-green">App resources</a>
           </nav>
           <a href="https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat" class="rounded-full bg-islamic-green px-4 py-3 text-xs font-bold uppercase tracking-widest text-white">Get App</a>
         </div>
@@ -133,35 +133,48 @@
 
       <main class="pt-20">
         <section class="bg-islamic-green px-6 py-20 text-white md:px-12 md:py-28">
-          <div class="mx-auto max-w-4xl">
-            <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Learn Salah</p>
-            <h1 class="font-display text-4xl font-medium leading-tight md:text-6xl">
+          <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
+            <div>
+              <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Learn / Salah guide</p>
+              <h1 class="font-display text-4xl font-medium leading-tight md:text-6xl">
               Eid al-Fitr and Eid al-Adha Prayer.
             </h1>
-            <p class="mt-6 max-w-3xl text-lg leading-8 text-white/82">
+              <p class="mt-6 max-w-3xl text-lg leading-8 text-white/82">
               Eid prayer is the special congregational prayer Muslims gather for on the two Eids: Eid al-Fitr after Ramadan and Eid al-Adha during the days of Hajj and sacrifice.
             </p>
+            </div>
+            <div class="rounded-lg border border-white/12 bg-white/8 p-6">
+              <p class="mb-3 text-xs font-bold uppercase tracking-widest text-islamic-gold">At a glance</p>
+              <ul class="space-y-3 text-sm leading-7 text-white/78">
+                  <li><strong class="text-white">When:</strong> after sunrise and before Dhuhr, following your local Eid announcement.</li>
+                  <li><strong class="text-white">Format:</strong> two rak'ahs with extra takbirs.</li>
+                  <li><strong class="text-white">Khutbah:</strong> the sermon comes after the prayer.</li>
+                  <li><strong class="text-white">Note:</strong> details differ by madhhab, so follow your imam or local scholars.</li>
+                </ul>
+            </div>
           </div>
         </section>
 
-        <article class="px-6 py-16 md:px-12 md:py-24">
-          <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.72fr_1.28fr]">
-            <aside class="lg:sticky lg:top-28 lg:self-start">
-              <div class="rounded-lg border border-border-light bg-white p-6 shadow-sm">
-                <p class="text-sm font-semibold uppercase tracking-widest text-islamic-gold">Quick summary</p>
-                <ul class="mt-5 space-y-4 text-sm leading-7 text-muted-green">
-                  <li><strong class="text-islamic-green">When:</strong> after sunrise and before Dhuhr, following your local Eid announcement.</li>
-                  <li><strong class="text-islamic-green">Format:</strong> two rak'ahs with extra takbirs.</li>
-                  <li><strong class="text-islamic-green">Khutbah:</strong> the sermon comes after the prayer.</li>
-                  <li><strong class="text-islamic-green">Note:</strong> details differ by madhhab, so follow your imam or local scholars.</li>
-                </ul>
+        <section class="px-6 py-16 md:px-12 md:py-24">
+          <div class="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.65fr_1.35fr]">
+            <aside class="text-sm text-muted-green lg:sticky lg:top-28 lg:self-start">
+              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">In this guide</p>
+              <nav aria-label="Article contents" class="flex flex-col gap-3">
+                <a href="#what-is-eid-prayer" class="hover:text-islamic-green">What is Eid prayer?</a>
+                <a href="#how-eid-al-fitr-and-eid-al-adha-differ" class="hover:text-islamic-green">How Eid al-Fitr and Eid al-Adha differ</a>
+                <a href="#when-is-eid-prayer-prayed" class="hover:text-islamic-green">When is Eid prayer prayed?</a>
+                <a href="#how-is-eid-prayer-performed" class="hover:text-islamic-green">How is Eid prayer performed?</a>
+                <a href="#common-questions" class="hover:text-islamic-green">Common questions</a>
+                <a href="#sources-and-further-reading" class="hover:text-islamic-green">Sources and further reading</a>
+              </nav>
+              <div class="mt-8 border-t border-border-light pt-6">
+                <p>Prepared by Waqto Salat</p>
               </div>
             </aside>
 
-            <div class="min-w-0 rounded-lg border border-border-light bg-white p-6 shadow-sm md:p-10">
-              <div class="space-y-10 text-base leading-8 text-muted-green">
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">What is Eid prayer?</h2>
+            <article class="min-w-0 space-y-14 text-base leading-8 text-muted-green">
+                <section id="what-is-eid-prayer" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">What is Eid prayer?</h2>
                   <p>
                     Eid prayer, also called Salat al-Eid, is prayed on the morning of the two annual Islamic festivals. Eid al-Fitr marks the completion of Ramadan and the beginning of Shawwal. Eid al-Adha falls in Dhul Hijjah and is connected to Hajj, the Day of Arafah, and the act of sacrifice for those who are able.
                   </p>
@@ -170,16 +183,16 @@
                   </p>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">How Eid al-Fitr and Eid al-Adha differ</h2>
+                <section id="how-eid-al-fitr-and-eid-al-adha-differ" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">How Eid al-Fitr and Eid al-Adha differ</h2>
                   <div class="grid gap-4 md:grid-cols-2">
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-3 text-lg font-semibold text-islamic-green">Eid al-Fitr</h3>
                       <p>
                         Eid al-Fitr comes after Ramadan. Before the prayer, Muslims who are responsible for Zakat al-Fitr should make sure it has been given according to local guidance, so people in need can share in the day of Eid.
                       </p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-3 text-lg font-semibold text-islamic-green">Eid al-Adha</h3>
                       <p>
                         Eid al-Adha comes in Dhul Hijjah. For those who are able and for whom it applies, it is connected to udhiyah or qurbani, the sacrifice performed after the Eid prayer during its appointed days.
@@ -188,8 +201,8 @@
                   </div>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">When is Eid prayer prayed?</h2>
+                <section id="when-is-eid-prayer-prayed" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">When is Eid prayer prayed?</h2>
                   <p>
                     Eid prayer is prayed in the morning after the sun has risen and before Dhuhr. In practice, communities announce a local time so people can gather together. Since Eid dates depend on the Islamic lunar calendar and local moon-sighting or official announcements, always follow your mosque or recognized local Islamic authority for the exact day and time.
                   </p>
@@ -198,8 +211,8 @@
                   </p>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">How is Eid prayer performed?</h2>
+                <section id="how-is-eid-prayer-performed" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">How is Eid prayer performed?</h2>
                   <p>
                     The Eid prayer is two rak'ahs. It begins like other prayers, but includes extra takbirs. Many Sunni communities follow the method of seven extra takbirs in the first rak'ah and five in the second, based on narrations recorded in the books of hadith. Hanafi communities commonly pray with three extra takbirs in the first rak'ah and three in the second. Both patterns are familiar across the Muslim world, so the simplest advice is to follow the imam in front of you.
                   </p>
@@ -208,22 +221,22 @@
                   </p>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Common questions</h2>
+                <section id="common-questions" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">Common questions</h2>
                   <div class="space-y-4">
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Do I need to pray Eid at home if I miss it?</h3>
                       <p>
                         Scholars differ on how missed Eid prayer should be handled. Some communities teach making it up in a simple form, while others emphasize that it is a congregational prayer tied to the appointed Eid gathering. Ask a trusted local scholar if you miss it.
                       </p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Can women and children attend?</h3>
                       <p>
                         Many communities encourage families to attend Eid prayer because Eid is a communal act of worship and joy. Practical arrangements vary by mosque and venue, so check the local prayer announcement.
                       </p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Is fasting allowed on Eid?</h3>
                       <p>
                         Muslims do not fast on the day of Eid al-Fitr or the day of Eid al-Adha. Eid is a day of gratitude, worship, food, family, and community.
@@ -232,8 +245,8 @@
                   </div>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Sources and further reading</h2>
+                <section id="sources-and-further-reading" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">Sources and further reading</h2>
                   <ul class="space-y-3 text-sm">
                     <li><a class="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="https://sunnah.com/bukhari:956">Sahih al-Bukhari 956</a> - Eid prayer at the musalla and the prayer before the khutbah.</li>
                     <li><a class="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="https://sunnah.com/bukhari:957">Sahih al-Bukhari 957</a> - Eid prayer followed by the khutbah.</li>
@@ -241,10 +254,15 @@
                     <li><a class="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="https://sunnah.com/abudawud:1609">Sunan Abi Dawud 1609</a> - narration about Zakat al-Fitr before the Eid prayer.</li>
                   </ul>
                 </section>
-              </div>
-            </div>
+              <section class="rounded-lg bg-islamic-green p-7 text-white">
+                <p class="mb-3 text-xs font-bold uppercase tracking-widest text-islamic-gold">Continue learning</p>
+                <h2 class="font-display text-3xl font-medium">Explore the Salah library.</h2>
+                <p class="mt-4 max-w-2xl leading-7 text-white/78">Return to Learn to see the daily, Sunnah, voluntary, and special prayer guides planned for Waqto Salat.</p>
+                <a href="/learn/" class="mt-6 inline-flex rounded-full bg-white px-5 py-3 text-xs font-bold uppercase tracking-widest text-islamic-green">View prayer types</a>
+              </section>
+            </article>
           </div>
-        </article>
+        </section>
       </main>
 
       <footer class="border-t border-border-light bg-footer-bg px-6 py-10 md:px-12">
@@ -254,7 +272,7 @@
             <a href="/learn/" class="hover:text-islamic-green">Learn</a>
             <a href="/privacy-policy/" class="hover:text-islamic-green">Privacy Policy</a>
             <a href="/terms-of-service/" class="hover:text-islamic-green">Terms of Service</a>
-            <a href="mailto:salimloudev@gmail.com" class="hover:text-islamic-green">Contact</a>
+            <a href="mailto:contact@waqtosalat.com" class="hover:text-islamic-green">Contact</a>
           </div>
         </div>
       </footer>
@@ -262,3 +280,4 @@
     <script type="module" src="/src/static-page.ts"></script>
   </body>
 </html>
+

@@ -65,7 +65,7 @@ const sections = [
     title: "Contact",
     body: (
       <p>
-        For privacy questions, support, or correction requests, contact <a className="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="mailto:salimloudev@gmail.com">salimloudev@gmail.com</a>.
+        For privacy questions, support, or correction requests, contact <a className="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="mailto:contact@waqtosalat.com">contact@waqtosalat.com</a>.
       </p>
     ),
   },

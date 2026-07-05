@@ -124,7 +124,7 @@
           <nav aria-label="Learn navigation" class="hidden items-center gap-7 text-sm font-semibold text-muted-green md:flex">
             <a href="/" class="hover:text-islamic-green">Home</a>
             <a href="/learn/" class="text-islamic-green">Learn</a>
-            <a href="/learn/istikhara-prayer/" class="hover:text-islamic-green">Istikhara Prayer</a>
+            <a href="/#resources" class="hover:text-islamic-green">App resources</a>
           </nav>
           <a href="https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat" class="rounded-full bg-islamic-green px-4 py-3 text-xs font-bold uppercase tracking-widest text-white">Get App</a>
         </div>
@@ -132,35 +132,48 @@
 
       <main class="pt-20">
         <section class="bg-islamic-green px-6 py-20 text-white md:px-12 md:py-28">
-          <div class="mx-auto max-w-4xl">
-            <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Learn Salah</p>
-            <h1 class="font-display text-4xl font-medium leading-tight md:text-6xl">
+          <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
+            <div>
+              <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Learn / Salah guide</p>
+              <h1 class="font-display text-4xl font-medium leading-tight md:text-6xl">
               Five Daily Prayers: Fajr to Isha.
             </h1>
-            <p class="mt-6 max-w-3xl text-lg leading-8 text-white/82">
+              <p class="mt-6 max-w-3xl text-lg leading-8 text-white/82">
               The five daily prayers are the rhythm of Muslim life: Fajr, Dhuhr, Asr, Maghrib, and Isha, each tied to its appointed part of the day.
             </p>
+            </div>
+            <div class="rounded-lg border border-white/12 bg-white/8 p-6">
+              <p class="mb-3 text-xs font-bold uppercase tracking-widest text-islamic-gold">At a glance</p>
+              <ul class="space-y-3 text-sm leading-7 text-white/78">
+                  <li><strong class="text-white">Names:</strong> Fajr, Dhuhr, Asr, Maghrib, and Isha.</li>
+                  <li><strong class="text-white">Status:</strong> the required daily prayers for Muslims.</li>
+                  <li><strong class="text-white">Obligatory rak'ahs:</strong> 2, 4, 4, 3, and 4 in order.</li>
+                  <li><strong class="text-white">Timing:</strong> changes daily by sun position, location, and local method.</li>
+                </ul>
+            </div>
           </div>
         </section>
 
-        <article class="px-6 py-16 md:px-12 md:py-24">
-          <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.72fr_1.28fr]">
-            <aside class="lg:sticky lg:top-28 lg:self-start">
-              <div class="rounded-lg border border-border-light bg-white p-6 shadow-sm">
-                <p class="text-sm font-semibold uppercase tracking-widest text-islamic-gold">Quick summary</p>
-                <ul class="mt-5 space-y-4 text-sm leading-7 text-muted-green">
-                  <li><strong class="text-islamic-green">Names:</strong> Fajr, Dhuhr, Asr, Maghrib, and Isha.</li>
-                  <li><strong class="text-islamic-green">Status:</strong> the required daily prayers for Muslims.</li>
-                  <li><strong class="text-islamic-green">Obligatory rak'ahs:</strong> 2, 4, 4, 3, and 4 in order.</li>
-                  <li><strong class="text-islamic-green">Timing:</strong> changes daily by sun position, location, and local method.</li>
-                </ul>
+        <section class="px-6 py-16 md:px-12 md:py-24">
+          <div class="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.65fr_1.35fr]">
+            <aside class="text-sm text-muted-green lg:sticky lg:top-28 lg:self-start">
+              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">In this guide</p>
+              <nav aria-label="Article contents" class="flex flex-col gap-3">
+                <a href="#what-are-the-five-daily-prayers" class="hover:text-islamic-green">What are the five daily prayers?</a>
+                <a href="#the-five-prayers-in-order" class="hover:text-islamic-green">The five prayers in order</a>
+                <a href="#obligatory-sunnah-and-voluntary-rak-ahs" class="hover:text-islamic-green">Obligatory, Sunnah, and voluntary rak'ahs</a>
+                <a href="#why-timing-matters" class="hover:text-islamic-green">Why timing matters</a>
+                <a href="#common-questions" class="hover:text-islamic-green">Common questions</a>
+                <a href="#sources-and-further-reading" class="hover:text-islamic-green">Sources and further reading</a>
+              </nav>
+              <div class="mt-8 border-t border-border-light pt-6">
+                <p>Prepared by Waqto Salat</p>
               </div>
             </aside>
 
-            <div class="min-w-0 rounded-lg border border-border-light bg-white p-6 shadow-sm md:p-10">
-              <div class="space-y-10 text-base leading-8 text-muted-green">
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">What are the five daily prayers?</h2>
+            <article class="min-w-0 space-y-14 text-base leading-8 text-muted-green">
+                <section id="what-are-the-five-daily-prayers" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">What are the five daily prayers?</h2>
                   <p>
                     The five daily prayers are Fajr, Dhuhr, Asr, Maghrib, and Isha. They are the core required prayers of the Muslim day and are prayed at appointed times from before sunrise through the night.
                   </p>
@@ -169,34 +182,34 @@
                   </p>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">The five prayers in order</h2>
+                <section id="the-five-prayers-in-order" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">The five prayers in order</h2>
                   <div class="grid gap-4">
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Fajr</h3>
                       <p>The dawn prayer, prayed before sunrise. Its obligatory prayer is 2 rak'ahs.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Dhuhr</h3>
                       <p>The midday prayer, prayed after the sun passes its highest point. Its obligatory prayer is 4 rak'ahs.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Asr</h3>
                       <p>The afternoon prayer, connected to the later part of the day and shadow length. Its obligatory prayer is 4 rak'ahs.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Maghrib</h3>
                       <p>The sunset prayer, prayed after sunset. Its obligatory prayer is 3 rak'ahs.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Isha</h3>
                       <p>The night prayer, prayed after twilight has passed. Its obligatory prayer is 4 rak'ahs.</p>
                     </div>
                   </div>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Obligatory, Sunnah, and voluntary rak'ahs</h2>
+                <section id="obligatory-sunnah-and-voluntary-rak-ahs" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">Obligatory, Sunnah, and voluntary rak'ahs</h2>
                   <p>
                     The numbers above describe the obligatory rak'ahs of each daily prayer. Many Muslims also pray Sunnah or voluntary rak'ahs before or after some daily prayers, such as the Sunnah before Fajr or prayers connected to Dhuhr, Maghrib, and Isha.
                   </p>
@@ -205,8 +218,8 @@
                   </p>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Why timing matters</h2>
+                <section id="why-timing-matters" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">Why timing matters</h2>
                   <p>
                     Prayer is connected to time. The Quran points to prayer across the day and night, and hadith emphasizes offering the prayers at their stated times. This is why prayer time apps, mosque schedules, and local calendars matter in daily practice.
                   </p>
@@ -215,40 +228,45 @@
                   </p>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Common questions</h2>
+                <section id="common-questions" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">Common questions</h2>
                   <div class="space-y-4">
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Are the five daily prayers obligatory?</h3>
                       <p>Yes. Fajr, Dhuhr, Asr, Maghrib, and Isha are the required daily prayers for Muslims.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Do prayer times change every day?</h3>
                       <p>Yes. Prayer times change with the sun, date, location, timezone, calculation method, and local guidance.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">What is the difference between fard and Sunnah prayers?</h3>
                       <p>Fard prayers are required. Sunnah prayers are additional prayers connected to the Prophet's practice and are taught with different levels of emphasis by scholars.</p>
                     </div>
-                    <div class="rounded-lg border border-border-light bg-off-white p-5">
+                    <div class="rounded-lg border border-border-light bg-white p-5">
                       <h3 class="mb-2 text-lg font-semibold text-islamic-green">Which prayer comes first each day?</h3>
                       <p>Fajr is the first daily prayer, followed by Dhuhr, Asr, Maghrib, and Isha.</p>
                     </div>
                   </div>
                 </section>
 
-                <section>
-                  <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Sources and further reading</h2>
+                <section id="sources-and-further-reading" class="scroll-mt-28">
+                  <h2 class="mb-5 font-display text-3xl font-medium text-islamic-green">Sources and further reading</h2>
                   <ul class="space-y-3 text-sm">
                     <li><a class="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="https://quran.com/17/78">Quran 17:78</a> - prayer from the decline of the sun through the night and the dawn prayer.</li>
                     <li><a class="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="https://sunnah.com/bukhari:527">Sahih al-Bukhari 527</a> - virtue of prayer at its stated time.</li>
                     <li><a class="font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4" href="https://sunnah.com/bukhari:528">Sahih al-Bukhari 528</a> - the five prayers and forgiveness.</li>
                   </ul>
                 </section>
-              </div>
-            </div>
+              <section class="rounded-lg bg-islamic-green p-7 text-white">
+                <p class="mb-3 text-xs font-bold uppercase tracking-widest text-islamic-gold">Continue learning</p>
+                <h2 class="font-display text-3xl font-medium">Explore the Salah library.</h2>
+                <p class="mt-4 max-w-2xl leading-7 text-white/78">Return to Learn to see the daily, Sunnah, voluntary, and special prayer guides planned for Waqto Salat.</p>
+                <a href="/learn/" class="mt-6 inline-flex rounded-full bg-white px-5 py-3 text-xs font-bold uppercase tracking-widest text-islamic-green">View prayer types</a>
+              </section>
+            </article>
           </div>
-        </article>
+        </section>
       </main>
 
       <footer class="border-t border-border-light bg-footer-bg px-6 py-10 md:px-12">
@@ -258,7 +276,7 @@
             <a href="/learn/" class="hover:text-islamic-green">Learn</a>
             <a href="/privacy-policy/" class="hover:text-islamic-green">Privacy Policy</a>
             <a href="/terms-of-service/" class="hover:text-islamic-green">Terms of Service</a>
-            <a href="mailto:salimloudev@gmail.com" class="hover:text-islamic-green">Contact</a>
+            <a href="mailto:contact@waqtosalat.com" class="hover:text-islamic-green">Contact</a>
           </div>
         </div>
       </footer>
@@ -266,3 +284,4 @@
     <script type="module" src="/src/static-page.ts"></script>
   </body>
 </html>
+

@@ -1,13 +1,27 @@
 import { motion } from "motion/react";
-import { Download } from "lucide-react";
+import { ChevronDown, Download } from "lucide-react";
 import { assetPath } from "../lib/assets";
 
 export function Navbar() {
   const navLinks = [
     { href: "#features", label: "Features" },
-    { href: "/learn/", label: "Learn" },
     { href: "#about", label: "About" },
     { href: "#faq", label: "FAQ" },
+  ];
+
+  const learnLinks = [
+    { href: "/learn/", label: "All Salah Guides" },
+    { href: "/learn/five-daily-prayers/", label: "Five Daily Prayers" },
+    { href: "/learn/sunnah-prayers/", label: "Sunnah Prayers" },
+    { href: "/learn/witr-prayer/", label: "Witr Prayer" },
+    { href: "/learn/nafl-prayers/", label: "Nafl Prayers" },
+    { href: "/learn/duha-prayer/", label: "Duha Prayer" },
+    { href: "/learn/tahajjud-prayer/", label: "Tahajjud Prayer" },
+    { href: "/learn/istikhara-prayer/", label: "Istikhara Prayer" },
+    { href: "/learn/eid-al-fitr-and-eid-al-adha-prayer/", label: "Eid Prayer" },
+    { href: "/learn/janazah-prayer/", label: "Janazah Prayer" },
+    { href: "/learn/eclipse-prayer/", label: "Eclipse Prayer" },
+    { href: "/learn/taraweeh-prayer/", label: "Taraweeh Prayer" },
   ];
 
   return (
@@ -24,6 +38,31 @@ export function Navbar() {
         </a>
         
         <div className="hidden md:flex items-center gap-7 text-sm font-semibold text-muted-green">
+          <div className="group relative">
+            <a
+              href="/learn/"
+              aria-haspopup="true"
+              className="relative inline-flex items-center gap-1.5 rounded-full py-2 transition-colors after:absolute after:left-0 after:right-0 after:-bottom-0.5 after:mx-auto after:h-px after:w-0 after:bg-islamic-gold after:transition-[width] after:duration-200 hover:text-islamic-green hover:after:w-full focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 group-hover:text-islamic-green"
+            >
+              Learn
+              <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" />
+            </a>
+            <div className="invisible absolute left-1/2 top-full z-[120] w-[34rem] -translate-x-1/2 pt-3 opacity-0 transition-[opacity,visibility,transform] duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
+              <div className="rounded-lg border border-border-light bg-white p-3 shadow-[0_18px_44px_rgba(10,61,45,0.14)]">
+                <div className="grid grid-cols-2 gap-1">
+                  {learnLinks.map((link) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      className="rounded-md px-3 py-2.5 text-sm font-semibold text-muted-green transition-colors hover:bg-footer-bg hover:text-islamic-green focus:outline-none focus-visible:bg-footer-bg focus-visible:text-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
           {navLinks.map((link) => (
             <a
               key={link.href}

@@ -4,7 +4,7 @@ Waqto Salat is a calm, ad-free Android prayer times app for Muslims. Its stronge
 
 Website: https://waqtosalat.com/
 Google Play: https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat
-Contact: salimloudev@gmail.com
+Contact: contact@waqtosalat.com
 
 ## Canonical Facts
 

@@ -1,8 +1,8 @@
-import { Mail, ShieldCheck, Smartphone, Sparkles } from "lucide-react";
+import { CheckCircle2, Mail, MessageSquareText, ShieldCheck, Smartphone, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
 import { GooglePlayBadge } from "./GooglePlayBadge";
 
-const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || "salimloudev@gmail.com";
+const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || "contact@waqtosalat.com";
 
 export function SupportSections() {
   return (
@@ -88,11 +88,7 @@ export function SupportSections() {
               href="/terms-of-service/"
               linkLabel="Read terms"
             />
-            <PolicyCard
-              id="contact"
-              title="Contact / Feedback"
-              body={`For support, correction requests, or feedback about calculation methods, contact ${contactEmail}.`}
-            />
+            <ContactCard />
             <PolicyCard
               title="Free Forever"
               body="The landing page and app messaging are aligned around a simple promise: no ads, no subscriptions, and no locked prayer essentials."
@@ -101,6 +97,47 @@ export function SupportSections() {
         </div>
       </section>
     </>
+  );
+}
+
+function ContactCard() {
+  const supportTopics = [
+    "Prayer time or calculation feedback",
+    "Bug reports and Android device issues",
+    "Corrections for website content",
+  ];
+
+  return (
+    <div id="contact" className="rounded-lg border border-islamic-green/18 bg-white p-6 shadow-sm">
+      <div className="mb-4 flex items-start gap-3">
+        <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-islamic-green text-white">
+          <MessageSquareText className="h-5 w-5" />
+        </span>
+        <div>
+          <h3 className="text-lg font-semibold text-islamic-green">Contact / Feedback</h3>
+          <p className="mt-2 text-sm leading-relaxed text-muted-green">
+            Send app support questions, correction requests, or feedback about prayer time settings.
+          </p>
+        </div>
+      </div>
+
+      <a
+        href={`mailto:${contactEmail}?subject=Waqto%20Salat%20support`}
+        className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-border-light bg-off-white px-5 py-3 text-sm font-bold text-islamic-green transition-[background-color,border-color,box-shadow] hover:border-islamic-green hover:bg-white hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+      >
+        <Mail className="h-4 w-4" />
+        {contactEmail}
+      </a>
+
+      <ul className="mt-5 space-y-3 text-sm leading-relaxed text-muted-green">
+        {supportTopics.map((topic) => (
+          <li key={topic} className="flex gap-3">
+            <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-islamic-gold" />
+            <span>{topic}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 

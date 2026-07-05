@@ -15,7 +15,7 @@ type LegalPageLayoutProps = {
   sections: LegalSection[];
 };
 
-const contactEmail = "salimloudev@gmail.com";
+const contactEmail = "contact@waqtosalat.com";
 
 export function LegalPageLayout({
   title,

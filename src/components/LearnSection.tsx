@@ -1,275 +1,153 @@
-import { ArrowRight, BookOpen, CalendarDays, CircleDot, Clock, Heart, Moon, Plus, Repeat, Signpost, Sparkles, Sun } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  CalendarDays,
+  CircleDot,
+  Clock,
+  Heart,
+  Moon,
+  Plus,
+  Repeat,
+  Signpost,
+  Sparkles,
+  Sun,
+} from "lucide-react";
 import { motion } from "motion/react";
+import type { ComponentType } from "react";
+
+type LearnGuide = {
+  title: string;
+  href: string;
+  summary: string;
+  Icon: ComponentType<{ className?: string }>;
+};
+
+const learnGuides: LearnGuide[] = [
+  {
+    title: "Five Daily Prayers",
+    href: "/learn/five-daily-prayers/",
+    summary: "Fajr, Dhuhr, Asr, Maghrib, and Isha.",
+    Icon: Clock,
+  },
+  {
+    title: "Istikhara Prayer",
+    href: "/learn/istikhara-prayer/",
+    summary: "Guidance, du'a, dreams, and signs.",
+    Icon: Signpost,
+  },
+  {
+    title: "Sunnah Prayers",
+    href: "/learn/sunnah-prayers/",
+    summary: "Emphasized and non-emphasized Sunnah.",
+    Icon: Repeat,
+  },
+  {
+    title: "Witr Prayer",
+    href: "/learn/witr-prayer/",
+    summary: "Odd rak'ahs after Isha and before Fajr.",
+    Icon: CircleDot,
+  },
+  {
+    title: "Nafl Prayers",
+    href: "/learn/nafl-prayers/",
+    summary: "Voluntary prayers beyond required salah.",
+    Icon: Plus,
+  },
+  {
+    title: "Duha Prayer",
+    href: "/learn/duha-prayer/",
+    summary: "Forenoon prayer after sunrise.",
+    Icon: Sun,
+  },
+  {
+    title: "Tahajjud Prayer",
+    href: "/learn/tahajjud-prayer/",
+    summary: "Night prayer before Fajr.",
+    Icon: Moon,
+  },
+  {
+    title: "Eid al-Fitr and Eid al-Adha",
+    href: "/learn/eid-al-fitr-and-eid-al-adha-prayer/",
+    summary: "Eid timing, takbirs, and khutbah.",
+    Icon: CalendarDays,
+  },
+  {
+    title: "Janazah Prayer",
+    href: "/learn/janazah-prayer/",
+    summary: "The Muslim funeral prayer.",
+    Icon: Heart,
+  },
+  {
+    title: "Eclipse Prayer",
+    href: "/learn/eclipse-prayer/",
+    summary: "Solar and lunar eclipse salah.",
+    Icon: Moon,
+  },
+  {
+    title: "Taraweeh Prayer",
+    href: "/learn/taraweeh-prayer/",
+    summary: "Ramadan night prayer and Witr.",
+    Icon: Sparkles,
+  },
+];
 
 export function LearnSection() {
   return (
-    <section id="learn" className="border-y border-border-light bg-white px-6 py-24 md:px-12">
-      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
+    <section id="learn" className="border-y border-border-light bg-white px-6 py-16 md:px-12 md:py-20">
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.68fr_1.32fr] lg:items-start">
         <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          className="lg:sticky lg:top-28"
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-islamic-green/10 px-4 py-2 text-sm font-semibold text-islamic-green">
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-islamic-green/10 px-4 py-2 text-sm font-semibold text-islamic-green">
             <BookOpen className="h-4 w-4" />
             Learn
           </div>
-          <h2 className="mb-5 font-display text-3xl font-medium leading-tight text-islamic-green md:text-5xl">
+          <h2 className="mb-4 max-w-xl font-display text-3xl font-medium leading-tight text-islamic-green md:text-5xl">
             Learn the prayers that shape Muslim life.
           </h2>
           <p className="max-w-xl leading-relaxed text-muted-green">
-            A Salah-only library covering obligatory, Sunnah, voluntary, and special prayers.
-            Begin with the five daily prayers, Sunnah prayers, Witr, Nafl, Duha, Tahajjud, Istikhara, Eid, Janazah, Eclipse, and Taraweeh guides, with more Salah topics planned.
+            A focused Salah library covering obligatory, Sunnah, voluntary, and special prayers in practical guides.
           </p>
+          <a
+            href="/learn/"
+            className="mt-6 inline-flex items-center gap-2 rounded-full border border-border-light bg-white px-5 py-3 text-xs font-bold uppercase tracking-widest text-islamic-green shadow-sm transition-[background-color,border-color,color,box-shadow] hover:border-islamic-green hover:bg-islamic-green hover:text-white hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+          >
+            View all guides
+            <ArrowRight className="h-4 w-4" />
+          </a>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid gap-4"
+          className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3"
         >
-          <a
-            href="/learn/five-daily-prayers/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Clock className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
+          {learnGuides.map(({ title, href, summary, Icon }) => (
+            <a
+              key={href}
+              href={href}
+              className="group flex min-h-[136px] flex-col justify-between rounded-lg border border-border-light bg-white p-5 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+            >
+              <span className="flex items-start justify-between gap-4">
+                <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
+                  <Icon className="h-5 w-5" />
+                </span>
+                <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
               </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Five Daily Prayers
+              <span className="mt-5 block">
+                <span className="block font-display text-xl font-medium leading-snug text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
+                  {title}
+                </span>
+                <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
+                  {summary}
+                </span>
               </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to Fajr, Dhuhr, Asr, Maghrib, and Isha, including timing,
-                obligatory rak'ahs, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/istikhara-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Signpost className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Istikhara Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                When to pray it, how to perform it, what its du'a asks for,
-                and why Istikhara does not depend on dreams or signs.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/sunnah-prayers/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Repeat className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Sunnah Prayers
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to Sunnah Mu'akkadah, non-emphasized Sunnah prayers,
-                rawatib, home prayer, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/witr-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <CircleDot className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Witr Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to Witr after Isha, odd rak'ahs, praying it last,
-                Qunut differences, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/nafl-prayers/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Plus className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Nafl Prayers
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to voluntary prayers beyond the required salah,
-                including examples, timing, home prayer, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/duha-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Sun className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Duha Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to the forenoon voluntary prayer after sunrise and
-                before Dhuhr, including timing, rak'ahs, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/tahajjud-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Moon className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Tahajjud Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to voluntary night prayer after Isha and before Fajr,
-                including timing, rak'ahs, Witr, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/eid-al-fitr-and-eid-al-adha-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <CalendarDays className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Eid al-Fitr and Eid al-Adha Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to Eid al-Fitr and Eid al-Adha prayer, timing, takbirs,
-                khutbah, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/janazah-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Heart className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Janazah Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                How the Muslim funeral prayer is offered, what it means,
-                and the common questions around attending.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/eclipse-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Moon className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Eclipse Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to solar and lunar eclipse salah, its purpose,
-                format, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
-
-          <a
-            href="/learn/taraweeh-prayer/"
-            className="group grid gap-6 rounded-lg border border-border-light bg-white p-7 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:grid-cols-[auto_1fr_auto] sm:items-center"
-          >
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">
-              <Sparkles className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="mb-2 inline-flex rounded-full bg-islamic-green/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors group-hover:bg-islamic-gold/18 group-hover:text-islamic-gold group-focus-visible:bg-islamic-gold/18 group-focus-visible:text-islamic-gold">
-                Available now
-              </span>
-              <span className="block font-display text-2xl font-medium text-islamic-green transition-colors group-hover:text-white group-focus-visible:text-white">
-                Taraweeh Prayer
-              </span>
-              <span className="mt-2 block text-sm leading-relaxed text-muted-green transition-colors group-hover:text-white/78 group-focus-visible:text-white/78">
-                A guide to Ramadan night prayer, congregation, rak'ah differences,
-                Quran recitation, Witr, and common questions.
-              </span>
-            </span>
-            <ArrowRight className="h-5 w-5 text-islamic-green transition-[color,transform] group-hover:translate-x-1 group-hover:text-white group-focus-visible:text-white" />
-          </a>
+            </a>
+          ))}
         </motion.div>
       </div>
     </section>

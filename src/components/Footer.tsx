@@ -14,7 +14,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-3 sm:gap-10 md:justify-self-end">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 sm:gap-10 md:justify-self-end">
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Application</span>
             <a href="#features" className={linkClass}>Features</a>
@@ -23,7 +23,7 @@ export function Footer() {
             <a href="#download" className={`${linkClass} text-islamic-green font-medium`}>Download for Android</a>
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
-            <span className="font-semibold text-islamic-green mb-1">Resources</span>
+            <span className="font-semibold text-islamic-green mb-1">Learn</span>
             <a href="/learn/" className={`${linkClass} font-medium text-islamic-green`}>Learn about Salah</a>
             <a href="/learn/five-daily-prayers/" className={linkClass}>Five Daily Prayers</a>
             <a href="/learn/sunnah-prayers/" className={linkClass}>Sunnah Prayers</a>
@@ -36,6 +36,9 @@ export function Footer() {
             <a href="/learn/janazah-prayer/" className={linkClass}>Janazah Prayer</a>
             <a href="/learn/eclipse-prayer/" className={linkClass}>Eclipse Prayer</a>
             <a href="/learn/taraweeh-prayer/" className={linkClass}>Taraweeh Prayer</a>
+          </div>
+          <div className="flex flex-col gap-3 text-sm text-muted-green">
+            <span className="font-semibold text-islamic-green mb-1">Resources</span>
             <a href="/ad-free-prayer-times-app/" className={linkClass}>Ad-Free Prayer Times</a>
             <a href="/salah-reminder-app/" className={linkClass}>Salah Reminders</a>
             <a href="/qibla-compass-app/" className={linkClass}>Qibla Compass</a>
