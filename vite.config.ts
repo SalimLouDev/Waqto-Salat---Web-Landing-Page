@@ -23,6 +23,7 @@ export default defineConfig(() => {
           qiblaCompassApp: path.resolve(__dirname, 'qibla-compass-app/index.html'),
           prayerTimesWidgetAndroid: path.resolve(__dirname, 'prayer-times-widget-android/index.html'),
           prayerTimesCalculation: path.resolve(__dirname, 'how-prayer-times-are-calculated/index.html'),
+          editorialMethodology: path.resolve(__dirname, 'editorial-methodology/index.html'),
           learn: path.resolve(__dirname, 'learn/index.html'),
           fiveDailyPrayers: path.resolve(__dirname, 'learn/five-daily-prayers/index.html'),
           sunnahPrayers: path.resolve(__dirname, 'learn/sunnah-prayers/index.html'),

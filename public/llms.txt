@@ -39,6 +39,7 @@ Contact: contact@waqtosalat.com
 - Qibla compass app: https://waqtosalat.com/qibla-compass-app/
 - Prayer times widget for Android: https://waqtosalat.com/prayer-times-widget-android/
 - How prayer times are calculated: https://waqtosalat.com/how-prayer-times-are-calculated/
+- Editorial methodology: https://waqtosalat.com/editorial-methodology/
 - Privacy Policy: https://waqtosalat.com/privacy-policy/
 - Terms of Service: https://waqtosalat.com/terms-of-service/
 

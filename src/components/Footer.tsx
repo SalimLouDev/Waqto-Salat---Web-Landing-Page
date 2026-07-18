@@ -50,6 +50,7 @@ export function Footer() {
             <span className="font-semibold text-islamic-green mb-1">Legal</span>
             <a href="/privacy-policy/" className={linkClass}>Privacy Policy</a>
             <a href="/terms-of-service/" className={linkClass}>Terms of Service</a>
+            <a href="/editorial-methodology/" className={linkClass}>Editorial Methodology</a>
             <a href={`mailto:${contactEmail}`} className={linkClass}>Contact / Feedback</a>
           </div>
         </div>
