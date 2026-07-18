@@ -32,11 +32,11 @@ export function Footer() {
             <a href="/learn/nafl-prayers/" className={linkClass}>Nafl Prayers</a>
             <a href="/learn/duha-prayer/" className={linkClass}>Duha Prayer</a>
             <a href="/learn/tahajjud-prayer/" className={linkClass}>Tahajjud Prayer</a>
-            <a href="/learn/istikhara-prayer/" className={linkClass}>Istikhara Prayer</a>
-            <a href="/learn/eid-al-fitr-and-eid-al-adha-prayer/" className={linkClass}>Eid al-Fitr and Eid al-Adha Prayer</a>
-            <a href="/learn/janazah-prayer/" className={linkClass}>Janazah Prayer</a>
-            <a href="/learn/eclipse-prayer/" className={linkClass}>Eclipse Prayer</a>
-            <a href="/learn/taraweeh-prayer/" className={linkClass}>Taraweeh Prayer</a>
+            <a href="/learn/istikhara-prayer/" className={`${linkClass} hidden sm:block`}>Istikhara Prayer</a>
+            <a href="/learn/eid-al-fitr-and-eid-al-adha-prayer/" className={`${linkClass} hidden sm:block`}>Eid al-Fitr and Eid al-Adha Prayer</a>
+            <a href="/learn/janazah-prayer/" className={`${linkClass} hidden sm:block`}>Janazah Prayer</a>
+            <a href="/learn/eclipse-prayer/" className={`${linkClass} hidden sm:block`}>Eclipse Prayer</a>
+            <a href="/learn/taraweeh-prayer/" className={`${linkClass} hidden sm:block`}>Taraweeh Prayer</a>
           </div>
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">Resources</span>

@@ -126,11 +126,11 @@ export function LearnSection() {
           viewport={{ once: true }}
           className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3"
         >
-          {learnGuides.map(({ title, href, summary, Icon }) => (
+          {learnGuides.map(({ title, href, summary, Icon }, index) => (
             <a
               key={href}
               href={href}
-              className="group flex min-h-[136px] flex-col justify-between rounded-lg border border-border-light bg-white p-5 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+              className={`${index >= 6 ? "hidden sm:flex" : "flex"} group min-h-[136px] flex-col justify-between rounded-lg border border-border-light bg-white p-5 shadow-sm transition-[transform,background-color,border-color,box-shadow] hover:-translate-y-1 hover:border-islamic-green hover:bg-islamic-green hover:shadow-md focus:outline-none focus-visible:-translate-y-1 focus-visible:bg-islamic-green focus-visible:ring-4 focus-visible:ring-islamic-gold/30`}
             >
               <span className="flex items-start justify-between gap-4">
                 <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-islamic-green text-white transition-colors group-hover:bg-white group-hover:text-islamic-green group-focus-visible:bg-white group-focus-visible:text-islamic-green">

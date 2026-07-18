@@ -20,6 +20,16 @@ body {
   color: var(--color-islamic-green);
 }
 
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
@@ -32,9 +42,69 @@ body {
   overflow-x: hidden;
 }
 
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 200;
+  transform: translateY(-160%);
+  border-radius: 0.25rem;
+  background: var(--color-islamic-green);
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgb(10 61 45 / 0.18);
+  transition: transform 150ms ease;
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 3px solid var(--color-islamic-gold);
+  outline-offset: 3px;
+}
+
+:where(a, button, [tabindex]:not(main)):not([class*="focus-visible:ring"]):not(.skip-link):focus-visible,
+.table-scroll:focus-visible {
+  outline: 3px solid var(--color-islamic-gold);
+  outline-offset: 3px;
+}
+
+main:focus {
+  outline: none;
+}
+
+.table-scroll {
+  overscroll-behavior-inline: contain;
+  scrollbar-color: var(--color-islamic-gold) var(--color-footer-bg);
+  scrollbar-width: thin;
+}
+
+.table-scroll::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+  background: var(--color-footer-bg);
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--color-islamic-gold);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

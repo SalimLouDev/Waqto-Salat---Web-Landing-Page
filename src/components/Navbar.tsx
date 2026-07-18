@@ -32,16 +32,15 @@ export function Navbar() {
       className="fixed top-0 inset-x-0 z-[100] bg-off-white/95 backdrop-blur-xl border-b border-border-light/80 shadow-[0_10px_24px_rgba(10,61,45,0.035)]"
     >
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 md:px-12 h-20 flex items-center justify-between gap-3 sm:gap-4">
-        <a href="#" className="min-w-0 flex items-center gap-3 text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 rounded-full">
+        <a href="/" className="min-w-0 flex items-center gap-3 text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 rounded-full">
           <img src={assetPath("logo.png")} alt="Waqto Salat Logo" width="32" height="32" className="w-8 h-8 rounded-full object-cover" />
-          <span className="truncate whitespace-nowrap font-display text-xl font-medium tracking-tight sm:text-2xl">Waqto Salat</span>
+          <span className="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">Waqto Salat</span>
         </a>
         
         <div className="hidden md:flex items-center gap-7 text-sm font-semibold text-muted-green">
           <div className="group relative">
             <a
               href="/learn/"
-              aria-haspopup="true"
               className="relative inline-flex items-center gap-1.5 rounded-full py-2 transition-colors after:absolute after:left-0 after:right-0 after:-bottom-0.5 after:mx-auto after:h-px after:w-0 after:bg-islamic-gold after:transition-[width] after:duration-200 hover:text-islamic-green hover:after:w-full focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 group-hover:text-islamic-green"
             >
               Learn

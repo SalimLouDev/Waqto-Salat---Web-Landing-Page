@@ -39,14 +39,14 @@ export function LegalPageLayout({
               height="32"
               className="w-8 h-8 rounded-full object-cover"
             />
-            <span className="truncate whitespace-nowrap font-display text-xl font-medium tracking-tight sm:text-2xl">
+            <span className="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">
               Waqto Salat
             </span>
           </a>
           <a
             href="/"
             aria-label="Back to Waqto Salat home"
-            className="inline-flex shrink-0 items-center gap-2 rounded-full border border-border-light px-3 py-2 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:px-4"
+            className="inline-flex h-11 w-11 shrink-0 items-center justify-center gap-2 rounded-full border border-border-light p-0 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:h-auto sm:w-auto sm:px-4 sm:py-2"
           >
             <ArrowLeft className="h-4 w-4" />
             <span className="hidden sm:inline">Home</span>
@@ -54,10 +54,10 @@ export function LegalPageLayout({
         </div>
       </header>
 
-      <main className="pt-20">
+      <main id="main-content" tabIndex={-1} className="pt-20">
         <section className="px-6 py-16 md:px-10 md:py-24">
           <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[0.75fr_1.25fr]">
-            <aside className="lg:sticky lg:top-8 lg:self-start">
+            <aside className="lg:sticky lg:top-28 lg:self-start">
               <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-islamic-gold">
                 {eyebrow}
               </p>
@@ -73,7 +73,7 @@ export function LegalPageLayout({
             <article className="min-w-0 rounded-lg border border-border-light bg-white p-6 shadow-sm md:p-10">
               <div className="space-y-10">
                 {sections.map((section) => (
-                  <section key={section.title} className="scroll-mt-8">
+                  <section key={section.title} className="scroll-mt-28">
                     <h2 className="mb-4 font-display text-2xl font-medium text-islamic-green">
                       {section.title}
                     </h2>

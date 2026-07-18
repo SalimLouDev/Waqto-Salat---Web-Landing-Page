@@ -43,12 +43,12 @@ export function FeatureSections() {
   ];
 
   return (
-    <section className="py-32 overflow-hidden bg-off-white">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-40">
+    <section className="overflow-hidden bg-off-white py-20 md:py-28 lg:py-32">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-24 md:space-y-32 lg:space-y-40">
         {features.map((feature) => (
           <div 
             key={feature.id} 
-            className={`flex flex-col lg:flex-row items-center gap-16 lg:gap-24 ${
+            className={`flex flex-col lg:flex-row items-center gap-10 lg:gap-24 ${
               feature.reverse ? 'lg:flex-row-reverse' : ''
             }`}
           >
