@@ -1,0 +1,101 @@
+{
+  "type": "guide",
+  "key": "taraweeh-prayer",
+  "locale": "en",
+  "routePath": "/learn/taraweeh-prayer/",
+  "seo": {
+    "title": "Taraweeh Prayer in Ramadan | Waqto Salat",
+    "description": "Learn about Taraweeh prayer in Ramadan: when it is prayed, congregation, rak'ah differences, Quran recitation, Witr, and common questions.",
+    "ogType": "article",
+    "ogTitle": "Taraweeh Prayer in Ramadan | Waqto Salat",
+    "ogDescription": "A practical guide to Taraweeh prayer in Ramadan, including timing, congregation, rak'ah differences, Quran recitation, Witr, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Taraweeh Prayer in Ramadan.",
+    "twitterTitle": "Taraweeh Prayer in Ramadan | Waqto Salat",
+    "twitterDescription": "What Taraweeh prayer is, when it is prayed in Ramadan, and why rak'ah counts can differ between communities.",
+    "twitterImageAlt": "Waqto Salat Taraweeh Prayer guide."
+  },
+  "structuredData": {
+    "headline": "Taraweeh Prayer in Ramadan",
+    "description": "A practical guide to Taraweeh prayer in Ramadan, including timing, congregation, rak'ah differences, Quran recitation, Witr, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-01",
+    "citations": [
+      "https://sunnah.com/bukhari:2009",
+      "https://sunnah.com/bukhari:2010",
+      "https://sunnah.com/bukhari:2012",
+      "https://sunnah.com/bukhari:2013"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Taraweeh Prayer",
+        "path": "/learn/taraweeh-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Taraweeh prayer obligatory?",
+        "answer": "Taraweeh is not one of the five obligatory daily prayers. It is commonly taught as a Sunnah or voluntary Ramadan night prayer, with details explained by local scholars and madhhabs."
+      },
+      {
+        "question": "How many rak'ahs are in Taraweeh?",
+        "answer": "Muslim communities differ in practice. Many pray 8 or 20 rak'ahs before Witr, and some communities follow other local scholarly guidance. Follow your imam or the madhhab you have learned."
+      },
+      {
+        "question": "When is Taraweeh prayed?",
+        "answer": "Taraweeh is prayed after Isha during Ramadan, usually before Witr in many communities. It may be prayed in congregation at the mosque or individually."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Taraweeh Prayer in Ramadan.",
+    "introductionHtml": "Taraweeh is the Ramadan night prayer Muslims pray after Isha, often in congregation, as a way to stand in worship, listen to Quran, and seek Allah's forgiveness.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">When:</strong> after Isha during Ramadan, usually before Witr.</li>\n                  <li><strong class=\"text-white\">Purpose:</strong> standing in night prayer, reciting or listening to Quran, and seeking forgiveness.</li>\n                  <li><strong class=\"text-white\">Common practice:</strong> many communities pray it in congregation at the mosque.</li>\n                  <li><strong class=\"text-white\">Note:</strong> rak'ah counts differ, so follow your imam or madhhab.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-taraweeh-prayer",
+        "label": "What is Taraweeh prayer?"
+      },
+      {
+        "href": "#when-is-taraweeh-prayed",
+        "label": "When is Taraweeh prayed?"
+      },
+      {
+        "href": "#congregation-and-the-prophet-s-mercy",
+        "label": "Congregation and the Prophet's mercy"
+      },
+      {
+        "href": "#rak-ah-count-and-community-differences",
+        "label": "Rak'ah count and community differences"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>",
+  "articleFile": "taraweeh-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-05",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

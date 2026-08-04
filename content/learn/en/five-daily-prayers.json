@@ -1,0 +1,100 @@
+{
+  "type": "guide",
+  "key": "five-daily-prayers",
+  "locale": "en",
+  "routePath": "/learn/five-daily-prayers/",
+  "seo": {
+    "title": "Five Daily Prayers: Fajr to Isha | Waqto Salat",
+    "description": "Learn the five daily prayers in Islam: Fajr, Dhuhr, Asr, Maghrib, and Isha, with timing, obligatory rak'ahs, Sunnah notes, and beginner questions.",
+    "ogType": "article",
+    "ogTitle": "Five Daily Prayers: Fajr to Isha | Waqto Salat",
+    "ogDescription": "A practical guide to Fajr, Dhuhr, Asr, Maghrib, and Isha, including timing, obligatory rak'ahs, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to the five daily prayers: Fajr, Dhuhr, Asr, Maghrib, and Isha.",
+    "twitterTitle": "Five Daily Prayers: Fajr to Isha | Waqto Salat",
+    "twitterDescription": "What the five daily prayers are, when they are prayed, and how many obligatory rak'ahs each prayer has.",
+    "twitterImageAlt": "Waqto Salat Five Daily Prayers guide."
+  },
+  "structuredData": {
+    "headline": "Five Daily Prayers: Fajr to Isha",
+    "description": "A practical guide to Fajr, Dhuhr, Asr, Maghrib, and Isha, including timing, obligatory rak'ahs, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-18",
+    "citations": [
+      "https://quran.com/17/78",
+      "https://sunnah.com/bukhari:527",
+      "https://sunnah.com/bukhari:528"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Five Daily Prayers",
+        "path": "/learn/five-daily-prayers/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the five daily prayers in Islam?",
+        "answer": "The five daily prayers are Fajr, Dhuhr, Asr, Maghrib, and Isha. They form the required daily salah schedule for Muslims."
+      },
+      {
+        "question": "How many obligatory rak'ahs are in each daily prayer?",
+        "answer": "The obligatory rak'ahs are commonly taught as Fajr 2, Dhuhr 4, Asr 4, Maghrib 3, and Isha 4. Sunnah and voluntary prayers may be added before or after some prayers."
+      },
+      {
+        "question": "Do prayer times change every day?",
+        "answer": "Yes. Prayer times change with the sun, location, timezone, calculation method, and local guidance, which is why prayer time apps update them daily."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Five Daily Prayers: Fajr to Isha.",
+    "introductionHtml": "The five daily prayers are the rhythm of Muslim life: Fajr, Dhuhr, Asr, Maghrib, and Isha, each tied to its appointed part of the day.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Names:</strong> Fajr, Dhuhr, Asr, Maghrib, and Isha.</li>\n                  <li><strong class=\"text-white\">Status:</strong> the required daily prayers for Muslims.</li>\n                  <li><strong class=\"text-white\">Obligatory rak'ahs:</strong> 2, 4, 4, 3, and 4 in order.</li>\n                  <li><strong class=\"text-white\">Timing:</strong> changes daily by sun position, location, and local method.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-are-the-five-daily-prayers",
+        "label": "What are the five daily prayers?"
+      },
+      {
+        "href": "#the-five-prayers-in-order",
+        "label": "The five prayers in order"
+      },
+      {
+        "href": "#obligatory-sunnah-and-voluntary-rak-ahs",
+        "label": "Obligatory, Sunnah, and voluntary rak'ahs"
+      },
+      {
+        "href": "#why-timing-matters",
+        "label": "Why timing matters"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
+  "articleFile": "five-daily-prayers.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

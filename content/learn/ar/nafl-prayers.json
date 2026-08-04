@@ -1,0 +1,59 @@
+{
+  "type": "guide",
+  "key": "nafl-prayers",
+  "locale": "ar",
+  "routePath": "/learn/nafl-prayers/",
+  "seo": {
+    "title": "صلوات النفل: الصلاة التطوعية | وقت الصلاة",
+    "description": "تعرّف على صلوات النفل في الإسلام، وأمثلتها وطريقة الصلاة العامة وأوقاتها والصلاة في البيت والأوقات التي تجتنب فيها النافلة.",
+    "ogType": "article",
+    "ogTitle": "صلوات النفل والتطوع | وقت الصلاة",
+    "ogDescription": "دليل عملي للصلاة التطوعية بعد المحافظة على الفرائض، مع أمثلة وأوقات وأسئلة شائعة.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلوات النفل والتطوع.",
+    "twitterTitle": "صلوات النفل: الصلاة التطوعية",
+    "twitterDescription": "ما صلوات النفل، ومتى وكيف تصلى، وما أشهر أمثلتها.",
+    "twitterImageAlt": "دليل صلوات النفل من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلوات النفل: الصلاة التطوعية",
+    "description": "دليل للصلاة التطوعية بعد الفرائض، مع أمثلتها وطريقتها وأوقاتها والأسئلة الشائعة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:6502", "https://sunnah.com/muslim:1163a", "https://sunnah.com/bukhari:731", "https://sunnah.com/bukhari:444"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلوات النفل", "path": "/learn/nafl-prayers/" }
+    ],
+    "faqs": [
+      { "question": "ما صلوات النفل؟", "answer": "صلوات النفل عبادات تطوعية تؤدى زيادة على الصلوات اليومية المفروضة، لزيادة العبادة وطلب الأجر والقرب من الله." },
+      { "question": "هل صلوات النفل واجبة؟", "answer": "لا. هي صلوات تطوعية، وتبقى الصلوات الخمس هي الأولوية التي يحافظ عليها المسلم قبل إضافة النوافل." },
+      { "question": "هل تصلى النافلة في أي وقت؟", "answer": "توجد أوقات واسعة للنوافل، لكن هناك أوقات تجتنب فيها صلاة التطوع بحسب الفقه الإسلامي. اتبع مذهبك أو عالما محليا موثوقا في التفاصيل." },
+      { "question": "كيف تصلى نافلة عامة؟", "answer": "تصلى النافلة العامة غالبا ركعتين بالطريقة المعتادة للصلاة. أما الصلوات المسماة فقد يكون لها وقت أو تفاصيل خاصة." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / صلاة التطوع",
+    "titleHtml": "صلوات النفل: الصلاة التطوعية",
+    "introductionHtml": "صلوات النفل عبادات تطوعية تتجاوز الفرائض، وتمنح المسلم أبوابا إضافية للذكر والعبادة وبناء حياة صلاة ثابتة.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الحكم:</strong> تطوعية وليست من الفرائض الخمس.</li><li><strong class=\"text-white\">الأولوية:</strong> المحافظة على الفرض أولا.</li><li><strong class=\"text-white\">الصورة العامة:</strong> ركعتان بالطريقة المألوفة.</li><li><strong class=\"text-white\">الأوقات:</strong> واسعة مع وجود أوقات تجتنب فيها النافلة.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلوات النفل",
+    "items": [
+      { "href": "#what-are-nafl-prayers", "label": "ما صلوات النفل؟" },
+      { "href": "#obligatory-first-then-extra-worship", "label": "الفرض أولا" },
+      { "href": "#common-examples-of-nafl-prayers", "label": "أمثلة صلوات النفل" },
+      { "href": "#how-to-pray-nafl-prayer", "label": "كيفية صلاة النافلة" },
+      { "href": "#when-can-nafl-prayers-be-prayed", "label": "متى تصلى؟" },
+      { "href": "#praying-nafl-at-home", "label": "صلاة النفل في البيت" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "nafl-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

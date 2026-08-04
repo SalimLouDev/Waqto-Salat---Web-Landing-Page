@@ -1,0 +1,85 @@
+{
+  "type": "collection",
+  "key": "learn",
+  "locale": "ar",
+  "routePath": "/learn/",
+  "seo": {
+    "title": "تعلّم عن الصلاة وأنواعها | وقت الصلاة",
+    "description": "تعلّم عن الصلاة من خلال أدلة عربية للصلوات الخمس والسنن والوتر والنفل والضحى والتهجد والاستخارة والعيد والجنازة والكسوف والتراويح.",
+    "ogType": "website",
+    "ogTitle": "تعلّم عن الصلاة وأنواعها | وقت الصلاة",
+    "ogDescription": "مكتبة عربية كاملة لفهم الصلوات اليومية والسنن والنوافل والصلوات الخاصة.",
+    "ogImageAlt": "مكتبة وقت الصلاة العربية لتعلّم أحكام الصلاة الأساسية.",
+    "twitterTitle": "تعلّم عن الصلاة وأنواعها | وقت الصلاة",
+    "twitterDescription": "أدلة عربية واضحة للصلوات المفروضة والسنن والنوافل والصلوات الخاصة.",
+    "twitterImageAlt": "مكتبة وقت الصلاة العربية لأدلة الصلاة."
+  },
+  "structuredData": {
+    "name": "تعلّم عن الصلاة وأنواعها",
+    "description": "مكتبة عربية مخصصة للصلاة، تضم أدلة الصلوات المفروضة والسنن والنوافل والصلوات الخاصة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "breadcrumbs": [
+      {
+        "name": "الرئيسية",
+        "path": "/"
+      },
+      {
+        "name": "تعلّم",
+        "path": "/learn/"
+      }
+    ],
+    "items": [
+      {
+        "name": "الصلوات الخمس",
+        "path": "/learn/five-daily-prayers/"
+      },
+      {
+        "name": "صلوات السنة",
+        "path": "/learn/sunnah-prayers/"
+      },
+      {
+        "name": "صلاة الوتر",
+        "path": "/learn/witr-prayer/"
+      },
+      {
+        "name": "صلوات النفل",
+        "path": "/learn/nafl-prayers/"
+      },
+      {
+        "name": "صلاة الضحى",
+        "path": "/learn/duha-prayer/"
+      },
+      {
+        "name": "صلاة التهجد",
+        "path": "/learn/tahajjud-prayer/"
+      },
+      {
+        "name": "صلاة الاستخارة",
+        "path": "/learn/istikhara-prayer/"
+      },
+      {
+        "name": "صلاة عيد الفطر وعيد الأضحى",
+        "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/"
+      },
+      {
+        "name": "صلاة الجنازة",
+        "path": "/learn/janazah-prayer/"
+      },
+      {
+        "name": "صلاة الكسوف والخسوف",
+        "path": "/learn/eclipse-prayer/"
+      },
+      {
+        "name": "صلاة التراويح",
+        "path": "/learn/taraweeh-prayer/"
+      }
+    ]
+  },
+  "mainFile": "index.main.html",
+  "sitemap": {
+    "lastmod": "2026-08-04",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "tahajjud-prayer",
+  "locale": "ar",
+  "routePath": "/learn/tahajjud-prayer/",
+  "seo": {
+    "title": "صلاة التهجد: قيام الليل تطوعا | وقت الصلاة",
+    "description": "تعرّف على صلاة التهجد بعد العشاء وقبل الفجر، ووقتها وعدد ركعاتها وعلاقتها بقيام الليل والوتر، مع أسئلة المبتدئين.",
+    "ogType": "article",
+    "ogTitle": "صلاة التهجد وقيام الليل | وقت الصلاة",
+    "ogDescription": "دليل عملي لصلاة التهجد في الليل وركعاتها والوتر وروتين البداية.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة التهجد وقيام الليل.",
+    "twitterTitle": "صلاة التهجد: الوقت والطريقة",
+    "twitterDescription": "متى وكيف تصلى التهجد، وما علاقتها بقيام الليل والوتر.",
+    "twitterImageAlt": "دليل صلاة التهجد من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة التهجد: قيام الليل تطوعا",
+    "description": "دليل لصلاة التهجد بعد العشاء وقبل الفجر، مع الوقت والركعات وعلاقتها بقيام الليل والوتر.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://quran.com/17/79", "https://sunnah.com/muslim:1163a", "https://sunnah.com/bukhari:990", "https://sunnah.com/bukhari:2013"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة التهجد", "path": "/learn/tahajjud-prayer/" }
+    ],
+    "faqs": [
+      { "question": "متى تصلى صلاة التهجد؟", "answer": "تصلى بعد العشاء وقبل الفجر، ويصليها كثير من الناس بعد نوم واستيقاظ في الليل، خاصة في الجزء الأخير منه." },
+      { "question": "هل صلاة التهجد واجبة؟", "answer": "التهجد صلاة ليل تطوعية وليست واحدة من الصلوات الخمس المفروضة." },
+      { "question": "كم عدد ركعات التهجد؟", "answer": "تصلى غالبا ركعتين ركعتين، ثم يختم قيام الليل بالوتر. يختلف العدد بحسب القدرة والوقت والتعليم المحلي." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / صلاة الليل",
+    "titleHtml": "صلاة التهجد: قيام الليل تطوعا",
+    "introductionHtml": "التهجد صلاة تطوعية بعد العشاء وقبل الفجر، وغالبا بعد الاستيقاظ من النوم حين يكون الليل هادئا والقلب أكثر تركيزا.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الوقت:</strong> بعد العشاء وقبل الفجر.</li><li><strong class=\"text-white\">الصورة:</strong> ركعتان ركعتان بحسب القدرة.</li><li><strong class=\"text-white\">الوتر:</strong> يختم به قيام الليل غالبا.</li><li><strong class=\"text-white\">الحكم:</strong> تطوع وليس فرضا.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة التهجد",
+    "items": [
+      { "href": "#what-is-tahajjud-prayer", "label": "ما صلاة التهجد؟" },
+      { "href": "#when-is-tahajjud-prayed", "label": "متى تصلى؟" },
+      { "href": "#how-tahajjud-is-commonly-prayed", "label": "كيفية صلاة التهجد" },
+      { "href": "#tahajjud-qiyam-al-layl-and-witr", "label": "التهجد وقيام الليل والوتر" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "tahajjud-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

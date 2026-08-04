@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "editorial-methodology",
+  "locale": "ar",
+  "routePath": "/editorial-methodology/",
+  "alternates": [{ "locale": "en", "route": "/editorial-methodology/" }],
+  "seo": {
+    "title": "منهجية التحرير والمراجعة | وقت الصلاة",
+    "description": "تعرّف على كيفية بحث وقت الصلاة في أدلة الصلاة وكتابتها وتوثيقها ومراجعتها، والتعامل مع اختلاف المذاهب والتصحيحات والمصادر التقنية.",
+    "ogType": "article",
+    "ogTitle": "منهجية التحرير والمراجعة | وقت الصلاة",
+    "ogDescription": "كيف نبحث أدلة الصلاة ونوثقها ونراجعها ونوضح اختلاف الرأي الفقهي.",
+    "ogImageAlt": "منهجية تحرير أدلة الصلاة في موقع وقت الصلاة.",
+    "twitterTitle": "منهجية تحرير وقت الصلاة",
+    "twitterDescription": "مصادر أدلة الصلاة ومراجعتها والتعامل مع الاختلافات والتصحيحات.",
+    "twitterImageAlt": "منهجية محتوى وقت الصلاة."
+  },
+  "structuredData": {
+    "schemaType": "AboutPage",
+    "name": "منهجية التحرير والمراجعة | وقت الصلاة",
+    "description": "منهجية بحث وكتابة وتوثيق ومراجعة أدلة الصلاة في موقع وقت الصلاة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "منهجية التحرير", "path": "/editorial-methodology/" }
+    ]
+  },
+  "mainFile": "editorial-methodology.main.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.5" }
+}

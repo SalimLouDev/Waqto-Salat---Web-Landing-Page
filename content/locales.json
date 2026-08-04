@@ -1,0 +1,64 @@
+{
+  "en": {
+    "htmlLang": "en",
+    "direction": "ltr",
+    "pathPrefix": "",
+    "languageName": "English",
+    "shortLanguageName": "EN",
+    "ogLocale": "en_US",
+    "brandName": "Waqto Salat",
+    "logoAlt": "Waqto Salat Logo",
+    "navigation": {
+      "ariaLabel": "Learn navigation",
+      "viewInLanguage": "View this page in {language}",
+      "home": "Home",
+      "learn": "Learn",
+      "resources": "App resources",
+      "getApp": "Get App"
+    },
+    "footer": {
+      "copyright": "© 2026 Waqto Salat. All rights reserved.",
+      "learn": "Salah guides",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "methodology": "Editorial Methodology",
+      "contact": "Contact"
+    },
+    "relatedGuides": {
+      "eyebrow": "Continue learning",
+      "heading": "Related prayer guides",
+      "ariaLabel": "Related prayer guides"
+    }
+  },
+  "ar": {
+    "htmlLang": "ar",
+    "direction": "rtl",
+    "pathPrefix": "/ar",
+    "languageName": "العربية",
+    "shortLanguageName": "AR",
+    "ogLocale": "ar_AR",
+    "brandName": "وقت الصلاة",
+    "logoAlt": "شعار وقت الصلاة",
+    "navigation": {
+      "ariaLabel": "التنقل في أدلة الصلاة",
+      "viewInLanguage": "عرض هذه الصفحة باللغة {language}",
+      "home": "الرئيسية",
+      "learn": "تعلّم",
+      "resources": "موارد التطبيق",
+      "getApp": "حمّل التطبيق"
+    },
+    "footer": {
+      "copyright": "© 2026 وقت الصلاة. جميع الحقوق محفوظة.",
+      "learn": "أدلة الصلاة",
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة",
+      "methodology": "منهجية التحرير",
+      "contact": "تواصل معنا"
+    },
+    "relatedGuides": {
+      "eyebrow": "\u0648\u0627\u0635\u0644 \u0627\u0644\u062a\u0639\u0644\u0651\u0645",
+      "heading": "\u0623\u062f\u0644\u0629 \u0635\u0644\u0627\u0629 \u0630\u0627\u062a \u0635\u0644\u0629",
+      "ariaLabel": "\u0623\u062f\u0644\u0629 \u0635\u0644\u0627\u0629 \u0630\u0627\u062a \u0635\u0644\u0629"
+    }
+  }
+}

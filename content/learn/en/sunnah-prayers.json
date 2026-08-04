@@ -1,0 +1,109 @@
+{
+  "type": "guide",
+  "key": "sunnah-prayers",
+  "locale": "en",
+  "routePath": "/learn/sunnah-prayers/",
+  "seo": {
+    "title": "Sunnah Prayers: Mu'akkadah and Rawatib | Waqto Salat",
+    "description": "Learn about Sunnah prayers in Islam: Sunnah Mu'akkadah, rawatib before and after daily salah, non-emphasized Sunnah, rak'ahs, and questions.",
+    "ogType": "article",
+    "ogTitle": "Sunnah Prayers: Mu'akkadah and Rawatib | Waqto Salat",
+    "ogDescription": "A practical guide to Sunnah prayers, including emphasized rawatib, non-emphasized Sunnah prayers, home prayer, rak'ahs, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Sunnah prayers and rawatib around daily salah.",
+    "twitterTitle": "Sunnah Prayers: Mu'akkadah and Rawatib | Waqto Salat",
+    "twitterDescription": "What Sunnah prayers are, how rawatib fit around daily salah, and why details differ between communities.",
+    "twitterImageAlt": "Waqto Salat Sunnah Prayers guide."
+  },
+  "structuredData": {
+    "headline": "Sunnah Prayers: Mu'akkadah and Rawatib",
+    "description": "A practical guide to Sunnah prayers, including emphasized rawatib, non-emphasized Sunnah prayers, home prayer, rak'ahs, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-18",
+    "citations": [
+      "https://sunnah.com/tirmidhi:415",
+      "https://sunnah.com/bukhari:1182",
+      "https://sunnah.com/bukhari:731",
+      "https://sunnah.com/abudawud:1271"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Sunnah Prayers",
+        "path": "/learn/sunnah-prayers/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are Sunnah prayers obligatory?",
+        "answer": "Sunnah prayers are not the same as the obligatory five daily prayers. They are additional prayers connected to the Prophet's practice, with different levels of emphasis explained by scholars."
+      },
+      {
+        "question": "What are rawatib prayers?",
+        "answer": "Rawatib prayers are regular Sunnah prayers connected to the five daily prayers, such as before Fajr, before and after Dhuhr, after Maghrib, and after Isha."
+      },
+      {
+        "question": "Should Sunnah prayers be prayed at home or in the mosque?",
+        "answer": "Many hadith encourage voluntary prayers at home, while some Sunnah or special prayers are commonly prayed in congregation. Follow your local imam for community practice."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Sunnah Prayers: Mu'akkadah and Rawatib.",
+    "introductionHtml": "Sunnah prayers are extra prayers connected to the Prophet's practice, helping Muslims build a steady rhythm of worship around the five daily prayers.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Meaning:</strong> additional prayers connected to Prophetic practice.</li>\n                  <li><strong class=\"text-white\">Types:</strong> emphasized Sunnah and non-emphasized Sunnah.</li>\n                  <li><strong class=\"text-white\">Rawatib:</strong> regular Sunnah prayers around the daily prayers.</li>\n                  <li><strong class=\"text-white\">Note:</strong> exact details differ by madhhab and local teaching.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-are-sunnah-prayers",
+        "label": "What are Sunnah prayers?"
+      },
+      {
+        "href": "#sunnah-mu-akkadah-and-non-emphasized-sunnah",
+        "label": "Sunnah Mu'akkadah and non-emphasized Sunnah"
+      },
+      {
+        "href": "#the-regular-rawatib-pattern",
+        "label": "The regular rawatib pattern"
+      },
+      {
+        "href": "#sunnah-prayers-chart",
+        "label": "Sunnah prayers chart"
+      },
+      {
+        "href": "#other-recommended-prayers-around-salah",
+        "label": "Other recommended prayers around salah"
+      },
+      {
+        "href": "#where-should-sunnah-prayers-be-prayed",
+        "label": "Where should Sunnah prayers be prayed?"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
+  "articleFile": "sunnah-prayers.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "path": "/",
+    "lastmod": "2026-08-04",
+    "changefreq": "monthly",
+    "priority": "1.0",
+    "alternates": [
+      {
+        "locale": "en",
+        "route": "/"
+      },
+      {
+        "locale": "ar",
+        "route": "/ar/"
+      }
+    ]
+  },
+  {
+    "path": "/privacy-policy/",
+    "lastmod": "2026-06-15",
+    "changefreq": "yearly",
+    "priority": "0.3",
+    "alternates": [
+      { "locale": "en", "route": "/privacy-policy/" },
+      { "locale": "ar", "route": "/ar/privacy-policy/" }
+    ]
+  },
+  {
+    "path": "/terms-of-service/",
+    "lastmod": "2026-08-04",
+    "changefreq": "yearly",
+    "priority": "0.3",
+    "alternates": [
+      { "locale": "en", "route": "/terms-of-service/" },
+      { "locale": "ar", "route": "/ar/terms-of-service/" }
+    ]
+  },
+  {
+    "path": "/ad-free-prayer-times-app/",
+    "lastmod": "2026-06-15",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "alternates": [
+      { "locale": "en", "route": "/ad-free-prayer-times-app/" },
+      { "locale": "ar", "route": "/ar/ad-free-prayer-times-app/" }
+    ]
+  },
+  {
+    "path": "/salah-reminder-app/",
+    "lastmod": "2026-06-15",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "alternates": [
+      { "locale": "en", "route": "/salah-reminder-app/" },
+      { "locale": "ar", "route": "/ar/salah-reminder-app/" }
+    ]
+  },
+  {
+    "path": "/qibla-compass-app/",
+    "lastmod": "2026-06-15",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "alternates": [
+      { "locale": "en", "route": "/qibla-compass-app/" },
+      { "locale": "ar", "route": "/ar/qibla-compass-app/" }
+    ]
+  },
+  {
+    "path": "/prayer-times-widget-android/",
+    "lastmod": "2026-06-15",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "alternates": [
+      { "locale": "en", "route": "/prayer-times-widget-android/" },
+      { "locale": "ar", "route": "/ar/prayer-times-widget-android/" }
+    ]
+  },
+  {
+    "path": "/how-prayer-times-are-calculated/",
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.7",
+    "alternates": [
+      { "locale": "en", "route": "/how-prayer-times-are-calculated/" },
+      { "locale": "ar", "route": "/ar/how-prayer-times-are-calculated/" }
+    ]
+  },
+  {
+    "path": "/editorial-methodology/",
+    "lastmod": "2026-07-18",
+    "changefreq": "yearly",
+    "priority": "0.5",
+    "alternates": [
+      { "locale": "en", "route": "/editorial-methodology/" },
+      { "locale": "ar", "route": "/ar/editorial-methodology/" }
+    ]
+  }
+]

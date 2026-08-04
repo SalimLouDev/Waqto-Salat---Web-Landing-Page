@@ -1,0 +1,109 @@
+{
+  "type": "landing",
+  "key": "home",
+  "locale": "ar",
+  "routePath": "/",
+  "alternates": [
+    {
+      "locale": "en",
+      "route": "/"
+    },
+    {
+      "locale": "ar",
+      "route": "/ar/"
+    }
+  ],
+  "seo": {
+    "title": "وقت الصلاة - تطبيق مواقيت الصلاة للأندرويد",
+    "description": "حمّل وقت الصلاة، تطبيق أندرويد مجاني بلا إعلانات لمواقيت الصلاة، مع تذكيرات متحركة، واتجاه القبلة، والويدجت.",
+    "ogType": "website",
+    "ogTitle": "وقت الصلاة - مواقيت الصلاة وتذكيرات الأذان",
+    "ogDescription": "تذكيرات تتحرك تلقائيا مع مواقيت الصلاة، واتجاه القبلة، وويدجت للشاشة الرئيسية، دون إعلانات أو اشتراكات.",
+    "ogImageAlt": "تطبيق وقت الصلاة للأندرويد لمواقيت الصلاة وتذكيراتها واتجاه القبلة.",
+    "twitterTitle": "وقت الصلاة - تطبيق مواقيت الصلاة للأندرويد",
+    "twitterDescription": "مواقيت الصلاة وتذكيرات متحركة واتجاه القبلة وويدجت، في تطبيق مجاني بلا إعلانات.",
+    "twitterImageAlt": "معاينة تطبيق وقت الصلاة باللغة العربية."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://waqtosalat.com/ar/#webpage",
+        "url": "https://waqtosalat.com/ar/",
+        "name": "وقت الصلاة - تطبيق مواقيت الصلاة للأندرويد",
+        "description": "صفحة وقت الصلاة العربية لتطبيق مواقيت الصلاة والتذكيرات واتجاه القبلة على أندرويد.",
+        "inLanguage": "ar",
+        "datePublished": "2026-08-04",
+        "dateModified": "2026-08-04",
+        "isPartOf": {
+          "@id": "https://waqtosalat.com/#website"
+        },
+        "about": {
+          "@id": "https://waqtosalat.com/#android-app"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://waqtosalat.com/#android-app",
+        "name": "Waqto Salat",
+        "alternateName": "وقت الصلاة",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Android",
+        "url": "https://waqtosalat.com/ar/",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat",
+        "image": "https://waqtosalat.com/og-image-v4.jpg",
+        "screenshot": "https://waqtosalat.com/screenshot-1-ar.png",
+        "description": "تطبيق أندرويد مجاني بلا إعلانات لمواقيت الصلاة، مع تذكيرات تتغير تلقائيا مع الوقت، واتجاه القبلة، وويدجت للشاشة الرئيسية.",
+        "inLanguage": "ar",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "author": {
+          "@id": "https://waqtosalat.com/#organization"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://waqtosalat.com/ar/#faq",
+        "inLanguage": "ar",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "هل تطبيق وقت الصلاة مجاني؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "نعم. التطبيق مجاني للتنزيل والاستخدام، بلا إعلانات أو اشتراك مدفوع. يوجد داخله زر دعم اختياري لمن يرغب في دعم التطوير، لكنه غير مطلوب ولا يفتح مزايا صلاة محجوبة."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "هل يعرض تطبيق وقت الصلاة إعلانات؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "لا. صمم وقت الصلاة ليكون رفيقا هادئا للصلاة دون إعلانات."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ما الذي يقدمه تطبيق وقت الصلاة؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "يوفر مواقيت الصلاة، وتذكيرات قبل الصلاة أو بعدها تتحدث تلقائيا، واتجاه القبلة، وويدجت للشاشة الرئيسية، وضبطا منفصلا لكل صلاة."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "mainFile": "home.main.html",
+  "sitemap": {
+    "lastmod": "2026-08-04",
+    "changefreq": "monthly",
+    "priority": "1.0"
+  }
+}

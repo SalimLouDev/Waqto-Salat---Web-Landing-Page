@@ -1,4 +1,7 @@
 import "./index.css";
+import { initLanguageSuggestion } from "./language-suggestion";
+
+initLanguageSuggestion();
 
 document.body.dataset.staticPage = "";
 

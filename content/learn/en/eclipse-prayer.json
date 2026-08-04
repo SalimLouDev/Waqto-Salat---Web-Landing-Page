@@ -1,0 +1,101 @@
+{
+  "type": "guide",
+  "key": "eclipse-prayer",
+  "locale": "en",
+  "routePath": "/learn/eclipse-prayer/",
+  "seo": {
+    "title": "Eclipse Prayer: Solar and Lunar Salah | Waqto Salat",
+    "description": "Learn about Eclipse Prayer for solar and lunar eclipses: why Muslims pray, the two-rak'ah format, bowing, khutbah, charity, and common questions.",
+    "ogType": "article",
+    "ogTitle": "Eclipse Prayer: Solar and Lunar Salah | Waqto Salat",
+    "ogDescription": "A practical guide to Eclipse Prayer, including solar and lunar eclipse salah, extra bowing, khutbah, charity, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Eclipse Prayer for solar and lunar eclipses.",
+    "twitterTitle": "Eclipse Prayer: Solar and Lunar Salah | Waqto Salat",
+    "twitterDescription": "What Eclipse Prayer is, when Muslims pray it, and how solar and lunar eclipse salah is commonly performed.",
+    "twitterImageAlt": "Waqto Salat Eclipse Prayer guide."
+  },
+  "structuredData": {
+    "headline": "Eclipse Prayer: Solar and Lunar Salah",
+    "description": "A practical guide to Eclipse Prayer, including solar and lunar eclipse salah, extra bowing, khutbah, charity, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-01",
+    "citations": [
+      "https://sunnah.com/bukhari:1043",
+      "https://sunnah.com/bukhari:1046",
+      "https://sunnah.com/bukhari:1059",
+      "https://sunnah.com/muslim:906a"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Eclipse Prayer",
+        "path": "/learn/eclipse-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Eclipse Prayer for solar and lunar eclipses?",
+        "answer": "Yes. Solar eclipse prayer is often called Salat al-Kusuf, and lunar eclipse prayer is often called Salat al-Khusuf."
+      },
+      {
+        "question": "Does Eclipse Prayer have an adhan or iqamah?",
+        "answer": "Eclipse Prayer is commonly performed without the regular adhan or iqamah. Communities may call people together with a simple announcement."
+      },
+      {
+        "question": "How many rak'ahs are in Eclipse Prayer?",
+        "answer": "In many Sunni communities, Eclipse Prayer is two rak'ahs with extra standing and bowing in each rak'ah. Follow your imam or local scholarly guidance."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Eclipse Prayer: solar and lunar salah.",
+    "introductionHtml": "Eclipse Prayer is the salah Muslims offer during a solar or lunar eclipse, turning a striking sign in creation into prayer, remembrance, supplication, and charity.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">When:</strong> during a solar or lunar eclipse until it clears.</li>\n                  <li><strong class=\"text-white\">Names:</strong> Kusuf is often used for solar eclipse, Khusuf for lunar eclipse.</li>\n                  <li><strong class=\"text-white\">Common form:</strong> two rak'ahs with extra standing and bowing.</li>\n                  <li><strong class=\"text-white\">Note:</strong> details differ by madhhab, so follow your imam or local scholars.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-eclipse-prayer",
+        "label": "What is Eclipse Prayer?"
+      },
+      {
+        "href": "#when-is-it-prayed",
+        "label": "When is it prayed?"
+      },
+      {
+        "href": "#how-eclipse-prayer-is-commonly-performed",
+        "label": "How Eclipse Prayer is commonly performed"
+      },
+      {
+        "href": "#solar-and-lunar-eclipse-differences",
+        "label": "Solar and lunar eclipse differences"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>",
+  "articleFile": "eclipse-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-05",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

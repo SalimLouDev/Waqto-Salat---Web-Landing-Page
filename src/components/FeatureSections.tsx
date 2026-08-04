@@ -1,51 +1,22 @@
 import { motion } from "motion/react";
 import { AppMockup } from "./AppMockup";
 import { Compass, Bell, LayoutDashboard, Heart } from "lucide-react";
+import { landingCopy, type LandingLocale } from "../content/landing";
 
-export function FeatureSections() {
-  const features = [
-    {
-      id: "prayer-times",
-      title: "Accurate Prayer Times",
-      description: "Uses recognized calculation methods with location, timezone, and calibration controls so you can align prayer times with your community when needed.",
-      icon: <Bell className="w-5 h-5" />,
-      imageSrc: "screenshot-3.png",
-      alt: "Waqto Salat Android app showing prayer times and reminder settings",
-      reverse: false
-    },
-    {
-      id: "qibla",
-      title: "Minimalist Qibla Compass",
-      description: "Finding the direction of the Kaaba should be straightforward. Our compass is designed to be highly legible and completely free of clutter.",
-      icon: <Compass className="w-5 h-5" />,
-      imageSrc: "screenshot-4.png",
-      alt: "Waqto Salat Android app showing minimalist Qibla compass direction",
-      reverse: true
-    },
-    {
-      id: "widgets",
-      title: "Glanceable Widgets",
-      description: "Keep tracking your next prayer right on your home screen or lock screen with beautifully crafted and distraction-free widgets.",
-      icon: <LayoutDashboard className="w-5 h-5" />,
-      imageSrc: "screenshot-6.png",
-      alt: "Waqto Salat Android home screen widget showing upcoming prayer time",
-      reverse: false
-    },
-    {
-      id: "calm",
-      title: "Calm By Design",
-      description: "No loud animations. No stressful red text. Just deep greens, warm gold, and a layout that breathes. Designed to lower your heart rate, not raise it.",
-      icon: <Heart className="w-5 h-5" />,
-      imageSrc: "screenshot-1.png",
-      alt: "Waqto Salat Android app calm prayer dashboard design",
-      reverse: true
-    }
-  ];
+const featureSettings = [
+  { id: "prayer-times", icon: <Bell className="w-5 h-5" />, imageSrc: "screenshot-3.png", reverse: false },
+  { id: "qibla", icon: <Compass className="w-5 h-5" />, imageSrc: "screenshot-4.png", reverse: true },
+  { id: "widgets", icon: <LayoutDashboard className="w-5 h-5" />, imageSrc: "screenshot-6.png", reverse: false },
+  { id: "calm", icon: <Heart className="w-5 h-5" />, imageSrc: "screenshot-1.png", reverse: true },
+];
+
+export function FeatureSections({ locale = "en" }: { locale?: LandingLocale }) {
+  const copy = landingCopy[locale].features;
 
   return (
     <section className="overflow-hidden bg-off-white py-20 md:py-28 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-24 md:space-y-32 lg:space-y-40">
-        {features.map((feature) => (
+        {featureSettings.map((feature, index) => (
           <div 
             key={feature.id} 
             className={`flex flex-col lg:flex-row items-center gap-10 lg:gap-24 ${
@@ -53,7 +24,7 @@ export function FeatureSections() {
             }`}
           >
             {/* Text Content */}
-            <div className="flex-1 text-center lg:text-left">
+            <div className={`flex-1 text-center ${locale === "ar" ? "lg:text-right" : "lg:text-left"}`}>
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -69,7 +40,7 @@ export function FeatureSections() {
                 transition={{ delay: 0.1 }}
                 className="text-3xl md:text-5xl font-display font-medium text-islamic-green mb-6 leading-tight"
               >
-                {feature.title}
+                {copy[index].title}
               </motion.h2>
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}
@@ -78,7 +49,7 @@ export function FeatureSections() {
                 transition={{ delay: 0.2 }}
                 className="text-lg md:text-xl text-muted-green leading-relaxed"
               >
-                {feature.description}
+                {copy[index].body}
               </motion.p>
             </div>
 
@@ -91,7 +62,7 @@ export function FeatureSections() {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 className="relative"
               >
-                <AppMockup imageSrc={feature.imageSrc} alt={feature.alt} />
+                <AppMockup imageSrc={locale === "ar" && index === 3 ? "screenshot-1-ar.png" : feature.imageSrc} alt={copy[index].alt} />
               </motion.div>
             </div>
           </div>

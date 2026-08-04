@@ -1,0 +1,108 @@
+{
+  "type": "guide",
+  "key": "duha-prayer",
+  "locale": "en",
+  "routePath": "/learn/duha-prayer/",
+  "seo": {
+    "title": "Duha Prayer: Forenoon Voluntary Salah | Waqto Salat",
+    "description": "Learn about Duha prayer in Islam: when to pray after sunrise and before Dhuhr, common rak'ah counts, benefits, Ishraq naming, and questions.",
+    "ogType": "article",
+    "ogTitle": "Duha Prayer: Forenoon Voluntary Salah | Waqto Salat",
+    "ogDescription": "A practical guide to Duha prayer after sunrise and before Dhuhr, including timing, rak'ahs, benefits, Ishraq naming, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Duha prayer, the forenoon voluntary salah.",
+    "twitterTitle": "Duha Prayer: Forenoon Voluntary Salah | Waqto Salat",
+    "twitterDescription": "What Duha prayer is, when it is prayed after sunrise, and how many rak'ahs Muslims commonly pray.",
+    "twitterImageAlt": "Waqto Salat Duha Prayer guide."
+  },
+  "structuredData": {
+    "headline": "Duha Prayer: Forenoon Voluntary Salah",
+    "description": "A practical guide to Duha prayer after sunrise and before Dhuhr, including timing, rak'ahs, benefits, Ishraq naming, and common questions.",
+    "datePublished": "2026-07-02",
+    "dateModified": "2026-07-18",
+    "citations": [
+      "https://sunnah.com/bukhari:1178",
+      "https://sunnah.com/bukhari:1176",
+      "https://sunnah.com/muslim:720a"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Duha Prayer",
+        "path": "/learn/duha-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When is Duha prayer prayed?",
+        "answer": "Duha is prayed after the sun has risen and before Dhuhr. Many teachers advise waiting until the sun is clearly up and avoiding the time just before Dhuhr."
+      },
+      {
+        "question": "How many rak'ahs are in Duha prayer?",
+        "answer": "Many Muslims pray Duha as two rak'ahs, while narrations and local teaching may include four, eight, or more. Follow your madhhab or local scholar."
+      },
+      {
+        "question": "Is Duha the same as Ishraq?",
+        "answer": "Some communities use Ishraq for Duha prayed near the beginning of its time, while others treat the names differently. Follow the terminology taught in your community."
+      },
+      {
+        "question": "How do you pray Duha prayer?",
+        "answer": "Duha is commonly prayed in sets of two rak'ahs using the familiar salah sequence. Two rak'ahs are a simple place to begin; follow your madhhab or teacher for additional details."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Duha Prayer: forenoon voluntary salah.",
+    "introductionHtml": "Duha is a voluntary prayer offered after sunrise and before Dhuhr, turning the quiet part of the morning into worship and gratitude.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">When:</strong> after sunrise and before Dhuhr.</li>\n                  <li><strong class=\"text-white\">Category:</strong> voluntary or Nafl prayer.</li>\n                  <li><strong class=\"text-white\">Common form:</strong> often prayed as two rak'ahs, with other counts taught too.</li>\n                  <li><strong class=\"text-white\">Note:</strong> exact start/end details differ by local teaching.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-duha-prayer",
+        "label": "What is Duha prayer?"
+      },
+      {
+        "href": "#when-is-duha-prayed",
+        "label": "Salatul Duha time"
+      },
+      {
+        "href": "#how-many-rak-ahs-are-in-duha",
+        "label": "How many rak'ahs are in Duha?"
+      },
+      {
+        "href": "#how-to-pray-duha-prayer",
+        "label": "How to pray Duha prayer"
+      },
+      {
+        "href": "#duha-ishraq-and-local-names",
+        "label": "Duha, Ishraq, and local names"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
+  "articleFile": "duha-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

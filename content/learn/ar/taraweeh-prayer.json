@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "taraweeh-prayer",
+  "locale": "ar",
+  "routePath": "/learn/taraweeh-prayer/",
+  "seo": {
+    "title": "صلاة التراويح في رمضان | وقت الصلاة",
+    "description": "تعرّف على صلاة التراويح في رمضان: وقتها بعد العشاء والجماعة وعدد الركعات واختلاف المجتمعات وقراءة القرآن والوتر والأسئلة الشائعة.",
+    "ogType": "article",
+    "ogTitle": "صلاة التراويح في رمضان | وقت الصلاة",
+    "ogDescription": "دليل عملي لوقت التراويح والجماعة والركعات والوتر والاختلاف الفقهي.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة التراويح في رمضان.",
+    "twitterTitle": "صلاة التراويح في رمضان",
+    "twitterDescription": "وقت التراويح وعدد ركعاتها والجماعة والوتر.",
+    "twitterImageAlt": "دليل صلاة التراويح من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة التراويح في رمضان",
+    "description": "دليل لصلاة التراويح بعد العشاء في رمضان، مع الجماعة وعدد الركعات والقراءة والوتر.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:2009", "https://sunnah.com/bukhari:2010", "https://sunnah.com/bukhari:2012", "https://sunnah.com/bukhari:2013"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة التراويح", "path": "/learn/taraweeh-prayer/" }
+    ],
+    "faqs": [
+      { "question": "هل صلاة التراويح واجبة؟", "answer": "التراويح ليست واحدة من الصلوات الخمس المفروضة. تعلم عادة على أنها سنة أو قيام تطوعي خاص برمضان، مع تفاصيل يشرحها العلماء والمذاهب." },
+      { "question": "كم عدد ركعات التراويح؟", "answer": "تختلف ممارسة المجتمعات؛ فيصلي كثيرون ثماني ركعات أو عشرين قبل الوتر، وقد تتبع بعض المجتمعات توجيها آخر معتبرا. اتبع إمامك أو مذهبك." },
+      { "question": "متى تصلى التراويح؟", "answer": "تصلى بعد العشاء في ليالي رمضان، وغالبا قبل الوتر. يمكن أداؤها جماعة في المسجد أو منفردا." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / صلاة رمضان",
+    "titleHtml": "صلاة التراويح في رمضان",
+    "introductionHtml": "التراويح قيام رمضان الذي يصليه المسلمون بعد العشاء، غالبا في جماعة، للوقوف بين يدي الله وسماع القرآن وطلب المغفرة.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الموسم:</strong> ليالي رمضان.</li><li><strong class=\"text-white\">الوقت:</strong> بعد العشاء وقبل الفجر، وغالبا قبل الوتر.</li><li><strong class=\"text-white\">الجماعة:</strong> مشروعة ويمكن الصلاة منفردا.</li><li><strong class=\"text-white\">العدد:</strong> توجد ممارسات معتبرة مثل 8 أو 20 ركعة.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة التراويح",
+    "items": [
+      { "href": "#what-is-taraweeh-prayer", "label": "ما صلاة التراويح؟" },
+      { "href": "#when-is-taraweeh-prayed", "label": "متى تصلى؟" },
+      { "href": "#congregation-and-the-prophet-s-mercy", "label": "الجماعة ورحمة النبي" },
+      { "href": "#rak-ah-count-and-community-differences", "label": "عدد الركعات والاختلاف" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "taraweeh-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.8" }
+}

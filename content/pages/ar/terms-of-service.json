@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "terms-of-service",
+  "locale": "ar",
+  "routePath": "/terms-of-service/",
+  "alternates": [{ "locale": "en", "route": "/terms-of-service/" }],
+  "seo": {
+    "title": "شروط الخدمة | وقت الصلاة",
+    "description": "اقرأ شروط استخدام تطبيق وموقع وقت الصلاة، بما يشمل دقة مواقيت الصلاة والاستخدام المقبول والدعم الاختياري وتوفر التطبيق.",
+    "ogType": "website",
+    "ogTitle": "شروط الخدمة | وقت الصلاة",
+    "ogDescription": "شروط استخدام وقت الصلاة ودقة المواقيت والدعم الاختياري وتوفر التطبيق.",
+    "ogImageAlt": "شروط خدمة تطبيق وقت الصلاة للأندرويد.",
+    "twitterTitle": "شروط الخدمة | وقت الصلاة",
+    "twitterDescription": "شروط استخدام وقت الصلاة والدعم الاختياري ودقة مواقيت الصلاة.",
+    "twitterImageAlt": "شروط خدمة وقت الصلاة."
+  },
+  "structuredData": {
+    "schemaType": "WebPage",
+    "name": "شروط الخدمة | وقت الصلاة",
+    "description": "شروط استخدام تطبيق وموقع وقت الصلاة، بما يشمل الدقة والاستخدام المقبول والدعم الاختياري.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "شروط الخدمة", "path": "/terms-of-service/" }
+    ]
+  },
+  "mainFile": "terms-of-service.main.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.3" }
+}

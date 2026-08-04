@@ -1,0 +1,100 @@
+{
+  "type": "guide",
+  "key": "five-daily-prayers",
+  "locale": "ar",
+  "routePath": "/learn/five-daily-prayers/",
+  "seo": {
+    "title": "الصلوات الخمس: الفجر إلى العشاء | وقت الصلاة",
+    "description": "تعرّف على الصلوات الخمس في الإسلام: الفجر والظهر والعصر والمغرب والعشاء، مع أوقاتها وعدد ركعات الفرض والسنن والأسئلة الشائعة.",
+    "ogType": "article",
+    "ogTitle": "الصلوات الخمس: الفجر إلى العشاء | وقت الصلاة",
+    "ogDescription": "دليل عملي للصلوات الخمس وأوقاتها وعدد ركعات الفرض في كل صلاة والأسئلة الشائعة عنها.",
+    "ogImageAlt": "دليل وقت الصلاة العربي للصلوات الخمس: الفجر والظهر والعصر والمغرب والعشاء.",
+    "twitterTitle": "الصلوات الخمس: الفجر إلى العشاء",
+    "twitterDescription": "ما الصلوات الخمس، ومتى تؤدى، وكم عدد ركعات الفرض في كل صلاة.",
+    "twitterImageAlt": "دليل الصلوات الخمس من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "الصلوات الخمس: من الفجر إلى العشاء",
+    "description": "دليل عملي للفجر والظهر والعصر والمغرب والعشاء، يشمل الوقت وعدد ركعات الفرض والسنن والأسئلة الشائعة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": [
+      "https://quran.com/17/78",
+      "https://sunnah.com/bukhari:527",
+      "https://sunnah.com/bukhari:528"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "الرئيسية",
+        "path": "/"
+      },
+      {
+        "name": "تعلّم",
+        "path": "/learn/"
+      },
+      {
+        "name": "الصلوات الخمس",
+        "path": "/learn/five-daily-prayers/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "ما الصلوات الخمس في الإسلام؟",
+        "answer": "الصلوات الخمس هي الفجر والظهر والعصر والمغرب والعشاء، وهي الصلوات المفروضة التي تكوّن جدول الصلاة اليومي للمسلم."
+      },
+      {
+        "question": "كم عدد ركعات الفرض في كل صلاة؟",
+        "answer": "عدد ركعات الفرض هو: الفجر ركعتان، والظهر أربع، والعصر أربع، والمغرب ثلاث، والعشاء أربع. وتضاف إلى بعضها سنن ونوافل قبل الفرض أو بعده."
+      },
+      {
+        "question": "هل تتغير مواقيت الصلاة كل يوم؟",
+        "answer": "نعم. تتغير المواقيت مع حركة الشمس والتاريخ والموقع والمنطقة الزمنية وطريقة الحساب والتوجيه المحلي، ولذلك تحدّث تطبيقات المواقيت جدول الصلاة يوميا."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / دليل الصلاة",
+    "titleHtml": "الصلوات الخمس: من الفجر إلى العشاء",
+    "introductionHtml": "الصلوات الخمس هي إيقاع يوم المسلم: الفجر والظهر والعصر والمغرب والعشاء، ولكل صلاة وقت محدد مرتبط بجزء من اليوم.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">الأسماء:</strong> الفجر والظهر والعصر والمغرب والعشاء.</li>\n                  <li><strong class=\"text-white\">الحكم:</strong> الصلوات اليومية المفروضة على المسلمين.</li>\n                  <li><strong class=\"text-white\">ركعات الفرض:</strong> 2، 4، 4، 3، 4 بالترتيب.</li>\n                  <li><strong class=\"text-white\">المواقيت:</strong> تتغير يوميا بحسب حركة الشمس والموقع والطريقة المحلية.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل الصلوات الخمس",
+    "items": [
+      {
+        "href": "#what-are-the-five-daily-prayers",
+        "label": "ما الصلوات الخمس؟"
+      },
+      {
+        "href": "#the-five-prayers-in-order",
+        "label": "الصلوات الخمس بالترتيب"
+      },
+      {
+        "href": "#obligatory-sunnah-and-voluntary-rak-ahs",
+        "label": "ركعات الفرض والسنن والنوافل"
+      },
+      {
+        "href": "#why-timing-matters",
+        "label": "لماذا يهم وقت الصلاة؟"
+      },
+      {
+        "href": "#common-questions",
+        "label": "أسئلة شائعة"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "المصادر وقراءة إضافية"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>\n<a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/ar/editorial-methodology/\">منهجية التحرير</a>",
+  "articleFile": "five-daily-prayers.article.html",
+  "sitemap": {
+    "lastmod": "2026-08-04",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

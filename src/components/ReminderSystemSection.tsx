@@ -1,32 +1,12 @@
 import { AlarmClock, BellRing, RefreshCw } from "lucide-react";
 import { motion } from "motion/react";
 import { GooglePlayBadge } from "./GooglePlayBadge";
+import { landingCopy, type LandingLocale } from "../content/landing";
 
-const steps = [
-  {
-    title: "Choose a prayer",
-    body: "Fajr, Dhuhr, Asr, Maghrib, or Isha.",
-    icon: BellRing,
-  },
-  {
-    title: "Set before or after",
-    body: "Create a reminder around the salah time once.",
-    icon: AlarmClock,
-  },
-  {
-    title: "Let it move daily",
-    body: "Waqto Salat updates the reminder as prayer times shift.",
-    icon: RefreshCw,
-  },
-];
+const stepIcons = [BellRing, AlarmClock, RefreshCw];
 
-const useCases = [
-  "Wake up 20 minutes before Fajr",
-  "Pray 10 minutes after Dhuhr during work",
-  "Get ready before Maghrib while commuting",
-];
-
-export function ReminderSystemSection() {
+export function ReminderSystemSection({ locale = "en" }: { locale?: LandingLocale }) {
+  const copy = landingCopy[locale].reminders;
   return (
     <section id="reminders" className="bg-footer-bg px-6 py-24 md:px-12">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
@@ -36,24 +16,22 @@ export function ReminderSystemSection() {
           viewport={{ once: true }}
         >
           <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">
-            Dynamic salah reminders
+            {copy.eyebrow}
           </p>
           <h2 className="mb-6 font-display text-3xl font-medium leading-tight text-islamic-green md:text-5xl">
-            Prayer times change. Your reminders should too.
+            {copy.title}
           </h2>
           <p className="mb-8 text-lg leading-relaxed text-muted-green">
-            A fixed alarm does not follow Fajr, Maghrib, or the changing salah schedule.
-            Waqto Salat lets you create reminders around prayer times, so your routine
-            stays connected to salah every day.
+            {copy.body}
           </p>
-          <GooglePlayBadge />
+          <GooglePlayBadge locale={locale} />
         </motion.div>
 
         <div className="grid gap-5">
           <div className="rounded-lg border border-border-light bg-white p-5 shadow-sm">
             <div className="grid gap-4 md:grid-cols-3">
-              {steps.map((step, index) => {
-                const Icon = step.icon;
+              {copy.steps.map((step, index) => {
+                const Icon = stepIcons[index];
 
                 return (
                   <motion.div
@@ -69,7 +47,7 @@ export function ReminderSystemSection() {
                         <Icon className="h-5 w-5" />
                       </span>
                       <span className="text-xs font-bold uppercase tracking-widest text-islamic-gold">
-                        Step {index + 1}
+                        {copy.stepLabel} {index + 1}
                       </span>
                     </div>
                     <h3 className="mb-2 text-lg font-semibold text-islamic-green">{step.title}</h3>
@@ -81,7 +59,7 @@ export function ReminderSystemSection() {
           </div>
 
           <div className="grid gap-3 sm:grid-cols-3">
-            {useCases.map((useCase) => (
+            {copy.useCases.map((useCase) => (
               <div
                 key={useCase}
                 className="rounded-lg border border-islamic-green/10 bg-islamic-green px-5 py-4 text-sm font-semibold leading-relaxed text-white shadow-sm"

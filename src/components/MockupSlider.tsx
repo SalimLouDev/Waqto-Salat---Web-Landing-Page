@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { assetPath } from "../lib/assets";
+import type { LandingLocale } from "../content/landing";
 
 const screenshots = [
   { png: "screenshot-1.png", webp: "screenshot-1.webp", alt: "Waqto Salat calm Android prayer dashboard" },
@@ -11,31 +12,34 @@ const screenshots = [
   { png: "screenshot-6.png", webp: "screenshot-6.webp", alt: "Waqto Salat Android home screen prayer times widget" },
 ];
 
-export function MockupSlider() {
+export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const localizedScreenshots = locale === "ar"
+    ? [{ png: "screenshot-1-ar.png", webp: "screenshot-1-ar.webp", alt: "واجهة وقت الصلاة العربية على أندرويد" }]
+    : screenshots;
 
   useEffect(() => {
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduceMotion) return;
 
     const timer = window.setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % screenshots.length);
+      setCurrentIndex((prev) => (prev + 1) % localizedScreenshots.length);
     }, 3500);
 
     return () => window.clearInterval(timer);
-  }, []);
+  }, [localizedScreenshots.length]);
 
-  const current = screenshots[currentIndex];
+  const current = localizedScreenshots[currentIndex];
 
   return (
     <motion.button
       type="button"
-      aria-label="Show next Waqto Salat screenshot"
+      aria-label={locale === "ar" ? "اعرض لقطة شاشة وقت الصلاة التالية" : "Show next Waqto Salat screenshot"}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="relative w-[min(20rem,82vw)] aspect-[941/1672] rounded-[2rem] border-[8px] border-border-light shadow-2xl overflow-hidden bg-black shrink-0 flex flex-col items-center justify-center cursor-pointer group focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/40"
-      onClick={() => setCurrentIndex((prev) => (prev + 1) % screenshots.length)}
+      onClick={() => setCurrentIndex((prev) => (prev + 1) % localizedScreenshots.length)}
     >
       <div className="relative w-full h-full overflow-hidden z-10 bg-black">
         <AnimatePresence initial={false} mode="wait">
@@ -62,7 +66,7 @@ export function MockupSlider() {
       </div>
 
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-40 flex gap-2 px-3 py-2 rounded-full bg-black/35 backdrop-blur-md opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
-        {screenshots.map((_, i) => (
+        {localizedScreenshots.map((_, i) => (
           <span
             key={i}
             aria-hidden="true"

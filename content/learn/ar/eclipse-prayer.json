@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "eclipse-prayer",
+  "locale": "ar",
+  "routePath": "/learn/eclipse-prayer/",
+  "seo": {
+    "title": "صلاة الكسوف والخسوف: الصفة والوقت | وقت الصلاة",
+    "description": "تعرّف على صلاة كسوف الشمس وخسوف القمر، وسبب أدائها ووقتها وركعتيها والقيام والركوع المتكرر والدعاء والصدقة.",
+    "ogType": "article",
+    "ogTitle": "صلاة الكسوف والخسوف | وقت الصلاة",
+    "ogDescription": "دليل عملي لصلاة الكسوف والخسوف ووقتها وصفتها والأسئلة الشائعة.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة الكسوف والخسوف.",
+    "twitterTitle": "صلاة الكسوف والخسوف",
+    "twitterDescription": "متى وكيف تصلى صلاة كسوف الشمس وخسوف القمر.",
+    "twitterImageAlt": "دليل صلاة الكسوف والخسوف من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة الكسوف والخسوف",
+    "description": "دليل لصلاة كسوف الشمس وخسوف القمر، مع الوقت والصفة والدعاء والصدقة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:1043", "https://sunnah.com/bukhari:1046", "https://sunnah.com/bukhari:1059", "https://sunnah.com/muslim:906a"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة الكسوف والخسوف", "path": "/learn/eclipse-prayer/" }
+    ],
+    "faqs": [
+      { "question": "هل صلاة الكسوف للشمس والقمر؟", "answer": "نعم. تسمى صلاة كسوف الشمس غالبا صلاة الكسوف، وصلاة خسوف القمر صلاة الخسوف." },
+      { "question": "هل لها أذان أو إقامة؟", "answer": "تؤدى عادة بلا الأذان والإقامة المعتادين، وقد ينادى للصلاة بعبارة تجمع الناس مثل الصلاة جامعة." },
+      { "question": "كم عدد ركعات صلاة الكسوف؟", "answer": "في الصورة المشهورة عند كثير من أهل السنة هي ركعتان، وفي كل ركعة قيامان وقراءتان وركوعان قبل السجود. اتبع الإمام أو التعليم المحلي." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / الصلوات الخاصة",
+    "titleHtml": "صلاة الكسوف والخسوف",
+    "introductionHtml": "هي الصلاة التي يؤديها المسلمون عند كسوف الشمس أو خسوف القمر، فيحوّلون هذه الآية الكونية إلى صلاة وذكر ودعاء وصدقة.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الوقت:</strong> من بدء الكسوف أو الخسوف حتى انجلائه.</li><li><strong class=\"text-white\">الصورة:</strong> ركعتان مع قيام وركوع إضافيين في الصورة المشهورة.</li><li><strong class=\"text-white\">المقصد:</strong> الصلاة والذكر والدعاء والاستغفار والصدقة.</li><li><strong class=\"text-white\">التوجيه:</strong> اتبع الإمام في التفاصيل.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة الكسوف والخسوف",
+    "items": [
+      { "href": "#what-is-eclipse-prayer", "label": "ما صلاة الكسوف؟" },
+      { "href": "#when-is-it-prayed", "label": "متى تصلى؟" },
+      { "href": "#how-eclipse-prayer-is-commonly-performed", "label": "كيفية الصلاة" },
+      { "href": "#solar-and-lunar-eclipse-differences", "label": "كسوف الشمس وخسوف القمر" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "eclipse-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.7" }
+}

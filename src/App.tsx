@@ -10,27 +10,30 @@ import { LearnSection } from "./components/LearnSection";
 import { ResourceLinksSection } from "./components/ResourceLinksSection";
 import { Footer } from "./components/Footer";
 import { MotionConfig } from "motion/react";
+import type { LandingLocale } from "./content/landing";
 
 export default function App() {
+  const locale: LandingLocale = document.documentElement.lang === "ar" ? "ar" : "en";
+
   return (
     <MotionConfig reducedMotion="user">
-      <div className="min-h-screen overflow-x-hidden font-sans selection:bg-islamic-gold/30 selection:text-islamic-green bg-off-white">
-        <Navbar />
+      <div dir={locale === "ar" ? "rtl" : "ltr"} className="min-h-screen overflow-x-hidden font-sans selection:bg-islamic-gold/30 selection:text-islamic-green bg-off-white">
+        <Navbar locale={locale} />
         <main id="main" tabIndex={-1}>
-          <Hero />
-          <ReminderSystemSection />
+          <Hero locale={locale} />
+          <ReminderSystemSection locale={locale} />
           <div id="features">
-            <ValuesSection />
-            <FeatureSections />
+            <ValuesSection locale={locale} />
+            <FeatureSections locale={locale} />
           </div>
 
-          <AboutSection />
-          <SupportSections />
-          <FAQSection />
-          <LearnSection />
-          <ResourceLinksSection />
+          <AboutSection locale={locale} />
+          <SupportSections locale={locale} />
+          <FAQSection locale={locale} />
+          <LearnSection locale={locale} />
+          <ResourceLinksSection locale={locale} />
         </main>
-        <Footer />
+        <Footer locale={locale} />
       </div>
     </MotionConfig>
   );

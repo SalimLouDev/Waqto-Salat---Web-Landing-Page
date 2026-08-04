@@ -1,54 +1,25 @@
 import { Bell, Compass, Clock, LayoutPanelTop, SlidersHorizontal } from "lucide-react";
+import { landingCopy, type LandingLocale } from "../content/landing";
 
-const resources = [
-  {
-    href: "/ad-free-prayer-times-app/",
-    title: "Ad-free prayer times app",
-    body: "Why Waqto Salat keeps the prayer experience quiet, focused, and free from ads.",
-    icon: Clock,
-  },
-  {
-    href: "/salah-reminder-app/",
-    title: "Salah reminder app",
-    body: "How reminders help you plan the day around each prayer without extra noise.",
-    icon: Bell,
-  },
-  {
-    href: "/qibla-compass-app/",
-    title: "Qibla compass app",
-    body: "A clean Qibla direction experience for Android with minimal visual clutter.",
-    icon: Compass,
-  },
-  {
-    href: "/prayer-times-widget-android/",
-    title: "Prayer times widget",
-    body: "Glanceable Android widgets for checking the next salah from the home screen.",
-    icon: LayoutPanelTop,
-  },
-  {
-    href: "/how-prayer-times-are-calculated/",
-    title: "Prayer time calculation",
-    body: "A plain-language guide to location, methods, timezones, and calibration.",
-    icon: SlidersHorizontal,
-  },
-];
+const resourceIcons = [Clock, Bell, Compass, LayoutPanelTop, SlidersHorizontal];
 
-export function ResourceLinksSection() {
+export function ResourceLinksSection({ locale = "en" }: { locale?: LandingLocale }) {
+  const copy = landingCopy[locale].resources;
   return (
     <section id="resources" className="bg-footer-bg px-6 py-24 md:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 max-w-2xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-islamic-gold">
-            Prayer app resources
+            {copy.label}
           </p>
           <h2 className="font-display text-3xl font-medium leading-tight text-islamic-green md:text-5xl">
-            Clear answers for choosing a prayer times app.
+            {copy.title}
           </h2>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
-          {resources.map((resource) => {
-            const Icon = resource.icon;
+          {copy.items.map((resource, index) => {
+            const Icon = resourceIcons[index];
 
             return (
               <a

@@ -1,0 +1,107 @@
+{
+  "type": "guide",
+  "key": "istikhara-prayer",
+  "locale": "en",
+  "routePath": "/learn/istikhara-prayer/",
+  "seo": {
+    "title": "How to Pray Istikhara for Guidance | Waqto Salat",
+    "description": "Learn how to pray Istikhara: when to perform it, the two-rak'ah method, the meaning of its du'a, consultation, common myths, and what happens next.",
+    "ogType": "article",
+    "ogTitle": "How to Pray Istikhara for Guidance | Waqto Salat",
+    "ogDescription": "A practical guide to Istikhara prayer, its du'a, decision-making, consultation, and common misconceptions about dreams and signs.",
+    "ogImageAlt": "Waqto Salat guide to Istikhara prayer for guidance.",
+    "twitterTitle": "How to Pray Istikhara for Guidance | Waqto Salat",
+    "twitterDescription": "When and how to pray Istikhara, what its du'a means, and what to expect afterward.",
+    "twitterImageAlt": "Waqto Salat Istikhara prayer guide."
+  },
+  "structuredData": {
+    "headline": "How to Pray Istikhara for Guidance",
+    "description": "A practical guide to Istikhara prayer, its du'a, decision-making, consultation, and common misconceptions.",
+    "datePublished": "2026-06-25",
+    "dateModified": "2026-07-05",
+    "citations": [
+      "https://sunnah.com/bukhari:6382",
+      "https://yaqeeninstitute.org/read/blog/a-guide-to-istikhara-the-prayer-for-guidance"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Istikhara Prayer",
+        "path": "/learn/istikhara-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need to see a dream after Istikhara?",
+        "answer": "No. The Prophetic teaching of Istikhara does not require a dream. The prayer asks Allah to facilitate and bless what is good and turn away what is harmful."
+      },
+      {
+        "question": "Can someone else pray Istikhara for me?",
+        "answer": "Others may make general du'a for you, but the two-rak'ah Istikhara prayer and its personal request are performed by the person making the decision."
+      },
+      {
+        "question": "Should I consult people as well as pray Istikhara?",
+        "answer": "Yes. Istikhara complements personal effort and consultation with trustworthy, knowledgeable people; it does not replace responsible decision-making."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Special prayers",
+    "titleHtml": "Istikhara: the prayer for guidance",
+    "introductionHtml": "Istikhara is a Sunnah prayer and du'a for asking Allah to guide a permissible decision toward what is best for your faith, life, and outcome.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<p class=\"text-sm leading-7 text-white/78\">\n                Pray two non-obligatory rak'ahs, make the Istikhara du'a, mention the matter, take responsible steps, and trust Allah without waiting for a dream or omen.\n              </p>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#meaning",
+        "label": "What Istikhara means"
+      },
+      {
+        "href": "#when",
+        "label": "When to pray it"
+      },
+      {
+        "href": "#how",
+        "label": "How to pray it"
+      },
+      {
+        "href": "#dua",
+        "label": "What the du'a asks for"
+      },
+      {
+        "href": "#after",
+        "label": "What to do afterward"
+      },
+      {
+        "href": "#myths",
+        "label": "Common myths"
+      },
+      {
+        "href": "#questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources",
+        "label": "Sources"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Published June 25, 2026</p>\n                <p class=\"mt-2\">Prepared by Waqto Salat</p>",
+  "articleFile": "istikhara-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-05",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

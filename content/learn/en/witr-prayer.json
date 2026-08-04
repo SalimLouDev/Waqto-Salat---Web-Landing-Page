@@ -1,0 +1,109 @@
+{
+  "type": "guide",
+  "key": "witr-prayer",
+  "locale": "en",
+  "routePath": "/learn/witr-prayer/",
+  "seo": {
+    "title": "Witr Prayer: Last Prayer of the Night | Waqto Salat",
+    "description": "Learn about Witr prayer after Isha and before Fajr: timing, odd rak'ahs, praying it last, Qunut differences, madhhab views, and beginner questions.",
+    "ogType": "article",
+    "ogTitle": "Witr Prayer: Last Prayer of the Night | Waqto Salat",
+    "ogDescription": "A practical guide to Witr prayer after Isha and before Fajr, including odd rak'ahs, praying it last, Qunut differences, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Witr prayer after Isha and before Fajr.",
+    "twitterTitle": "Witr Prayer: Last Prayer of the Night | Waqto Salat",
+    "twitterDescription": "What Witr prayer is, when it is prayed, why it is often last, and how rak'ah counts differ.",
+    "twitterImageAlt": "Waqto Salat Witr Prayer guide."
+  },
+  "structuredData": {
+    "headline": "Witr Prayer: Last Prayer of the Night",
+    "description": "A practical guide to Witr prayer after Isha and before Fajr, including odd rak'ahs, praying it last, Qunut differences, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-18",
+    "citations": [
+      "https://sunnah.com/bukhari:990",
+      "https://sunnah.com/bukhari:996",
+      "https://sunnah.com/bukhari:998",
+      "https://sunnah.com/muslim:752a"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Witr Prayer",
+        "path": "/learn/witr-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When is Witr prayer prayed?",
+        "answer": "Witr is prayed after Isha and before Fajr. Many Muslims pray it as the last prayer of the night, but a person who fears missing it may pray it before sleep."
+      },
+      {
+        "question": "How many rak'ahs are in Witr?",
+        "answer": "Witr is prayed as an odd-numbered prayer. Common practices include one, three, five, seven, or more odd rak'ahs depending on madhhab and local teaching."
+      },
+      {
+        "question": "Is Witr obligatory?",
+        "answer": "Scholars differ in wording and legal classification. The Hanafi school commonly treats Witr as wajib, while many other Sunni scholars classify it as a strongly emphasized Sunnah. Follow your madhhab or local scholar."
+      },
+      {
+        "question": "How do you pray Witr prayer?",
+        "answer": "Witr is prayed after Isha and before Fajr with an odd number of rak'ahs. One- and three-rak'ah forms are common, but the arrangement, salam, and Qunut practice differ by madhhab, so follow the method taught by a trusted local teacher."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Witr Prayer: last prayer of the night.",
+    "introductionHtml": "Witr is the odd-numbered night prayer offered after Isha and before Fajr, often kept as the final prayer before sleep or before dawn.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">When:</strong> after Isha and before Fajr.</li>\n                  <li><strong class=\"text-white\">Meaning:</strong> an odd-numbered prayer that closes the night.</li>\n                  <li><strong class=\"text-white\">Common forms:</strong> one, three, five, seven, or other odd rak'ahs.</li>\n                  <li><strong class=\"text-white\">Note:</strong> ruling and Qunut details differ by madhhab.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-witr-prayer",
+        "label": "What is Witr prayer?"
+      },
+      {
+        "href": "#when-is-witr-prayed",
+        "label": "When is Witr prayed?"
+      },
+      {
+        "href": "#how-many-rak-ahs-are-in-witr",
+        "label": "How many rak'ahs are in Witr?"
+      },
+      {
+        "href": "#how-to-pray-witr-prayer",
+        "label": "How to pray Witr prayer"
+      },
+      {
+        "href": "#qunut-and-local-practice",
+        "label": "Qunut and local practice"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
+  "articleFile": "witr-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

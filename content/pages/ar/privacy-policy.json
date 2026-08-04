@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "privacy-policy",
+  "locale": "ar",
+  "routePath": "/privacy-policy/",
+  "alternates": [{ "locale": "en", "route": "/privacy-policy/" }],
+  "seo": {
+    "title": "سياسة الخصوصية | وقت الصلاة",
+    "description": "تعرّف على كيفية تعامل تطبيق وموقع وقت الصلاة مع البيانات والأذونات والموقع والخصوصية، وما توضحه بيانات الأمان المنشورة في Google Play.",
+    "ogType": "website",
+    "ogTitle": "سياسة الخصوصية | وقت الصلاة",
+    "ogDescription": "شرح واضح لخصوصية تطبيق وقت الصلاة وأذونات الموقع والجهاز والخدمات الخارجية.",
+    "ogImageAlt": "سياسة خصوصية تطبيق وقت الصلاة للأندرويد.",
+    "twitterTitle": "سياسة الخصوصية | وقت الصلاة",
+    "twitterDescription": "كيف يتعامل وقت الصلاة مع البيانات والأذونات والخصوصية.",
+    "twitterImageAlt": "سياسة خصوصية وقت الصلاة."
+  },
+  "structuredData": {
+    "schemaType": "WebPage",
+    "name": "سياسة الخصوصية | وقت الصلاة",
+    "description": "سياسة الخصوصية لتطبيق وموقع وقت الصلاة، بما يشمل البيانات والأذونات والخدمات الخارجية.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "سياسة الخصوصية", "path": "/privacy-policy/" }
+    ]
+  },
+  "mainFile": "privacy-policy.main.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.3" }
+}

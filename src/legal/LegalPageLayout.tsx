@@ -13,6 +13,7 @@ type LegalPageLayoutProps = {
   description: string;
   lastUpdated: string;
   sections: LegalSection[];
+  arabicPath: string;
 };
 
 const contactEmail = "contact@waqtosalat.com";
@@ -23,6 +24,7 @@ export function LegalPageLayout({
   description,
   lastUpdated,
   sections,
+  arabicPath,
 }: LegalPageLayoutProps) {
   return (
     <div className="min-h-screen bg-off-white font-sans text-islamic-green selection:bg-islamic-gold/30">
@@ -43,14 +45,25 @@ export function LegalPageLayout({
               Waqto Salat
             </span>
           </a>
-          <a
-            href="/"
-            aria-label="Back to Waqto Salat home"
-            className="inline-flex h-11 w-11 shrink-0 items-center justify-center gap-2 rounded-full border border-border-light p-0 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:h-auto sm:w-auto sm:px-4 sm:py-2"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            <span className="hidden sm:inline">Home</span>
-          </a>
+          <div className="flex shrink-0 items-center gap-2">
+            <a
+              href={arabicPath}
+              hrefLang="ar"
+              lang="ar"
+              aria-label="View this page in Arabic"
+              className="inline-flex h-11 items-center justify-center rounded-full border border-border-light px-3 text-xs font-bold text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+            >
+              AR
+            </a>
+            <a
+              href="/"
+              aria-label="Back to Waqto Salat home"
+              className="inline-flex h-11 w-11 shrink-0 items-center justify-center gap-2 rounded-full border border-border-light p-0 text-xs font-bold uppercase tracking-widest text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:w-auto sm:px-4"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              <span className="hidden sm:inline">Home</span>
+            </a>
+          </div>
         </div>
       </header>
 

@@ -4,7 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "generate": "node scripts/generate-site.mjs",
+    "generate:check": "node scripts/generate-site.mjs --check",
+    "predev": "npm run generate",
     "dev": "vite --port=3000 --host=0.0.0.0",
+    "prebuild": "npm run generate",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit"

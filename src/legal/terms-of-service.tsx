@@ -1,6 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { LegalPageLayout } from "./LegalPageLayout";
+import { initLanguageSuggestion } from "../language-suggestion";
+
+initLanguageSuggestion();
 
 const sections = [
   {
@@ -49,6 +52,14 @@ const sections = [
     ),
   },
   {
+    title: "Optional support",
+    body: (
+      <p>
+        Waqto Salat is free to download and use. The app may present an optional support button for users who choose to support development. Support is voluntary, is not a subscription, and is not required to access prayer essentials.
+      </p>
+    ),
+  },
+  {
     title: "No warranties",
     body: (
       <p>
@@ -71,9 +82,10 @@ createRoot(document.getElementById("root")!).render(
     <LegalPageLayout
       eyebrow="Terms"
       title="Terms of Service"
-      description="The terms for using Waqto Salat, including prayer time accuracy, acceptable use, and app availability."
-      lastUpdated="June 15, 2026"
+      description="The terms for using Waqto Salat, including prayer time accuracy, optional support, acceptable use, and app availability."
+      lastUpdated="August 4, 2026"
       sections={sections}
+      arabicPath="/ar/terms-of-service/"
     />
   </StrictMode>,
 );

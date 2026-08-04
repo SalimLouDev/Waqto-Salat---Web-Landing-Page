@@ -1,0 +1,58 @@
+{
+  "type": "guide",
+  "key": "duha-prayer",
+  "locale": "ar",
+  "routePath": "/learn/duha-prayer/",
+  "seo": {
+    "title": "صلاة الضحى: نافلة أول النهار | وقت الصلاة",
+    "description": "تعرّف على صلاة الضحى ووقتها بعد الشروق وقبل الظهر، وعدد ركعاتها وطريقتها، وعلاقتها بصلاة الإشراق والأسئلة الشائعة.",
+    "ogType": "article",
+    "ogTitle": "صلاة الضحى: الوقت والركعات والطريقة | وقت الصلاة",
+    "ogDescription": "دليل عملي لصلاة الضحى من بعد ارتفاع الشمس إلى قبل الظهر.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة الضحى.",
+    "twitterTitle": "صلاة الضحى: الوقت والركعات",
+    "twitterDescription": "متى تصلى الضحى، وكم عدد ركعاتها، وكيف تبدأ بها.",
+    "twitterImageAlt": "دليل صلاة الضحى من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة الضحى: نافلة أول النهار",
+    "description": "دليل لصلاة الضحى ووقتها بعد الشروق وقبل الظهر وعدد ركعاتها وطريقتها.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:1178", "https://sunnah.com/bukhari:1176", "https://sunnah.com/muslim:720a"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة الضحى", "path": "/learn/duha-prayer/" }
+    ],
+    "faqs": [
+      { "question": "متى تصلى صلاة الضحى؟", "answer": "تصلى الضحى بعد ارتفاع الشمس وقبل الظهر. ينصح كثير من المعلمين بالانتظار حتى ترتفع الشمس بوضوح وتجنب الوقت القريب جدا من الظهر." },
+      { "question": "كم عدد ركعات صلاة الضحى؟", "answer": "ركعتان بداية شائعة، ووردت صور بأربع أو ثمان أو أكثر في الروايات والتعليم المحلي. اتبع مذهبك أو عالما موثوقا." },
+      { "question": "هل صلاة الضحى هي صلاة الإشراق؟", "answer": "تستعمل بعض المجتمعات اسم الإشراق للضحى في أول وقتها، بينما تميز مجتمعات أخرى بين الاسمين. اتبع المصطلح الذي تعلمته في مجتمعك." },
+      { "question": "كيف تصلى صلاة الضحى؟", "answer": "تصلى غالبا ركعتين ركعتين بالطريقة المعتادة للصلاة. يمكن البدء بركعتين ثم الزيادة بحسب القدرة والتعليم الموثوق." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / صلاة التطوع",
+    "titleHtml": "صلاة الضحى: نافلة أول النهار",
+    "introductionHtml": "الضحى صلاة تطوعية تؤدى بعد ارتفاع الشمس وقبل الظهر، وتحول وقت الصباح الهادئ إلى عبادة وشكر.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الوقت:</strong> بعد ارتفاع الشمس وقبل الظهر.</li><li><strong class=\"text-white\">البداية:</strong> ركعتان صورة بسيطة ومشهورة.</li><li><strong class=\"text-white\">الحكم:</strong> صلاة تطوعية وليست فرضا.</li><li><strong class=\"text-white\">الإشراق:</strong> يختلف استعمال الاسم محليا.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة الضحى",
+    "items": [
+      { "href": "#what-is-duha-prayer", "label": "ما صلاة الضحى؟" },
+      { "href": "#when-is-duha-prayed", "label": "وقت صلاة الضحى" },
+      { "href": "#how-many-rak-ahs-are-in-duha", "label": "كم عدد ركعاتها؟" },
+      { "href": "#how-to-pray-duha-prayer", "label": "كيفية صلاة الضحى" },
+      { "href": "#duha-ishraq-and-local-names", "label": "الضحى والإشراق" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "duha-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

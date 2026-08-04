@@ -1,0 +1,101 @@
+{
+  "type": "guide",
+  "key": "eid-al-fitr-and-eid-al-adha-prayer",
+  "locale": "en",
+  "routePath": "/learn/eid-al-fitr-and-eid-al-adha-prayer/",
+  "seo": {
+    "title": "Eid al-Fitr and Eid al-Adha Prayer | Waqto Salat",
+    "description": "Learn about Eid al-Fitr and Eid al-Adha prayer: timing, two rak'ahs, extra takbirs, khutbah, Zakat al-Fitr, sacrifice, and common questions.",
+    "ogType": "article",
+    "ogTitle": "Eid al-Fitr and Eid al-Adha Prayer | Waqto Salat",
+    "ogDescription": "A practical guide to Eid al-Fitr and Eid al-Adha prayer, including timing, takbirs, khutbah, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Eid prayer for Eid al-Fitr and Eid al-Adha.",
+    "twitterTitle": "Eid al-Fitr and Eid al-Adha Prayer | Waqto Salat",
+    "twitterDescription": "How Eid al-Fitr and Eid al-Adha prayer works, when it is prayed, and what differs between the two Eids.",
+    "twitterImageAlt": "Waqto Salat Eid prayer guide."
+  },
+  "structuredData": {
+    "headline": "Eid al-Fitr and Eid al-Adha Prayer",
+    "description": "A practical guide to Eid al-Fitr and Eid al-Adha prayer, including timing, takbirs, khutbah, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-01",
+    "citations": [
+      "https://sunnah.com/bukhari:956",
+      "https://sunnah.com/bukhari:957",
+      "https://sunnah.com/abudawud:1151",
+      "https://sunnah.com/abudawud:1609"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Eid al-Fitr and Eid al-Adha Prayer",
+        "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Eid prayer the same for Eid al-Fitr and Eid al-Adha?",
+        "answer": "The prayer itself is generally the same two-rak'ah Eid prayer. The surrounding acts differ: Eid al-Fitr is connected to the end of Ramadan and Zakat al-Fitr, while Eid al-Adha is connected to Hajj season and sacrifice for those who are able."
+      },
+      {
+        "question": "Is there an adhan or iqamah for Eid prayer?",
+        "answer": "Eid prayer is commonly performed without the regular adhan or iqamah. Communities may still make practical announcements to organize the congregation."
+      },
+      {
+        "question": "How many takbirs are in Eid prayer?",
+        "answer": "Many communities pray with seven extra takbirs in the first rak'ah and five in the second, while the Hanafi method commonly uses three in each rak'ah. Follow your imam or local scholarly guidance."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Eid al-Fitr and Eid al-Adha Prayer.",
+    "introductionHtml": "Eid prayer is the special congregational prayer Muslims gather for on the two Eids: Eid al-Fitr after Ramadan and Eid al-Adha during the days of Hajj and sacrifice.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">When:</strong> after sunrise and before Dhuhr, following your local Eid announcement.</li>\n                  <li><strong class=\"text-white\">Format:</strong> two rak'ahs with extra takbirs.</li>\n                  <li><strong class=\"text-white\">Khutbah:</strong> the sermon comes after the prayer.</li>\n                  <li><strong class=\"text-white\">Note:</strong> details differ by madhhab, so follow your imam or local scholars.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-eid-prayer",
+        "label": "What is Eid prayer?"
+      },
+      {
+        "href": "#how-eid-al-fitr-and-eid-al-adha-differ",
+        "label": "How Eid al-Fitr and Eid al-Adha differ"
+      },
+      {
+        "href": "#when-is-eid-prayer-prayed",
+        "label": "When is Eid prayer prayed?"
+      },
+      {
+        "href": "#how-is-eid-prayer-performed",
+        "label": "How is Eid prayer performed?"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>",
+  "articleFile": "eid-al-fitr-and-eid-al-adha-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-05",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

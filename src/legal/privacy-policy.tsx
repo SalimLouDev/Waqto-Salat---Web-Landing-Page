@@ -1,6 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { LegalPageLayout } from "./LegalPageLayout";
+import { initLanguageSuggestion } from "../language-suggestion";
+
+initLanguageSuggestion();
 
 const sections = [
   {
@@ -79,6 +82,7 @@ createRoot(document.getElementById("root")!).render(
       description="How Waqto Salat handles data, permissions, and privacy for the Android app and website."
       lastUpdated="June 15, 2026"
       sections={sections}
+      arabicPath="/ar/privacy-policy/"
     />
   </StrictMode>,
 );

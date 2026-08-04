@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "janazah-prayer",
+  "locale": "ar",
+  "routePath": "/learn/janazah-prayer/",
+  "seo": {
+    "title": "صلاة الجنازة: صفتها وتكبيراتها | وقت الصلاة",
+    "description": "تعرّف على صلاة الجنازة في الإسلام: حكمها وأربع تكبيرات والصلاة قائما بلا ركوع أو سجود والدعاء للميت والأسئلة الشائعة.",
+    "ogType": "article",
+    "ogTitle": "صلاة الجنازة: الصفة والتكبيرات | وقت الصلاة",
+    "ogDescription": "دليل عملي لصلاة الجنازة وأربع تكبيراتها والدعاء للميت.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة الجنازة.",
+    "twitterTitle": "صلاة الجنازة: الصفة والتكبيرات",
+    "twitterDescription": "كيف تؤدى صلاة الجنازة، وما ترتيب التكبيرات والدعاء.",
+    "twitterImageAlt": "دليل صلاة الجنازة من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة الجنازة: الصلاة على الميت المسلم",
+    "description": "دليل لصلاة الجنازة وأربع تكبيراتها والصلاة قائما والدعاء للميت والأسئلة الشائعة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:1325", "https://sunnah.com/bukhari:1333", "https://sunnah.com/muslim:945a", "https://sunnah.com/abudawud:3196"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة الجنازة", "path": "/learn/janazah-prayer/" }
+    ],
+    "faqs": [
+      { "question": "هل في صلاة الجنازة ركوع أو سجود؟", "answer": "لا. تؤدى صلاة الجنازة وقوفا، وفيها تكبيرات ودعاء، ولا ركوع فيها ولا سجود." },
+      { "question": "كم عدد تكبيرات صلاة الجنازة؟", "answer": "الصورة المشهورة فيها أربع تكبيرات. اتبع الإمام والطريقة التي يعلمها مجتمعك المحلي." },
+      { "question": "هل صلاة الجنازة فرض كفاية؟", "answer": "تعلم صلاة الجنازة عادة على أنها فرض كفاية، أي ينبغي أن يضمن المجتمع أداءها للميت المسلم." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / الصلوات الخاصة",
+    "titleHtml": "صلاة الجنازة: الصلاة على الميت المسلم",
+    "introductionHtml": "صلاة الجنازة هي صلاة المسلمين على الميت، يسألون الله له الرحمة والمغفرة وحسن المآل.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الصورة:</strong> صلاة قيام بلا ركوع أو سجود.</li><li><strong class=\"text-white\">التكبيرات:</strong> أربع في الصورة المشهورة.</li><li><strong class=\"text-white\">المقصد:</strong> الدعاء للميت بالرحمة والمغفرة.</li><li><strong class=\"text-white\">الحكم:</strong> تعلم عادة على أنها فرض كفاية.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة الجنازة",
+    "items": [
+      { "href": "#what-is-janazah-prayer", "label": "ما صلاة الجنازة؟" },
+      { "href": "#why-attending-matters", "label": "فضل حضور الجنازة" },
+      { "href": "#how-janazah-prayer-is-performed", "label": "كيفية صلاة الجنازة" },
+      { "href": "#things-to-know-before-attending", "label": "ما ينبغي معرفته" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "janazah-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

@@ -1,8 +1,10 @@
 import type { ReactNode } from "react";
 import { HeartHandshake, ShieldCheck, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
+import { landingCopy, type LandingLocale } from "../content/landing";
 
-export function AboutSection() {
+export function AboutSection({ locale = "en" }: { locale?: LandingLocale }) {
+  const copy = landingCopy[locale].about;
   return (
     <section id="about" className="bg-islamic-green text-white py-28 px-6 md:px-12 relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 bg-[linear-gradient(135deg,transparent_0_45%,rgba(255,255,255,.35)_45%_46%,transparent_46%_100%)] bg-[length:42px_42px] pointer-events-none" />
@@ -13,31 +15,31 @@ export function AboutSection() {
           viewport={{ once: true }}
         >
           <p className="text-sm text-islamic-gold uppercase tracking-widest font-semibold mb-5">
-            About Waqto Salat
+            {copy.eyebrow}
           </p>
           <h2 className="text-4xl md:text-5xl font-display font-medium leading-tight mb-8">
-            A clear focus on Salah.
+            {copy.title}
           </h2>
           <p className="text-xl md:text-2xl text-white/88 leading-relaxed font-display italic">
-            Built to help Muslims organize their day around salah with reminders that move as prayer times change.
+            {copy.body}
           </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-3 gap-4">
           <AboutCard
             icon={<ShieldCheck className="h-5 w-5" />}
-            title="Privacy first"
-            body="Published Play Store data safety details state that Waqto Salat does not collect data or share data with third parties."
+            title={copy.cards[0].title}
+            body={copy.cards[0].body}
           />
           <AboutCard
             icon={<Sparkles className="h-5 w-5" />}
-            title="Prayer-based reminders"
-            body="Set reminders before or after salah times once, then let them follow the daily prayer schedule."
+            title={copy.cards[1].title}
+            body={copy.cards[1].body}
           />
           <AboutCard
             icon={<HeartHandshake className="h-5 w-5" />}
-            title="Free forever"
-            body="No ads, no subscriptions, and no locked prayer essentials."
+            title={copy.cards[2].title}
+            body={copy.cards[2].body}
           />
         </div>
       </div>

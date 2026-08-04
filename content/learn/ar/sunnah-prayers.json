@@ -1,0 +1,72 @@
+{
+  "type": "guide",
+  "key": "sunnah-prayers",
+  "locale": "ar",
+  "routePath": "/learn/sunnah-prayers/",
+  "seo": {
+    "title": "صلوات السنة: المؤكدة والرواتب | وقت الصلاة",
+    "description": "تعرّف على صلوات السنة والسنن المؤكدة والرواتب قبل الصلوات الخمس وبعدها، وعدد ركعاتها وأهم الأسئلة الشائعة.",
+    "ogType": "article",
+    "ogTitle": "صلوات السنة والسنن الرواتب | وقت الصلاة",
+    "ogDescription": "دليل عملي للسنن المؤكدة وغير المؤكدة والرواتب المرتبطة بالصلوات الخمس.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلوات السنة والسنن الرواتب.",
+    "twitterTitle": "صلوات السنة والسنن الرواتب",
+    "twitterDescription": "ما السنن المؤكدة والرواتب، ومتى تؤدى حول الصلوات الخمس.",
+    "twitterImageAlt": "دليل صلوات السنة من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلوات السنة: المؤكدة والسنن الرواتب",
+    "description": "دليل لصلوات السنة والرواتب قبل الفرائض وبعدها، مع عدد الركعات والاختلافات الشائعة.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": [
+      "https://sunnah.com/tirmidhi:415",
+      "https://sunnah.com/bukhari:1182",
+      "https://sunnah.com/bukhari:731",
+      "https://sunnah.com/abudawud:1271"
+    ],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلوات السنة", "path": "/learn/sunnah-prayers/" }
+    ],
+    "faqs": [
+      {
+        "question": "هل صلوات السنة واجبة؟",
+        "answer": "صلوات السنة ليست في الحكم نفسه الذي عليه الصلوات الخمس المفروضة. هي صلوات إضافية مرتبطة بهدي النبي صلى الله عليه وسلم، ويبين العلماء درجات مختلفة في تأكيدها."
+      },
+      {
+        "question": "ما السنن الرواتب؟",
+        "answer": "السنن الرواتب صلوات سنة منتظمة مرتبطة بالصلوات الخمس، مثل ركعتي سنة الفجر والسنن التي تصلى قبل الظهر أو بعده وبعد المغرب والعشاء."
+      },
+      {
+        "question": "هل الأفضل صلاة السنة في البيت أم المسجد؟",
+        "answer": "تحث أحاديث كثيرة على أداء صلاة التطوع في البيت، مع وجود صلوات سنة أو صلوات خاصة تؤدى جماعة. اتبع إمامك الموثوق في ممارسة مجتمعك."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / صلوات السنة",
+    "titleHtml": "صلوات السنة: المؤكدة والسنن الرواتب",
+    "introductionHtml": "صلوات السنة عبادات إضافية مرتبطة بهدي النبي صلى الله عليه وسلم، تساعد المسلم على بناء إيقاع ثابت من العبادة حول الصلوات الخمس.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n<li><strong class=\"text-white\">الرواتب:</strong> سنن منتظمة قبل بعض الفرائض أو بعدها.</li>\n<li><strong class=\"text-white\">التأكيد:</strong> منها سنة مؤكدة ومنها ما هو أقل تأكيدا.</li>\n<li><strong class=\"text-white\">النمط المشهور:</strong> اثنتا عشرة ركعة من الرواتب في اليوم والليلة.</li>\n<li><strong class=\"text-white\">الاختلاف:</strong> قد تختلف بعض التفاصيل باختلاف المذهب والتعليم المحلي.</li>\n</ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلوات السنة",
+    "items": [
+      { "href": "#what-are-sunnah-prayers", "label": "ما صلوات السنة؟" },
+      { "href": "#sunnah-mu-akkadah-and-non-emphasized-sunnah", "label": "السنة المؤكدة وغير المؤكدة" },
+      { "href": "#the-regular-rawatib-pattern", "label": "نمط السنن الرواتب" },
+      { "href": "#sunnah-prayers-chart", "label": "جدول السنن الرواتب" },
+      { "href": "#other-recommended-prayers-around-salah", "label": "صلوات أخرى مستحبة" },
+      { "href": "#where-should-sunnah-prayers-be-prayed", "label": "أين تصلى السنن؟" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "sunnah-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

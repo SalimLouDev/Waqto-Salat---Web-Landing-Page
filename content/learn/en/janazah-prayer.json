@@ -1,0 +1,102 @@
+{
+  "type": "guide",
+  "key": "janazah-prayer",
+  "locale": "en",
+  "routePath": "/learn/janazah-prayer/",
+  "seo": {
+    "title": "Janazah Prayer: Muslim Funeral Prayer | Waqto Salat",
+    "description": "Learn about Janazah prayer, also spelled Janaza: the Muslim funeral prayer, four takbirs, standing prayer, supplication, reward, and common questions.",
+    "ogType": "article",
+    "ogTitle": "Janazah Prayer: Muslim Funeral Prayer | Waqto Salat",
+    "ogDescription": "A practical guide to Janazah prayer, including its purpose, four takbirs, standing format, supplication, reward, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Janazah prayer, the Muslim funeral prayer.",
+    "twitterTitle": "Janazah Prayer: Muslim Funeral Prayer | Waqto Salat",
+    "twitterDescription": "What Janazah prayer is, how it is offered, and what to know when attending a Muslim funeral prayer.",
+    "twitterImageAlt": "Waqto Salat Janazah prayer guide."
+  },
+  "structuredData": {
+    "headline": "Janazah Prayer: Muslim Funeral Prayer",
+    "alternativeHeadline": "Janaza Prayer Guide",
+    "description": "A practical guide to Janazah prayer, including its purpose, four takbirs, standing format, supplication, reward, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-01",
+    "citations": [
+      "https://sunnah.com/bukhari:1325",
+      "https://sunnah.com/bukhari:1333",
+      "https://sunnah.com/muslim:945a",
+      "https://sunnah.com/abudawud:3196"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Janazah Prayer",
+        "path": "/learn/janazah-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does Janazah prayer have ruku or sujud?",
+        "answer": "No. Janazah prayer is performed standing, with takbirs and supplication, and it does not include bowing or prostration."
+      },
+      {
+        "question": "How many takbirs are in Janazah prayer?",
+        "answer": "The widely known form has four takbirs. Follow the imam and the practice taught in your local community."
+      },
+      {
+        "question": "Is Janazah prayer a communal obligation?",
+        "answer": "Janazah prayer is commonly taught as a communal obligation, meaning the community should ensure that it is offered for the deceased."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Janazah Prayer: the Muslim funeral prayer.",
+    "introductionHtml": "Janazah prayer, also spelled Janaza, is the Muslim funeral prayer offered for a deceased Muslim, asking Allah for mercy, forgiveness, and an honored return to Him.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Purpose:</strong> supplication for the deceased and a communal farewell.</li>\n                  <li><strong class=\"text-white\">Format:</strong> standing prayer with takbirs and no ruku or sujud.</li>\n                  <li><strong class=\"text-white\">Common form:</strong> four takbirs, followed by salam.</li>\n                  <li><strong class=\"text-white\">Note:</strong> details differ by madhhab, so follow your imam or local scholars.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-janazah-prayer",
+        "label": "What is Janazah prayer?"
+      },
+      {
+        "href": "#why-attending-matters",
+        "label": "Why attending matters"
+      },
+      {
+        "href": "#how-janazah-prayer-is-performed",
+        "label": "How Janazah prayer is performed"
+      },
+      {
+        "href": "#things-to-know-before-attending",
+        "label": "Things to know before attending"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>",
+  "articleFile": "janazah-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-05",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

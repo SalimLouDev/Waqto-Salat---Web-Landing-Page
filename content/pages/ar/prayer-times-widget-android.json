@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "prayer-times-widget-android",
+  "locale": "ar",
+  "routePath": "/prayer-times-widget-android/",
+  "alternates": [{ "locale": "en", "route": "/prayer-times-widget-android/" }],
+  "seo": {
+    "title": "ويدجت مواقيت الصلاة للأندرويد | وقت الصلاة",
+    "description": "اعرض مواقيت الصلاة والصلاة القادمة على الشاشة الرئيسية باستخدام ويدجت وقت الصلاة للأندرويد، مع تذكيرات متحركة واتجاه القبلة.",
+    "ogType": "article",
+    "ogTitle": "ويدجت مواقيت الصلاة للأندرويد | وقت الصلاة",
+    "ogDescription": "معلومات الصلاة القادمة بنظرة سريعة من شاشة أندرويد الرئيسية.",
+    "ogImageAlt": "ويدجت مواقيت الصلاة في تطبيق وقت الصلاة للأندرويد.",
+    "twitterTitle": "ويدجت مواقيت الصلاة للأندرويد",
+    "twitterDescription": "اعرف الصلاة القادمة من الشاشة الرئيسية بنظرة سريعة.",
+    "twitterImageAlt": "معاينة ويدجت وقت الصلاة."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "ويدجت مواقيت الصلاة للأندرويد",
+    "description": "دليل إلى ويدجت وقت الصلاة على الشاشة الرئيسية وكيف تساعد على إبقاء الصلاة القادمة ظاهرة طوال اليوم.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "ويدجت مواقيت الصلاة", "path": "/prayer-times-widget-android/" }
+    ],
+    "faqs": [
+      { "question": "هل يتضمن وقت الصلاة ويدجت لأندرويد؟", "answer": "نعم. يتضمن وقت الصلاة ويدجت للشاشة الرئيسية تعرض معلومات مواقيت الصلاة بنظرة سريعة." },
+      { "question": "هل تغني الويدجت عن التذكيرات؟", "answer": "لا. الويدجت مناسبة للرؤية السريعة، بينما تنبهك التذكيرات المتحركة قبل وقت الصلاة المحدد أو بعده." }
+    ]
+  },
+  "mainFile": "prayer-times-widget-android.main.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

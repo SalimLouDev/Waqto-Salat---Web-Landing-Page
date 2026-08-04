@@ -1,0 +1,113 @@
+{
+  "type": "guide",
+  "key": "nafl-prayers",
+  "locale": "en",
+  "routePath": "/learn/nafl-prayers/",
+  "seo": {
+    "title": "Nafl Prayers: Voluntary Salah | Waqto Salat",
+    "description": "Learn about Nafl prayers in Islam: voluntary salah beyond the required prayers, examples, timing, praying at home, forbidden times, and questions.",
+    "ogType": "article",
+    "ogTitle": "Nafl Prayers: Voluntary Salah | Waqto Salat",
+    "ogDescription": "A practical guide to Nafl prayers in Islam, including voluntary salah, examples, timing, praying at home, forbidden times, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Nafl prayers and voluntary salah.",
+    "twitterTitle": "Nafl Prayers: Voluntary Salah | Waqto Salat",
+    "twitterDescription": "What Nafl prayers are, how they differ from obligatory salah, and examples of voluntary prayers Muslims can learn.",
+    "twitterImageAlt": "Waqto Salat Nafl Prayers guide."
+  },
+  "structuredData": {
+    "headline": "Nafl Prayers: Voluntary Salah",
+    "description": "A practical guide to Nafl prayers in Islam, including voluntary salah, examples, timing, praying at home, forbidden times, and common questions.",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-18",
+    "citations": [
+      "https://sunnah.com/bukhari:6502",
+      "https://sunnah.com/muslim:1163a",
+      "https://sunnah.com/bukhari:731",
+      "https://sunnah.com/bukhari:444"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Nafl Prayers",
+        "path": "/learn/nafl-prayers/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are Nafl prayers?",
+        "answer": "Nafl prayers are voluntary prayers offered beyond the required daily prayers. They are a way to add worship, seek reward, and draw closer to Allah."
+      },
+      {
+        "question": "Are Nafl prayers obligatory?",
+        "answer": "No. Nafl prayers are voluntary. The five daily prayers remain the priority, and Nafl prayers are added after a person protects the obligations."
+      },
+      {
+        "question": "Can Nafl prayers be prayed anytime?",
+        "answer": "Many Nafl prayers can be prayed broadly, but there are times when voluntary prayer is avoided according to Islamic law. Follow your madhhab or local scholar for details."
+      },
+      {
+        "question": "How do you pray a general Nafl prayer?",
+        "answer": "A simple general Nafl prayer is commonly offered as two rak'ahs using the familiar salah sequence. Named voluntary prayers can have their own timing or details, so follow your madhhab or a trusted teacher."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Nafl Prayers: voluntary salah.",
+    "introductionHtml": "Nafl prayers are voluntary prayers beyond the required salah, giving Muslims more ways to worship, remember Allah, and build a steady prayer life.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Meaning:</strong> voluntary prayers beyond the required daily salah.</li>\n                  <li><strong class=\"text-white\">Priority:</strong> protect the obligatory prayers first.</li>\n                  <li><strong class=\"text-white\">Examples:</strong> Duha, Tahajjud, mosque greeting, and prayer after wudu.</li>\n                  <li><strong class=\"text-white\">Note:</strong> avoid restricted times and follow local scholarly guidance.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-are-nafl-prayers",
+        "label": "What are Nafl prayers?"
+      },
+      {
+        "href": "#obligatory-first-then-extra-worship",
+        "label": "Obligatory first, then extra worship"
+      },
+      {
+        "href": "#common-examples-of-nafl-prayers",
+        "label": "List of Nafl prayers"
+      },
+      {
+        "href": "#how-to-pray-nafl-prayer",
+        "label": "How to pray Nafl prayer"
+      },
+      {
+        "href": "#when-can-nafl-prayers-be-prayed",
+        "label": "When can Nafl prayers be prayed?"
+      },
+      {
+        "href": "#praying-nafl-at-home",
+        "label": "Praying Nafl at home"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
+  "articleFile": "nafl-prayers.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "eid-al-fitr-and-eid-al-adha-prayer",
+  "locale": "ar",
+  "routePath": "/learn/eid-al-fitr-and-eid-al-adha-prayer/",
+  "seo": {
+    "title": "صلاة عيد الفطر وعيد الأضحى | وقت الصلاة",
+    "description": "تعرّف على صلاة عيد الفطر وعيد الأضحى: وقتها وركعتاها والتكبيرات الزائدة والخطبة وزكاة الفطر والأضحية والأسئلة الشائعة.",
+    "ogType": "article",
+    "ogTitle": "صلاة عيد الفطر وعيد الأضحى | وقت الصلاة",
+    "ogDescription": "دليل عملي لصلاة العيدين ووقتها وتكبيراتها والاختلافات الفقهية.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة عيد الفطر وعيد الأضحى.",
+    "twitterTitle": "صلاة عيد الفطر وعيد الأضحى",
+    "twitterDescription": "وقت صلاة العيد وطريقتها والتكبيرات والخطبة.",
+    "twitterImageAlt": "دليل صلاة العيدين من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة عيد الفطر وعيد الأضحى",
+    "description": "دليل لصلاة العيدين ووقتها وركعتيها والتكبيرات والخطبة والفروق المحيطة بكل عيد.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:956", "https://sunnah.com/bukhari:957", "https://sunnah.com/abudawud:1151", "https://sunnah.com/abudawud:1609"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة العيدين", "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/" }
+    ],
+    "faqs": [
+      { "question": "هل صلاة عيد الفطر مثل صلاة عيد الأضحى؟", "answer": "الصلاة نفسها عموما ركعتا العيد. تختلف الأعمال المحيطة؛ فعيد الفطر مرتبط بانتهاء رمضان وزكاة الفطر، وعيد الأضحى مرتبط بالحج والأضحية لمن استطاع." },
+      { "question": "هل لصلاة العيد أذان أو إقامة؟", "answer": "تؤدى صلاة العيد عادة دون الأذان والإقامة المعتادين، وقد تعلن الجهة المنظمة عمليا عن قرب الصلاة." },
+      { "question": "كم عدد التكبيرات في صلاة العيد؟", "answer": "تتبع مجتمعات كثيرة سبع تكبيرات زائدة في الركعة الأولى وخمسا في الثانية، بينما تستعمل الطريقة الحنفية ثلاثا في كل ركعة. اتبع الإمام." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / الصلوات الخاصة",
+    "titleHtml": "صلاة عيد الفطر وعيد الأضحى",
+    "introductionHtml": "صلاة العيد هي الصلاة الجماعية الخاصة التي يجتمع لها المسلمون في عيد الفطر بعد رمضان وعيد الأضحى في أيام الحج والأضحية.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">العدد:</strong> ركعتان مع تكبيرات زائدة.</li><li><strong class=\"text-white\">الوقت:</strong> صباح يوم العيد بعد ارتفاع الشمس.</li><li><strong class=\"text-white\">الجماعة:</strong> تقام غالبا في المصلى أو المسجد.</li><li><strong class=\"text-white\">الاختلاف:</strong> عدد التكبيرات وتفاصيل الحكم تختلف بين المذاهب.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة العيدين",
+    "items": [
+      { "href": "#what-is-eid-prayer", "label": "ما صلاة العيد؟" },
+      { "href": "#how-eid-al-fitr-and-eid-al-adha-differ", "label": "الفرق بين العيدين" },
+      { "href": "#when-is-eid-prayer-prayed", "label": "وقت صلاة العيد" },
+      { "href": "#how-is-eid-prayer-performed", "label": "كيفية صلاة العيد" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "eid-al-fitr-and-eid-al-adha-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.8" }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "collection",
+  "key": "learn",
+  "locale": "en",
+  "routePath": "/learn/",
+  "seo": {
+    "title": "Learn About Salah and Prayer Types | Waqto Salat",
+    "description": "Learn about Salah through clear guides to obligatory, Sunnah, Witr, Nafl, Duha, Tahajjud, Istikhara, Eid, Janazah, eclipse, and Taraweeh prayers.",
+    "ogType": "website",
+    "ogTitle": "Learn About Salah and Prayer Types | Waqto Salat",
+    "ogDescription": "Explore clear guides to the daily, Sunnah, voluntary, and special prayers in Islam.",
+    "ogImageAlt": "Waqto Salat Learn library for understanding Salah.",
+    "twitterTitle": "Learn About Salah and Prayer Types | Waqto Salat",
+    "twitterDescription": "Clear guides to daily, Sunnah, voluntary, and special prayers in Islam.",
+    "twitterImageAlt": "Waqto Salat Salah learning library."
+  },
+  "structuredData": {
+    "name": "Learn About Salah and Prayer Types",
+    "description": "A Salah-only library covering obligatory, Sunnah, voluntary, and special prayers in Islam.",
+    "datePublished": "2026-06-25",
+    "dateModified": "2026-07-18",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      }
+    ],
+    "items": [
+      {
+        "name": "Five Daily Prayers",
+        "path": "/learn/five-daily-prayers/"
+      },
+      {
+        "name": "Sunnah Prayers",
+        "path": "/learn/sunnah-prayers/"
+      },
+      {
+        "name": "Witr Prayer",
+        "path": "/learn/witr-prayer/"
+      },
+      {
+        "name": "Nafl Prayers",
+        "path": "/learn/nafl-prayers/"
+      },
+      {
+        "name": "Duha Prayer",
+        "path": "/learn/duha-prayer/"
+      },
+      {
+        "name": "Tahajjud Prayer",
+        "path": "/learn/tahajjud-prayer/"
+      },
+      {
+        "name": "Istikhara Prayer",
+        "path": "/learn/istikhara-prayer/"
+      },
+      {
+        "name": "Eid al-Fitr and Eid al-Adha Prayer",
+        "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/"
+      },
+      {
+        "name": "Janazah Prayer",
+        "path": "/learn/janazah-prayer/"
+      },
+      {
+        "name": "Eclipse Prayer",
+        "path": "/learn/eclipse-prayer/"
+      },
+      {
+        "name": "Taraweeh Prayer",
+        "path": "/learn/taraweeh-prayer/"
+      }
+    ]
+  },
+  "mainFile": "index.main.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

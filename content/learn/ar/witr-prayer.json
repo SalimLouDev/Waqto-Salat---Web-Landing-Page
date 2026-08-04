@@ -1,0 +1,58 @@
+{
+  "type": "guide",
+  "key": "witr-prayer",
+  "locale": "ar",
+  "routePath": "/learn/witr-prayer/",
+  "seo": {
+    "title": "صلاة الوتر: آخر صلاة الليل | وقت الصلاة",
+    "description": "تعرّف على صلاة الوتر بعد العشاء وقبل الفجر، وعدد ركعاتها الفردية، وكونها آخر صلاة الليل، واختلاف القنوت وحكمها بين المذاهب.",
+    "ogType": "article",
+    "ogTitle": "صلاة الوتر: آخر صلاة الليل | وقت الصلاة",
+    "ogDescription": "دليل عملي لوقت الوتر وعدد ركعاته وطريقته والقنوت والاختلاف الفقهي.",
+    "ogImageAlt": "دليل وقت الصلاة العربي لصلاة الوتر بعد العشاء.",
+    "twitterTitle": "صلاة الوتر: الوقت والركعات والطريقة",
+    "twitterDescription": "كيف ومتى تصلى صلاة الوتر، مع توضيح اختلاف المذاهب في الحكم والقنوت.",
+    "twitterImageAlt": "دليل صلاة الوتر من وقت الصلاة."
+  },
+  "structuredData": {
+    "headline": "صلاة الوتر: آخر صلاة الليل",
+    "description": "دليل لصلاة الوتر بعد العشاء وقبل الفجر، وعدد ركعاتها الفردية والقنوت والاختلاف الفقهي.",
+    "datePublished": "2026-08-04",
+    "dateModified": "2026-08-04",
+    "citations": ["https://sunnah.com/bukhari:990", "https://sunnah.com/bukhari:996", "https://sunnah.com/bukhari:998", "https://sunnah.com/muslim:752a"],
+    "breadcrumbs": [
+      { "name": "الرئيسية", "path": "/" },
+      { "name": "تعلّم", "path": "/learn/" },
+      { "name": "صلاة الوتر", "path": "/learn/witr-prayer/" }
+    ],
+    "faqs": [
+      { "question": "متى تصلى صلاة الوتر؟", "answer": "تصلى صلاة الوتر بعد العشاء وقبل الفجر. يستحب أن تكون آخر صلاة الليل، ومن خاف ألا يستيقظ صلاها قبل النوم." },
+      { "question": "كم عدد ركعات الوتر؟", "answer": "الوتر صلاة بعدد فردي من الركعات. من الصور المعروفة ركعة أو ثلاث أو خمس أو سبع، وتختلف التفاصيل بحسب المذهب والتعليم المحلي." },
+      { "question": "هل صلاة الوتر واجبة؟", "answer": "يختلف العلماء في التصنيف؛ فالمذهب الحنفي يعدها واجبة، بينما يصنفها كثير من علماء أهل السنة سنة مؤكدة. اتبع مذهبك أو عالما موثوقا." },
+      { "question": "كيف تصلى صلاة الوتر؟", "answer": "تصلى بعد العشاء وقبل الفجر بعدد فردي من الركعات. تختلف طريقة الثلاث والتسليم والقنوت بين المذاهب، فاتبع الطريقة التي تعلمتها من جهة موثوقة." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "تعلّم / صلاة الليل",
+    "titleHtml": "صلاة الوتر: آخر صلاة الليل",
+    "introductionHtml": "الوتر صلاة ليلية فردية تؤدى بعد العشاء وقبل الفجر، ويجعلها كثير من المسلمين آخر صلاتهم قبل النوم أو قبل طلوع الفجر.",
+    "summaryLabel": "في لمحة",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">الوقت:</strong> بعد العشاء وقبل الفجر.</li><li><strong class=\"text-white\">العدد:</strong> ركعات فردية، مثل ركعة أو ثلاث.</li><li><strong class=\"text-white\">الترتيب:</strong> يستحب أن تكون آخر صلاة الليل.</li><li><strong class=\"text-white\">الاختلاف:</strong> الحكم والقنوت وطريقة الثلاث تختلف بين المذاهب.</li></ul>"
+  },
+  "contents": {
+    "label": "في هذا الدليل",
+    "ariaLabel": "محتويات دليل صلاة الوتر",
+    "items": [
+      { "href": "#what-is-witr-prayer", "label": "ما صلاة الوتر؟" },
+      { "href": "#when-is-witr-prayed", "label": "متى تصلى؟" },
+      { "href": "#how-many-rak-ahs-are-in-witr", "label": "كم عدد ركعاتها؟" },
+      { "href": "#how-to-pray-witr-prayer", "label": "كيفية صلاة الوتر" },
+      { "href": "#qunut-and-local-practice", "label": "القنوت والممارسة المحلية" },
+      { "href": "#common-questions", "label": "أسئلة شائعة" },
+      { "href": "#sources-and-further-reading", "label": "المصادر" }
+    ]
+  },
+  "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
+  "articleFile": "witr-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+}

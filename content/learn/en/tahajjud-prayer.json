@@ -1,0 +1,101 @@
+{
+  "type": "guide",
+  "key": "tahajjud-prayer",
+  "locale": "en",
+  "routePath": "/learn/tahajjud-prayer/",
+  "seo": {
+    "title": "Tahajjud Prayer: Voluntary Night Prayer | Waqto Salat",
+    "description": "Learn about Tahajjud prayer in Islam: voluntary night prayer after Isha and before Fajr, timing, rak'ahs, Witr, Qiyam al-Layl, and questions.",
+    "ogType": "article",
+    "ogTitle": "Tahajjud Prayer: Voluntary Night Prayer | Waqto Salat",
+    "ogDescription": "A practical guide to Tahajjud prayer after Isha and before Fajr, including timing, rak'ahs, Witr, Qiyam al-Layl, and common questions.",
+    "ogImageAlt": "Waqto Salat guide to Tahajjud prayer and voluntary night prayer.",
+    "twitterTitle": "Tahajjud Prayer: Voluntary Night Prayer | Waqto Salat",
+    "twitterDescription": "What Tahajjud prayer is, when it is prayed at night, and how it relates to Qiyam al-Layl and Witr.",
+    "twitterImageAlt": "Waqto Salat Tahajjud Prayer guide."
+  },
+  "structuredData": {
+    "headline": "Tahajjud Prayer: Voluntary Night Prayer",
+    "description": "A practical guide to Tahajjud prayer after Isha and before Fajr, including timing, rak'ahs, Witr, Qiyam al-Layl, and common questions.",
+    "datePublished": "2026-07-02",
+    "dateModified": "2026-07-18",
+    "citations": [
+      "https://quran.com/17/79",
+      "https://sunnah.com/muslim:1163a",
+      "https://sunnah.com/bukhari:990",
+      "https://sunnah.com/bukhari:2013"
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Learn",
+        "path": "/learn/"
+      },
+      {
+        "name": "Tahajjud Prayer",
+        "path": "/learn/tahajjud-prayer/"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When is Tahajjud prayer prayed?",
+        "answer": "Tahajjud is prayed after Isha and before Fajr. Many people pray it after sleeping and waking during the night, especially in the last part of the night."
+      },
+      {
+        "question": "Is Tahajjud obligatory?",
+        "answer": "Tahajjud is a voluntary night prayer, not one of the five obligatory daily prayers."
+      },
+      {
+        "question": "How many rak'ahs are in Tahajjud?",
+        "answer": "Tahajjud is commonly prayed in sets of two rak'ahs, with Witr at the end of the night prayer. The number can vary by ability, time, and local teaching."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Learn / Salah guide",
+    "titleHtml": "Tahajjud Prayer: voluntary night prayer.",
+    "introductionHtml": "Tahajjud is a voluntary night prayer prayed after Isha and before Fajr, often after waking from sleep, when the night is quiet and focused.",
+    "summaryLabel": "At a glance",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">When:</strong> after Isha and before Fajr.</li>\n                  <li><strong class=\"text-white\">Best known time:</strong> the later part of the night, especially after waking.</li>\n                  <li><strong class=\"text-white\">Common form:</strong> prayed in pairs of two rak'ahs, then Witr.</li>\n                  <li><strong class=\"text-white\">Category:</strong> voluntary night prayer, not one of the five obligations.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "In this guide",
+    "ariaLabel": "Article contents",
+    "items": [
+      {
+        "href": "#what-is-tahajjud-prayer",
+        "label": "What is Tahajjud prayer?"
+      },
+      {
+        "href": "#when-is-tahajjud-prayed",
+        "label": "When is Tahajjud prayed?"
+      },
+      {
+        "href": "#how-tahajjud-is-commonly-prayed",
+        "label": "How Tahajjud is commonly prayed"
+      },
+      {
+        "href": "#tahajjud-qiyam-al-layl-and-witr",
+        "label": "Tahajjud, Qiyam al-Layl, and Witr"
+      },
+      {
+        "href": "#common-questions",
+        "label": "Common questions"
+      },
+      {
+        "href": "#sources-and-further-reading",
+        "label": "Sources and further reading"
+      }
+    ]
+  },
+  "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
+  "articleFile": "tahajjud-prayer.article.html",
+  "sitemap": {
+    "lastmod": "2026-07-18",
+    "changefreq": "monthly",
+    "priority": "0.8"
+  }
+}

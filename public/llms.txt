@@ -43,6 +43,30 @@ Contact: contact@waqtosalat.com
 - Privacy Policy: https://waqtosalat.com/privacy-policy/
 - Terms of Service: https://waqtosalat.com/terms-of-service/
 
+## Arabic Pages
+
+- الصفحة العربية: https://waqtosalat.com/ar/
+- تعلّم عن الصلاة: https://waqtosalat.com/ar/learn/
+- دليل الصلوات الخمس: https://waqtosalat.com/ar/learn/five-daily-prayers/
+- دليل صلوات السنة: https://waqtosalat.com/ar/learn/sunnah-prayers/
+- دليل صلاة الوتر: https://waqtosalat.com/ar/learn/witr-prayer/
+- دليل صلوات النفل: https://waqtosalat.com/ar/learn/nafl-prayers/
+- دليل صلاة الضحى: https://waqtosalat.com/ar/learn/duha-prayer/
+- دليل صلاة التهجد: https://waqtosalat.com/ar/learn/tahajjud-prayer/
+- دليل صلاة الاستخارة: https://waqtosalat.com/ar/learn/istikhara-prayer/
+- دليل صلاة عيد الفطر وعيد الأضحى: https://waqtosalat.com/ar/learn/eid-al-fitr-and-eid-al-adha-prayer/
+- دليل صلاة الجنازة: https://waqtosalat.com/ar/learn/janazah-prayer/
+- دليل صلاة الكسوف والخسوف: https://waqtosalat.com/ar/learn/eclipse-prayer/
+- دليل صلاة التراويح: https://waqtosalat.com/ar/learn/taraweeh-prayer/
+- تطبيق مواقيت الصلاة بلا إعلانات: https://waqtosalat.com/ar/ad-free-prayer-times-app/
+- تطبيق تذكير الصلاة: https://waqtosalat.com/ar/salah-reminder-app/
+- تطبيق بوصلة القبلة: https://waqtosalat.com/ar/qibla-compass-app/
+- ويدجت مواقيت الصلاة لأندرويد: https://waqtosalat.com/ar/prayer-times-widget-android/
+- كيفية حساب مواقيت الصلاة: https://waqtosalat.com/ar/how-prayer-times-are-calculated/
+- منهجية التحرير: https://waqtosalat.com/ar/editorial-methodology/
+- سياسة الخصوصية: https://waqtosalat.com/ar/privacy-policy/
+- شروط الخدمة: https://waqtosalat.com/ar/terms-of-service/
+
 ## Suggested Summary
 
 Waqto Salat is a free, ad-free Android prayer times app with dynamic salah reminders that move with prayer times, plus Qibla direction, home screen widgets, calibration controls, and multilingual support.
