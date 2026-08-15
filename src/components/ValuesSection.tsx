@@ -1,5 +1,4 @@
 import { Bell, Compass, LayoutDashboard, Globe } from "lucide-react";
-import { motion } from "motion/react";
 import { landingCopy, type LandingLocale } from "../content/landing";
 
 const valueIcons = [
@@ -26,11 +25,7 @@ export function ValuesSection({ locale = "en" }: { locale?: LandingLocale }) {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {copy.items.map((value, index) => (
-          <motion.div 
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.1 }}
+          <div
             key={value.title}
             className="p-8 rounded-lg bg-off-white border border-border-light shadow-sm hover:shadow-md transition-shadow"
           >
@@ -41,21 +36,17 @@ export function ValuesSection({ locale = "en" }: { locale?: LandingLocale }) {
             <p className="text-muted-green leading-relaxed">
               {value.body}
             </p>
-          </motion.div>
+          </div>
         ))}
         
-        <motion.div 
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
+        <div
           className="p-8 rounded-lg bg-islamic-green text-white flex flex-col justify-center border border-islamic-green/20"
         >
           <h3 className="text-xl font-display italic mb-3">{copy.closingTitle}</h3>
           <p className="text-white/80 text-sm leading-relaxed">
             {copy.closingBody}
           </p>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

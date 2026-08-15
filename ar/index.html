@@ -7,6 +7,7 @@
     <meta name="description" content="حمّل وقت الصلاة، تطبيق أندرويد مجاني بلا إعلانات لمواقيت الصلاة، مع تذكيرات متحركة، واتجاه القبلة، والويدجت." />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0A3D2D" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
@@ -131,13 +132,16 @@
               </p>
               <div id="download" class="mt-8 flex flex-wrap items-center gap-4">
                 <a href="https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat" aria-label="حمّل وقت الصلاة من Google Play" class="relative inline-flex h-14 w-[11.875rem] shrink-0 items-center justify-center overflow-hidden rounded-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/40">
-                  <img src="/google-play-badge.png" alt="متوفر على Google Play" width="646" height="250" class="absolute -left-3.5 -top-3.5 h-[5.25rem] w-auto max-w-none object-contain drop-shadow-sm" />
+                  <picture>
+                    <source srcset="/google-play-badge-260.webp" type="image/webp" />
+                    <img src="/google-play-badge.png" alt="متوفر على Google Play" width="260" height="101" class="absolute -left-3.5 -top-3.5 h-[5.25rem] w-auto max-w-none object-contain drop-shadow-sm" />
+                  </picture>
                 </a>
                 <p class="text-sm font-semibold text-white/76">مجاني بالكامل · بلا إعلانات · بلا اشتراك</p>
               </div>
             </div>
             <div class="flex justify-center lg:justify-end">
-              <img src="/screenshot-1-ar.webp" alt="الشاشة الرئيسية لتطبيق وقت الصلاة باللغة العربية" width="640" height="1137" class="h-auto max-h-80 w-auto rounded-lg border border-white/15 shadow-[0_24px_64px_rgba(0,0,0,0.2)] sm:max-h-[28rem]" />
+              <img src="/screenshot-1-ar-320.webp" srcset="/screenshot-1-ar-320.webp 320w, /screenshot-1-ar.webp 640w" sizes="(min-width: 640px) 252px, 180px" alt="الشاشة الرئيسية لتطبيق وقت الصلاة باللغة العربية" width="640" height="1137" fetchpriority="high" decoding="async" class="h-auto max-h-80 w-auto rounded-lg border border-white/15 shadow-[0_24px_64px_rgba(0,0,0,0.2)] sm:max-h-[28rem]" />
             </div>
           </div>
         </section>

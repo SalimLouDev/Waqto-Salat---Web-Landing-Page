@@ -1,5 +1,4 @@
 import { AlarmClock, BellRing, RefreshCw } from "lucide-react";
-import { motion } from "motion/react";
 import { GooglePlayBadge } from "./GooglePlayBadge";
 import { landingCopy, type LandingLocale } from "../content/landing";
 
@@ -10,12 +9,8 @@ export function ReminderSystemSection({ locale = "en" }: { locale?: LandingLocal
   return (
     <section id="reminders" className="bg-footer-bg px-6 py-24 md:px-12">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">
+        <div>
+          <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold-text">
             {copy.eyebrow}
           </p>
           <h2 className="mb-6 font-display text-3xl font-medium leading-tight text-islamic-green md:text-5xl">
@@ -25,7 +20,7 @@ export function ReminderSystemSection({ locale = "en" }: { locale?: LandingLocal
             {copy.body}
           </p>
           <GooglePlayBadge locale={locale} />
-        </motion.div>
+        </div>
 
         <div className="grid gap-5">
           <div className="rounded-lg border border-border-light bg-white p-5 shadow-sm">
@@ -34,25 +29,21 @@ export function ReminderSystemSection({ locale = "en" }: { locale?: LandingLocal
                 const Icon = stepIcons[index];
 
                 return (
-                  <motion.div
+                  <div
                     key={step.title}
-                    initial={{ opacity: 0, y: 12 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.06 }}
                     className="relative min-w-0 rounded-lg bg-off-white p-5"
                   >
                     <div className="mb-5 flex items-center gap-3">
                       <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-islamic-green text-white">
                         <Icon className="h-5 w-5" />
                       </span>
-                      <span className="text-xs font-bold uppercase tracking-widest text-islamic-gold">
+                      <span className="text-xs font-bold uppercase tracking-widest text-islamic-gold-text">
                         {copy.stepLabel} {index + 1}
                       </span>
                     </div>
                     <h3 className="mb-2 text-lg font-semibold text-islamic-green">{step.title}</h3>
                     <p className="text-sm leading-relaxed text-muted-green">{step.body}</p>
-                  </motion.div>
+                  </div>
                 );
               })}
             </div>

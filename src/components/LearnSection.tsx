@@ -12,7 +12,6 @@ import {
   Sparkles,
   Sun,
 } from "lucide-react";
-import { motion } from "motion/react";
 import { landingCopy, type LandingLocale } from "../content/landing";
 
 const guideIcons = [
@@ -34,10 +33,7 @@ export function LearnSection({ locale = "en" }: { locale?: LandingLocale }) {
   return (
     <section id="learn" className="border-y border-border-light bg-white px-6 py-16 md:px-12 md:py-20">
       <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.68fr_1.32fr] lg:items-start">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="lg:sticky lg:top-28"
         >
           <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-islamic-green/10 px-4 py-2 text-sm font-semibold text-islamic-green">
@@ -57,12 +53,9 @@ export function LearnSection({ locale = "en" }: { locale?: LandingLocale }) {
             {copy.viewAll}
             <ArrowRight className={`h-4 w-4 ${locale === "ar" ? "rotate-180" : ""}`} />
           </a>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3"
         >
           {copy.guides.map(({ title, href, summary }, index) => {
@@ -89,7 +82,7 @@ export function LearnSection({ locale = "en" }: { locale?: LandingLocale }) {
               </span>
             </a>
           );})}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

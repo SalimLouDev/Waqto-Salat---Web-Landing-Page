@@ -16,7 +16,7 @@ export function Footer({ locale = "en" }: { locale?: LandingLocale }) {
           <p className="text-sm text-muted-green mb-6 leading-relaxed">
             {copy.footer.body}
           </p>
-          <div className="text-xs text-muted-green/70 leading-relaxed">
+          <div className="text-xs text-muted-green leading-relaxed">
             {copy.footer.seoBody}
           </div>
         </div>
@@ -51,7 +51,7 @@ export function Footer({ locale = "en" }: { locale?: LandingLocale }) {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-border-light flex flex-col md:flex-row justify-between items-start md:items-center text-sm text-muted-green/70 gap-3">
+      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-border-light flex flex-col md:flex-row justify-between items-start md:items-center text-sm text-muted-green gap-3">
         <p>&copy; {new Date().getFullYear()} {copy.footer.copyright}</p>
         <p>{copy.footer.closing}</p>
       </div>

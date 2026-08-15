@@ -35,7 +35,7 @@ export function LegalPageLayout({
             className="inline-flex min-w-0 items-center gap-3 rounded-full text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
           >
             <img
-              src="/logo.png"
+              src="/logo-64.webp"
               alt="Waqto Salat Logo"
               width="32"
               height="32"

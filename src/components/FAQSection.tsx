@@ -1,5 +1,4 @@
 import { HelpCircle } from "lucide-react";
-import { motion } from "motion/react";
 import { landingCopy, type LandingLocale } from "../content/landing";
 
 export function FAQSection({ locale = "en" }: { locale?: LandingLocale }) {
@@ -22,21 +21,17 @@ export function FAQSection({ locale = "en" }: { locale?: LandingLocale }) {
 
         <div className="divide-y divide-border-light rounded-lg border border-border-light bg-white shadow-sm">
           {copy.items.map((faq, index) => (
-            <motion.details
+            <details
               key={faq.question}
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.04 }}
               className="group p-6 open:bg-footer-bg/60"
               open={index === 0}
             >
               <summary className="cursor-pointer list-none text-lg font-semibold text-islamic-green flex items-center justify-between gap-5">
                 {faq.question}
-                <span className="text-islamic-gold transition-transform group-open:rotate-45">+</span>
+                <span className="text-islamic-gold-text transition-transform group-open:rotate-45">+</span>
               </summary>
               <p className="mt-4 text-sm leading-relaxed text-muted-green">{faq.answer}</p>
-            </motion.details>
+            </details>
           ))}
         </div>
       </div>

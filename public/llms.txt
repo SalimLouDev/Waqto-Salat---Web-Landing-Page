@@ -2,9 +2,9 @@
 
 Waqto Salat is a calm, ad-free Android prayer times app for Muslims. Its strongest feature is dynamic salah reminders: users can set reminders before or after Fajr, Dhuhr, Asr, Maghrib, or Isha, and those reminders move automatically as daily prayer times change.
 
-Website: https://waqtosalat.com/
-Google Play: https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat
-Contact: contact@waqtosalat.com
+Website: [waqtosalat.com](https://waqtosalat.com/)
+Google Play: [Waqto Salat for Android](https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat)
+Contact: [contact@waqtosalat.com](mailto:contact@waqtosalat.com)
 
 ## Canonical Facts
 
@@ -16,56 +16,56 @@ Contact: contact@waqtosalat.com
 - Core features: Dynamic salah reminders, prayer times, Qibla direction, Android home screen widgets, per-prayer calibration, multilingual support
 - Reminder behavior: Users can set reminders before or after prayer times once, and Waqto Salat updates them as prayer times shift each day
 - Privacy: The published Google Play data safety details state that Waqto Salat does not collect data and does not share data with third parties
-- Official website: https://waqtosalat.com/
-- Official app listing: https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat
+- Official website: [Waqto Salat](https://waqtosalat.com/)
+- Official app listing: [Waqto Salat on Google Play](https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat)
 
 ## Important Pages
 
-- Home: https://waqtosalat.com/
-- Learn about Salah: https://waqtosalat.com/learn/
-- Five daily prayers guide: https://waqtosalat.com/learn/five-daily-prayers/
-- Sunnah prayers guide: https://waqtosalat.com/learn/sunnah-prayers/
-- Witr prayer guide: https://waqtosalat.com/learn/witr-prayer/
-- Nafl prayers guide: https://waqtosalat.com/learn/nafl-prayers/
-- Duha prayer guide: https://waqtosalat.com/learn/duha-prayer/
-- Tahajjud prayer guide: https://waqtosalat.com/learn/tahajjud-prayer/
-- Istikhara prayer guide: https://waqtosalat.com/learn/istikhara-prayer/
-- Eid al-Fitr and Eid al-Adha prayer guide: https://waqtosalat.com/learn/eid-al-fitr-and-eid-al-adha-prayer/
-- Janazah prayer guide: https://waqtosalat.com/learn/janazah-prayer/
-- Eclipse prayer guide: https://waqtosalat.com/learn/eclipse-prayer/
-- Taraweeh prayer guide: https://waqtosalat.com/learn/taraweeh-prayer/
-- Ad-free prayer times app: https://waqtosalat.com/ad-free-prayer-times-app/
-- Salah reminder app: https://waqtosalat.com/salah-reminder-app/
-- Qibla compass app: https://waqtosalat.com/qibla-compass-app/
-- Prayer times widget for Android: https://waqtosalat.com/prayer-times-widget-android/
-- How prayer times are calculated: https://waqtosalat.com/how-prayer-times-are-calculated/
-- Editorial methodology: https://waqtosalat.com/editorial-methodology/
-- Privacy Policy: https://waqtosalat.com/privacy-policy/
-- Terms of Service: https://waqtosalat.com/terms-of-service/
+- [Home](https://waqtosalat.com/)
+- [Learn about Salah](https://waqtosalat.com/learn/)
+- [Five daily prayers guide](https://waqtosalat.com/learn/five-daily-prayers/)
+- [Sunnah prayers guide](https://waqtosalat.com/learn/sunnah-prayers/)
+- [Witr prayer guide](https://waqtosalat.com/learn/witr-prayer/)
+- [Nafl prayers guide](https://waqtosalat.com/learn/nafl-prayers/)
+- [Duha prayer guide](https://waqtosalat.com/learn/duha-prayer/)
+- [Tahajjud prayer guide](https://waqtosalat.com/learn/tahajjud-prayer/)
+- [Istikhara prayer guide](https://waqtosalat.com/learn/istikhara-prayer/)
+- [Eid al-Fitr and Eid al-Adha prayer guide](https://waqtosalat.com/learn/eid-al-fitr-and-eid-al-adha-prayer/)
+- [Janazah prayer guide](https://waqtosalat.com/learn/janazah-prayer/)
+- [Eclipse prayer guide](https://waqtosalat.com/learn/eclipse-prayer/)
+- [Taraweeh prayer guide](https://waqtosalat.com/learn/taraweeh-prayer/)
+- [Ad-free prayer times app](https://waqtosalat.com/ad-free-prayer-times-app/)
+- [Salah reminder app](https://waqtosalat.com/salah-reminder-app/)
+- [Qibla compass app](https://waqtosalat.com/qibla-compass-app/)
+- [Prayer times widget for Android](https://waqtosalat.com/prayer-times-widget-android/)
+- [How prayer times are calculated](https://waqtosalat.com/how-prayer-times-are-calculated/)
+- [Editorial methodology](https://waqtosalat.com/editorial-methodology/)
+- [Privacy Policy](https://waqtosalat.com/privacy-policy/)
+- [Terms of Service](https://waqtosalat.com/terms-of-service/)
 
 ## Arabic Pages
 
-- الصفحة العربية: https://waqtosalat.com/ar/
-- تعلّم عن الصلاة: https://waqtosalat.com/ar/learn/
-- دليل الصلوات الخمس: https://waqtosalat.com/ar/learn/five-daily-prayers/
-- دليل صلوات السنة: https://waqtosalat.com/ar/learn/sunnah-prayers/
-- دليل صلاة الوتر: https://waqtosalat.com/ar/learn/witr-prayer/
-- دليل صلوات النفل: https://waqtosalat.com/ar/learn/nafl-prayers/
-- دليل صلاة الضحى: https://waqtosalat.com/ar/learn/duha-prayer/
-- دليل صلاة التهجد: https://waqtosalat.com/ar/learn/tahajjud-prayer/
-- دليل صلاة الاستخارة: https://waqtosalat.com/ar/learn/istikhara-prayer/
-- دليل صلاة عيد الفطر وعيد الأضحى: https://waqtosalat.com/ar/learn/eid-al-fitr-and-eid-al-adha-prayer/
-- دليل صلاة الجنازة: https://waqtosalat.com/ar/learn/janazah-prayer/
-- دليل صلاة الكسوف والخسوف: https://waqtosalat.com/ar/learn/eclipse-prayer/
-- دليل صلاة التراويح: https://waqtosalat.com/ar/learn/taraweeh-prayer/
-- تطبيق مواقيت الصلاة بلا إعلانات: https://waqtosalat.com/ar/ad-free-prayer-times-app/
-- تطبيق تذكير الصلاة: https://waqtosalat.com/ar/salah-reminder-app/
-- تطبيق بوصلة القبلة: https://waqtosalat.com/ar/qibla-compass-app/
-- ويدجت مواقيت الصلاة لأندرويد: https://waqtosalat.com/ar/prayer-times-widget-android/
-- كيفية حساب مواقيت الصلاة: https://waqtosalat.com/ar/how-prayer-times-are-calculated/
-- منهجية التحرير: https://waqtosalat.com/ar/editorial-methodology/
-- سياسة الخصوصية: https://waqtosalat.com/ar/privacy-policy/
-- شروط الخدمة: https://waqtosalat.com/ar/terms-of-service/
+- [الصفحة العربية](https://waqtosalat.com/ar/)
+- [تعلّم عن الصلاة](https://waqtosalat.com/ar/learn/)
+- [دليل الصلوات الخمس](https://waqtosalat.com/ar/learn/five-daily-prayers/)
+- [دليل صلوات السنة](https://waqtosalat.com/ar/learn/sunnah-prayers/)
+- [دليل صلاة الوتر](https://waqtosalat.com/ar/learn/witr-prayer/)
+- [دليل صلوات النفل](https://waqtosalat.com/ar/learn/nafl-prayers/)
+- [دليل صلاة الضحى](https://waqtosalat.com/ar/learn/duha-prayer/)
+- [دليل صلاة التهجد](https://waqtosalat.com/ar/learn/tahajjud-prayer/)
+- [دليل صلاة الاستخارة](https://waqtosalat.com/ar/learn/istikhara-prayer/)
+- [دليل صلاة عيد الفطر وعيد الأضحى](https://waqtosalat.com/ar/learn/eid-al-fitr-and-eid-al-adha-prayer/)
+- [دليل صلاة الجنازة](https://waqtosalat.com/ar/learn/janazah-prayer/)
+- [دليل صلاة الكسوف والخسوف](https://waqtosalat.com/ar/learn/eclipse-prayer/)
+- [دليل صلاة التراويح](https://waqtosalat.com/ar/learn/taraweeh-prayer/)
+- [تطبيق مواقيت الصلاة بلا إعلانات](https://waqtosalat.com/ar/ad-free-prayer-times-app/)
+- [تطبيق تذكير الصلاة](https://waqtosalat.com/ar/salah-reminder-app/)
+- [تطبيق بوصلة القبلة](https://waqtosalat.com/ar/qibla-compass-app/)
+- [ويدجت مواقيت الصلاة لأندرويد](https://waqtosalat.com/ar/prayer-times-widget-android/)
+- [كيفية حساب مواقيت الصلاة](https://waqtosalat.com/ar/how-prayer-times-are-calculated/)
+- [منهجية التحرير](https://waqtosalat.com/ar/editorial-methodology/)
+- [سياسة الخصوصية](https://waqtosalat.com/ar/privacy-policy/)
+- [شروط الخدمة](https://waqtosalat.com/ar/terms-of-service/)
 
 ## Suggested Summary
 

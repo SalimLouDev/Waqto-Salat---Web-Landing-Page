@@ -1,5 +1,4 @@
 import { CheckCircle2, Mail, MessageSquareText, ShieldCheck, Smartphone, Sparkles } from "lucide-react";
-import { motion } from "motion/react";
 import { GooglePlayBadge } from "./GooglePlayBadge";
 import { landingCopy, type LandingLocale } from "../content/landing";
 
@@ -12,10 +11,7 @@ export function SupportSections({ locale = "en" }: { locale?: LandingLocale }) {
     <>
       <section id="download" className="px-6 md:px-12 py-24 bg-off-white">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-[1fr_0.8fr] gap-10 items-stretch">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <div
             className="rounded-lg border border-border-light bg-white p-8 md:p-12 shadow-sm"
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-islamic-green/10 px-4 py-2 text-sm font-semibold text-islamic-green mb-8">
@@ -38,13 +34,9 @@ export function SupportSections({ locale = "en" }: { locale?: LandingLocale }) {
                 {copy.contactSupport}
               </a>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+          <div
             className="rounded-lg bg-islamic-green text-white p-8 md:p-10 flex flex-col justify-between"
           >
             <div>
@@ -61,7 +53,7 @@ export function SupportSections({ locale = "en" }: { locale?: LandingLocale }) {
                 </span>
               ))}
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 

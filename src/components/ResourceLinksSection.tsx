@@ -9,7 +9,7 @@ export function ResourceLinksSection({ locale = "en" }: { locale?: LandingLocale
     <section id="resources" className="bg-footer-bg px-6 py-24 md:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 max-w-2xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-islamic-gold">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-islamic-gold-text">
             {copy.label}
           </p>
           <h2 className="font-display text-3xl font-medium leading-tight text-islamic-green md:text-5xl">

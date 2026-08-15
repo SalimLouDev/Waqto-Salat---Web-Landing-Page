@@ -326,6 +326,7 @@ function renderHead(page, variants) {
     <meta name="description" content="${escapeHtml(seo.description)}" />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0A3D2D" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
@@ -382,7 +383,7 @@ function renderHeader(page, variants) {
   return `      <header class="fixed top-0 inset-x-0 z-[100] border-b border-border-light/80 bg-off-white/95 shadow-[0_10px_24px_rgba(10,61,45,0.035)] backdrop-blur-xl">
         <div class="mx-auto flex h-20 max-w-7xl w-full items-center justify-between gap-3 px-4 sm:px-6 md:px-12">
           <a href="${escapeHtml(homePath)}" class="inline-flex min-w-0 items-center gap-3 rounded-full text-islamic-green">
-            <img src="/logo.png" alt="${escapeHtml(locale.logoAlt)}" width="32" height="32" class="h-8 w-8 rounded-full object-cover" />
+            <img src="/logo-64.webp" alt="${escapeHtml(locale.logoAlt)}" width="32" height="32" class="h-8 w-8 rounded-full object-cover" />
             <span class="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">${escapeHtml(locale.brandName)}</span>
           </a>
           <nav aria-label="${escapeHtml(navigation.ariaLabel)}" class="hidden items-center gap-7 text-sm font-semibold text-muted-green md:flex">
@@ -438,7 +439,7 @@ function renderRelatedGuides(page, pages) {
 
   return `
               <section aria-labelledby="related-guides-heading" class="rounded-lg border border-border-light bg-footer-bg p-6 md:p-8">
-                <p class="mb-3 text-xs font-bold ${eyebrowClass} text-islamic-gold">${escapeHtml(labels.eyebrow)}</p>
+                <p class="mb-3 text-xs font-bold ${eyebrowClass} text-islamic-gold-text">${escapeHtml(labels.eyebrow)}</p>
                 <h2 id="related-guides-heading" class="font-display text-3xl font-medium text-islamic-green">${escapeHtml(labels.heading)}</h2>
                 <nav aria-label="${escapeHtml(labels.ariaLabel)}" class="mt-6 grid gap-3 sm:grid-cols-2">
 ${links}
@@ -467,7 +468,7 @@ ${renderHead(page, variants)}
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
 ${renderHeader(page, variants)}
 
-      <main class="pt-20">
+      <main class="content-page pt-20">
         <section class="bg-islamic-green px-6 py-20 text-white md:px-12 md:py-28">
           <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
             <div>
@@ -489,7 +490,7 @@ ${indent(page.hero.summaryHtml, 14)}
         <section class="px-6 py-16 md:px-12 md:py-24">
           <div class="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.65fr_1.35fr]">
             <aside class="text-sm text-muted-green lg:sticky lg:top-28 lg:self-start">
-              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">${escapeHtml(page.contents.label)}</p>
+              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold-text">${escapeHtml(page.contents.label)}</p>
               <nav aria-label="${escapeHtml(page.contents.ariaLabel)}" class="flex flex-col gap-3">
 ${contents}
               </nav>
@@ -523,7 +524,7 @@ ${renderHead(page, variants)}
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
 ${renderHeader(page, variants)}
 
-      <main class="pt-20">
+      <main class="content-page pt-20">
 ${indent(main, 8)}
       </main>
 
@@ -544,7 +545,7 @@ ${renderHead(page, variants)}
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
 ${renderHeader(page, variants)}
 
-      <main id="main-content" class="pt-20">
+      <main id="main-content" class="content-page pt-20">
 ${indent(main, 8)}
       </main>
 

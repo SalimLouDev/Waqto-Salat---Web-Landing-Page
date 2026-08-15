@@ -1,4 +1,3 @@
-import { motion } from "motion/react";
 import { ChevronDown, Download } from "lucide-react";
 import { assetPath } from "../lib/assets";
 import { landingCopy, type LandingLocale } from "../content/landing";
@@ -19,15 +18,13 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
   ];
 
   return (
-    <motion.nav 
-      initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+    <nav
       aria-label={copy.navigation.ariaLabel}
       className="fixed top-0 inset-x-0 z-[100] bg-off-white/95 backdrop-blur-xl border-b border-border-light/80 shadow-[0_10px_24px_rgba(10,61,45,0.035)]"
     >
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 md:px-12 h-20 flex items-center justify-between gap-3 sm:gap-4">
         <a href={homePath} className="min-w-0 flex items-center gap-3 text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 rounded-full">
-          <img src={assetPath("logo.png")} alt={copy.logoAlt} width="32" height="32" className="w-8 h-8 rounded-full object-cover" />
+          <img src={assetPath("logo-64.webp")} alt={copy.logoAlt} width="32" height="32" className="w-8 h-8 rounded-full object-cover" />
           <span className="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">{copy.brandName}</span>
         </a>
         
@@ -88,6 +85,6 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
           </a>
         </div>
       </div>
-    </motion.nav>
+    </nav>
   );
 }

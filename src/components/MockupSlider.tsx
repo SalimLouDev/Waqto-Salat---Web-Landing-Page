@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "motion/react";
 import { assetPath } from "../lib/assets";
 import type { LandingLocale } from "../content/landing";
 
@@ -32,37 +31,30 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
   const current = localizedScreenshots[currentIndex];
 
   return (
-    <motion.button
+    <button
       type="button"
       aria-label={locale === "ar" ? "اعرض لقطة شاشة وقت الصلاة التالية" : "Show next Waqto Salat screenshot"}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
       className="relative w-[min(20rem,82vw)] aspect-[941/1672] rounded-[2rem] border-[8px] border-border-light shadow-2xl overflow-hidden bg-black shrink-0 flex flex-col items-center justify-center cursor-pointer group focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/40"
       onClick={() => setCurrentIndex((prev) => (prev + 1) % localizedScreenshots.length)}
     >
       <div className="relative w-full h-full overflow-hidden z-10 bg-black">
-        <AnimatePresence initial={false} mode="wait">
-          <motion.picture
-            key={currentIndex}
-            className="absolute inset-0 block h-full w-full"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
-          >
-            <source srcSet={assetPath(current.webp)} type="image/webp" />
+          <picture key={currentIndex} className="absolute inset-0 block h-full w-full">
+            <source
+              srcSet={`${assetPath(current.webp.replace(".webp", "-320.webp"))} 320w, ${assetPath(current.webp)} 640w`}
+              sizes="(min-width: 640px) 320px, 82vw"
+              type="image/webp"
+            />
             <img
               src={assetPath(current.png)}
               alt={current.alt}
               width="640"
               height="1137"
               decoding="async"
+              loading="eager"
               fetchPriority={currentIndex === 0 ? "high" : "auto"}
               className="h-full w-full object-cover object-top"
             />
-          </motion.picture>
-        </AnimatePresence>
+          </picture>
       </div>
 
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-40 flex gap-2 px-3 py-2 rounded-full bg-black/35 backdrop-blur-md opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
@@ -74,6 +66,6 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
           />
         ))}
       </div>
-    </motion.button>
+    </button>
   );
 }

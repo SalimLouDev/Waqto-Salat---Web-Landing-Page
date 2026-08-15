@@ -1,4 +1,3 @@
-import { motion } from "motion/react";
 import { Bell, Compass, PlayCircle } from "lucide-react";
 import { GooglePlayBadge } from "./GooglePlayBadge";
 import { MockupSlider } from "./MockupSlider";
@@ -12,28 +11,20 @@ export function Hero({ locale = "en" }: { locale?: LandingLocale }) {
     <section className="relative w-full overflow-hidden pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12">
       <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center gap-16">
         <div className={`flex-1 min-w-0 w-full text-center ${textAlignment} z-10`}>
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+          <h1
             className="max-w-[22rem] sm:max-w-2xl mx-auto lg:mx-0 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-medium text-islamic-green leading-tight mb-6 text-balance"
           >
             {copy.titleStart}{" "}
             <span className="italic text-islamic-gold">{copy.titleAccent}</span>.
-          </motion.h1>
+          </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
+          <p
             className="text-lg md:text-xl text-muted-green max-w-[21rem] sm:max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
           >
             {copy.body}
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15 }}
+          <div
             className="grid w-full grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl mx-auto lg:mx-0 mb-10"
           >
             <div className={`min-w-0 rounded-lg border border-border-light bg-white/70 px-4 py-4 shadow-sm ${locale === "ar" ? "text-right" : "text-left"}`}>
@@ -46,12 +37,9 @@ export function Hero({ locale = "en" }: { locale?: LandingLocale }) {
               <div className="text-sm font-semibold text-islamic-green">{copy.cards[1].title}</div>
               <div className="text-xs text-muted-green mt-1">{copy.cards[1].body}</div>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+          <div
             className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
           >
             <GooglePlayBadge locale={locale} />
@@ -63,7 +51,7 @@ export function Hero({ locale = "en" }: { locale?: LandingLocale }) {
               {copy.reminderCta}
             </a>
             <p className={`text-xs text-muted-green font-semibold hidden sm:block ${locale === "ar" ? "leading-6" : "uppercase tracking-widest"}`}>{copy.promise}</p>
-          </motion.div>
+          </div>
         </div>
 
         <div className="flex-1 relative w-full min-w-0 max-w-md overflow-hidden lg:max-w-none flex justify-center lg:justify-end">

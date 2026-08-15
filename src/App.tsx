@@ -9,15 +9,13 @@ import { FAQSection } from "./components/FAQSection";
 import { LearnSection } from "./components/LearnSection";
 import { ResourceLinksSection } from "./components/ResourceLinksSection";
 import { Footer } from "./components/Footer";
-import { MotionConfig } from "motion/react";
 import type { LandingLocale } from "./content/landing";
 
 export default function App() {
   const locale: LandingLocale = document.documentElement.lang === "ar" ? "ar" : "en";
 
   return (
-    <MotionConfig reducedMotion="user">
-      <div dir={locale === "ar" ? "rtl" : "ltr"} className="min-h-screen overflow-x-hidden font-sans selection:bg-islamic-gold/30 selection:text-islamic-green bg-off-white">
+    <div dir={locale === "ar" ? "rtl" : "ltr"} className="min-h-screen overflow-x-hidden font-sans selection:bg-islamic-gold/30 selection:text-islamic-green bg-off-white">
         <Navbar locale={locale} />
         <main id="main" tabIndex={-1}>
           <Hero locale={locale} />
@@ -34,7 +32,6 @@ export default function App() {
           <ResourceLinksSection locale={locale} />
         </main>
         <Footer locale={locale} />
-      </div>
-    </MotionConfig>
+    </div>
   );
 }
