@@ -43,6 +43,30 @@ Contact: [contact@waqtosalat.com](mailto:contact@waqtosalat.com)
 - [Privacy Policy](https://waqtosalat.com/privacy-policy/)
 - [Terms of Service](https://waqtosalat.com/terms-of-service/)
 
+## French Pages
+
+- [Accueil en français](https://waqtosalat.com/fr/)
+- [Apprendre la salat](https://waqtosalat.com/fr/learn/)
+- [Guide des cinq prières quotidiennes](https://waqtosalat.com/fr/learn/five-daily-prayers/)
+- [Guide des prières Sunnah](https://waqtosalat.com/fr/learn/sunnah-prayers/)
+- [Guide de la prière du Witr](https://waqtosalat.com/fr/learn/witr-prayer/)
+- [Guide des prières Nafl](https://waqtosalat.com/fr/learn/nafl-prayers/)
+- [Guide de la prière de Duha](https://waqtosalat.com/fr/learn/duha-prayer/)
+- [Guide de la prière de Tahajjud](https://waqtosalat.com/fr/learn/tahajjud-prayer/)
+- [Guide de la prière d'Istikhara](https://waqtosalat.com/fr/learn/istikhara-prayer/)
+- [Guide de la prière de l'Aïd al-Fitr et de l'Aïd al-Adha](https://waqtosalat.com/fr/learn/eid-al-fitr-and-eid-al-adha-prayer/)
+- [Guide de la prière Janazah](https://waqtosalat.com/fr/learn/janazah-prayer/)
+- [Guide de la prière de l'éclipse](https://waqtosalat.com/fr/learn/eclipse-prayer/)
+- [Guide de la prière de Taraweeh](https://waqtosalat.com/fr/learn/taraweeh-prayer/)
+- [Application d'horaires de prière sans publicité](https://waqtosalat.com/fr/ad-free-prayer-times-app/)
+- [Application de rappels de prière](https://waqtosalat.com/fr/salah-reminder-app/)
+- [Application de boussole Qibla](https://waqtosalat.com/fr/qibla-compass-app/)
+- [Widgets d'horaires de prière pour Android](https://waqtosalat.com/fr/prayer-times-widget-android/)
+- [Comment les horaires de prière sont calculés](https://waqtosalat.com/fr/how-prayer-times-are-calculated/)
+- [Méthodologie éditoriale](https://waqtosalat.com/fr/editorial-methodology/)
+- [Politique de confidentialité](https://waqtosalat.com/fr/privacy-policy/)
+- [Conditions d'utilisation](https://waqtosalat.com/fr/terms-of-service/)
+
 ## Arabic Pages
 
 - [الصفحة العربية](https://waqtosalat.com/ar/)
