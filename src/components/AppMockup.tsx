@@ -8,6 +8,10 @@ function smallWebpFromPng(src: string) {
   return webpFromPng(src).replace(".webp", "-320.webp");
 }
 
+function mediumWebpFromPng(src: string) {
+  return webpFromPng(src).replace(".webp", "-560.webp");
+}
+
 export function AppMockup({ imageSrc, alt }: { imageSrc?: string; alt?: string }) {
   return (
     <div
@@ -16,7 +20,7 @@ export function AppMockup({ imageSrc, alt }: { imageSrc?: string; alt?: string }
       {imageSrc ? (
         <picture className="block h-full w-full">
           <source
-            srcSet={`${assetPath(smallWebpFromPng(imageSrc))} 320w, ${assetPath(webpFromPng(imageSrc))} 640w`}
+            srcSet={`${assetPath(smallWebpFromPng(imageSrc))} 320w, ${assetPath(mediumWebpFromPng(imageSrc))} 560w, ${assetPath(webpFromPng(imageSrc))} 640w`}
             sizes="(min-width: 640px) 320px, 82vw"
             type="image/webp"
           />

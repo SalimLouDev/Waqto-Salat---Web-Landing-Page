@@ -19,13 +19,22 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
 
   useEffect(() => {
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduceMotion) return;
+    if (reduceMotion || localizedScreenshots.length < 2) return;
 
-    const timer = window.setInterval(() => {
+    const advance = () => {
+      if (document.visibilityState !== "visible") return;
       setCurrentIndex((prev) => (prev + 1) % localizedScreenshots.length);
-    }, 3500);
+    };
+    let rotationTimer: number | undefined;
+    const initialTimer = window.setTimeout(() => {
+      advance();
+      rotationTimer = window.setInterval(advance, 5000);
+    }, 10000);
 
-    return () => window.clearInterval(timer);
+    return () => {
+      window.clearTimeout(initialTimer);
+      if (rotationTimer !== undefined) window.clearInterval(rotationTimer);
+    };
   }, [localizedScreenshots.length]);
 
   const current = localizedScreenshots[currentIndex];
@@ -40,7 +49,7 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
       <div className="relative w-full h-full overflow-hidden z-10 bg-black">
           <picture key={currentIndex} className="absolute inset-0 block h-full w-full">
             <source
-              srcSet={`${assetPath(current.webp.replace(".webp", "-320.webp"))} 320w, ${assetPath(current.webp)} 640w`}
+              srcSet={`${assetPath(current.webp.replace(".webp", "-320.webp"))} 320w, ${assetPath(current.webp.replace(".webp", "-560.webp"))} 560w, ${assetPath(current.webp)} 640w`}
               sizes="(min-width: 640px) 320px, 82vw"
               type="image/webp"
             />
@@ -62,7 +71,7 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
           <span
             key={i}
             aria-hidden="true"
-            className={`h-1.5 rounded-full transition-[width,background-color] ${i === currentIndex ? "w-5 bg-white" : "w-1.5 bg-white/40"}`}
+            className={`h-1.5 w-5 origin-center rounded-full bg-white transition-[transform,opacity] duration-300 ${i === currentIndex ? "scale-x-100 opacity-100" : "scale-x-[0.3] opacity-40"}`}
           />
         ))}
       </div>
