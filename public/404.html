@@ -313,6 +313,7 @@
       }
 
       html[data-active-language="en"] [data-language="en"],
+      html[data-active-language="fr"] [data-language="fr"],
       html[data-active-language="ar"] [data-language="ar"] {
         display: block;
       }
@@ -408,6 +409,7 @@
 
         <div class="language-control" role="group" aria-label="Page language">
           <button type="button" data-language-choice="en" aria-pressed="true">EN</button>
+          <button type="button" data-language-choice="fr" aria-pressed="false">FR</button>
           <button type="button" data-language-choice="ar" aria-pressed="false">AR</button>
         </div>
       </div>
@@ -429,6 +431,23 @@
             <li><a href="/ad-free-prayer-times-app/">Prayer times app</a></li>
             <li><a href="/learn/istikhara-prayer/">Istikhara prayer</a></li>
             <li><a href="mailto:contact@waqtosalat.com">Contact support</a></li>
+          </ul>
+        </div>
+
+        <div data-language="fr">
+          <p class="error-code">404 · Page introuvable</p>
+          <h1>Cette page n'est plus à cette adresse.</h1>
+          <p class="intro">
+            L'adresse est peut-être incorrecte ou la page a été déplacée. Retournez à Waqto Salat ou poursuivez avec l'un de nos guides de prière.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="/fr/">Retour à l'accueil</a>
+            <a class="button button-secondary" href="/fr/learn/">Découvrir les guides de prière</a>
+          </div>
+          <ul class="helpful-links" aria-label="Pages utiles">
+            <li><a href="/fr/ad-free-prayer-times-app/">Application d'horaires de prière</a></li>
+            <li><a href="/fr/learn/istikhara-prayer/">Prière d'Istikhara</a></li>
+            <li><a href="mailto:contact@waqtosalat.com">Contacter l'assistance</a></li>
           </ul>
         </div>
 
@@ -455,6 +474,10 @@
           <p>Waqto Salat</p>
           <h2>Your day, centered around Salah.</h2>
         </div>
+        <div class="visual-copy" data-language="fr">
+          <p>Waqto Salat</p>
+          <h2>Votre journée, organisée autour de la salat.</h2>
+        </div>
         <div class="visual-copy" data-language="ar">
           <p>وقت الصلاة</p>
           <h2>يومك منظّم حول الصلاة.</h2>
@@ -472,6 +495,7 @@
     <footer class="site-footer">
       <div class="footer-inner">
         <p data-language="en">© 2026 Waqto Salat. All rights reserved.</p>
+        <p data-language="fr">© 2026 Waqto Salat. Tous droits réservés.</p>
         <p data-language="ar">© 2026 وقت الصلاة. جميع الحقوق محفوظة.</p>
         <a href="mailto:contact@waqtosalat.com">contact@waqtosalat.com</a>
       </div>
@@ -486,13 +510,55 @@
         const brandLink = document.querySelector(".brand");
         const logo = document.querySelector(".brand img");
         const preview = document.querySelector("[data-app-preview]");
+        const previewRegion = document.querySelector(".app-visual");
         const skipLink = document.querySelector(".skip-link");
         const languageControl = document.querySelector(".language-control");
+        const languageConfig = {
+          en: {
+            direction: "ltr",
+            title: "Page Not Found | Waqto Salat",
+            brandName: "Waqto Salat",
+            homeHref: "/",
+            brandLabel: "Waqto Salat home",
+            logoAlt: "Waqto Salat logo",
+            previewSrc: "/screenshot-1.webp",
+            previewAlt: "Waqto Salat prayer times app screen",
+            previewRegionLabel: "Waqto Salat app preview",
+            skipLabel: "Skip to content",
+            controlLabel: "Page language",
+          },
+          fr: {
+            direction: "ltr",
+            title: "Page introuvable | Waqto Salat",
+            brandName: "Waqto Salat",
+            homeHref: "/fr/",
+            brandLabel: "Accueil Waqto Salat",
+            logoAlt: "Logo Waqto Salat",
+            previewSrc: "/screenshot-1.webp",
+            previewAlt: "Écran de l'application d'horaires de prière Waqto Salat",
+            previewRegionLabel: "Aperçu de l'application Waqto Salat",
+            skipLabel: "Aller au contenu",
+            controlLabel: "Langue de la page",
+          },
+          ar: {
+            direction: "rtl",
+            title: "الصفحة غير موجودة | وقت الصلاة",
+            brandName: "وقت الصلاة",
+            homeHref: "/ar/",
+            brandLabel: "الصفحة الرئيسية لوقت الصلاة",
+            logoAlt: "شعار وقت الصلاة",
+            previewSrc: "/screenshot-1-ar.webp",
+            previewAlt: "واجهة تطبيق وقت الصلاة",
+            previewRegionLabel: "معاينة تطبيق وقت الصلاة",
+            skipLabel: "انتقل إلى المحتوى",
+            controlLabel: "لغة الصفحة",
+          },
+        };
 
         function savedLanguage() {
           try {
             const value = localStorage.getItem(preferenceKey);
-            return value === "ar" || value === "en" ? value : null;
+            return Object.hasOwn(languageConfig, value) ? value : null;
           } catch {
             return null;
           }
@@ -507,29 +573,37 @@
         }
 
         function applyLanguage(language, persist = false) {
-          const isArabic = language === "ar";
-          root.lang = language;
-          root.dir = isArabic ? "rtl" : "ltr";
-          root.dataset.activeLanguage = language;
-          title.textContent = isArabic ? "الصفحة غير موجودة | وقت الصلاة" : "Page Not Found | Waqto Salat";
-          brandName.textContent = isArabic ? "وقت الصلاة" : "Waqto Salat";
-          brandLink.href = isArabic ? "/ar/" : "/";
-          brandLink.setAttribute("aria-label", isArabic ? "الصفحة الرئيسية لوقت الصلاة" : "Waqto Salat home");
-          logo.alt = isArabic ? "شعار وقت الصلاة" : "Waqto Salat logo";
-          preview.src = isArabic ? "/screenshot-1-ar.webp" : "/screenshot-1.webp";
-          preview.alt = isArabic ? "واجهة تطبيق وقت الصلاة" : "Waqto Salat prayer times app screen";
-          skipLink.textContent = isArabic ? "انتقل إلى المحتوى" : "Skip to content";
-          languageControl.setAttribute("aria-label", isArabic ? "لغة الصفحة" : "Page language");
+          const selectedLanguage = Object.hasOwn(languageConfig, language) ? language : "en";
+          const config = languageConfig[selectedLanguage];
+          root.lang = selectedLanguage;
+          root.dir = config.direction;
+          root.dataset.activeLanguage = selectedLanguage;
+          title.textContent = config.title;
+          brandName.textContent = config.brandName;
+          brandLink.href = config.homeHref;
+          brandLink.setAttribute("aria-label", config.brandLabel);
+          logo.alt = config.logoAlt;
+          preview.src = config.previewSrc;
+          preview.alt = config.previewAlt;
+          previewRegion.setAttribute("aria-label", config.previewRegionLabel);
+          skipLink.textContent = config.skipLabel;
+          languageControl.setAttribute("aria-label", config.controlLabel);
 
           document.querySelectorAll("[data-language-choice]").forEach((button) => {
-            button.setAttribute("aria-pressed", String(button.dataset.languageChoice === language));
+            button.setAttribute("aria-pressed", String(button.dataset.languageChoice === selectedLanguage));
           });
 
-          if (persist) saveLanguage(language);
+          if (persist) saveLanguage(selectedLanguage);
         }
 
         const browserLanguage = navigator.languages?.[0] || navigator.language || "en";
-        const initialLanguage = savedLanguage() || (browserLanguage.toLowerCase().startsWith("ar") ? "ar" : "en");
+        const normalizedBrowserLanguage = browserLanguage.toLowerCase();
+        const detectedLanguage = normalizedBrowserLanguage.startsWith("ar")
+          ? "ar"
+          : normalizedBrowserLanguage.startsWith("fr")
+            ? "fr"
+            : "en";
+        const initialLanguage = savedLanguage() || detectedLanguage;
         applyLanguage(initialLanguage);
 
         document.querySelectorAll("[data-language-choice]").forEach((button) => {

@@ -1,0 +1,58 @@
+{
+  "type": "guide",
+  "key": "istikhara-prayer",
+  "locale": "fr",
+  "routePath": "/learn/istikhara-prayer/",
+  "seo": {
+    "title": "Comment faire la prière d'Istikhara | Waqto Salat",
+    "description": "Apprenez comment faire la prière d'Istikhara : deux rak'ahs, invocation en arabe et translittération, consultation, rêves, signes et étapes suivantes.",
+    "ogType": "article",
+    "ogTitle": "Comment faire la prière d'Istikhara",
+    "ogDescription": "Guide pratique de la prière de consultation, de son invocation et des idées reçues sur les rêves et les signes.",
+    "ogImageAlt": "Guide Waqto Salat de la prière d'Istikhara.",
+    "twitterTitle": "Comment faire la prière d'Istikhara",
+    "twitterDescription": "Quand et comment prier Istikhara, le sens de son invocation et ce qui vient ensuite.",
+    "twitterImageAlt": "Guide de la prière d'Istikhara Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Comment faire la prière d'Istikhara",
+    "description": "Guide pratique de la prière d'Istikhara, de son invocation, de la consultation et des idées reçues.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:6382", "https://yaqeeninstitute.org/read/blog/a-guide-to-istikhara-the-prayer-for-guidance"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière d'Istikhara", "path": "/learn/istikhara-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Dois-je voir un rêve après Istikhara ?", "answer": "Non. L'enseignement prophétique de l'Istikhara n'exige pas de rêve. La prière demande à Allah de faciliter et bénir ce qui est bon et d'écarter ce qui est nuisible." },
+      { "question": "Quelqu'un peut-il faire Istikhara à ma place ?", "answer": "Les autres peuvent faire des invocations générales pour vous, mais les deux rak'ahs et la demande personnelle sont accomplies par la personne qui prend la décision." },
+      { "question": "Dois-je aussi consulter des personnes ?", "answer": "Oui. Istikhara complète l'effort personnel et la consultation de personnes fiables et compétentes ; elle ne remplace pas une décision responsable." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Prières particulières",
+    "titleHtml": "Istikhara : la prière pour demander la guidance",
+    "introductionHtml": "Istikhara est une prière Sunnah et une invocation par lesquelles on demande à Allah de guider une décision permise vers ce qui est meilleur pour la foi, la vie et l'issue de l'affaire.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<p class=\"text-sm leading-7 text-white/78\">Priez deux rak'ahs non obligatoires, récitez l'invocation d'Istikhara, mentionnez l'affaire, avancez avec responsabilité et placez votre confiance en Allah sans attendre nécessairement un rêve ou un présage.</p>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#meaning", "label": "Le sens d'Istikhara" },
+      { "href": "#when", "label": "Quand la faire" },
+      { "href": "#how", "label": "Comment la faire" },
+      { "href": "#dua", "label": "L'invocation d'Istikhara" },
+      { "href": "#after", "label": "Que faire ensuite" },
+      { "href": "#myths", "label": "Idées reçues" },
+      { "href": "#questions", "label": "Questions courantes" },
+      { "href": "#sources", "label": "Sources" }
+    ]
+  },
+  "asideMetaHtml": "<p>Publié le 15 août 2026</p><p class=\"mt-2\">Préparé par Waqto Salat</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "istikhara-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

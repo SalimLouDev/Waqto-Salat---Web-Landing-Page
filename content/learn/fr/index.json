@@ -1,0 +1,42 @@
+{
+  "type": "collection",
+  "key": "learn",
+  "locale": "fr",
+  "routePath": "/learn/",
+  "seo": {
+    "title": "Apprendre la salat et les types de prières | Waqto Salat",
+    "description": "Découvrez la salat avec des guides sur les prières quotidiennes, Sunnah, volontaires et particulières : horaires, rak'ahs, méthodes et sources.",
+    "ogType": "website",
+    "ogTitle": "Apprendre la salat et les types de prières | Waqto Salat",
+    "ogDescription": "La bibliothèque française complète des prières quotidiennes, Sunnah, volontaires et particulières.",
+    "ogImageAlt": "Bibliothèque française Waqto Salat pour apprendre la salat.",
+    "twitterTitle": "Apprendre la salat | Waqto Salat",
+    "twitterDescription": "Guides français sur les prières quotidiennes, Sunnah, volontaires et particulières.",
+    "twitterImageAlt": "Bibliothèque de guides de prière Waqto Salat."
+  },
+  "structuredData": {
+    "name": "Apprendre la salat et les types de prières",
+    "description": "Une bibliothèque en français consacrée à la salat et à ses différents types.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" }
+    ],
+    "items": [
+      { "name": "Les cinq prières quotidiennes", "path": "/learn/five-daily-prayers/" },
+      { "name": "La prière d'Istikhara", "path": "/learn/istikhara-prayer/" },
+      { "name": "Les prières Sunnah", "path": "/learn/sunnah-prayers/" },
+      { "name": "La prière du Witr", "path": "/learn/witr-prayer/" },
+      { "name": "Les prières Nafl", "path": "/learn/nafl-prayers/" },
+      { "name": "La prière de Duha", "path": "/learn/duha-prayer/" },
+      { "name": "La prière de Tahajjud", "path": "/learn/tahajjud-prayer/" },
+      { "name": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha", "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/" },
+      { "name": "La prière Janazah", "path": "/learn/janazah-prayer/" },
+      { "name": "La prière de l'éclipse", "path": "/learn/eclipse-prayer/" },
+      { "name": "La prière de Taraweeh", "path": "/learn/taraweeh-prayer/" }
+    ]
+  },
+  "mainFile": "index.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

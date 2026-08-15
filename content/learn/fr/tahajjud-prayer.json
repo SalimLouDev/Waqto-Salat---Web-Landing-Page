@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "tahajjud-prayer",
+  "locale": "fr",
+  "routePath": "/learn/tahajjud-prayer/",
+  "seo": {
+    "title": "Prière de Tahajjud : prière de nuit | Waqto Salat",
+    "description": "Découvrez la prière de Tahajjud : horaire après Isha et avant Fajr, dernier tiers de la nuit, rak'ahs, lien avec Qiyam al-Layl et Witr.",
+    "ogType": "article",
+    "ogTitle": "Prière de Tahajjud : guide de la prière de nuit",
+    "ogDescription": "Guide pratique de Tahajjud, de son horaire nocturne, de ses rak'ahs et de son lien avec Witr.",
+    "ogImageAlt": "Guide Waqto Salat de la prière de Tahajjud.",
+    "twitterTitle": "Prière de Tahajjud | Waqto Salat",
+    "twitterDescription": "Comprendre Tahajjud, son horaire et son lien avec Qiyam al-Layl et Witr.",
+    "twitterImageAlt": "Guide de la prière de Tahajjud Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prière de Tahajjud : guide de la prière de nuit",
+    "description": "Guide pratique de Tahajjud, de son horaire nocturne, de ses rak'ahs et de son lien avec Witr.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://quran.com/17/79", "https://sunnah.com/muslim:1163a", "https://sunnah.com/bukhari:990", "https://sunnah.com/bukhari:2013"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière de Tahajjud", "path": "/learn/tahajjud-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Quand accomplit-on la prière de Tahajjud ?", "answer": "Tahajjud s'accomplit après Isha et avant Fajr, souvent après avoir dormi puis s'être réveillé, particulièrement dans la dernière partie de la nuit." },
+      { "question": "Tahajjud est-elle obligatoire ?", "answer": "Non. Tahajjud est une prière volontaire de nuit et ne fait pas partie des cinq prières quotidiennes obligatoires." },
+      { "question": "Combien de rak'ahs compte Tahajjud ?", "answer": "Tahajjud est couramment accomplie par séries de deux rak'ahs, puis conclue par Witr. Le nombre varie selon le temps, les capacités et l'enseignement suivi." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prière de Tahajjud : la prière volontaire de nuit.",
+    "introductionHtml": "Tahajjud est une prière volontaire accomplie après Isha et avant Fajr, souvent après un réveil nocturne, lorsque la nuit favorise le calme et la concentration.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Horaire :</strong> après Isha et avant Fajr.</li><li><strong class=\"text-white\">Moment privilégié :</strong> la dernière partie de la nuit, souvent après un réveil.</li><li><strong class=\"text-white\">Forme courante :</strong> séries de deux rak'ahs, puis Witr.</li><li><strong class=\"text-white\">Catégorie :</strong> prière volontaire, distincte des cinq obligations.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-is-tahajjud-prayer", "label": "Qu'est-ce que Tahajjud ?" },
+      { "href": "#when-is-tahajjud-prayed", "label": "Quand prier Tahajjud ?" },
+      { "href": "#how-tahajjud-is-commonly-prayed", "label": "Comment Tahajjud est généralement accomplie" },
+      { "href": "#tahajjud-qiyam-al-layl-and-witr", "label": "Tahajjud, Qiyam al-Layl et Witr" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "tahajjud-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "terms-of-service",
+  "locale": "fr",
+  "routePath": "/terms-of-service/",
+  "alternates": [{ "locale": "en", "route": "/terms-of-service/" }],
+  "seo": {
+    "title": "Conditions d'utilisation | Waqto Salat",
+    "description": "Consultez les conditions d'utilisation de Waqto Salat : précision des horaires de prière, usage acceptable, soutien facultatif et disponibilité.",
+    "ogType": "website",
+    "ogTitle": "Conditions d'utilisation | Waqto Salat",
+    "ogDescription": "Conditions relatives à l'utilisation, aux horaires de prière, au soutien facultatif et à la disponibilité de Waqto Salat.",
+    "ogImageAlt": "Conditions d'utilisation de l'application Android Waqto Salat.",
+    "twitterTitle": "Conditions d'utilisation | Waqto Salat",
+    "twitterDescription": "Conditions d'utilisation, précision des horaires et soutien facultatif de Waqto Salat.",
+    "twitterImageAlt": "Conditions d'utilisation Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "WebPage",
+    "name": "Conditions d'utilisation | Waqto Salat",
+    "description": "Conditions d'utilisation de l'application et du site Waqto Salat.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Conditions d'utilisation", "path": "/terms-of-service/" }
+    ]
+  },
+  "mainFile": "terms-of-service.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "yearly", "priority": "0.3" }
+}

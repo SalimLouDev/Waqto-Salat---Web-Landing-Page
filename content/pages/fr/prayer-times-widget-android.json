@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "prayer-times-widget-android",
+  "locale": "fr",
+  "routePath": "/prayer-times-widget-android/",
+  "alternates": [{ "locale": "en", "route": "/prayer-times-widget-android/" }],
+  "seo": {
+    "title": "Widget d'horaires de prière Android | Waqto Salat",
+    "description": "Affichez la prochaine salat et les horaires de prière sur l'écran d'accueil avec les widgets Android Waqto Salat et ses rappels dynamiques.",
+    "ogType": "article",
+    "ogTitle": "Widget d'horaires de prière Android | Waqto Salat",
+    "ogDescription": "Consultez la prochaine prière d'un coup d'œil depuis l'écran d'accueil Android.",
+    "ogImageAlt": "Widget d'horaires de prière de l'application Android Waqto Salat.",
+    "twitterTitle": "Widget d'horaires de prière Android",
+    "twitterDescription": "Consultez la prochaine salat d'un coup d'œil depuis l'écran d'accueil.",
+    "twitterImageAlt": "Aperçu du widget Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Widget d'horaires de prière pour Android",
+    "description": "Guide des widgets Waqto Salat et de leur rôle pour garder la prochaine prière visible durant la journée.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Widget d'horaires de prière", "path": "/prayer-times-widget-android/" }
+    ],
+    "faqs": [
+      { "question": "Waqto Salat comprend-il des widgets Android ?", "answer": "Oui. Waqto Salat propose des widgets d'écran d'accueil qui affichent les informations de prière d'un coup d'œil." },
+      { "question": "Un widget remplace-t-il les rappels ?", "answer": "Non. Le widget sert à consulter rapidement les horaires ; les rappels dynamiques vous avertissent avant ou après la prière choisie." }
+    ]
+  },
+  "mainFile": "prayer-times-widget-android.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

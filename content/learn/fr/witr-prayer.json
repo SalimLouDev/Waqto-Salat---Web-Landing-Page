@@ -1,0 +1,58 @@
+{
+  "type": "guide",
+  "key": "witr-prayer",
+  "locale": "fr",
+  "routePath": "/learn/witr-prayer/",
+  "seo": {
+    "title": "Prière du Witr : la dernière prière de nuit | Waqto Salat",
+    "description": "Découvrez la prière du Witr après Isha et avant Fajr : horaire, rak'ahs impaires, Qunut, méthodes de prière et avis des écoles juridiques.",
+    "ogType": "article",
+    "ogTitle": "Prière du Witr : la dernière prière de nuit",
+    "ogDescription": "Guide pratique du Witr, de son horaire, de ses rak'ahs impaires et des différences concernant le Qunut.",
+    "ogImageAlt": "Guide Waqto Salat de la prière du Witr.",
+    "twitterTitle": "Prière du Witr | Waqto Salat",
+    "twitterDescription": "Quand et comment accomplir le Witr, et pourquoi ses modalités diffèrent selon les écoles.",
+    "twitterImageAlt": "Guide de la prière du Witr Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prière du Witr : la dernière prière de nuit",
+    "description": "Guide pratique du Witr, de son horaire, de ses rak'ahs impaires et des différences concernant le Qunut.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:990", "https://sunnah.com/bukhari:996", "https://sunnah.com/bukhari:998", "https://sunnah.com/muslim:752a"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière du Witr", "path": "/learn/witr-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Quand accomplit-on la prière du Witr ?", "answer": "Le Witr s'accomplit après Isha et avant Fajr. On peut le garder comme dernière prière de la nuit ou le prier avant de dormir si l'on craint de ne pas se réveiller." },
+      { "question": "Combien de rak'ahs compte le Witr ?", "answer": "Le Witr comporte un nombre impair de rak'ahs. Les formes courantes comprennent une, trois, cinq ou sept rak'ahs selon l'école juridique et l'enseignement suivi." },
+      { "question": "La prière du Witr est-elle obligatoire ?", "answer": "Les savants diffèrent sur sa qualification. L'école hanafite la considère généralement wajib, tandis que beaucoup d'autres savants sunnites la classent comme Sunnah fortement recommandée." },
+      { "question": "Comment accomplir la prière du Witr ?", "answer": "Le Witr se prie après Isha avec un nombre impair de rak'ahs. L'enchaînement des rak'ahs, le salam et le Qunut varient selon les écoles ; suivez la méthode enseignée par un professeur de confiance." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prière du Witr : la dernière prière de nuit.",
+    "introductionHtml": "Le Witr est une prière nocturne au nombre impair de rak'ahs, accomplie après Isha et avant Fajr, souvent pour conclure les prières de la nuit.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Horaire :</strong> après Isha et avant Fajr.</li><li><strong class=\"text-white\">Sens :</strong> une prière impaire qui conclut la nuit.</li><li><strong class=\"text-white\">Formes courantes :</strong> une, trois, cinq ou sept rak'ahs.</li><li><strong class=\"text-white\">À retenir :</strong> le statut et le Qunut diffèrent selon les écoles.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-is-witr-prayer", "label": "Qu'est-ce que la prière du Witr ?" },
+      { "href": "#when-is-witr-prayed", "label": "Quand prier le Witr ?" },
+      { "href": "#how-many-rak-ahs-are-in-witr", "label": "Combien de rak'ahs ?" },
+      { "href": "#how-to-pray-witr-prayer", "label": "Comment prier le Witr ?" },
+      { "href": "#qunut-and-local-practice", "label": "Le Qunut et les pratiques locales" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "witr-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

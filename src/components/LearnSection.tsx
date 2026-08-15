@@ -30,6 +30,7 @@ const guideIcons = [
 
 export function LearnSection({ locale = "en" }: { locale?: LandingLocale }) {
   const copy = landingCopy[locale].learn;
+  const learnPath = locale === "en" ? "/learn/" : `/${locale}/learn/`;
   return (
     <section id="learn" className="border-y border-border-light bg-white px-6 py-16 md:px-12 md:py-20">
       <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.68fr_1.32fr] lg:items-start">
@@ -47,7 +48,7 @@ export function LearnSection({ locale = "en" }: { locale?: LandingLocale }) {
             {copy.body}
           </p>
           <a
-            href={locale === "ar" ? "/ar/learn/" : "/learn/"}
+            href={learnPath}
             className="mt-6 inline-flex items-center gap-2 rounded-full border border-border-light bg-white px-5 py-3 text-xs font-bold uppercase tracking-widest text-islamic-green shadow-sm transition-[background-color,border-color,color,box-shadow] hover:border-islamic-green hover:bg-islamic-green hover:text-white hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
           >
             {copy.viewAll}

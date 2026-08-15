@@ -7,6 +7,7 @@ const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${contact
 
 export function SupportSections({ locale = "en" }: { locale?: LandingLocale }) {
   const copy = landingCopy[locale].support;
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
   return (
     <>
       <section id="download" className="px-6 md:px-12 py-24 bg-off-white">
@@ -73,14 +74,14 @@ export function SupportSections({ locale = "en" }: { locale?: LandingLocale }) {
               id="privacy-policy"
               title={copy.privacyTitle}
               body={copy.privacyBody}
-              href={locale === "ar" ? "/ar/privacy-policy/" : "/privacy-policy/"}
+              href={`${localePrefix}/privacy-policy/`}
               linkLabel={copy.privacyLink}
             />
             <PolicyCard
               id="terms"
               title={copy.termsTitle}
               body={copy.termsBody}
-              href={locale === "ar" ? "/ar/terms-of-service/" : "/terms-of-service/"}
+              href={`${localePrefix}/terms-of-service/`}
               linkLabel={copy.termsLink}
             />
             <ContactCard locale={locale} />

@@ -40,12 +40,12 @@ export function Hero({ locale = "en" }: { locale?: LandingLocale }) {
           </div>
 
           <div
-            className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+            className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:justify-start gap-4"
           >
             <GooglePlayBadge locale={locale} />
             <a
               href="#reminders"
-              className={`inline-flex h-14 min-w-[14rem] items-center justify-center gap-2 rounded-full border border-border-light bg-white px-7 text-xs font-bold text-islamic-green shadow-sm transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 ${locale === "ar" ? "leading-6" : "whitespace-nowrap uppercase tracking-widest"}`}
+              className={`inline-flex min-h-14 min-w-[14rem] max-w-[17rem] items-center justify-center gap-2 rounded-full border border-border-light bg-white px-7 py-3 text-center text-xs font-bold text-islamic-green shadow-sm transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 ${locale === "ar" ? "leading-6" : locale === "fr" ? "leading-5 uppercase tracking-widest" : "whitespace-nowrap uppercase tracking-widest"}`}
             >
               <PlayCircle className="h-4 w-4" />
               {copy.reminderCta}

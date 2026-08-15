@@ -1,0 +1,79 @@
+{
+  "type": "landing",
+  "key": "home",
+  "locale": "fr",
+  "routePath": "/",
+  "alternates": [
+    { "locale": "en", "route": "/" },
+    { "locale": "ar", "route": "/ar/" },
+    { "locale": "fr", "route": "/fr/" }
+  ],
+  "seo": {
+    "title": "Waqto Salat - Horaires et rappels de prière Android",
+    "description": "Téléchargez Waqto Salat, l'application Android gratuite et sans publicité pour les horaires de prière, rappels dynamiques, Qibla et widgets.",
+    "ogType": "website",
+    "ogTitle": "Waqto Salat - Horaires et rappels de prière",
+    "ogDescription": "Des rappels qui suivent les horaires de prière, avec Qibla et widgets dans une application Android calme et sans publicité.",
+    "ogImageAlt": "Application Android Waqto Salat avec horaires, rappels de prière, Qibla et widgets.",
+    "twitterTitle": "Waqto Salat - Horaires de prière Android",
+    "twitterDescription": "Horaires et rappels de prière dynamiques, Qibla et widgets dans une application Android gratuite.",
+    "twitterImageAlt": "Aperçu de l'application de prière Waqto Salat."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://waqtosalat.com/fr/#webpage",
+        "url": "https://waqtosalat.com/fr/",
+        "name": "Waqto Salat - Horaires et rappels de prière Android",
+        "description": "Page française de Waqto Salat, application Android d'horaires de prière, rappels dynamiques, Qibla et widgets.",
+        "inLanguage": "fr",
+        "datePublished": "2026-08-15",
+        "dateModified": "2026-08-15",
+        "isPartOf": { "@id": "https://waqtosalat.com/#website" },
+        "about": { "@id": "https://waqtosalat.com/#android-app" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://waqtosalat.com/#android-app",
+        "name": "Waqto Salat",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Android",
+        "url": "https://waqtosalat.com/fr/",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat",
+        "image": "https://waqtosalat.com/og-image-v4.jpg",
+        "screenshot": "https://waqtosalat.com/screenshot-1.png",
+        "description": "Application Android gratuite et sans publicité pour les horaires de prière, les rappels dynamiques, la Qibla et les widgets.",
+        "inLanguage": "fr",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "author": { "@id": "https://waqtosalat.com/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://waqtosalat.com/fr/#faq",
+        "inLanguage": "fr",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Waqto Salat est-il gratuit ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui. Waqto Salat est gratuit, sans publicité ni abonnement. Son bouton de soutien intégré est facultatif." }
+          },
+          {
+            "@type": "Question",
+            "name": "Les rappels suivent-ils les changements d'horaires ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui. Les rappels restent liés à la prière choisie et se déplacent avec les horaires quotidiens." }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelles fonctions sont incluses ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Waqto Salat comprend les horaires de prière, les rappels dynamiques, la direction de la Qibla, les widgets et des réglages par prière." }
+          }
+        ]
+      }
+    ]
+  },
+  "mainFile": "home.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "1.0" }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "taraweeh-prayer",
+  "locale": "fr",
+  "routePath": "/learn/taraweeh-prayer/",
+  "seo": {
+    "title": "Prière de Taraweeh pendant Ramadan | Waqto Salat",
+    "description": "Découvrez la prière de Taraweeh pendant Ramadan : horaire après Isha, prière en groupe, nombre de rak'ahs, récitation du Coran, Witr et FAQ.",
+    "ogType": "article",
+    "ogTitle": "Prière de Taraweeh pendant Ramadan",
+    "ogDescription": "Guide pratique de Taraweeh : horaire, congrégation, rak'ahs, récitation du Coran et Witr.",
+    "ogImageAlt": "Guide Waqto Salat de la prière de Taraweeh pendant Ramadan.",
+    "twitterTitle": "Prière de Taraweeh pendant Ramadan | Waqto Salat",
+    "twitterDescription": "Comprendre Taraweeh, son horaire après Isha et les différences de nombre de rak'ahs.",
+    "twitterImageAlt": "Guide de la prière de Taraweeh Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prière de Taraweeh pendant Ramadan",
+    "description": "Guide pratique de Taraweeh : horaire, congrégation, rak'ahs, récitation du Coran et Witr.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:2009", "https://sunnah.com/bukhari:2010", "https://sunnah.com/bukhari:2012", "https://sunnah.com/bukhari:2013"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière de Taraweeh", "path": "/learn/taraweeh-prayer/" }
+    ],
+    "faqs": [
+      { "question": "La prière de Taraweeh est-elle obligatoire ?", "answer": "Non. Taraweeh ne fait pas partie des cinq prières quotidiennes obligatoires. Elle est généralement enseignée comme une Sunnah ou une prière nocturne volontaire propre à Ramadan." },
+      { "question": "Combien de rak'ahs comporte Taraweeh ?", "answer": "Les pratiques communautaires diffèrent. Beaucoup accomplissent huit ou vingt rak'ahs avant le Witr. Suivez votre imam ou l'école juridique que vous avez apprise." },
+      { "question": "Quand accomplit-on Taraweeh ?", "answer": "Taraweeh s'accomplit après Isha pendant Ramadan, généralement avant le Witr dans de nombreuses communautés. Elle peut être priée en groupe à la mosquée ou individuellement." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prière de Taraweeh pendant Ramadan.",
+    "introductionHtml": "Taraweeh est la prière nocturne de Ramadan accomplie après Isha, souvent en groupe, pour prier, écouter le Coran et rechercher le pardon d'Allah.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Horaire :</strong> après Isha pendant Ramadan, généralement avant le Witr.</li><li><strong class=\"text-white\">But :</strong> prière nocturne, récitation du Coran et recherche du pardon.</li><li><strong class=\"text-white\">Pratique courante :</strong> en groupe à la mosquée dans de nombreuses communautés.</li><li><strong class=\"text-white\">À retenir :</strong> le nombre de rak'ahs varie ; suivez votre imam.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-is-taraweeh-prayer", "label": "Qu'est-ce que Taraweeh ?" },
+      { "href": "#when-is-taraweeh-prayed", "label": "Quand prier Taraweeh ?" },
+      { "href": "#congregation-and-the-prophet-s-mercy", "label": "La prière en groupe et la miséricorde prophétique" },
+      { "href": "#rak-ah-count-and-community-differences", "label": "Nombre de rak'ahs et pratiques locales" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "taraweeh-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

@@ -1,0 +1,57 @@
+{
+  "type": "guide",
+  "key": "janazah-prayer",
+  "locale": "fr",
+  "routePath": "/learn/janazah-prayer/",
+  "seo": {
+    "title": "Prière funéraire Janazah : guide pratique | Waqto Salat",
+    "description": "Découvrez la prière funéraire Janazah : obligation communautaire, quatre takbirs, prière debout sans ruku ni sujud, invocations et questions courantes.",
+    "ogType": "article",
+    "ogTitle": "Prière funéraire Janazah : guide pratique",
+    "ogDescription": "Guide de la prière funéraire musulmane, de son objectif, de ses quatre takbirs et des invocations pour le défunt.",
+    "ogImageAlt": "Guide Waqto Salat de la prière funéraire Janazah.",
+    "twitterTitle": "Prière funéraire Janazah | Waqto Salat",
+    "twitterDescription": "Comprendre la prière Janazah et savoir comment suivre l'imam lors d'une prière funéraire musulmane.",
+    "twitterImageAlt": "Guide de la prière Janazah Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prière funéraire Janazah : guide pratique",
+    "alternativeHeadline": "Guide de la prière Janaza",
+    "description": "Guide de la prière funéraire musulmane, de son objectif, de ses quatre takbirs et des invocations pour le défunt.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:1325", "https://sunnah.com/bukhari:1333", "https://sunnah.com/muslim:945a", "https://sunnah.com/abudawud:3196"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière funéraire Janazah", "path": "/learn/janazah-prayer/" }
+    ],
+    "faqs": [
+      { "question": "La prière Janazah comporte-t-elle un ruku ou un sujud ?", "answer": "Non. La prière Janazah s'accomplit debout, avec des takbirs et des invocations, sans inclinaison ni prosternation." },
+      { "question": "Combien de takbirs comporte la prière Janazah ?", "answer": "La forme la plus connue comprend quatre takbirs. Suivez l'imam et la pratique enseignée dans votre communauté." },
+      { "question": "La prière Janazah est-elle une obligation communautaire ?", "answer": "Elle est généralement enseignée comme une obligation communautaire, ce qui signifie que la communauté doit veiller à ce qu'elle soit accomplie pour le défunt." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prière Janazah : la prière funéraire musulmane.",
+    "introductionHtml": "La prière Janazah, aussi écrite Janaza, est accomplie pour un musulman décédé afin de demander à Allah miséricorde, pardon et un retour honoré auprès de Lui.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">But :</strong> invoquer pour le défunt et lui faire un adieu communautaire.</li><li><strong class=\"text-white\">Forme :</strong> prière debout avec takbirs, sans ruku ni sujud.</li><li><strong class=\"text-white\">Forme courante :</strong> quatre takbirs, puis le salam.</li><li><strong class=\"text-white\">À retenir :</strong> les détails varient selon les écoles ; suivez votre imam.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-is-janazah-prayer", "label": "Qu'est-ce que la prière Janazah ?" },
+      { "href": "#why-attending-matters", "label": "Pourquoi y assister ?" },
+      { "href": "#how-janazah-prayer-is-performed", "label": "Comment accomplir la prière Janazah ?" },
+      { "href": "#things-to-know-before-attending", "label": "Ce qu'il faut savoir avant d'y assister" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "janazah-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

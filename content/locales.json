@@ -30,6 +30,37 @@
       "ariaLabel": "Related prayer guides"
     }
   },
+  "fr": {
+    "htmlLang": "fr",
+    "direction": "ltr",
+    "pathPrefix": "/fr",
+    "languageName": "Français",
+    "shortLanguageName": "FR",
+    "ogLocale": "fr_FR",
+    "brandName": "Waqto Salat",
+    "logoAlt": "Logo Waqto Salat",
+    "navigation": {
+      "ariaLabel": "Navigation des guides de prière",
+      "viewInLanguage": "Afficher cette page en {language}",
+      "home": "Accueil",
+      "learn": "Apprendre",
+      "resources": "Ressources de l'application",
+      "getApp": "Télécharger"
+    },
+    "footer": {
+      "copyright": "© 2026 Waqto Salat. Tous droits réservés.",
+      "learn": "Guides de prière",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "methodology": "Méthodologie éditoriale",
+      "contact": "Contact"
+    },
+    "relatedGuides": {
+      "eyebrow": "Poursuivre la lecture",
+      "heading": "Guides de prière associés",
+      "ariaLabel": "Guides de prière associés"
+    }
+  },
   "ar": {
     "htmlLang": "ar",
     "direction": "rtl",

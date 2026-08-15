@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "eid-al-fitr-and-eid-al-adha-prayer",
+  "locale": "fr",
+  "routePath": "/learn/eid-al-fitr-and-eid-al-adha-prayer/",
+  "seo": {
+    "title": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha | Waqto Salat",
+    "description": "Découvrez la prière de l'Aïd al-Fitr et de l'Aïd al-Adha : horaire, deux rak'ahs, takbirs supplémentaires, khutbah et différences entre les fêtes.",
+    "ogType": "article",
+    "ogTitle": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha",
+    "ogDescription": "Guide pratique de la prière des deux Aïds, avec son horaire, ses takbirs, la khutbah et les pratiques propres à chaque fête.",
+    "ogImageAlt": "Guide Waqto Salat de la prière de l'Aïd al-Fitr et de l'Aïd al-Adha.",
+    "twitterTitle": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha",
+    "twitterDescription": "Quand et comment accomplir la prière des deux Aïds et ce qui distingue chaque fête.",
+    "twitterImageAlt": "Guide de la prière de l'Aïd Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha",
+    "description": "Guide pratique de la prière des deux Aïds, avec son horaire, ses takbirs, la khutbah et les pratiques propres à chaque fête.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:956", "https://sunnah.com/bukhari:957", "https://sunnah.com/abudawud:1151", "https://sunnah.com/abudawud:1609"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha", "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/" }
+    ],
+    "faqs": [
+      { "question": "La prière est-elle la même pour l'Aïd al-Fitr et l'Aïd al-Adha ?", "answer": "La prière est généralement la même prière de deux rak'ahs. Les actes qui l'entourent diffèrent : l'Aïd al-Fitr clôt Ramadan et comprend la Zakat al-Fitr, tandis que l'Aïd al-Adha est lié au Hajj et au sacrifice pour ceux qui en ont les moyens." },
+      { "question": "Y a-t-il un adhan ou une iqamah pour la prière de l'Aïd ?", "answer": "La prière de l'Aïd s'accomplit généralement sans l'adhan ni l'iqamah habituels. Des annonces pratiques peuvent néanmoins être faites pour organiser l'assemblée." },
+      { "question": "Combien de takbirs comporte la prière de l'Aïd ?", "answer": "De nombreuses communautés suivent sept takbirs supplémentaires dans la première rak'ah et cinq dans la seconde, tandis que la méthode hanafite en emploie couramment trois dans chaque rak'ah. Suivez votre imam." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prière de l'Aïd al-Fitr et de l'Aïd al-Adha.",
+    "introductionHtml": "La prière de l'Aïd rassemble les musulmans lors des deux fêtes annuelles : l'Aïd al-Fitr après Ramadan et l'Aïd al-Adha pendant les jours du Hajj et du sacrifice.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Horaire :</strong> après le lever du soleil et avant Dhuhr, selon l'annonce locale.</li><li><strong class=\"text-white\">Forme :</strong> deux rak'ahs avec des takbirs supplémentaires.</li><li><strong class=\"text-white\">Khutbah :</strong> le sermon vient après la prière.</li><li><strong class=\"text-white\">À retenir :</strong> les détails varient selon les écoles ; suivez votre imam.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-is-eid-prayer", "label": "Qu'est-ce que la prière de l'Aïd ?" },
+      { "href": "#how-eid-al-fitr-and-eid-al-adha-differ", "label": "Différences entre les deux Aïds" },
+      { "href": "#when-is-eid-prayer-prayed", "label": "Quand prier la prière de l'Aïd ?" },
+      { "href": "#how-is-eid-prayer-performed", "label": "Comment accomplir la prière de l'Aïd ?" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "eid-al-fitr-and-eid-al-adha-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

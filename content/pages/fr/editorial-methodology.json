@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "editorial-methodology",
+  "locale": "fr",
+  "routePath": "/editorial-methodology/",
+  "alternates": [{ "locale": "en", "route": "/editorial-methodology/" }],
+  "seo": {
+    "title": "Méthodologie éditoriale | Waqto Salat",
+    "description": "Découvrez comment Waqto Salat recherche, rédige, source et révise ses guides de salat tout en présentant avec soin les divergences savantes.",
+    "ogType": "article",
+    "ogTitle": "Méthodologie éditoriale | Waqto Salat",
+    "ogDescription": "Comment les guides de prière Waqto Salat sont recherchés, sourcés, rédigés et révisés.",
+    "ogImageAlt": "Méthodologie éditoriale des guides de salat Waqto Salat.",
+    "twitterTitle": "Méthodologie éditoriale Waqto Salat",
+    "twitterDescription": "Sources, révision et traitement des divergences dans les guides de prière.",
+    "twitterImageAlt": "Méthodologie du contenu Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "AboutPage",
+    "name": "Méthodologie éditoriale | Waqto Salat",
+    "description": "Méthode de recherche, de rédaction, de citation et de révision des guides de salat Waqto Salat.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Méthodologie éditoriale", "path": "/editorial-methodology/" }
+    ]
+  },
+  "mainFile": "editorial-methodology.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "yearly", "priority": "0.5" }
+}

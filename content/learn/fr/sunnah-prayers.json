@@ -1,0 +1,58 @@
+{
+  "type": "guide",
+  "key": "sunnah-prayers",
+  "locale": "fr",
+  "routePath": "/learn/sunnah-prayers/",
+  "seo": {
+    "title": "Prières Sunnah : Rawatib et Mu'akkadah | Waqto Salat",
+    "description": "Découvrez les prières Sunnah, les 12 rak'ahs Rawatib autour des prières obligatoires, la Sunnah Mu'akkadah et les pratiques selon les écoles.",
+    "ogType": "article",
+    "ogTitle": "Prières Sunnah : Rawatib et Mu'akkadah | Waqto Salat",
+    "ogDescription": "Guide pratique des prières Sunnah régulières avant et après les cinq prières quotidiennes.",
+    "ogImageAlt": "Guide Waqto Salat des prières Sunnah et des Rawatib.",
+    "twitterTitle": "Prières Sunnah et Rawatib | Waqto Salat",
+    "twitterDescription": "Comprendre les prières Sunnah, les Rawatib et leurs différents niveaux d'insistance.",
+    "twitterImageAlt": "Guide des prières Sunnah Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prières Sunnah : Rawatib et Sunnah Mu'akkadah",
+    "description": "Guide pratique des prières Sunnah régulières avant et après les cinq prières quotidiennes.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/tirmidhi:415", "https://sunnah.com/bukhari:1182", "https://sunnah.com/bukhari:731", "https://sunnah.com/abudawud:1271"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prières Sunnah", "path": "/learn/sunnah-prayers/" }
+    ],
+    "faqs": [
+      { "question": "Les prières Sunnah sont-elles obligatoires ?", "answer": "Non. Elles sont distinctes des cinq prières obligatoires, mais certaines sont particulièrement recommandées et régulièrement accomplies selon la tradition prophétique." },
+      { "question": "Que sont les prières Rawatib ?", "answer": "Les Rawatib sont les prières Sunnah régulières liées aux cinq prières quotidiennes, notamment avant Fajr, autour de Dhuhr, après Maghrib et après Isha." },
+      { "question": "Faut-il prier les prières Sunnah chez soi ou à la mosquée ?", "answer": "De nombreux hadiths encouragent à accomplir les prières volontaires chez soi. Les circonstances et les pratiques locales peuvent varier ; suivez votre imam ou un enseignant de confiance." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prières Sunnah : Mu'akkadah et Rawatib.",
+    "introductionHtml": "Les prières Sunnah accompagnent la pratique prophétique et donnent un rythme régulier d'adoration autour des cinq prières quotidiennes.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Sens :</strong> prières supplémentaires liées à la pratique prophétique.</li><li><strong class=\"text-white\">Types :</strong> Sunnah fortement recommandée et non fortement recommandée.</li><li><strong class=\"text-white\">Rawatib :</strong> prières Sunnah régulières autour des prières quotidiennes.</li><li><strong class=\"text-white\">À retenir :</strong> certains détails varient selon l'école juridique.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-are-sunnah-prayers", "label": "Que sont les prières Sunnah ?" },
+      { "href": "#sunnah-mu-akkadah-and-non-emphasized-sunnah", "label": "Sunnah Mu'akkadah et autres Sunnah" },
+      { "href": "#the-regular-rawatib-pattern", "label": "Le rythme régulier des Rawatib" },
+      { "href": "#sunnah-prayers-chart", "label": "Tableau des prières Sunnah" },
+      { "href": "#other-recommended-prayers-around-salah", "label": "Autres prières recommandées" },
+      { "href": "#where-should-sunnah-prayers-be-prayed", "label": "Où accomplir les prières Sunnah ?" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "sunnah-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

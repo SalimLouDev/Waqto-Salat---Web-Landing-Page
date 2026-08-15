@@ -5,7 +5,12 @@ import './index.css';
 import {initLanguageSuggestion} from './language-suggestion';
 
 const rootElement = document.getElementById('root')!;
-const locale = document.documentElement.lang === 'ar' ? 'ar' : 'en';
+const documentLanguage = document.documentElement.lang.toLowerCase();
+const locale = documentLanguage.startsWith('ar')
+  ? 'ar'
+  : documentLanguage.startsWith('fr')
+    ? 'fr'
+    : 'en';
 const app = (
   <StrictMode>
     <App locale={locale} />

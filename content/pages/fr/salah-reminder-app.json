@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "salah-reminder-app",
+  "locale": "fr",
+  "routePath": "/salah-reminder-app/",
+  "alternates": [{ "locale": "en", "route": "/salah-reminder-app/" }],
+  "seo": {
+    "title": "Application de rappel de prière Android | Waqto Salat",
+    "description": "Programmez des rappels avant ou après Fajr, Dhuhr, Asr, Maghrib et Isha qui suivent automatiquement les changements d'horaires quotidiens.",
+    "ogType": "article",
+    "ogTitle": "Application de rappel de prière Android | Waqto Salat",
+    "ogDescription": "Des rappels liés aux horaires de prière qui s'actualisent chaque jour, sans publicité ni abonnement.",
+    "ogImageAlt": "Rappels dynamiques de prière dans l'application Waqto Salat.",
+    "twitterTitle": "Rappels de prière dynamiques sur Android",
+    "twitterDescription": "Des rappels avant ou après la salat qui suivent les horaires quotidiens.",
+    "twitterImageAlt": "Rappels de prière Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Application de rappel de prière Android",
+    "description": "Guide des rappels dynamiques liés aux horaires de prière dans Waqto Salat pour Android.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Application de rappel de prière", "path": "/salah-reminder-app/" }
+    ],
+    "faqs": [
+      { "question": "Puis-je programmer un rappel avant la prière ?", "answer": "Oui. Vous pouvez créer un rappel avant l'heure de prière pour vous préparer ; il reste lié à son horaire quotidien." },
+      { "question": "Puis-je programmer un rappel après la prière ?", "answer": "Oui. Un rappel après l'heure peut aider au travail, en déplacement ou pour construire une routine plus régulière." }
+    ]
+  },
+  "mainFile": "salah-reminder-app.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

@@ -3,9 +3,9 @@ import { landingCopy, type LandingLocale } from "../content/landing";
 export function Footer({ locale = "en" }: { locale?: LandingLocale }) {
   const contactEmail = "contact@waqtosalat.com";
   const copy = landingCopy[locale];
-  const homePath = locale === "ar" ? "/ar/" : "/";
-  const learnPath = locale === "ar" ? "/ar/learn/" : "/learn/";
-  const localePrefix = locale === "ar" ? "/ar" : "";
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const homePath = `${localePrefix}/`;
+  const learnPath = `${localePrefix}/learn/`;
   const linkClass = "rounded-sm transition-colors hover:text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30";
 
   return (

@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "ad-free-prayer-times-app",
+  "locale": "fr",
+  "routePath": "/ad-free-prayer-times-app/",
+  "alternates": [{ "locale": "en", "route": "/ad-free-prayer-times-app/" }],
+  "seo": {
+    "title": "Application de prière sans publicité | Waqto Salat",
+    "description": "Téléchargez Waqto Salat, application Android gratuite et sans publicité avec horaires de prière, rappels dynamiques, Qibla, widgets et réglages.",
+    "ogType": "article",
+    "ogTitle": "Application de prière sans publicité | Waqto Salat",
+    "ogDescription": "Horaires, rappels, Qibla et widgets dans une application Android calme et sans publicité.",
+    "ogImageAlt": "Waqto Salat, application Android gratuite d'horaires de prière sans publicité.",
+    "twitterTitle": "Application de prière Android sans publicité",
+    "twitterDescription": "Horaires de prière, rappels, Qibla et widgets dans une application Android gratuite.",
+    "twitterImageAlt": "Aperçu de l'application Waqto Salat sans publicité."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Application Android d'horaires de prière sans publicité",
+    "description": "Guide des fonctions de Waqto Salat comme application Android gratuite, calme et sans publicité.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Application de prière sans publicité", "path": "/ad-free-prayer-times-app/" }
+    ],
+    "faqs": [
+      { "question": "Waqto Salat est-il vraiment gratuit ?", "answer": "Oui. Waqto Salat est gratuit, sans publicité ni fonction de prière essentielle verrouillée. Son bouton de soutien est facultatif." },
+      { "question": "Une application sans publicité propose-t-elle moins de fonctions ?", "answer": "Non. Waqto Salat comprend les horaires de prière, les rappels dynamiques, la Qibla, les widgets Android et les réglages de calibration." }
+    ]
+  },
+  "mainFile": "ad-free-prayer-times-app.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

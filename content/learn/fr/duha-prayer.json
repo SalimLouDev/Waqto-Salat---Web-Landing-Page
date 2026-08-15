@@ -1,0 +1,58 @@
+{
+  "type": "guide",
+  "key": "duha-prayer",
+  "locale": "fr",
+  "routePath": "/learn/duha-prayer/",
+  "seo": {
+    "title": "Prière de Duha : horaire et nombre de rak'ahs | Waqto Salat",
+    "description": "Découvrez la prière de Duha : horaire après le lever du soleil et avant Dhuhr, nombre de rak'ahs, méthode, bienfaits et différence avec Ishraq.",
+    "ogType": "article",
+    "ogTitle": "Prière de Duha : horaire et nombre de rak'ahs",
+    "ogDescription": "Guide pratique de la prière volontaire de Duha, de son horaire et de sa méthode.",
+    "ogImageAlt": "Guide Waqto Salat de la prière de Duha.",
+    "twitterTitle": "Prière de Duha | Waqto Salat",
+    "twitterDescription": "Quand accomplir Duha après le lever du soleil et combien de rak'ahs prier.",
+    "twitterImageAlt": "Guide de la prière de Duha Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prière de Duha : horaire et nombre de rak'ahs",
+    "description": "Guide pratique de la prière volontaire de Duha, de son horaire et de sa méthode.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:1178", "https://sunnah.com/bukhari:1176", "https://sunnah.com/muslim:720a"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prière de Duha", "path": "/learn/duha-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Quand accomplit-on la prière de Duha ?", "answer": "Duha s'accomplit lorsque le soleil s'est suffisamment élevé après son lever et avant Dhuhr. Beaucoup d'enseignants conseillent d'attendre environ quinze à vingt minutes après le lever du soleil." },
+      { "question": "Combien de rak'ahs compte la prière de Duha ?", "answer": "Beaucoup de musulmans commencent par deux rak'ahs. Des récits et enseignements mentionnent aussi quatre, huit ou davantage selon les écoles et les capacités." },
+      { "question": "Duha et Ishraq désignent-elles la même prière ?", "answer": "Certaines communautés appellent Ishraq la prière de Duha accomplie au début de son horaire, tandis que d'autres distinguent ces appellations. Suivez la terminologie locale." },
+      { "question": "Comment accomplir la prière de Duha ?", "answer": "Duha s'accomplit généralement par séries de deux rak'ahs selon la forme habituelle de la salat. Deux rak'ahs constituent un début simple et régulier." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prière de Duha : la salat volontaire du matin.",
+    "introductionHtml": "Duha est une prière volontaire accomplie après le lever du soleil et avant Dhuhr, transformant une partie de la matinée en adoration et gratitude.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Horaire :</strong> après le lever du soleil et avant Dhuhr.</li><li><strong class=\"text-white\">Catégorie :</strong> prière volontaire ou Nafl.</li><li><strong class=\"text-white\">Forme courante :</strong> deux rak'ahs, avec d'autres nombres également enseignés.</li><li><strong class=\"text-white\">À retenir :</strong> les limites exactes dépendent de l'enseignement local.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-is-duha-prayer", "label": "Qu'est-ce que la prière de Duha ?" },
+      { "href": "#when-is-duha-prayed", "label": "Horaire de la prière de Duha" },
+      { "href": "#how-many-rak-ahs-are-in-duha", "label": "Combien de rak'ahs ?" },
+      { "href": "#how-to-pray-duha-prayer", "label": "Comment prier Duha ?" },
+      { "href": "#duha-ishraq-and-local-names", "label": "Duha, Ishraq et appellations locales" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "duha-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

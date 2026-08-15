@@ -1,0 +1,38 @@
+{
+  "type": "static",
+  "key": "how-prayer-times-are-calculated",
+  "locale": "fr",
+  "routePath": "/how-prayer-times-are-calculated/",
+  "alternates": [{ "locale": "en", "route": "/how-prayer-times-are-calculated/" }],
+  "seo": {
+    "title": "Calcul et précision des horaires de prière | Waqto Salat",
+    "description": "Comprenez le calcul de Fajr, Dhuhr, Asr, Maghrib et Isha : angles du crépuscule, réglage d'Asr, hautes latitudes et calibration locale.",
+    "ogType": "article",
+    "ogTitle": "Calcul et précision des horaires de prière",
+    "ogDescription": "Méthodes de calcul, angles de Fajr et Isha, réglage d'Asr, hautes latitudes et calibration.",
+    "ogImageAlt": "Guide Waqto Salat des méthodes de calcul des horaires de prière.",
+    "twitterTitle": "Comment calcule-t-on les horaires de prière ?",
+    "twitterDescription": "Guide des méthodes, angles, réglages d'Asr et calibrations locales.",
+    "twitterImageAlt": "Guide du calcul des horaires de prière."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Méthodes de calcul des horaires de prière",
+    "description": "Explication astronomique et pratique du calcul des cinq horaires, des méthodes, réglages et calibrations locales.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://praytimes.org/docs/methods", "https://praytimes.org/docs/manual-v2"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Calcul des horaires de prière", "path": "/how-prayer-times-are-calculated/" }
+    ],
+    "faqs": [
+      { "question": "Pourquoi les horaires diffèrent-ils entre les applications ?", "answer": "Les applications peuvent employer des méthodes de calcul, réglages juridiques, données de localisation, fuseaux horaires ou ajustements manuels différents." },
+      { "question": "Waqto Salat peut-il suivre les horaires de ma mosquée ?", "answer": "Les outils de calibration permettent d'aligner les horaires sur ceux de votre communauté après avoir correctement réglé la méthode, le lieu et les paramètres de base." },
+      { "question": "Quelle méthode de calcul faut-il choisir ?", "answer": "Utilisez la méthode suivie par votre mosquée ou autorité locale, puis vérifiez le réglage d'Asr, la règle de haute latitude et le fuseau horaire." },
+      { "question": "Pourquoi Fajr et Isha sont-ils difficiles à calculer aux hautes latitudes ?", "answer": "À certaines périodes, le soleil n'atteint pas l'angle de crépuscule choisi ; une règle reconnue doit alors estimer l'horaire." }
+    ]
+  },
+  "mainFile": "how-prayer-times-are-calculated.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.7" }
+}

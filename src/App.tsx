@@ -12,7 +12,7 @@ import { Footer } from "./components/Footer";
 import type { LandingLocale } from "./content/landing";
 
 export default function App({ locale: requestedLocale }: { locale?: LandingLocale }) {
-  const locale: LandingLocale = requestedLocale ?? (document.documentElement.lang === "ar" ? "ar" : "en");
+  const locale: LandingLocale = requestedLocale ?? detectDocumentLocale();
 
   return (
     <div dir={locale === "ar" ? "rtl" : "ltr"} className="min-h-screen overflow-x-hidden font-sans selection:bg-islamic-gold/30 selection:text-islamic-green bg-off-white">
@@ -34,4 +34,12 @@ export default function App({ locale: requestedLocale }: { locale?: LandingLocal
         <Footer locale={locale} />
     </div>
   );
+}
+
+function detectDocumentLocale(): LandingLocale {
+  if (typeof document === "undefined") return "en";
+  const documentLanguage = document.documentElement.lang.toLowerCase();
+  if (documentLanguage.startsWith("ar")) return "ar";
+  if (documentLanguage.startsWith("fr")) return "fr";
+  return "en";
 }

@@ -1,0 +1,56 @@
+{
+  "type": "guide",
+  "key": "five-daily-prayers",
+  "locale": "fr",
+  "routePath": "/learn/five-daily-prayers/",
+  "seo": {
+    "title": "Les 5 prières quotidiennes : Fajr à Isha | Waqto Salat",
+    "description": "Découvrez les cinq prières quotidiennes : Fajr, Dhuhr, Asr, Maghrib et Isha, leurs horaires, unités obligatoires, prières Sunnah et questions courantes.",
+    "ogType": "article",
+    "ogTitle": "Les 5 prières quotidiennes : Fajr à Isha",
+    "ogDescription": "Guide pratique de Fajr, Dhuhr, Asr, Maghrib et Isha, avec horaires et nombre d'unités obligatoires.",
+    "ogImageAlt": "Guide Waqto Salat des cinq prières quotidiennes.",
+    "twitterTitle": "Les 5 prières quotidiennes | Waqto Salat",
+    "twitterDescription": "Les noms, horaires et unités obligatoires de Fajr, Dhuhr, Asr, Maghrib et Isha.",
+    "twitterImageAlt": "Guide des cinq prières quotidiennes Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Les cinq prières quotidiennes : de Fajr à Isha",
+    "description": "Guide pratique de Fajr, Dhuhr, Asr, Maghrib et Isha, avec horaires et nombre d'unités obligatoires.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://quran.com/17/78", "https://sunnah.com/bukhari:527", "https://sunnah.com/bukhari:528"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Les cinq prières quotidiennes", "path": "/learn/five-daily-prayers/" }
+    ],
+    "faqs": [
+      { "question": "Quelles sont les cinq prières quotidiennes en islam ?", "answer": "Les cinq prières quotidiennes sont Fajr, Dhuhr, Asr, Maghrib et Isha. Elles forment le rythme obligatoire de la salat quotidienne." },
+      { "question": "Combien d'unités obligatoires compte chaque prière ?", "answer": "Les unités obligatoires sont généralement enseignées ainsi : Fajr 2, Dhuhr 4, Asr 4, Maghrib 3 et Isha 4. Des prières Sunnah ou volontaires peuvent s'y ajouter." },
+      { "question": "Les horaires de prière changent-ils chaque jour ?", "answer": "Oui. Ils évoluent selon le soleil, la date, le lieu, le fuseau horaire, la méthode de calcul et les recommandations locales." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Les cinq prières quotidiennes : de Fajr à Isha.",
+    "introductionHtml": "Les cinq prières quotidiennes rythment la vie musulmane : Fajr, Dhuhr, Asr, Maghrib et Isha, chacune liée à un moment déterminé de la journée.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Noms :</strong> Fajr, Dhuhr, Asr, Maghrib et Isha.</li><li><strong class=\"text-white\">Statut :</strong> les prières quotidiennes obligatoires.</li><li><strong class=\"text-white\">Unités obligatoires :</strong> 2, 4, 4, 3 et 4, dans cet ordre.</li><li><strong class=\"text-white\">Horaires :</strong> ils changent selon le soleil, le lieu et la méthode locale.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-are-the-five-daily-prayers", "label": "Quelles sont les cinq prières ?" },
+      { "href": "#the-five-prayers-in-order", "label": "Les cinq prières dans l'ordre" },
+      { "href": "#obligatory-sunnah-and-voluntary-rak-ahs", "label": "Unités obligatoires, Sunnah et volontaires" },
+      { "href": "#why-timing-matters", "label": "Pourquoi les horaires comptent" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "five-daily-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

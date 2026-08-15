@@ -4,8 +4,14 @@ import { landingCopy, type LandingLocale } from "../content/landing";
 
 export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
   const copy = landingCopy[locale];
-  const homePath = locale === "ar" ? "/ar/" : "/";
-  const learnPath = locale === "ar" ? "/ar/learn/" : "/learn/";
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const homePath = `${localePrefix}/`;
+  const learnPath = `${localePrefix}/learn/`;
+  const languageLinks = [
+    { locale: "en", href: "/", name: "English", shortName: "EN" },
+    { locale: "ar", href: "/ar/", name: "العربية", shortName: "AR" },
+    { locale: "fr", href: "/fr/", name: "Français", shortName: "FR" },
+  ].filter((language) => language.locale !== locale);
   const navLinks = [
     { href: "#features", label: copy.navigation.features },
     { href: "#about", label: copy.navigation.about },
@@ -25,7 +31,7 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 md:px-12 h-20 flex items-center justify-between gap-3 sm:gap-4">
         <a href={homePath} className="min-w-0 flex items-center gap-3 text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 rounded-full">
           <img src={assetPath("logo-64.webp")} alt={copy.logoAlt} width="32" height="32" className="w-8 h-8 rounded-full object-cover" />
-          <span className="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">{copy.brandName}</span>
+          <span className="hidden truncate whitespace-nowrap font-display text-xl font-medium min-[360px]:block sm:text-2xl">{copy.brandName}</span>
         </a>
         
         <div className="hidden md:flex items-center gap-7 text-sm font-semibold text-muted-green">
@@ -65,22 +71,26 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
         </div>
 
         <div className="flex shrink-0 items-center gap-2">
-          <a
-            href={locale === "ar" ? "/" : "/ar/"}
-            hrefLang={locale === "ar" ? "en" : "ar"}
-            lang={locale === "ar" ? "en" : "ar"}
-            aria-label={copy.navigation.languageLabel}
-            className="rounded-full border border-border-light px-3 py-2 text-xs font-bold text-islamic-green transition-colors hover:border-islamic-gold focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
-          >
-            <span className="hidden sm:inline">{copy.navigation.languageName}</span>
-            <span className="sm:hidden">{copy.navigation.languageShort}</span>
-          </a>
+          {languageLinks.map((language) => (
+            <a
+              key={language.locale}
+              href={language.href}
+              hrefLang={language.locale}
+              lang={language.locale}
+              aria-label={`${copy.navigation.languageLabel}: ${language.name}`}
+              className="rounded-full border border-border-light px-2.5 py-2 text-xs font-bold text-islamic-green transition-colors hover:border-islamic-gold focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 sm:px-3"
+            >
+              <span className="hidden lg:inline">{language.name}</span>
+              <span className="lg:hidden">{language.shortName}</span>
+            </a>
+          ))}
           <a
             href="#download"
+            aria-label={copy.navigation.download}
             className="bg-islamic-green text-white hover:bg-islamic-green-hover px-3 sm:px-6 py-3 rounded-full font-bold uppercase tracking-widest text-xs inline-flex items-center gap-2 transition-[background-color,box-shadow] shadow-sm hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
           >
             <Download className="hidden sm:block h-4 w-4" />
-            <span className="sm:hidden">{copy.navigation.getApp}</span>
+            <span className="sm:hidden">{locale === "fr" ? "App" : copy.navigation.getApp}</span>
             <span className="hidden sm:inline">{copy.navigation.download}</span>
           </a>
         </div>

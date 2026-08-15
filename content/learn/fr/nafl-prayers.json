@@ -1,0 +1,59 @@
+{
+  "type": "guide",
+  "key": "nafl-prayers",
+  "locale": "fr",
+  "routePath": "/learn/nafl-prayers/",
+  "seo": {
+    "title": "Prières Nafl : les prières volontaires | Waqto Salat",
+    "description": "Découvrez les prières Nafl : salat volontaire au-delà des obligations, exemples, horaires déconseillés, prière à la maison et questions courantes.",
+    "ogType": "article",
+    "ogTitle": "Prières Nafl : les prières volontaires | Waqto Salat",
+    "ogDescription": "Guide des prières volontaires en islam, avec exemples, horaires et conseils pour commencer.",
+    "ogImageAlt": "Guide Waqto Salat des prières Nafl volontaires.",
+    "twitterTitle": "Prières Nafl et salat volontaire | Waqto Salat",
+    "twitterDescription": "Comprendre les prières Nafl, leur place après les obligations et les principaux exemples.",
+    "twitterImageAlt": "Guide des prières Nafl Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Prières Nafl : les prières volontaires",
+    "description": "Guide des prières volontaires en islam, avec exemples, horaires et conseils pour commencer.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "citations": ["https://sunnah.com/bukhari:6502", "https://sunnah.com/muslim:1163a", "https://sunnah.com/bukhari:731", "https://sunnah.com/bukhari:444"],
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Apprendre", "path": "/learn/" },
+      { "name": "Prières Nafl", "path": "/learn/nafl-prayers/" }
+    ],
+    "faqs": [
+      { "question": "Que sont les prières Nafl ?", "answer": "Les prières Nafl sont des prières volontaires accomplies en plus des cinq prières obligatoires afin d'ajouter de l'adoration et de se rapprocher d'Allah." },
+      { "question": "Les prières Nafl sont-elles obligatoires ?", "answer": "Non. Elles sont volontaires. Les cinq prières quotidiennes restent prioritaires et les prières Nafl viennent ensuite selon les capacités de chacun." },
+      { "question": "Peut-on accomplir une prière Nafl à tout moment ?", "answer": "De nombreuses prières volontaires ont une plage horaire large, mais la jurisprudence prévoit des moments où elles sont évitées. Suivez votre école ou un savant local pour les détails." },
+      { "question": "Comment accomplir une prière Nafl générale ?", "answer": "Une prière Nafl générale est souvent accomplie en deux rak'ahs selon la forme habituelle de la salat. Les prières portant un nom précis peuvent avoir un horaire ou des modalités propres." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Apprendre / Guide de la salat",
+    "titleHtml": "Prières Nafl : la salat volontaire.",
+    "introductionHtml": "Les prières Nafl sont des prières volontaires ajoutées aux obligations pour multiplier l'adoration, le rappel d'Allah et la régularité spirituelle.",
+    "summaryLabel": "En bref",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\"><li><strong class=\"text-white\">Sens :</strong> prières volontaires en plus de la salat obligatoire.</li><li><strong class=\"text-white\">Priorité :</strong> préserver d'abord les cinq prières obligatoires.</li><li><strong class=\"text-white\">Exemples :</strong> Duha, Tahajjud, salutation de la mosquée et prière après les ablutions.</li><li><strong class=\"text-white\">À retenir :</strong> respecter les horaires déconseillés et l'enseignement local.</li></ul>"
+  },
+  "contents": {
+    "label": "Dans ce guide",
+    "ariaLabel": "Sommaire de l'article",
+    "items": [
+      { "href": "#what-are-nafl-prayers", "label": "Que sont les prières Nafl ?" },
+      { "href": "#obligatory-first-then-extra-worship", "label": "Les obligations avant les actes surérogatoires" },
+      { "href": "#common-examples-of-nafl-prayers", "label": "Liste des prières Nafl" },
+      { "href": "#how-to-pray-nafl-prayer", "label": "Comment accomplir une prière Nafl ?" },
+      { "href": "#when-can-nafl-prayers-be-prayed", "label": "Quand prier les prières Nafl ?" },
+      { "href": "#praying-nafl-at-home", "label": "Prier les Nafl à la maison" },
+      { "href": "#common-questions", "label": "Questions courantes" },
+      { "href": "#sources-and-further-reading", "label": "Sources et lectures" }
+    ]
+  },
+  "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
+  "articleFile": "nafl-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

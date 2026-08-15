@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "qibla-compass-app",
+  "locale": "fr",
+  "routePath": "/qibla-compass-app/",
+  "alternates": [{ "locale": "en", "route": "/qibla-compass-app/" }],
+  "seo": {
+    "title": "Application boussole Qibla Android | Waqto Salat",
+    "description": "Utilisez une boussole Qibla claire dans Waqto Salat sur Android, avec horaires, rappels, widgets et conseils pour améliorer la précision de la direction.",
+    "ogType": "article",
+    "ogTitle": "Application boussole Qibla Android | Waqto Salat",
+    "ogDescription": "Une direction de la Qibla claire, avec des conseils sur la localisation, les capteurs et la précision.",
+    "ogImageAlt": "Boussole Qibla dans l'application Android Waqto Salat.",
+    "twitterTitle": "Boussole Qibla Android | Waqto Salat",
+    "twitterDescription": "Direction de la Qibla, horaires et rappels de prière dans une seule application.",
+    "twitterImageAlt": "Aperçu de la boussole Qibla Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Application boussole Qibla pour Android",
+    "description": "Guide de la boussole Qibla Waqto Salat et des facteurs qui influencent la précision sur un téléphone.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Boussole Qibla", "path": "/qibla-compass-app/" }
+    ],
+    "faqs": [
+      { "question": "Waqto Salat comprend-il la direction de la Qibla ?", "answer": "Oui. La direction de la Qibla est incluse avec les horaires, rappels, widgets et réglages de calibration." },
+      { "question": "Pourquoi la direction de la boussole peut-elle varier ?", "answer": "Les capteurs du téléphone, la précision de la localisation, les objets métalliques et les interférences magnétiques peuvent modifier la lecture." }
+    ]
+  },
+  "mainFile": "qibla-compass-app.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+}

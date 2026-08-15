@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "privacy-policy",
+  "locale": "fr",
+  "routePath": "/privacy-policy/",
+  "alternates": [{ "locale": "en", "route": "/privacy-policy/" }],
+  "seo": {
+    "title": "Politique de confidentialité | Waqto Salat",
+    "description": "Découvrez comment l'application et le site Waqto Salat traitent les données, autorisations, localisation et services externes pour protéger votre vie privée.",
+    "ogType": "website",
+    "ogTitle": "Politique de confidentialité | Waqto Salat",
+    "ogDescription": "Une explication claire des données, autorisations et services utilisés par Waqto Salat.",
+    "ogImageAlt": "Politique de confidentialité de l'application Android Waqto Salat.",
+    "twitterTitle": "Politique de confidentialité | Waqto Salat",
+    "twitterDescription": "Comment Waqto Salat traite les données, autorisations et informations de localisation.",
+    "twitterImageAlt": "Politique de confidentialité Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "WebPage",
+    "name": "Politique de confidentialité | Waqto Salat",
+    "description": "Politique de confidentialité de l'application et du site Waqto Salat.",
+    "datePublished": "2026-08-15",
+    "dateModified": "2026-08-15",
+    "breadcrumbs": [
+      { "name": "Accueil", "path": "/" },
+      { "name": "Politique de confidentialité", "path": "/privacy-policy/" }
+    ]
+  },
+  "mainFile": "privacy-policy.main.html",
+  "sitemap": { "lastmod": "2026-08-15", "changefreq": "yearly", "priority": "0.3" }
+}
