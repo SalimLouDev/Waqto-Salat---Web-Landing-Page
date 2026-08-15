@@ -1,13 +1,21 @@
 import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
+import {createRoot, hydrateRoot} from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import {initLanguageSuggestion} from './language-suggestion';
 
+const rootElement = document.getElementById('root')!;
+const locale = document.documentElement.lang === 'ar' ? 'ar' : 'en';
+const app = (
+  <StrictMode>
+    <App locale={locale} />
+  </StrictMode>
+);
+
 initLanguageSuggestion();
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-);
+if (rootElement.dataset.ssr === 'true') {
+  hydrateRoot(rootElement, app);
+} else {
+  createRoot(rootElement).render(app);
+}

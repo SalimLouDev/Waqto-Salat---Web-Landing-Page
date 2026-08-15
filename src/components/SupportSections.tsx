@@ -2,7 +2,7 @@ import { CheckCircle2, Mail, MessageSquareText, ShieldCheck, Smartphone, Sparkle
 import { GooglePlayBadge } from "./GooglePlayBadge";
 import { landingCopy, type LandingLocale } from "../content/landing";
 
-const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || "contact@waqtosalat.com";
+const contactEmail = import.meta.env?.VITE_CONTACT_EMAIL || "contact@waqtosalat.com";
 const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${contactEmail}`;
 
 export function SupportSections({ locale = "en" }: { locale?: LandingLocale }) {

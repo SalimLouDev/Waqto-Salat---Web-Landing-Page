@@ -21,7 +21,7 @@ export function AppMockup({ imageSrc, alt }: { imageSrc?: string; alt?: string }
         <picture className="block h-full w-full">
           <source
             srcSet={`${assetPath(smallWebpFromPng(imageSrc))} 320w, ${assetPath(mediumWebpFromPng(imageSrc))} 560w, ${assetPath(webpFromPng(imageSrc))} 640w`}
-            sizes="(min-width: 640px) 320px, 82vw"
+            sizes="(min-width: 640px) 304px, calc(82vw - 16px)"
             type="image/webp"
           />
           <img

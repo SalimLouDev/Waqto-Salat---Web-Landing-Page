@@ -2,7 +2,7 @@ import { assetPath } from "../lib/assets";
 import type { LandingLocale } from "../content/landing";
 
 const playStoreUrl =
-  import.meta.env.VITE_PLAY_STORE_URL ||
+  import.meta.env?.VITE_PLAY_STORE_URL ||
   "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat";
 
 export function GooglePlayBadge({ className = "", locale = "en" }: { className?: string; locale?: LandingLocale }) {

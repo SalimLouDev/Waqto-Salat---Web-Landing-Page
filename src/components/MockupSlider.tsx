@@ -50,7 +50,7 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
           <picture key={currentIndex} className="absolute inset-0 block h-full w-full">
             <source
               srcSet={`${assetPath(current.webp.replace(".webp", "-320.webp"))} 320w, ${assetPath(current.webp.replace(".webp", "-560.webp"))} 560w, ${assetPath(current.webp)} 640w`}
-              sizes="(min-width: 640px) 320px, 82vw"
+              sizes="(min-width: 640px) 304px, calc(82vw - 16px)"
               type="image/webp"
             />
             <img
@@ -60,7 +60,7 @@ export function MockupSlider({ locale = "en" }: { locale?: LandingLocale }) {
               height="1137"
               decoding="async"
               loading="eager"
-              fetchPriority={currentIndex === 0 ? "high" : "auto"}
+              fetchPriority="auto"
               className="h-full w-full object-cover object-top"
             />
           </picture>

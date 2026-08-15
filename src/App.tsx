@@ -11,8 +11,8 @@ import { ResourceLinksSection } from "./components/ResourceLinksSection";
 import { Footer } from "./components/Footer";
 import type { LandingLocale } from "./content/landing";
 
-export default function App() {
-  const locale: LandingLocale = document.documentElement.lang === "ar" ? "ar" : "en";
+export default function App({ locale: requestedLocale }: { locale?: LandingLocale }) {
+  const locale: LandingLocale = requestedLocale ?? (document.documentElement.lang === "ar" ? "ar" : "en");
 
   return (
     <div dir={locale === "ar" ? "rtl" : "ltr"} className="min-h-screen overflow-x-hidden font-sans selection:bg-islamic-gold/30 selection:text-islamic-green bg-off-white">
