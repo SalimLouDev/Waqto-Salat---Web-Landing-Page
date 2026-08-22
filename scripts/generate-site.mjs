@@ -28,6 +28,14 @@ const relatedGuideKeys = {
   "eclipse-prayer": ["nafl-prayers", "five-daily-prayers", "janazah-prayer"],
   "taraweeh-prayer": ["witr-prayer", "tahajjud-prayer", "sunnah-prayers"],
 };
+const resourcePageKeys = new Set([
+  "ad-free-prayer-times-app",
+  "salah-reminder-app",
+  "qibla-compass-app",
+  "prayer-times-widget-android",
+  "how-prayer-times-are-calculated",
+]);
+const playStoreUrl = "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat";
 
 function escapeHtml(value) {
   return String(value)
@@ -370,6 +378,44 @@ function renderLanguageLinks(page, variants) {
     .join("\n            ");
 }
 
+function renderMobileDownloadBadge(page) {
+  if (!resourcePageKeys.has(page.key)) return "";
+  const copy = locales[page.locale].downloadCard;
+  const sideClass = locales[page.locale].direction === "rtl" ? "left-5" : "right-5";
+  return `
+      <a
+        href="${playStoreUrl}"
+        aria-label="${escapeHtml(copy.mobileAriaLabel)}"
+        class="fixed bottom-5 ${sideClass} z-[90] inline-flex h-14 w-36 items-center justify-center overflow-hidden rounded-lg bg-black shadow-[0_12px_28px_rgba(10,61,45,0.28)] focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/40 lg:hidden"
+      >
+        <picture>
+          <source srcset="/google-play-badge-260.webp" type="image/webp" />
+          <img src="/google-play-badge.png" alt="${escapeHtml(copy.badgeAlt)}" width="260" height="101" decoding="async" class="h-auto w-full" />
+        </picture>
+      </a>`;
+}
+
+function renderResourceDownloadCard(page) {
+  if (!resourcePageKeys.has(page.key)) return "";
+  const locale = locales[page.locale];
+  const copy = locale.downloadCard;
+  const labelClass = locale.direction === "rtl" ? "" : "uppercase tracking-widest";
+  const trustClass = locale.direction === "rtl" ? "" : "uppercase tracking-wider";
+  return `
+    <div class="mt-8 hidden rounded-lg border border-islamic-gold/35 bg-white p-5 text-center shadow-sm lg:block">
+      <p class="text-xs font-bold ${labelClass} text-islamic-gold">${escapeHtml(copy.eyebrow)}</p>
+      <p class="mt-3 font-display text-xl font-medium leading-7 text-islamic-green">${escapeHtml(copy.heading)}</p>
+      <p class="mt-2 text-sm leading-6 text-muted-green">${escapeHtml(copy.body)}</p>
+      <a href="${playStoreUrl}" aria-label="${escapeHtml(copy.desktopAriaLabel)}" class="mt-5 inline-flex rounded-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/35">
+        <picture>
+          <source srcset="/google-play-badge-260.webp" type="image/webp" />
+          <img src="/google-play-badge.png" alt="${escapeHtml(copy.badgeAlt)}" width="260" height="101" loading="lazy" decoding="async" class="h-auto w-[10.5rem]" />
+        </picture>
+      </a>
+      <p class="mt-3 text-xs font-semibold ${trustClass} text-islamic-green">${escapeHtml(copy.trust)}</p>
+    </div>`;
+}
+
 function renderHeader(page, variants) {
   const locale = locales[page.locale];
   const navigation = locale.navigation;
@@ -380,6 +426,7 @@ function renderHeader(page, variants) {
   const homeClass = page.type === "landing" ? "text-islamic-green" : "hover:text-islamic-green";
   const learnClass = page.type === "landing" ? "hover:text-islamic-green" : "text-islamic-green";
   const appButtonClass = locale.direction === "rtl" ? "" : "uppercase tracking-widest";
+  const appButtonVisibilityClass = resourcePageKeys.has(page.key) ? "hidden lg:inline-flex " : "";
   const compactAppLabel = page.locale === "fr" ? "App" : navigation.getApp;
   return `      <header class="fixed top-0 inset-x-0 z-[100] border-b border-border-light/80 bg-off-white/95 shadow-[0_10px_24px_rgba(10,61,45,0.035)] backdrop-blur-xl">
         <div class="mx-auto flex h-20 max-w-7xl w-full items-center justify-between gap-3 px-4 sm:px-6 md:px-12">
@@ -393,7 +440,7 @@ function renderHeader(page, variants) {
             <a href="${escapeHtml(resourcesPath)}" class="hover:text-islamic-green">${escapeHtml(navigation.resources)}</a>
           </nav>
           <div class="flex shrink-0 items-center gap-2">
-            ${languageLinks ? `${languageLinks}\n            ` : ""}<a href="https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat" aria-label="${escapeHtml(navigation.getApp)}" class="rounded-full bg-islamic-green px-4 py-3 text-xs font-bold ${appButtonClass} text-white"><span class="sm:hidden">${escapeHtml(compactAppLabel)}</span><span class="hidden sm:inline">${escapeHtml(navigation.getApp)}</span></a>
+            ${languageLinks ? `${languageLinks}\n            ` : ""}<a href="${playStoreUrl}" aria-label="${escapeHtml(navigation.getApp)}" class="${appButtonVisibilityClass}rounded-full bg-islamic-green px-4 py-3 text-xs font-bold ${appButtonClass} text-white"><span class="sm:hidden">${escapeHtml(compactAppLabel)}</span><span class="hidden sm:inline">${escapeHtml(navigation.getApp)}</span></a>
           </div>
         </div>
       </header>`;
@@ -537,14 +584,23 @@ ${renderFooter(page)}
 }
 
 async function renderStaticPage(page, variants) {
-  const main = await readFile(path.join(page.sourceDir, page.mainFile), "utf8");
+  let main = await readFile(path.join(page.sourceDir, page.mainFile), "utf8");
+  if (resourcePageKeys.has(page.key)) {
+    if (page.key === "how-prayer-times-are-calculated") {
+      main = main.replace(
+        "lg:sticky lg:top-28 lg:self-start",
+        "lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:self-start lg:overflow-y-auto lg:overscroll-contain lg:pr-2",
+      );
+    }
+    main = main.replace("</aside>", `${renderResourceDownloadCard(page)}\n  </aside>`);
+  }
   return `<!doctype html>
 <!-- Generated by scripts/generate-site.mjs. Edit ${page.sourceFile} and its main content file. -->
 <html lang="${escapeHtml(locales[page.locale].htmlLang)}" dir="${escapeHtml(locales[page.locale].direction)}">
 ${renderHead(page, variants)}
   <body>
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
-${renderHeader(page, variants)}
+${renderHeader(page, variants)}${renderMobileDownloadBadge(page)}
 
       <main id="main-content" class="content-page pt-20">
 ${indent(main, 8)}

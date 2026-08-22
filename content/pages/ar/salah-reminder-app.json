@@ -20,7 +20,7 @@
     "name": "تطبيق تذكير الصلاة للأندرويد",
     "description": "دليل إلى التذكيرات المتحركة المرتبطة بمواقيت الصلاة في تطبيق وقت الصلاة للأندرويد.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
       { "name": "تطبيق تذكير الصلاة", "path": "/salah-reminder-app/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "salah-reminder-app.main.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

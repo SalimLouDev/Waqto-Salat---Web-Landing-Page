@@ -20,7 +20,7 @@
     "name": "Application de rappel de prière Android",
     "description": "Guide des rappels dynamiques liés aux horaires de prière dans Waqto Salat pour Android.",
     "datePublished": "2026-08-15",
-    "dateModified": "2026-08-15",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "Accueil", "path": "/" },
       { "name": "Application de rappel de prière", "path": "/salah-reminder-app/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "salah-reminder-app.main.html",
-  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

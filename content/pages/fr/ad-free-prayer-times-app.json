@@ -20,7 +20,7 @@
     "name": "Application Android d'horaires de prière sans publicité",
     "description": "Guide des fonctions de Waqto Salat comme application Android gratuite, calme et sans publicité.",
     "datePublished": "2026-08-15",
-    "dateModified": "2026-08-15",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "Accueil", "path": "/" },
       { "name": "Application de prière sans publicité", "path": "/ad-free-prayer-times-app/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "ad-free-prayer-times-app.main.html",
-  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

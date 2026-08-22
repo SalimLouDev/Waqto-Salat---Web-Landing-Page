@@ -20,7 +20,7 @@
     "name": "طرق حساب مواقيت الصلاة",
     "description": "شرح فلكي وعملي لحساب مواقيت الصلوات الخمس ومقارنة الطرق والإعدادات والمعايرة المحلية.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "citations": ["https://praytimes.org/docs/methods", "https://praytimes.org/docs/manual-v2"],
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
@@ -34,5 +34,5 @@
     ]
   },
   "mainFile": "how-prayer-times-are-calculated.main.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.7" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.7" }
 }

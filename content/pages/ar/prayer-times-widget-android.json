@@ -20,7 +20,7 @@
     "name": "ويدجت مواقيت الصلاة للأندرويد",
     "description": "دليل إلى ويدجت وقت الصلاة على الشاشة الرئيسية وكيف تساعد على إبقاء الصلاة القادمة ظاهرة طوال اليوم.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
       { "name": "ويدجت مواقيت الصلاة", "path": "/prayer-times-widget-android/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "prayer-times-widget-android.main.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

@@ -20,7 +20,7 @@
     "name": "تطبيق مواقيت صلاة بلا إعلانات للأندرويد",
     "description": "دليل إلى مزايا وقت الصلاة كتطبيق مجاني وهادئ لمواقيت الصلاة على أندرويد بلا إعلانات.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
       { "name": "مواقيت صلاة بلا إعلانات", "path": "/ad-free-prayer-times-app/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "ad-free-prayer-times-app.main.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

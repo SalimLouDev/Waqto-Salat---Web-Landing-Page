@@ -20,7 +20,7 @@
     "name": "تطبيق بوصلة القبلة للأندرويد",
     "description": "دليل إلى بوصلة القبلة في وقت الصلاة والعوامل التي تؤثر في دقة اتجاه البوصلة على الهاتف.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
       { "name": "بوصلة القبلة", "path": "/qibla-compass-app/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "qibla-compass-app.main.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

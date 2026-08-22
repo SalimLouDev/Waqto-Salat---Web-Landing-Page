@@ -20,7 +20,7 @@
     "name": "Widget d'horaires de prière pour Android",
     "description": "Guide des widgets Waqto Salat et de leur rôle pour garder la prochaine prière visible durant la journée.",
     "datePublished": "2026-08-15",
-    "dateModified": "2026-08-15",
+    "dateModified": "2026-08-22",
     "breadcrumbs": [
       { "name": "Accueil", "path": "/" },
       { "name": "Widget d'horaires de prière", "path": "/prayer-times-widget-android/" }
@@ -31,5 +31,5 @@
     ]
   },
   "mainFile": "prayer-times-widget-android.main.html",
-  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }
