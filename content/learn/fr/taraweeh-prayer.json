@@ -18,7 +18,7 @@
     "headline": "Prière de Taraweeh pendant Ramadan",
     "description": "Guide pratique de Taraweeh : horaire, congrégation, rak'ahs, récitation du Coran et Witr.",
     "datePublished": "2026-08-15",
-    "dateModified": "2026-08-15",
+    "dateModified": "2026-08-22",
     "citations": ["https://sunnah.com/bukhari:2009", "https://sunnah.com/bukhari:2010", "https://sunnah.com/bukhari:2012", "https://sunnah.com/bukhari:2013"],
     "breadcrumbs": [
       { "name": "Accueil", "path": "/" },
@@ -52,5 +52,5 @@
   },
   "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
   "articleFile": "taraweeh-prayer.article.html",
-  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

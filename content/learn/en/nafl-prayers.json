@@ -18,7 +18,7 @@
     "headline": "Nafl Prayers: Voluntary Salah",
     "description": "A practical guide to Nafl prayers in Islam, including voluntary salah, examples, timing, praying at home, forbidden times, and common questions.",
     "datePublished": "2026-07-01",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-08-22",
     "citations": [
       "https://sunnah.com/bukhari:6502",
       "https://sunnah.com/muslim:1163a",
@@ -106,7 +106,7 @@
   "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
   "articleFile": "nafl-prayers.article.html",
   "sitemap": {
-    "lastmod": "2026-07-18",
+    "lastmod": "2026-08-22",
     "changefreq": "monthly",
     "priority": "0.8"
   }

@@ -18,7 +18,7 @@
     "headline": "صلاة الضحى: نافلة أول النهار",
     "description": "دليل لصلاة الضحى ووقتها بعد الشروق وقبل الظهر وعدد ركعاتها وطريقتها.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "citations": ["https://sunnah.com/bukhari:1178", "https://sunnah.com/bukhari:1176", "https://sunnah.com/muslim:720a"],
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
@@ -54,5 +54,5 @@
   },
   "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
   "articleFile": "duha-prayer.article.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

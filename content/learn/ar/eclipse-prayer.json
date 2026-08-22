@@ -18,7 +18,7 @@
     "headline": "صلاة الكسوف والخسوف",
     "description": "دليل لصلاة كسوف الشمس وخسوف القمر، مع الوقت والصفة والدعاء والصدقة.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "citations": ["https://sunnah.com/bukhari:1043", "https://sunnah.com/bukhari:1046", "https://sunnah.com/bukhari:1059", "https://sunnah.com/muslim:906a"],
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
@@ -52,5 +52,5 @@
   },
   "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
   "articleFile": "eclipse-prayer.article.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.7" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "yearly", "priority": "0.7" }
 }

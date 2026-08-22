@@ -18,7 +18,7 @@
     "headline": "صلاة التهجد: قيام الليل تطوعا",
     "description": "دليل لصلاة التهجد بعد العشاء وقبل الفجر، مع الوقت والركعات وعلاقتها بقيام الليل والوتر.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "citations": ["https://quran.com/17/79", "https://sunnah.com/muslim:1163a", "https://sunnah.com/bukhari:990", "https://sunnah.com/bukhari:2013"],
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
@@ -52,5 +52,5 @@
   },
   "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
   "articleFile": "tahajjud-prayer.article.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

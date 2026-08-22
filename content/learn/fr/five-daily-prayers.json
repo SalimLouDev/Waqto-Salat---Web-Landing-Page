@@ -18,7 +18,7 @@
     "headline": "Les cinq prières quotidiennes : de Fajr à Isha",
     "description": "Guide pratique de Fajr, Dhuhr, Asr, Maghrib et Isha, avec horaires et nombre d'unités obligatoires.",
     "datePublished": "2026-08-15",
-    "dateModified": "2026-08-15",
+    "dateModified": "2026-08-22",
     "citations": ["https://quran.com/17/78", "https://sunnah.com/bukhari:527", "https://sunnah.com/bukhari:528"],
     "breadcrumbs": [
       { "name": "Accueil", "path": "/" },
@@ -52,5 +52,5 @@
   },
   "asideMetaHtml": "<p>Préparé par Waqto Salat</p><p class=\"mt-2\">Dernière révision : 15 août 2026</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
   "articleFile": "five-daily-prayers.article.html",
-  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

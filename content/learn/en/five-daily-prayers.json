@@ -18,7 +18,7 @@
     "headline": "Five Daily Prayers: Fajr to Isha",
     "description": "A practical guide to Fajr, Dhuhr, Asr, Maghrib, and Isha, including timing, obligatory rak'ahs, and common questions.",
     "datePublished": "2026-07-01",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-08-22",
     "citations": [
       "https://quran.com/17/78",
       "https://sunnah.com/bukhari:527",
@@ -93,7 +93,7 @@
   "asideMetaHtml": "<p>Prepared by Waqto Salat</p>\n                <p class=\"mt-2\">Last reviewed July 18, 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/editorial-methodology/\">Editorial methodology</a>",
   "articleFile": "five-daily-prayers.article.html",
   "sitemap": {
-    "lastmod": "2026-07-18",
+    "lastmod": "2026-08-22",
     "changefreq": "monthly",
     "priority": "0.8"
   }

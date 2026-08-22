@@ -18,7 +18,7 @@
     "headline": "Comment faire la prière d'Istikhara",
     "description": "Guide pratique de la prière d'Istikhara, de son invocation, de la consultation et des idées reçues.",
     "datePublished": "2026-08-15",
-    "dateModified": "2026-08-15",
+    "dateModified": "2026-08-22",
     "citations": ["https://sunnah.com/bukhari:6382", "https://yaqeeninstitute.org/read/blog/a-guide-to-istikhara-the-prayer-for-guidance"],
     "breadcrumbs": [
       { "name": "Accueil", "path": "/" },
@@ -54,5 +54,5 @@
   },
   "asideMetaHtml": "<p>Publié le 15 août 2026</p><p class=\"mt-2\">Préparé par Waqto Salat</p><a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/fr/editorial-methodology/\">Méthodologie éditoriale</a>",
   "articleFile": "istikhara-prayer.article.html",
-  "sitemap": { "lastmod": "2026-08-15", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }

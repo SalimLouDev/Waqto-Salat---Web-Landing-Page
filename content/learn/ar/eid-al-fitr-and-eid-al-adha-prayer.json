@@ -18,7 +18,7 @@
     "headline": "صلاة عيد الفطر وعيد الأضحى",
     "description": "دليل لصلاة العيدين ووقتها وركعتيها والتكبيرات والخطبة والفروق المحيطة بكل عيد.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "citations": ["https://sunnah.com/bukhari:956", "https://sunnah.com/bukhari:957", "https://sunnah.com/abudawud:1151", "https://sunnah.com/abudawud:1609"],
     "breadcrumbs": [
       { "name": "الرئيسية", "path": "/" },
@@ -52,5 +52,5 @@
   },
   "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
   "articleFile": "eid-al-fitr-and-eid-al-adha-prayer.article.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "yearly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "yearly", "priority": "0.8" }
 }

@@ -18,7 +18,7 @@
     "headline": "صلوات السنة: المؤكدة والسنن الرواتب",
     "description": "دليل لصلوات السنة والرواتب قبل الفرائض وبعدها، مع عدد الركعات والاختلافات الشائعة.",
     "datePublished": "2026-08-04",
-    "dateModified": "2026-08-04",
+    "dateModified": "2026-08-22",
     "citations": [
       "https://sunnah.com/tirmidhi:415",
       "https://sunnah.com/bukhari:1182",
@@ -68,5 +68,5 @@
   },
   "asideMetaHtml": "<p>نشر في 4 أغسطس 2026</p>\n<p class=\"mt-2\">إعداد وقت الصلاة</p>",
   "articleFile": "sunnah-prayers.article.html",
-  "sitemap": { "lastmod": "2026-08-04", "changefreq": "monthly", "priority": "0.8" }
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
 }
