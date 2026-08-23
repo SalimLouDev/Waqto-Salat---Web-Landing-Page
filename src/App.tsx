@@ -41,5 +41,6 @@ function detectDocumentLocale(): LandingLocale {
   const documentLanguage = document.documentElement.lang.toLowerCase();
   if (documentLanguage.startsWith("ar")) return "ar";
   if (documentLanguage.startsWith("fr")) return "fr";
+  if (documentLanguage.startsWith("id")) return "id";
   return "en";
 }

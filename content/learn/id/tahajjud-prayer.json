@@ -1,0 +1,61 @@
+{
+  "type": "guide",
+  "key": "tahajjud-prayer",
+  "locale": "id",
+  "routePath": "/learn/tahajjud-prayer/",
+  "seo": {
+    "title": "Salat Tahajud: Waktu, Rakaat, dan Witir | Waqto Salat",
+    "description": "Pelajari salat Tahajud dalam Islam: salat malam sunah setelah Isya dan sebelum Subuh, waktu, rakaat, Witir, Qiyamul Lail, tata cara, dan pertanyaan umum.",
+    "ogType": "article",
+    "ogTitle": "Salat Tahajud: Waktu, Rakaat, dan Witir | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Tahajud setelah Isya dan sebelum Subuh, termasuk waktu, rakaat, Witir, Qiyamul Lail, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Tahajud dan salat malam sunah.",
+    "twitterTitle": "Salat Tahajud: Waktu, Rakaat, dan Witir",
+    "twitterDescription": "Apa itu salat Tahajud, kapan dilakukan pada malam hari, serta kaitannya dengan Qiyamul Lail dan Witir.",
+    "twitterImageAlt": "Panduan salat Tahajud dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Tahajud: Waktu, Rakaat, dan Witir",
+    "description": "Panduan praktis salat Tahajud setelah Isya dan sebelum Subuh, termasuk waktu, rakaat, Witir, Qiyamul Lail, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://quran.com/17/79",
+      "https://sunnah.com/muslim:1163a",
+      "https://sunnah.com/bukhari:990",
+      "https://sunnah.com/bukhari:2013"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Tahajud", "path": "/learn/tahajjud-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Kapan salat Tahajud dilakukan?", "answer": "Salat Tahajud dilakukan setelah Isya dan sebelum Subuh. Banyak orang melakukannya setelah tidur lalu bangun pada malam hari, terutama pada bagian akhir malam." },
+      { "question": "Apakah salat Tahajud wajib?", "answer": "Tahajud adalah salat malam sukarela dan bukan bagian dari lima salat wajib harian." },
+      { "question": "Berapa rakaat salat Tahajud?", "answer": "Tahajud lazim dilakukan dalam rangkaian dua rakaat, dengan Witir pada akhir salat malam. Jumlahnya dapat berbeda sesuai kemampuan, waktu, dan pengajaran setempat." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Tahajud: salat malam sunah.",
+    "introductionHtml": "Tahajud adalah salat malam sukarela setelah Isya dan sebelum Subuh, sering dilakukan setelah bangun dari tidur ketika malam terasa tenang dan pikiran lebih terarah.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Waktu:</strong> setelah Isya dan sebelum Subuh.</li>\n                  <li><strong class=\"text-white\">Waktu yang dikenal utama:</strong> bagian akhir malam, terutama setelah bangun tidur.</li>\n                  <li><strong class=\"text-white\">Bentuk umum:</strong> dilakukan dua rakaat demi dua rakaat, lalu Witir.</li>\n                  <li><strong class=\"text-white\">Kategori:</strong> salat malam sukarela, bukan salah satu dari lima salat wajib.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-tahajjud-prayer", "label": "Apa itu salat Tahajud?" },
+      { "href": "#when-is-tahajjud-prayed", "label": "Kapan Tahajud dilakukan?" },
+      { "href": "#how-tahajjud-is-commonly-prayed", "label": "Cara umum melakukan Tahajud" },
+      { "href": "#tahajjud-qiyam-al-layl-and-witr", "label": "Tahajud, Qiyamul Lail, dan Witir" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "tahajjud-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

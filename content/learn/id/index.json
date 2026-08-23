@@ -1,0 +1,42 @@
+{
+  "type": "collection",
+  "key": "learn",
+  "locale": "id",
+  "routePath": "/learn/",
+  "seo": {
+    "title": "Panduan Salat dan Jenis-Jenis Sholat | Waqto Salat",
+    "description": "Pelajari salat wajib, Sunnah, nafl, dan salat khusus dalam perpustakaan panduan Bahasa Indonesia Waqto Salat yang terus dikembangkan.",
+    "ogType": "website",
+    "ogTitle": "Panduan Salat dan Jenis-Jenis Sholat | Waqto Salat",
+    "ogDescription": "Perpustakaan Bahasa Indonesia untuk mempelajari salat wajib, Sunnah, nafl, dan salat khusus.",
+    "ogImageAlt": "Perpustakaan panduan salat Bahasa Indonesia dari Waqto Salat.",
+    "twitterTitle": "Belajar Salat | Waqto Salat",
+    "twitterDescription": "Panduan Bahasa Indonesia tentang salat wajib, Sunnah, nafl, dan salat khusus.",
+    "twitterImageAlt": "Perpustakaan panduan salat Waqto Salat."
+  },
+  "structuredData": {
+    "name": "Panduan Salat dan Jenis-Jenis Sholat",
+    "description": "Perpustakaan Bahasa Indonesia yang khusus membahas salat dan jenis-jenisnya.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-23",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" }
+    ],
+    "items": [
+      { "name": "Lima Salat Wajib", "path": "/learn/five-daily-prayers/" },
+      { "name": "Salat Sunnah", "path": "/learn/sunnah-prayers/" },
+      { "name": "Salat Witir", "path": "/learn/witr-prayer/" },
+      { "name": "Salat Nafl", "path": "/learn/nafl-prayers/" },
+      { "name": "Salat Duha", "path": "/learn/duha-prayer/" },
+      { "name": "Salat Tahajud", "path": "/learn/tahajjud-prayer/" },
+      { "name": "Salat Istikharah", "path": "/learn/istikhara-prayer/" },
+      { "name": "Salat Idulfitri dan Iduladha", "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/" },
+      { "name": "Salat Jenazah", "path": "/learn/janazah-prayer/" },
+      { "name": "Salat Gerhana", "path": "/learn/eclipse-prayer/" },
+      { "name": "Salat Tarawih", "path": "/learn/taraweeh-prayer/" }
+    ]
+  },
+  "mainFile": "index.main.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

@@ -61,6 +61,33 @@ export function LearnSection({ locale = "en" }: { locale?: LandingLocale }) {
         >
           {copy.guides.map(({ title, href, summary }, index) => {
             const Icon = guideIcons.find(({ slug }) => href.includes(slug))?.Icon ?? BookOpen;
+            const guide = copy.guides[index];
+            const available = !("available" in guide) || guide.available;
+            const cardClass = `${index >= 6 ? "hidden sm:flex" : "flex"} group min-h-[136px] flex-col justify-between rounded-lg border border-border-light bg-white p-5 shadow-sm`;
+
+            if (!available) {
+              return (
+                <div key={href} className={`${cardClass} opacity-80`}>
+                  <span className="flex items-start justify-between gap-4">
+                    <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-islamic-green/10 text-islamic-green">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <span className="rounded-full bg-footer-bg px-3 py-1 text-[0.65rem] font-bold uppercase tracking-widest text-muted-green">
+                      {"comingSoon" in copy ? copy.comingSoon : "Coming soon"}
+                    </span>
+                  </span>
+                  <span className="mt-5 block">
+                    <span className="block font-display text-xl font-medium leading-snug text-islamic-green">
+                      {title}
+                    </span>
+                    <span className="mt-2 block text-sm leading-relaxed text-muted-green">
+                      {summary}
+                    </span>
+                  </span>
+                </div>
+              );
+            }
+
             return (
             <a
               key={href}

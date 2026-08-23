@@ -49,6 +49,7 @@
   --color-islamic-green: #0A3D2D;
   --color-islamic-green-hover: #165A44;
   --color-islamic-gold: #B8860B;
+  --color-islamic-gold-on-dark: #E3BD58;
   --color-islamic-gold-text: #765600;
   --color-off-white: #FDFCFB;
   --color-muted-green: #4A5D54;
@@ -90,8 +91,8 @@ html[dir="rtl"] .tracking-widest {
   color: var(--color-islamic-gold-text);
 }
 
-.content-page .bg-islamic-green .text-islamic-gold {
-  color: var(--color-islamic-gold);
+.bg-islamic-green .text-islamic-gold {
+  color: var(--color-islamic-gold-on-dark);
 }
 
 h1,

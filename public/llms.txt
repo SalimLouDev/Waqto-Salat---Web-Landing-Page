@@ -91,6 +91,30 @@ Contact: [contact@waqtosalat.com](mailto:contact@waqtosalat.com)
 - [سياسة الخصوصية](https://waqtosalat.com/ar/privacy-policy/)
 - [شروط الخدمة](https://waqtosalat.com/ar/terms-of-service/)
 
+## Indonesian Pages
+
+- [Beranda Bahasa Indonesia](https://waqtosalat.com/id/)
+- [Perpustakaan panduan salat](https://waqtosalat.com/id/learn/)
+- [Lima waktu sholat: Subuh hingga Isya](https://waqtosalat.com/id/learn/five-daily-prayers/)
+- [Salat Sunnah Muakkadah dan Rawatib](https://waqtosalat.com/id/learn/sunnah-prayers/)
+- [Salat Witir: penutup salat malam](https://waqtosalat.com/id/learn/witr-prayer/)
+- [Salat Nafl: sholat sunnah tambahan](https://waqtosalat.com/id/learn/nafl-prayers/)
+- [Salat Duha: waktu, rakaat, dan cara](https://waqtosalat.com/id/learn/duha-prayer/)
+- [Salat Tahajud: waktu, rakaat, dan Witir](https://waqtosalat.com/id/learn/tahajjud-prayer/)
+- [Salat Istikharah: cara, doa, dan petunjuk](https://waqtosalat.com/id/learn/istikhara-prayer/)
+- [Salat Idulfitri dan Iduladha: waktu dan tata cara](https://waqtosalat.com/id/learn/eid-al-fitr-and-eid-al-adha-prayer/)
+- [Salat Jenazah: tata cara dan empat takbir](https://waqtosalat.com/id/learn/janazah-prayer/)
+- [Salat Gerhana matahari dan bulan](https://waqtosalat.com/id/learn/eclipse-prayer/)
+- [Salat Tarawih di bulan Ramadan](https://waqtosalat.com/id/learn/taraweeh-prayer/)
+- [Aplikasi jadwal sholat tanpa iklan](https://waqtosalat.com/id/ad-free-prayer-times-app/)
+- [Aplikasi pengingat waktu salat](https://waqtosalat.com/id/salah-reminder-app/)
+- [Aplikasi kompas Kiblat](https://waqtosalat.com/id/qibla-compass-app/)
+- [Widget jadwal sholat untuk Android](https://waqtosalat.com/id/prayer-times-widget-android/)
+- [Cara menghitung waktu salat](https://waqtosalat.com/id/how-prayer-times-are-calculated/)
+- [Kebijakan Privasi](https://waqtosalat.com/id/privacy-policy/)
+- [Ketentuan Layanan](https://waqtosalat.com/id/terms-of-service/)
+- [Metodologi Editorial](https://waqtosalat.com/id/editorial-methodology/)
+
 ## Suggested Summary
 
 Waqto Salat is a free, ad-free Android prayer times app with dynamic salah reminders that move with prayer times, plus Qibla direction, home screen widgets, calibration controls, and multilingual support.

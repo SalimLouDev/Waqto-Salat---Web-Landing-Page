@@ -1,0 +1,62 @@
+{
+  "type": "guide",
+  "key": "taraweeh-prayer",
+  "locale": "id",
+  "routePath": "/learn/taraweeh-prayer/",
+  "seo": {
+    "title": "Salat Tarawih di Bulan Ramadan | Waqto Salat",
+    "description": "Pelajari salat Tarawih di bulan Ramadan: waktu, jamaah, perbedaan jumlah rakaat, bacaan Al-Qur'an, Witir, dan pertanyaan umum.",
+    "ogType": "article",
+    "ogTitle": "Salat Tarawih di Bulan Ramadan | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Tarawih, termasuk waktu, jamaah, perbedaan jumlah rakaat, bacaan Al-Qur'an, Witir, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Tarawih di bulan Ramadan.",
+    "twitterTitle": "Salat Tarawih di Bulan Ramadan | Waqto Salat",
+    "twitterDescription": "Apa itu salat Tarawih, kapan dilakukan pada bulan Ramadan, dan mengapa jumlah rakaat dapat berbeda antarkomunitas.",
+    "twitterImageAlt": "Panduan salat Tarawih dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Tarawih di Bulan Ramadan",
+    "alternativeHeadline": "Panduan Sholat Tarawih",
+    "description": "Panduan praktis salat Tarawih, termasuk waktu, jamaah, perbedaan jumlah rakaat, bacaan Al-Qur'an, Witir, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:2009",
+      "https://sunnah.com/bukhari:2010",
+      "https://sunnah.com/bukhari:2012",
+      "https://sunnah.com/bukhari:2013"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Tarawih", "path": "/learn/taraweeh-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Apakah salat Tarawih wajib?", "answer": "Tarawih bukan salah satu dari lima salat wajib. Salat ini lazim diajarkan sebagai salat Sunnah atau salat malam sukarela pada bulan Ramadan, dengan rincian menurut ulama dan mazhab." },
+      { "question": "Berapa rakaat salat Tarawih?", "answer": "Praktik komunitas Muslim berbeda. Banyak yang melakukan 8 atau 20 rakaat sebelum Witir, sedangkan komunitas lain mengikuti panduan ulama setempat. Ikuti imam atau mazhab yang Anda pelajari." },
+      { "question": "Kapan salat Tarawih dilakukan?", "answer": "Tarawih dilakukan setelah Isya selama Ramadan, biasanya sebelum Witir di banyak komunitas. Salat ini dapat dilakukan berjamaah di masjid atau secara mandiri." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Tarawih di bulan Ramadan.",
+    "introductionHtml": "Tarawih adalah salat malam Ramadan yang dilakukan setelah Isya, sering kali berjamaah, untuk berdiri dalam ibadah, mendengarkan bacaan Al-Qur'an, dan memohon ampunan Allah.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Waktu:</strong> setelah Isya selama Ramadan, biasanya sebelum Witir.</li>\n                  <li><strong class=\"text-white\">Tujuan:</strong> berdiri dalam salat malam, membaca atau mendengarkan Al-Qur'an, dan memohon ampunan.</li>\n                  <li><strong class=\"text-white\">Praktik umum:</strong> banyak komunitas melakukannya berjamaah di masjid.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> jumlah rakaat berbeda, jadi ikuti imam atau mazhab Anda.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-taraweeh-prayer", "label": "Apa itu salat Tarawih?" },
+      { "href": "#when-is-taraweeh-prayed", "label": "Kapan salat Tarawih dilakukan?" },
+      { "href": "#congregation-and-the-prophet-s-mercy", "label": "Jamaah dan kasih sayang Nabi" },
+      { "href": "#rak-ah-count-and-community-differences", "label": "Jumlah rakaat dan perbedaan komunitas" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "taraweeh-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

@@ -82,7 +82,11 @@ createRoot(document.getElementById("root")!).render(
       description="How Waqto Salat handles data, permissions, and privacy for the Android app and website."
       lastUpdated="June 15, 2026"
       sections={sections}
-      arabicPath="/ar/privacy-policy/"
+      translations={[
+        { href: "/ar/privacy-policy/", hrefLang: "ar", label: "AR", ariaLabel: "View this page in Arabic" },
+        { href: "/fr/privacy-policy/", hrefLang: "fr", label: "FR", ariaLabel: "View this page in French" },
+        { href: "/id/privacy-policy/", hrefLang: "id", label: "ID", ariaLabel: "View this page in Indonesian" },
+      ]}
     />
   </StrictMode>,
 );

@@ -32,7 +32,7 @@ export function Footer({ locale = "en" }: { locale?: LandingLocale }) {
           <div className="flex flex-col gap-3 text-sm text-muted-green">
             <span className="font-semibold text-islamic-green mb-1">{copy.footer.learn}</span>
             <a href={learnPath} className={`${linkClass} font-medium text-islamic-green`}>{copy.footer.learnAbout}</a>
-            {copy.learn.guides.map((guide, index) => (
+            {copy.learn.guides.filter((guide) => !("available" in guide) || guide.available).map((guide, index) => (
               <a key={guide.href} href={guide.href} className={`${linkClass} ${index >= 6 ? "hidden sm:block" : ""}`}>{guide.title}</a>
             ))}
           </div>

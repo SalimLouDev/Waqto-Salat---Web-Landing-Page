@@ -1,0 +1,61 @@
+{
+  "type": "guide",
+  "key": "eid-al-fitr-and-eid-al-adha-prayer",
+  "locale": "id",
+  "routePath": "/learn/eid-al-fitr-and-eid-al-adha-prayer/",
+  "seo": {
+    "title": "Salat Idulfitri dan Iduladha: Panduan | Waqto Salat",
+    "description": "Pelajari salat Idulfitri dan Iduladha: waktu, dua rakaat, takbir tambahan, khutbah, zakat fitrah, kurban, perbedaan mazhab, dan pertanyaan umum.",
+    "ogType": "article",
+    "ogTitle": "Salat Idulfitri dan Iduladha: Panduan | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Idulfitri dan Iduladha, termasuk waktu, takbir tambahan, khutbah, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Idulfitri dan Iduladha.",
+    "twitterTitle": "Salat Idulfitri dan Iduladha",
+    "twitterDescription": "Cara salat Id, waktu pelaksanaannya, dan perbedaan amalan yang menyertai Idulfitri serta Iduladha.",
+    "twitterImageAlt": "Panduan salat Id dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Idulfitri dan Iduladha",
+    "description": "Panduan praktis salat Idulfitri dan Iduladha, termasuk waktu, takbir tambahan, khutbah, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:956",
+      "https://sunnah.com/bukhari:957",
+      "https://sunnah.com/abudawud:1151",
+      "https://sunnah.com/abudawud:1609"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Idulfitri dan Iduladha", "path": "/learn/eid-al-fitr-and-eid-al-adha-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Apakah salat Id sama untuk Idulfitri dan Iduladha?", "answer": "Salatnya secara umum merupakan salat Id dua rakaat yang sama. Amalan yang menyertainya berbeda: Idulfitri berkaitan dengan berakhirnya Ramadan dan zakat fitrah, sedangkan Iduladha berkaitan dengan musim haji dan kurban bagi yang mampu." },
+      { "question": "Apakah ada azan atau ikamah untuk salat Id?", "answer": "Salat Id lazim dilakukan tanpa azan atau ikamah seperti salat wajib. Panitia tetap dapat memberikan pengumuman praktis untuk mengatur jemaah." },
+      { "question": "Berapa takbir dalam salat Id?", "answer": "Banyak komunitas melakukan tujuh takbir tambahan pada rakaat pertama dan lima pada rakaat kedua, sedangkan metode Hanafi lazim menggunakan tiga takbir pada setiap rakaat. Ikuti imam atau panduan ulama setempat." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Idulfitri dan Iduladha.",
+    "introductionHtml": "Salat Id adalah salat berjemaah khusus yang dilakukan pada dua hari raya: Idulfitri setelah Ramadan dan Iduladha pada hari-hari haji serta kurban.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Waktu:</strong> setelah matahari terbit dan sebelum Zuhur, mengikuti pengumuman Id setempat.</li>\n                  <li><strong class=\"text-white\">Bentuk:</strong> dua rakaat dengan takbir tambahan.</li>\n                  <li><strong class=\"text-white\">Khutbah:</strong> disampaikan setelah salat.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> rincian berbeda menurut mazhab, jadi ikuti imam atau ulama setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-eid-prayer", "label": "Apa itu salat Id?" },
+      { "href": "#how-eid-al-fitr-and-eid-al-adha-differ", "label": "Perbedaan Idulfitri dan Iduladha" },
+      { "href": "#when-is-eid-prayer-prayed", "label": "Kapan salat Id dilakukan?" },
+      { "href": "#how-is-eid-prayer-performed", "label": "Bagaimana salat Id dilakukan?" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "eid-al-fitr-and-eid-al-adha-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

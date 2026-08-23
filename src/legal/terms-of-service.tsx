@@ -85,7 +85,11 @@ createRoot(document.getElementById("root")!).render(
       description="The terms for using Waqto Salat, including prayer time accuracy, optional support, acceptable use, and app availability."
       lastUpdated="August 4, 2026"
       sections={sections}
-      arabicPath="/ar/terms-of-service/"
+      translations={[
+        { href: "/ar/terms-of-service/", hrefLang: "ar", label: "AR", ariaLabel: "View this page in Arabic" },
+        { href: "/fr/terms-of-service/", hrefLang: "fr", label: "FR", ariaLabel: "View this page in French" },
+        { href: "/id/terms-of-service/", hrefLang: "id", label: "ID", ariaLabel: "View this page in Indonesian" },
+      ]}
     />
   </StrictMode>,
 );

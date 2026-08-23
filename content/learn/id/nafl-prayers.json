@@ -1,0 +1,64 @@
+{
+  "type": "guide",
+  "key": "nafl-prayers",
+  "locale": "id",
+  "routePath": "/learn/nafl-prayers/",
+  "seo": {
+    "title": "Salat Nafl: Sholat Sunnah Tambahan | Waqto Salat",
+    "description": "Pelajari salat Nafl dalam Islam: pengertian, contoh sholat sunnah tambahan, waktu pelaksanaan, salat di rumah, waktu terlarang, dan pertanyaan umum.",
+    "ogType": "article",
+    "ogTitle": "Salat Nafl: Sholat Sunnah Tambahan | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Nafl, termasuk contoh, waktu, tata cara umum, salat di rumah, waktu terlarang, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Nafl dan sholat sunnah tambahan.",
+    "twitterTitle": "Salat Nafl: Sholat Sunnah Tambahan",
+    "twitterDescription": "Pengertian salat Nafl, perbedaannya dari salat wajib, serta contoh salat sunah tambahan yang dapat dipelajari.",
+    "twitterImageAlt": "Panduan salat Nafl dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Nafl: Sholat Sunnah Tambahan",
+    "description": "Panduan praktis salat Nafl, termasuk contoh, waktu, tata cara umum, salat di rumah, waktu terlarang, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:6502",
+      "https://sunnah.com/muslim:1163a",
+      "https://sunnah.com/bukhari:731",
+      "https://sunnah.com/bukhari:444"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Nafl", "path": "/learn/nafl-prayers/" }
+    ],
+    "faqs": [
+      { "question": "Apa itu salat Nafl?", "answer": "Salat Nafl adalah salat sukarela yang dilakukan di luar lima salat wajib. Salat ini menjadi cara untuk menambah ibadah, mengharap pahala, dan mendekatkan diri kepada Allah." },
+      { "question": "Apakah salat Nafl wajib?", "answer": "Tidak. Salat Nafl bersifat sukarela. Lima salat wajib tetap menjadi prioritas, lalu salat Nafl ditambahkan setelah seseorang menjaga kewajibannya." },
+      { "question": "Apakah salat Nafl dapat dilakukan kapan saja?", "answer": "Banyak salat Nafl dapat dilakukan dalam rentang waktu yang luas, tetapi ada waktu-waktu ketika salat sukarela dihindari menurut hukum Islam. Ikuti mazhab atau ulama setempat untuk rinciannya." },
+      { "question": "Bagaimana cara melakukan salat Nafl secara umum?", "answer": "Salat Nafl umum lazim dilakukan dua rakaat dengan urutan salat yang biasa. Salat sukarela yang memiliki nama tertentu dapat mempunyai waktu atau rincian tersendiri, jadi ikuti mazhab atau guru yang tepercaya." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Nafl: ibadah tambahan.",
+    "introductionHtml": "Salat Nafl adalah salat sukarela di luar salat wajib yang memberi lebih banyak kesempatan untuk beribadah, mengingat Allah, dan membangun kehidupan salat yang konsisten.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Makna:</strong> salat sukarela di luar salat wajib harian.</li>\n                  <li><strong class=\"text-white\">Prioritas:</strong> jaga salat wajib terlebih dahulu.</li>\n                  <li><strong class=\"text-white\">Contoh:</strong> Duha, Tahajud, Tahiyyatul Masjid, dan salat setelah wudu.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> hindari waktu terlarang dan ikuti panduan ulama setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-are-nafl-prayers", "label": "Apa itu salat Nafl?" },
+      { "href": "#obligatory-first-then-extra-worship", "label": "Dahulukan yang wajib" },
+      { "href": "#common-examples-of-nafl-prayers", "label": "Daftar salat Nafl" },
+      { "href": "#how-to-pray-nafl-prayer", "label": "Cara melakukan salat Nafl" },
+      { "href": "#when-can-nafl-prayers-be-prayed", "label": "Kapan salat Nafl dilakukan?" },
+      { "href": "#praying-nafl-at-home", "label": "Salat Nafl di rumah" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "nafl-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

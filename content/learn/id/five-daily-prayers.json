@@ -1,0 +1,60 @@
+{
+  "type": "guide",
+  "key": "five-daily-prayers",
+  "locale": "id",
+  "routePath": "/learn/five-daily-prayers/",
+  "seo": {
+    "title": "Lima Waktu Sholat: Subuh hingga Isya | Waqto Salat",
+    "description": "Pelajari lima waktu sholat: Subuh, Zuhur, Asar, Magrib, dan Isya, termasuk waktu, rakaat wajib, salat Sunnah, serta pertanyaan untuk pemula dalam Islam.",
+    "ogType": "article",
+    "ogTitle": "Lima Waktu Sholat: Subuh hingga Isya | Waqto Salat",
+    "ogDescription": "Panduan praktis Subuh, Zuhur, Asar, Magrib, dan Isya beserta waktu, rakaat wajib, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang lima waktu sholat: Subuh, Zuhur, Asar, Magrib, dan Isya.",
+    "twitterTitle": "Lima Waktu Sholat: Subuh hingga Isya",
+    "twitterDescription": "Kenali lima salat wajib, waktu pelaksanaan, dan jumlah rakaat masing-masing.",
+    "twitterImageAlt": "Panduan lima waktu sholat dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Lima Waktu Sholat: Subuh hingga Isya",
+    "description": "Panduan praktis Subuh, Zuhur, Asar, Magrib, dan Isya beserta waktu, rakaat wajib, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://quran.com/17/78",
+      "https://sunnah.com/bukhari:527",
+      "https://sunnah.com/bukhari:528"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Lima Salat Wajib", "path": "/learn/five-daily-prayers/" }
+    ],
+    "faqs": [
+      { "question": "Apa saja lima waktu sholat dalam Islam?", "answer": "Lima waktu sholat adalah Subuh, Zuhur, Asar, Magrib, dan Isya. Kelimanya membentuk jadwal salat wajib harian bagi umat Islam." },
+      { "question": "Berapa rakaat wajib dalam setiap salat?", "answer": "Jumlah rakaat wajib yang umum diajarkan adalah Subuh 2, Zuhur 4, Asar 4, Magrib 3, dan Isya 4. Salat Sunnah dan sukarela dapat ditambahkan sebelum atau setelah beberapa salat." },
+      { "question": "Apakah waktu salat berubah setiap hari?", "answer": "Ya. Waktu salat berubah mengikuti matahari, lokasi, zona waktu, metode perhitungan, dan panduan setempat sehingga aplikasi waktu salat memperbaruinya setiap hari." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Lima Waktu Sholat: Subuh hingga Isya.",
+    "introductionHtml": "Lima waktu sholat membentuk irama kehidupan Muslim: Subuh, Zuhur, Asar, Magrib, dan Isya, masing-masing terikat pada bagian hari yang telah ditentukan.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Nama:</strong> Subuh, Zuhur, Asar, Magrib, dan Isya.</li>\n                  <li><strong class=\"text-white\">Status:</strong> salat wajib harian bagi umat Islam.</li>\n                  <li><strong class=\"text-white\">Rakaat wajib:</strong> secara berurutan 2, 4, 4, 3, dan 4.</li>\n                  <li><strong class=\"text-white\">Waktu:</strong> berubah setiap hari menurut posisi matahari, lokasi, dan metode setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-are-the-five-daily-prayers", "label": "Apa saja lima waktu sholat?" },
+      { "href": "#the-five-prayers-in-order", "label": "Urutan lima waktu sholat" },
+      { "href": "#obligatory-sunnah-and-voluntary-rak-ahs", "label": "Rakaat wajib, Sunnah, dan sukarela" },
+      { "href": "#why-timing-matters", "label": "Mengapa waktu penting" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "five-daily-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

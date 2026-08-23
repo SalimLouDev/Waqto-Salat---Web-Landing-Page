@@ -1,0 +1,61 @@
+{
+  "type": "guide",
+  "key": "istikhara-prayer",
+  "locale": "id",
+  "routePath": "/learn/istikhara-prayer/",
+  "seo": {
+    "title": "Cara Salat Istikharah untuk Petunjuk | Waqto Salat",
+    "description": "Pelajari cara sholat Istikharah: waktu, tata cara dua rakaat, doa Arab dan artinya, musyawarah, kesalahpahaman tentang mimpi, serta langkah setelahnya.",
+    "ogType": "article",
+    "ogTitle": "Cara Salat Istikharah untuk Petunjuk | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Istikharah, doa lengkap, pengambilan keputusan, musyawarah, dan kesalahpahaman tentang mimpi serta tanda.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Istikharah untuk memohon petunjuk.",
+    "twitterTitle": "Cara Salat Istikharah untuk Petunjuk",
+    "twitterDescription": "Kapan dan bagaimana melakukan Istikharah, arti doanya, dan apa yang dilakukan setelahnya.",
+    "twitterImageAlt": "Panduan salat Istikharah dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Cara Salat Istikharah untuk Memohon Petunjuk",
+    "description": "Panduan praktis salat Istikharah, doa lengkap, pengambilan keputusan, musyawarah, dan kesalahpahaman umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:6382",
+      "https://yaqeeninstitute.org/read/blog/a-guide-to-istikhara-the-prayer-for-guidance"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Istikharah", "path": "/learn/istikhara-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Apakah saya harus melihat mimpi setelah Istikharah?", "answer": "Tidak. Ajaran Nabi tentang Istikharah tidak mensyaratkan mimpi. Doa ini memohon agar Allah memudahkan dan memberkahi yang baik serta menjauhkan yang berbahaya." },
+      { "question": "Dapatkah orang lain melakukan salat Istikharah untuk saya?", "answer": "Orang lain dapat mendoakan kebaikan secara umum, tetapi salat Istikharah dua rakaat dan permohonan pribadinya dilakukan oleh orang yang menghadapi keputusan tersebut." },
+      { "question": "Haruskah saya bermusyawarah selain melakukan Istikharah?", "answer": "Ya. Istikharah melengkapi ikhtiar dan musyawarah dengan orang yang tepercaya dan berpengetahuan; salat ini tidak menggantikan pengambilan keputusan yang bertanggung jawab." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Salat khusus",
+    "titleHtml": "Istikharah: salat untuk memohon petunjuk.",
+    "introductionHtml": "Istikharah adalah salat Sunnah dan doa untuk memohon agar Allah mengarahkan keputusan yang diperbolehkan menuju hal terbaik bagi agama, kehidupan, dan hasil akhirnya.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<p class=\"text-sm leading-7 text-white/78\">\n                Lakukan dua rakaat nonwajib, baca doa Istikharah, sebutkan perkara yang dihadapi, lanjutkan ikhtiar secara bertanggung jawab, dan bertawakal tanpa menunggu mimpi atau pertanda.\n              </p>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#meaning", "label": "Makna Istikharah" },
+      { "href": "#when", "label": "Kapan melakukannya" },
+      { "href": "#how", "label": "Cara melakukan Istikharah" },
+      { "href": "#dua", "label": "Doa Istikharah lengkap" },
+      { "href": "#after", "label": "Apa yang dilakukan setelahnya" },
+      { "href": "#myths", "label": "Kesalahpahaman umum" },
+      { "href": "#questions", "label": "Pertanyaan umum" },
+      { "href": "#sources", "label": "Sumber" }
+    ]
+  },
+  "asideMetaHtml": "<p>Diterbitkan 23 Agustus 2026</p>\n                <p class=\"mt-2\">Disusun oleh Waqto Salat</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "istikhara-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

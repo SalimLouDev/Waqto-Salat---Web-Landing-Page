@@ -1,7 +1,7 @@
 [
   {
     "path": "/",
-    "lastmod": "2026-08-15",
+    "lastmod": "2026-08-23",
     "changefreq": "monthly",
     "priority": "1.0",
     "alternates": [
@@ -16,29 +16,35 @@
       {
         "locale": "fr",
         "route": "/fr/"
+      },
+      {
+        "locale": "id",
+        "route": "/id/"
       }
     ]
   },
   {
     "path": "/privacy-policy/",
-    "lastmod": "2026-08-15",
+    "lastmod": "2026-08-22",
     "changefreq": "yearly",
     "priority": "0.3",
     "alternates": [
       { "locale": "en", "route": "/privacy-policy/" },
       { "locale": "ar", "route": "/ar/privacy-policy/" },
-      { "locale": "fr", "route": "/fr/privacy-policy/" }
+      { "locale": "fr", "route": "/fr/privacy-policy/" },
+      { "locale": "id", "route": "/id/privacy-policy/" }
     ]
   },
   {
     "path": "/terms-of-service/",
-    "lastmod": "2026-08-15",
+    "lastmod": "2026-08-22",
     "changefreq": "yearly",
     "priority": "0.3",
     "alternates": [
       { "locale": "en", "route": "/terms-of-service/" },
       { "locale": "ar", "route": "/ar/terms-of-service/" },
-      { "locale": "fr", "route": "/fr/terms-of-service/" }
+      { "locale": "fr", "route": "/fr/terms-of-service/" },
+      { "locale": "id", "route": "/id/terms-of-service/" }
     ]
   },
   {
@@ -49,7 +55,8 @@
     "alternates": [
       { "locale": "en", "route": "/ad-free-prayer-times-app/" },
       { "locale": "ar", "route": "/ar/ad-free-prayer-times-app/" },
-      { "locale": "fr", "route": "/fr/ad-free-prayer-times-app/" }
+      { "locale": "fr", "route": "/fr/ad-free-prayer-times-app/" },
+      { "locale": "id", "route": "/id/ad-free-prayer-times-app/" }
     ]
   },
   {
@@ -60,7 +67,8 @@
     "alternates": [
       { "locale": "en", "route": "/salah-reminder-app/" },
       { "locale": "ar", "route": "/ar/salah-reminder-app/" },
-      { "locale": "fr", "route": "/fr/salah-reminder-app/" }
+      { "locale": "fr", "route": "/fr/salah-reminder-app/" },
+      { "locale": "id", "route": "/id/salah-reminder-app/" }
     ]
   },
   {
@@ -71,7 +79,8 @@
     "alternates": [
       { "locale": "en", "route": "/qibla-compass-app/" },
       { "locale": "ar", "route": "/ar/qibla-compass-app/" },
-      { "locale": "fr", "route": "/fr/qibla-compass-app/" }
+      { "locale": "fr", "route": "/fr/qibla-compass-app/" },
+      { "locale": "id", "route": "/id/qibla-compass-app/" }
     ]
   },
   {
@@ -82,7 +91,8 @@
     "alternates": [
       { "locale": "en", "route": "/prayer-times-widget-android/" },
       { "locale": "ar", "route": "/ar/prayer-times-widget-android/" },
-      { "locale": "fr", "route": "/fr/prayer-times-widget-android/" }
+      { "locale": "fr", "route": "/fr/prayer-times-widget-android/" },
+      { "locale": "id", "route": "/id/prayer-times-widget-android/" }
     ]
   },
   {
@@ -93,18 +103,20 @@
     "alternates": [
       { "locale": "en", "route": "/how-prayer-times-are-calculated/" },
       { "locale": "ar", "route": "/ar/how-prayer-times-are-calculated/" },
-      { "locale": "fr", "route": "/fr/how-prayer-times-are-calculated/" }
+      { "locale": "fr", "route": "/fr/how-prayer-times-are-calculated/" },
+      { "locale": "id", "route": "/id/how-prayer-times-are-calculated/" }
     ]
   },
   {
     "path": "/editorial-methodology/",
-    "lastmod": "2026-08-15",
+    "lastmod": "2026-08-22",
     "changefreq": "yearly",
     "priority": "0.5",
     "alternates": [
       { "locale": "en", "route": "/editorial-methodology/" },
       { "locale": "ar", "route": "/ar/editorial-methodology/" },
-      { "locale": "fr", "route": "/fr/editorial-methodology/" }
+      { "locale": "fr", "route": "/fr/editorial-methodology/" },
+      { "locale": "id", "route": "/id/editorial-methodology/" }
     ]
   }
 ]

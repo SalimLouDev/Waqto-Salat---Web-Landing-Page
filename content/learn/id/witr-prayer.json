@@ -1,0 +1,63 @@
+{
+  "type": "guide",
+  "key": "witr-prayer",
+  "locale": "id",
+  "routePath": "/learn/witr-prayer/",
+  "seo": {
+    "title": "Salat Witir: Penutup Salat Malam | Waqto Salat",
+    "description": "Pelajari salat Witir setelah Isya dan sebelum Subuh: waktu, rakaat ganjil, anjuran sebagai penutup malam, perbedaan Qunut, dan pandangan mazhab bagi pemula.",
+    "ogType": "article",
+    "ogTitle": "Salat Witir: Penutup Salat Malam | Waqto Salat",
+    "ogDescription": "Panduan salat Witir setelah Isya dan sebelum Subuh, termasuk rakaat ganjil, Qunut, perbedaan mazhab, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Witir setelah Isya dan sebelum Subuh.",
+    "twitterTitle": "Salat Witir: Penutup Salat Malam",
+    "twitterDescription": "Apa itu salat Witir, kapan dilakukan, jumlah rakaat ganjil, dan perbedaan praktik Qunut.",
+    "twitterImageAlt": "Panduan salat Witir dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Witir: Penutup Salat Malam",
+    "description": "Panduan salat Witir setelah Isya dan sebelum Subuh, termasuk rakaat ganjil, Qunut, perbedaan mazhab, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:990",
+      "https://sunnah.com/bukhari:996",
+      "https://sunnah.com/bukhari:998",
+      "https://sunnah.com/muslim:752a"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Witir", "path": "/learn/witr-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Kapan salat Witir dilakukan?", "answer": "Witir dilakukan setelah Isya dan sebelum Subuh. Banyak Muslim menjadikannya salat terakhir pada malam hari, tetapi orang yang khawatir tidak terbangun dapat melakukannya sebelum tidur." },
+      { "question": "Berapa rakaat salat Witir?", "answer": "Witir dilakukan dengan jumlah rakaat ganjil. Praktik yang umum meliputi satu, tiga, lima, tujuh, atau jumlah ganjil lainnya menurut mazhab dan pengajaran setempat." },
+      { "question": "Apakah salat Witir wajib?", "answer": "Ulama berbeda dalam istilah dan klasifikasi hukumnya. Mazhab Hanafi lazim menganggap Witir sebagai wajib, sedangkan banyak ulama Sunni lainnya menggolongkannya sebagai Sunnah Muakkadah. Ikuti mazhab atau ulama setempat yang dipercaya." },
+      { "question": "Bagaimana cara melakukan salat Witir?", "answer": "Witir dilakukan setelah Isya dan sebelum Subuh dengan jumlah rakaat ganjil. Bentuk satu dan tiga rakaat umum dilakukan, tetapi susunan, salam, dan praktik Qunut berbeda menurut mazhab; ikuti cara yang diajarkan guru setempat yang dipercaya." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Witir: penutup salat malam.",
+    "introductionHtml": "Witir adalah salat malam berjumlah rakaat ganjil yang dilakukan setelah Isya dan sebelum Subuh, sering dijadikan salat terakhir sebelum tidur atau menjelang fajar.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Waktu:</strong> setelah Isya dan sebelum Subuh.</li>\n                  <li><strong class=\"text-white\">Makna:</strong> salat berjumlah ganjil yang menutup ibadah malam.</li>\n                  <li><strong class=\"text-white\">Bentuk umum:</strong> satu, tiga, lima, tujuh, atau jumlah rakaat ganjil lainnya.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> hukum dan rincian Qunut berbeda menurut mazhab.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-witr-prayer", "label": "Apa itu salat Witir?" },
+      { "href": "#when-is-witr-prayed", "label": "Kapan Witir dilakukan?" },
+      { "href": "#how-many-rak-ahs-are-in-witr", "label": "Berapa rakaat salat Witir?" },
+      { "href": "#how-to-pray-witr-prayer", "label": "Cara melakukan salat Witir" },
+      { "href": "#qunut-and-local-practice", "label": "Qunut dan praktik setempat" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "witr-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

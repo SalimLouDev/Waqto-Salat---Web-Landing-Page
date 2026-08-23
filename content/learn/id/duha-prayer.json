@@ -1,0 +1,62 @@
+{
+  "type": "guide",
+  "key": "duha-prayer",
+  "locale": "id",
+  "routePath": "/learn/duha-prayer/",
+  "seo": {
+    "title": "Salat Duha: Waktu, Rakaat, dan Cara | Waqto Salat",
+    "description": "Pelajari salat Duha dalam Islam: waktu setelah matahari terbit hingga sebelum Zuhur, jumlah rakaat, cara melakukannya, manfaat, istilah Isyraq, dan FAQ.",
+    "ogType": "article",
+    "ogTitle": "Salat Duha: Waktu, Rakaat, dan Cara | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Duha setelah matahari terbit dan sebelum Zuhur, termasuk waktu, rakaat, tata cara, istilah Isyraq, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Duha, salat sunah pada waktu pagi.",
+    "twitterTitle": "Salat Duha: Waktu, Rakaat, dan Cara",
+    "twitterDescription": "Apa itu salat Duha, kapan waktunya setelah matahari terbit, dan berapa rakaat yang umum dilakukan.",
+    "twitterImageAlt": "Panduan salat Duha dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Duha: Waktu, Rakaat, dan Cara",
+    "description": "Panduan praktis salat Duha setelah matahari terbit dan sebelum Zuhur, termasuk waktu, rakaat, tata cara, istilah Isyraq, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:1178",
+      "https://sunnah.com/bukhari:1176",
+      "https://sunnah.com/muslim:720a"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Duha", "path": "/learn/duha-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Kapan salat Duha dilakukan?", "answer": "Salat Duha dilakukan setelah matahari terbit dan sebelum Zuhur. Banyak guru menyarankan menunggu hingga matahari jelas meninggi serta menghindari waktu sesaat sebelum Zuhur." },
+      { "question": "Berapa rakaat salat Duha?", "answer": "Banyak Muslim melakukan salat Duha dua rakaat, sedangkan riwayat dan pengajaran setempat juga menyebut empat, delapan, atau lebih. Ikuti mazhab atau ulama setempat." },
+      { "question": "Apakah Duha sama dengan Isyraq?", "answer": "Sebagian komunitas menggunakan istilah Isyraq untuk salat Duha yang dilakukan dekat awal waktunya, sementara yang lain membedakan kedua istilah tersebut. Ikuti istilah yang diajarkan di komunitas Anda." },
+      { "question": "Bagaimana cara melakukan salat Duha?", "answer": "Salat Duha lazim dilakukan dalam rangkaian dua rakaat dengan urutan salat yang biasa. Dua rakaat merupakan awal yang sederhana; ikuti mazhab atau guru Anda untuk rincian tambahan." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Duha: salat sunah pagi.",
+    "introductionHtml": "Duha adalah salat sukarela yang dilakukan setelah matahari terbit dan sebelum Zuhur, menjadikan bagian pagi yang tenang sebagai waktu ibadah dan syukur.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Waktu:</strong> setelah matahari terbit dan sebelum Zuhur.</li>\n                  <li><strong class=\"text-white\">Kategori:</strong> salat sukarela atau Nafl.</li>\n                  <li><strong class=\"text-white\">Bentuk umum:</strong> sering dilakukan dua rakaat, dengan jumlah lain juga diajarkan.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> rincian awal dan akhir waktu berbeda menurut pengajaran setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-duha-prayer", "label": "Apa itu salat Duha?" },
+      { "href": "#when-is-duha-prayed", "label": "Waktu salat Duha" },
+      { "href": "#how-many-rak-ahs-are-in-duha", "label": "Berapa rakaat salat Duha?" },
+      { "href": "#how-to-pray-duha-prayer", "label": "Cara melakukan salat Duha" },
+      { "href": "#duha-ishraq-and-local-names", "label": "Duha, Isyraq, dan istilah setempat" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "duha-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

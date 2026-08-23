@@ -1,0 +1,62 @@
+{
+  "type": "guide",
+  "key": "janazah-prayer",
+  "locale": "id",
+  "routePath": "/learn/janazah-prayer/",
+  "seo": {
+    "title": "Salat Jenazah: Tata Cara dan Empat Takbir | Waqto Salat",
+    "description": "Pelajari salat Jenazah: tujuan, hukum fardu kifayah, tata cara berdiri, empat takbir, doa bagi jenazah, tanpa rukuk atau sujud, serta pertanyaan umum.",
+    "ogType": "article",
+    "ogTitle": "Salat Jenazah: Tata Cara dan Empat Takbir | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Jenazah, termasuk tujuan, empat takbir, tata cara berdiri, doa, pahala, dan pertanyaan umum.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Jenazah bagi Muslim yang meninggal dunia.",
+    "twitterTitle": "Salat Jenazah: Tata Cara dan Empat Takbir",
+    "twitterDescription": "Apa itu salat Jenazah, bagaimana tata caranya, dan hal yang perlu diketahui ketika menghadiri salat jenazah.",
+    "twitterImageAlt": "Panduan salat Jenazah dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Jenazah: Tata Cara dan Empat Takbir",
+    "alternativeHeadline": "Panduan Sholat Jenazah",
+    "description": "Panduan praktis salat Jenazah, termasuk tujuan, empat takbir, tata cara berdiri, doa, pahala, dan pertanyaan umum.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:1325",
+      "https://sunnah.com/bukhari:1333",
+      "https://sunnah.com/muslim:945a",
+      "https://sunnah.com/abudawud:3196"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Jenazah", "path": "/learn/janazah-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Apakah salat Jenazah memiliki rukuk atau sujud?", "answer": "Tidak. Salat Jenazah dilakukan sambil berdiri, dengan takbir dan doa, tanpa rukuk maupun sujud." },
+      { "question": "Berapa takbir dalam salat Jenazah?", "answer": "Bentuk yang dikenal luas memiliki empat takbir. Ikuti imam dan praktik yang diajarkan di komunitas setempat." },
+      { "question": "Apakah salat Jenazah merupakan kewajiban bersama?", "answer": "Salat Jenazah lazim diajarkan sebagai fardu kifayah, yang berarti komunitas perlu memastikan salat tersebut dilakukan untuk jenazah." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Jenazah: doa bagi Muslim yang wafat.",
+    "introductionHtml": "Salat Jenazah adalah salat bagi Muslim yang meninggal dunia untuk memohon ampunan, rahmat, dan kepulangan yang dimuliakan kepada Allah.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Tujuan:</strong> mendoakan jenazah dan melepasnya bersama komunitas.</li>\n                  <li><strong class=\"text-white\">Bentuk:</strong> salat berdiri dengan takbir, tanpa rukuk atau sujud.</li>\n                  <li><strong class=\"text-white\">Bentuk umum:</strong> empat takbir, kemudian salam.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> rincian berbeda menurut mazhab, jadi ikuti imam atau ulama setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-janazah-prayer", "label": "Apa itu salat Jenazah?" },
+      { "href": "#why-attending-matters", "label": "Mengapa menghadirinya penting" },
+      { "href": "#how-janazah-prayer-is-performed", "label": "Tata cara salat Jenazah" },
+      { "href": "#things-to-know-before-attending", "label": "Hal yang perlu diketahui" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "janazah-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

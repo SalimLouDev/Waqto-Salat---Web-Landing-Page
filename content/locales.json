@@ -118,5 +118,45 @@
       "desktopAriaLabel": "\u062d\u0645\u0651\u0644 \u0648\u0642\u062a \u0627\u0644\u0635\u0644\u0627\u0629 \u0645\u0646 Google Play",
       "badgeAlt": "\u0645\u062a\u0648\u0641\u0631 \u0639\u0644\u0649 Google Play"
     }
+  },
+  "id": {
+    "htmlLang": "id",
+    "direction": "ltr",
+    "pathPrefix": "/id",
+    "languageName": "Bahasa Indonesia",
+    "shortLanguageName": "ID",
+    "ogLocale": "id_ID",
+    "brandName": "Waqto Salat",
+    "logoAlt": "Logo Waqto Salat",
+    "navigation": {
+      "ariaLabel": "Navigasi panduan salat",
+      "viewInLanguage": "Lihat halaman ini dalam bahasa {language}",
+      "home": "Beranda",
+      "learn": "Belajar",
+      "resources": "Sumber daya aplikasi",
+      "getApp": "Unduh aplikasi"
+    },
+    "footer": {
+      "copyright": "© 2026 Waqto Salat. Hak cipta dilindungi.",
+      "learn": "Panduan salat",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan",
+      "methodology": "Metodologi Editorial",
+      "contact": "Kontak"
+    },
+    "relatedGuides": {
+      "eyebrow": "Lanjutkan belajar",
+      "heading": "Panduan salat terkait",
+      "ariaLabel": "Panduan salat terkait"
+    },
+    "downloadCard": {
+      "eyebrow": "Waqto Salat untuk Android",
+      "heading": "Jaga waktu salat berikutnya tetap dekat.",
+      "body": "Waktu salat, pengingat dinamis, Kiblat, dan widget dalam satu aplikasi yang tenang.",
+      "trust": "Gratis · Tanpa iklan · Dukungan opsional",
+      "mobileAriaLabel": "Dapatkan Waqto Salat di Google Play",
+      "desktopAriaLabel": "Unduh Waqto Salat dari Google Play",
+      "badgeAlt": "Tersedia di Google Play"
+    }
   }
 }

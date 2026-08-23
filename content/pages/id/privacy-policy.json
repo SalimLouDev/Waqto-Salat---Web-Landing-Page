@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "privacy-policy",
+  "locale": "id",
+  "routePath": "/privacy-policy/",
+  "alternates": [{ "locale": "en", "route": "/privacy-policy/" }],
+  "seo": {
+    "title": "Kebijakan Privasi | Waqto Salat",
+    "description": "Pelajari cara aplikasi dan situs Waqto Salat menangani data, izin perangkat, lokasi, dan layanan eksternal untuk melindungi privasi Anda.",
+    "ogType": "website",
+    "ogTitle": "Kebijakan Privasi | Waqto Salat",
+    "ogDescription": "Penjelasan jelas tentang data, izin perangkat, lokasi, dan layanan yang digunakan Waqto Salat.",
+    "ogImageAlt": "Kebijakan privasi aplikasi Android Waqto Salat.",
+    "twitterTitle": "Kebijakan Privasi | Waqto Salat",
+    "twitterDescription": "Cara Waqto Salat menangani data, izin perangkat, dan informasi lokasi.",
+    "twitterImageAlt": "Kebijakan privasi Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "WebPage",
+    "name": "Kebijakan Privasi | Waqto Salat",
+    "description": "Kebijakan privasi untuk aplikasi dan situs Waqto Salat.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Kebijakan Privasi", "path": "/privacy-policy/" }
+    ]
+  },
+  "mainFile": "privacy-policy.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "yearly", "priority": "0.3" }
+}

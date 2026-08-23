@@ -39,7 +39,7 @@ const playStoreUrl = "https://play.google.com/store/apps/details?id=com.salimlou
 
 function hasDownloadCta(page) {
   return resourcePageKeys.has(page.key)
-    || (page.type === "guide" && ["en", "fr", "ar"].includes(page.locale));
+    || (page.type === "guide" && Boolean(locales[page.locale]?.downloadCard));
 }
 
 function escapeHtml(value) {
@@ -215,15 +215,19 @@ function buildCollectionSchema(page) {
         dateModified: data.dateModified,
         isPartOf: { "@id": `${siteUrl}/#website` },
         breadcrumb: { "@id": `${page.canonical}#breadcrumb` },
-        mainEntity: {
-          "@type": "ItemList",
-          itemListElement: data.items.map((item, index) => ({
-            "@type": "ListItem",
-            position: index + 1,
-            url: localizedContentPath(page.locale, item.path),
-            name: item.name,
-          })),
-        },
+        ...(data.items.length
+          ? {
+              mainEntity: {
+                "@type": "ItemList",
+                itemListElement: data.items.map((item, index) => ({
+                  "@type": "ListItem",
+                  position: index + 1,
+                  url: localizedContentPath(page.locale, item.path),
+                  name: item.name,
+                })),
+              },
+            }
+          : {}),
       },
       {
         "@type": "BreadcrumbList",
@@ -421,6 +425,17 @@ function renderDownloadCard(page) {
     </div>`;
 }
 
+function renderSkipLink(page, target = "main-content") {
+  const label = page.locale === "ar"
+    ? "انتقل إلى المحتوى"
+    : page.locale === "fr"
+      ? "Aller au contenu"
+      : page.locale === "id"
+        ? "Lewati ke konten"
+        : "Skip to content";
+  return `    <a href="#${target}" class="skip-link">${label}</a>`;
+}
+
 function renderHeader(page, variants) {
   const locale = locales[page.locale];
   const navigation = locale.navigation;
@@ -432,12 +447,16 @@ function renderHeader(page, variants) {
   const learnClass = page.type === "landing" ? "hover:text-islamic-green" : "text-islamic-green";
   const appButtonClass = locale.direction === "rtl" ? "" : "uppercase tracking-widest";
   const appButtonVisibilityClass = hasDownloadCta(page) ? "hidden lg:inline-flex " : "";
-  const compactAppLabel = page.locale === "fr" ? "App" : navigation.getApp;
+  const compactAppLabel = variants.length > 3
+    ? page.locale === "ar" ? "حمّل" : "App"
+    : page.locale === "fr" ? "App" : navigation.getApp;
+  const compactBrandClass = variants.length > 3 ? "hidden min-[480px]:inline " : "";
+  const brandImageClass = variants.length > 3 ? " shrink-0" : "";
   return `      <header class="fixed top-0 inset-x-0 z-[100] border-b border-border-light/80 bg-off-white/95 shadow-[0_10px_24px_rgba(10,61,45,0.035)] backdrop-blur-xl">
         <div class="mx-auto flex h-20 max-w-7xl w-full items-center justify-between gap-3 px-4 sm:px-6 md:px-12">
           <a href="${escapeHtml(homePath)}" class="inline-flex min-w-0 items-center gap-3 rounded-full text-islamic-green">
-            <img src="/logo-64.webp" alt="${escapeHtml(locale.logoAlt)}" width="32" height="32" class="h-8 w-8 rounded-full object-cover" />
-            <span class="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">${escapeHtml(locale.brandName)}</span>
+            <img src="/logo-64.webp" alt="${escapeHtml(locale.logoAlt)}" width="32" height="32" class="h-8 w-8${brandImageClass} rounded-full object-cover" />
+            <span class="${compactBrandClass}truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">${escapeHtml(locale.brandName)}</span>
           </a>
           <nav aria-label="${escapeHtml(navigation.ariaLabel)}" class="hidden items-center gap-7 text-sm font-semibold text-muted-green md:flex">
             <a href="${escapeHtml(homePath)}" class="${homeClass}">${escapeHtml(navigation.home)}</a>
@@ -522,10 +541,11 @@ async function renderGuide(page, variants, pages) {
 <html lang="${escapeHtml(locales[page.locale].htmlLang)}" dir="${escapeHtml(locales[page.locale].direction)}">
 ${renderHead(page, variants)}
   <body>
+${renderSkipLink(page)}
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
 ${renderHeader(page, variants)}${renderMobileDownloadBadge(page)}
 
-      <main class="content-page pt-20">
+      <main id="main-content" tabindex="-1" class="content-page pt-20">
         <section class="bg-islamic-green px-6 py-20 text-white md:px-12 md:py-28">
           <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
             <div>
@@ -578,10 +598,11 @@ async function renderCollection(page, variants) {
 <html lang="${escapeHtml(locales[page.locale].htmlLang)}" dir="${escapeHtml(locales[page.locale].direction)}">
 ${renderHead(page, variants)}
   <body>
+${renderSkipLink(page)}
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
 ${renderHeader(page, variants)}
 
-      <main class="content-page pt-20">
+      <main id="main-content" tabindex="-1" class="content-page pt-20">
 ${indent(main, 8)}
       </main>
 
@@ -608,10 +629,11 @@ async function renderStaticPage(page, variants) {
 <html lang="${escapeHtml(locales[page.locale].htmlLang)}" dir="${escapeHtml(locales[page.locale].direction)}">
 ${renderHead(page, variants)}
   <body>
+${renderSkipLink(page)}
     <div class="min-h-screen bg-off-white font-sans text-islamic-green">
 ${renderHeader(page, variants)}${renderMobileDownloadBadge(page)}
 
-      <main id="main-content" class="content-page pt-20">
+      <main id="main-content" tabindex="-1" class="content-page pt-20">
 ${indent(main, 8)}
       </main>
 
@@ -624,17 +646,12 @@ ${renderFooter(page)}
 
 async function renderLanding(page, variants) {
   const main = await readFile(path.join(page.sourceDir, page.mainFile), "utf8");
-  const skipLabel = page.locale === "ar"
-    ? "انتقل إلى المحتوى"
-    : page.locale === "fr"
-      ? "Aller au contenu"
-      : "Skip to content";
   return `<!doctype html>
 <!-- Generated by scripts/generate-site.mjs. Edit ${page.sourceFile} and its main content file. -->
 <html lang="${escapeHtml(locales[page.locale].htmlLang)}" dir="${escapeHtml(locales[page.locale].direction)}">
 ${renderHead(page, variants)}
   <body>
-    <a href="#main" class="skip-link">${skipLabel}</a>
+${renderSkipLink(page, "main")}
     <div id="root">
       <main id="main" tabindex="-1">
 ${indent(main, 8)}

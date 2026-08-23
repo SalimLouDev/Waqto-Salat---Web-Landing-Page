@@ -9,7 +9,7 @@ export function AboutSection({ locale = "en" }: { locale?: LandingLocale }) {
       <div className="absolute inset-0 opacity-10 bg-[linear-gradient(135deg,transparent_0_45%,rgba(255,255,255,.35)_45%_46%,transparent_46%_100%)] bg-[length:42px_42px] pointer-events-none" />
       <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[0.9fr_1.1fr] gap-12 items-start">
         <div>
-          <p className="text-sm text-islamic-gold uppercase tracking-widest font-semibold mb-5">
+          <p className="text-sm text-islamic-gold-text uppercase tracking-widest font-semibold mb-5">
             {copy.eyebrow}
           </p>
           <h2 className="text-4xl md:text-5xl font-display font-medium leading-tight mb-8">

@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "editorial-methodology",
+  "locale": "id",
+  "routePath": "/editorial-methodology/",
+  "alternates": [{ "locale": "en", "route": "/editorial-methodology/" }],
+  "seo": {
+    "title": "Metodologi Editorial | Waqto Salat",
+    "description": "Pelajari cara Waqto Salat meneliti, menulis, mencantumkan sumber, menerjemahkan, dan meninjau panduan salat serta menjelaskan perbedaan pendapat.",
+    "ogType": "article",
+    "ogTitle": "Metodologi Editorial | Waqto Salat",
+    "ogDescription": "Cara panduan salat Waqto Salat diteliti, diberi sumber, ditulis, diterjemahkan, dan ditinjau.",
+    "ogImageAlt": "Metodologi editorial panduan salat Waqto Salat.",
+    "twitterTitle": "Metodologi Editorial Waqto Salat",
+    "twitterDescription": "Sumber, peninjauan, penerjemahan, dan penyajian perbedaan pendapat dalam panduan salat.",
+    "twitterImageAlt": "Metodologi konten Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "AboutPage",
+    "name": "Metodologi Editorial | Waqto Salat",
+    "description": "Metode penelitian, penulisan, pengutipan, penerjemahan, dan peninjauan panduan salat Waqto Salat.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Metodologi Editorial", "path": "/editorial-methodology/" }
+    ]
+  },
+  "mainFile": "editorial-methodology.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "yearly", "priority": "0.5" }
+}

@@ -15,7 +15,14 @@ if (main) {
     const skipLink = document.createElement("a");
     skipLink.href = `#${main.id}`;
     skipLink.className = "skip-link";
-    skipLink.textContent = "Skip to content";
+    const language = document.documentElement.lang.toLowerCase();
+    skipLink.textContent = language.startsWith("ar")
+      ? "انتقل إلى المحتوى"
+      : language.startsWith("fr")
+        ? "Aller au contenu"
+        : language.startsWith("id")
+          ? "Lewati ke konten"
+          : "Skip to content";
     document.body.prepend(skipLink);
   }
 }

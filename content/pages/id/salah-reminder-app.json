@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "salah-reminder-app",
+  "locale": "id",
+  "routePath": "/salah-reminder-app/",
+  "alternates": [{ "locale": "en", "route": "/salah-reminder-app/" }],
+  "seo": {
+    "title": "Aplikasi Pengingat Waktu Salat Android | Waqto Salat",
+    "description": "Atur pengingat sebelum atau sesudah Subuh, Zuhur, Asar, Magrib, dan Isya yang otomatis mengikuti perubahan jadwal sholat setiap hari tanpa alarm tetap.",
+    "ogType": "article",
+    "ogTitle": "Aplikasi Pengingat Waktu Salat Android | Waqto Salat",
+    "ogDescription": "Pengingat yang terhubung ke waktu salat dan diperbarui setiap hari, tanpa iklan atau langganan.",
+    "ogImageAlt": "Pengingat waktu salat dinamis dalam aplikasi Waqto Salat.",
+    "twitterTitle": "Pengingat Waktu Salat Dinamis di Android",
+    "twitterDescription": "Pengingat sebelum atau sesudah salat yang mengikuti jadwal harian.",
+    "twitterImageAlt": "Pengingat salat Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Aplikasi pengingat waktu salat Android",
+    "description": "Panduan pengingat dinamis Waqto Salat yang terhubung dengan waktu salat di Android.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Aplikasi pengingat waktu salat", "path": "/salah-reminder-app/" }
+    ],
+    "faqs": [
+      { "question": "Bisakah saya mengatur pengingat sebelum salat?", "answer": "Ya. Anda dapat membuat pengingat sebelum waktu salat untuk bersiap; pengingat tetap terhubung dengan jadwal hariannya." },
+      { "question": "Bisakah saya mengatur pengingat setelah salat?", "answer": "Ya. Pengingat setelah waktu salat dapat membantu saat bekerja, bepergian, atau membangun rutinitas yang lebih teratur." }
+    ]
+  },
+  "mainFile": "salah-reminder-app.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
+}

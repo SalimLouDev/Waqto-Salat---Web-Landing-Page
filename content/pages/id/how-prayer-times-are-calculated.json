@@ -1,0 +1,38 @@
+{
+  "type": "static",
+  "key": "how-prayer-times-are-calculated",
+  "locale": "id",
+  "routePath": "/how-prayer-times-are-calculated/",
+  "alternates": [{ "locale": "en", "route": "/how-prayer-times-are-calculated/" }],
+  "seo": {
+    "title": "Cara Menghitung Waktu Salat Akurat | Waqto Salat",
+    "description": "Pelajari perhitungan waktu Subuh, Zuhur, Asar, Magrib, dan Isya: sudut fajar, metode Asar, lintang tinggi, zona waktu, dan kalibrasi untuk jadwal lokal.",
+    "ogType": "article",
+    "ogTitle": "Cara Menghitung Waktu Salat dengan Akurat",
+    "ogDescription": "Metode perhitungan, sudut Subuh dan Isya, pengaturan Asar, lintang tinggi, serta kalibrasi lokal.",
+    "ogImageAlt": "Panduan Waqto Salat tentang metode perhitungan waktu salat.",
+    "twitterTitle": "Bagaimana Waktu Salat Dihitung?",
+    "twitterDescription": "Panduan metode, sudut fajar, pengaturan Asar, dan kalibrasi waktu salat lokal.",
+    "twitterImageAlt": "Panduan perhitungan waktu salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Metode perhitungan waktu salat",
+    "description": "Penjelasan astronomis dan praktis tentang perhitungan lima waktu salat, metode, pengaturan, dan kalibrasi lokal.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "citations": ["https://praytimes.org/docs/methods", "https://praytimes.org/docs/manual-v2"],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Perhitungan waktu salat", "path": "/how-prayer-times-are-calculated/" }
+    ],
+    "faqs": [
+      { "question": "Mengapa waktu salat berbeda antar aplikasi?", "answer": "Aplikasi dapat menggunakan metode perhitungan, pengaturan fikih, data lokasi, zona waktu, atau penyesuaian manual yang berbeda." },
+      { "question": "Bisakah Waqto Salat mengikuti jadwal masjid saya?", "answer": "Alat kalibrasi dapat menyelaraskan waktu dengan jadwal komunitas Anda setelah metode, lokasi, dan pengaturan dasar dikonfigurasi dengan benar." },
+      { "question": "Metode perhitungan mana yang sebaiknya dipilih?", "answer": "Gunakan metode yang diikuti masjid atau otoritas lokal Anda, lalu periksa pengaturan Asar, aturan lintang tinggi, dan zona waktu." },
+      { "question": "Mengapa Subuh dan Isya sulit dihitung di lintang tinggi?", "answer": "Pada waktu tertentu, matahari tidak mencapai sudut fajar atau senja yang dipilih sehingga aturan yang diakui perlu digunakan untuk memperkirakan waktunya." }
+    ]
+  },
+  "mainFile": "how-prayer-times-are-calculated.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.7" }
+}

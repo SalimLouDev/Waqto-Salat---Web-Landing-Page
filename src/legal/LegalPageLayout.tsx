@@ -13,7 +13,12 @@ type LegalPageLayoutProps = {
   description: string;
   lastUpdated: string;
   sections: LegalSection[];
-  arabicPath: string;
+  translations: Array<{
+    href: string;
+    hrefLang: string;
+    label: string;
+    ariaLabel: string;
+  }>;
 };
 
 const contactEmail = "contact@waqtosalat.com";
@@ -24,7 +29,7 @@ export function LegalPageLayout({
   description,
   lastUpdated,
   sections,
-  arabicPath,
+  translations,
 }: LegalPageLayoutProps) {
   return (
     <div className="min-h-screen bg-off-white font-sans text-islamic-green selection:bg-islamic-gold/30">
@@ -39,22 +44,25 @@ export function LegalPageLayout({
               alt="Waqto Salat Logo"
               width="32"
               height="32"
-              className="w-8 h-8 rounded-full object-cover"
+              className="h-8 w-8 shrink-0 rounded-full object-cover"
             />
-            <span className="truncate whitespace-nowrap font-display text-xl font-medium sm:text-2xl">
+            <span className="hidden truncate whitespace-nowrap font-display text-xl font-medium min-[480px]:inline sm:text-2xl">
               Waqto Salat
             </span>
           </a>
           <div className="flex shrink-0 items-center gap-2">
-            <a
-              href={arabicPath}
-              hrefLang="ar"
-              lang="ar"
-              aria-label="View this page in Arabic"
-              className="inline-flex h-11 items-center justify-center rounded-full border border-border-light px-3 text-xs font-bold text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
-            >
-              AR
-            </a>
+            {translations.map((translation) => (
+              <a
+                key={translation.hrefLang}
+                href={translation.href}
+                hrefLang={translation.hrefLang}
+                lang={translation.hrefLang}
+                aria-label={translation.ariaLabel}
+                className="inline-flex h-11 items-center justify-center rounded-full border border-border-light px-3 text-xs font-bold text-islamic-green transition-colors hover:border-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30"
+              >
+                {translation.label}
+              </a>
+            ))}
             <a
               href="/"
               aria-label="Back to Waqto Salat home"
@@ -71,7 +79,7 @@ export function LegalPageLayout({
         <section className="px-6 py-16 md:px-10 md:py-24">
           <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[0.75fr_1.25fr]">
             <aside className="lg:sticky lg:top-28 lg:self-start">
-              <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-islamic-gold">
+              <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-islamic-gold-text">
                 {eyebrow}
               </p>
               <h1 className="mb-6 font-display text-4xl font-medium leading-tight md:text-6xl">

@@ -1,4 +1,4 @@
-type SupportedLanguage = "en" | "ar" | "fr";
+type SupportedLanguage = "en" | "ar" | "fr" | "id";
 
 const preferenceKey = "waqto-salat-language-preference";
 const promptId = "language-suggestion";
@@ -18,10 +18,17 @@ const suggestions = {
     action: "Afficher en français",
     stay: "Rester en anglais",
   },
+  id: {
+    direction: "ltr",
+    title: "Bahasa Indonesia tersedia",
+    description: "Apakah Anda ingin membuka Waqto Salat dalam Bahasa Indonesia?",
+    action: "Tampilkan dalam Bahasa Indonesia",
+    stay: "Tetap dalam bahasa Inggris",
+  },
 } as const;
 
 function isSupportedLanguage(language: string | null): language is SupportedLanguage {
-  return language === "en" || language === "ar" || language === "fr";
+  return language === "en" || language === "ar" || language === "fr" || language === "id";
 }
 
 function readPreference(): SupportedLanguage | null {
@@ -45,20 +52,22 @@ function currentLanguage(): SupportedLanguage {
   const language = document.documentElement.lang.toLowerCase();
   if (language.startsWith("ar")) return "ar";
   if (language.startsWith("fr")) return "fr";
+  if (language.startsWith("id")) return "id";
   return "en";
 }
 
-function preferredAlternative(): "ar" | "fr" | null {
+function preferredAlternative(): "ar" | "fr" | "id" | null {
   const languages = navigator.languages?.length ? navigator.languages : [navigator.language];
   for (const language of languages) {
     const normalized = language.toLowerCase();
     if (normalized.startsWith("ar")) return "ar";
     if (normalized.startsWith("fr")) return "fr";
+    if (normalized.startsWith("id")) return "id";
   }
   return null;
 }
 
-function alternatePath(language: "ar" | "fr") {
+function alternatePath(language: "ar" | "fr" | "id") {
   const alternate = document.querySelector<HTMLLinkElement>(
     `link[rel="alternate"][hreflang="${language}"]`,
   );
@@ -72,7 +81,7 @@ function alternatePath(language: "ar" | "fr") {
   }
 }
 
-function renderSuggestion(language: "ar" | "fr") {
+function renderSuggestion(language: "ar" | "fr" | "id") {
   if (document.getElementById(promptId)) return;
 
   const copy = suggestions[language];

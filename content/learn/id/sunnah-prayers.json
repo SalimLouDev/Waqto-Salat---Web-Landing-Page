@@ -1,0 +1,63 @@
+{
+  "type": "guide",
+  "key": "sunnah-prayers",
+  "locale": "id",
+  "routePath": "/learn/sunnah-prayers/",
+  "seo": {
+    "title": "Salat Sunnah Muakkadah dan Rawatib | Waqto Salat",
+    "description": "Pelajari salat Sunnah Muakkadah, Rawatib sebelum dan sesudah salat wajib, Sunnah yang tidak ditekankan, jumlah rakaat, serta pertanyaan umum setiap hari.",
+    "ogType": "article",
+    "ogTitle": "Salat Sunnah Muakkadah dan Rawatib | Waqto Salat",
+    "ogDescription": "Panduan salat Sunnah, Rawatib yang ditekankan, salat Sunnah lainnya, jumlah rakaat, dan praktik di rumah.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Sunnah dan Rawatib di sekitar salat wajib.",
+    "twitterTitle": "Salat Sunnah Muakkadah dan Rawatib",
+    "twitterDescription": "Apa itu salat Sunnah, bagaimana Rawatib mengiringi salat wajib, dan mengapa rinciannya dapat berbeda.",
+    "twitterImageAlt": "Panduan salat Sunnah dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Sunnah Muakkadah dan Rawatib",
+    "description": "Panduan salat Sunnah, Rawatib yang ditekankan, salat Sunnah lainnya, jumlah rakaat, dan praktik di rumah.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/tirmidhi:415",
+      "https://sunnah.com/bukhari:1182",
+      "https://sunnah.com/bukhari:731",
+      "https://sunnah.com/abudawud:1271"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Sunnah", "path": "/learn/sunnah-prayers/" }
+    ],
+    "faqs": [
+      { "question": "Apakah salat Sunnah wajib?", "answer": "Salat Sunnah tidak sama dengan lima salat wajib. Salat ini merupakan tambahan yang berkaitan dengan praktik Nabi, dengan tingkat penekanan berbeda yang dijelaskan oleh para ulama." },
+      { "question": "Apa itu salat Rawatib?", "answer": "Rawatib adalah salat Sunnah rutin yang mengiringi lima salat wajib, seperti sebelum Subuh, sebelum dan sesudah Zuhur, setelah Magrib, dan setelah Isya." },
+      { "question": "Sebaiknya salat Sunnah dilakukan di rumah atau masjid?", "answer": "Banyak hadis menganjurkan salat sukarela di rumah, sedangkan beberapa salat Sunnah atau khusus lazim dilakukan berjamaah. Ikuti imam setempat untuk praktik komunitas." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Sunnah: Muakkadah dan Rawatib.",
+    "introductionHtml": "Salat Sunnah adalah salat tambahan yang berkaitan dengan praktik Nabi dan membantu Muslim membangun irama ibadah yang teratur di sekitar lima salat wajib.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Makna:</strong> salat tambahan yang berkaitan dengan Sunnah Nabi.</li>\n                  <li><strong class=\"text-white\">Jenis:</strong> Sunnah Muakkadah dan Sunnah yang tidak ditekankan.</li>\n                  <li><strong class=\"text-white\">Rawatib:</strong> salat Sunnah rutin yang mengiringi salat wajib.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> rincian dapat berbeda menurut mazhab dan pengajaran setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-are-sunnah-prayers", "label": "Apa itu salat Sunnah?" },
+      { "href": "#sunnah-prayers-chart", "label": "Tabel salat Sunnah" },
+      { "href": "#sunnah-mu-akkadah-and-non-emphasized-sunnah", "label": "Sunnah Muakkadah dan Sunnah lainnya" },
+      { "href": "#the-regular-rawatib-pattern", "label": "Pola Rawatib rutin" },
+      { "href": "#other-recommended-prayers-around-salah", "label": "Salat lain yang dianjurkan" },
+      { "href": "#where-should-sunnah-prayers-be-prayed", "label": "Tempat melakukan salat Sunnah" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "sunnah-prayers.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

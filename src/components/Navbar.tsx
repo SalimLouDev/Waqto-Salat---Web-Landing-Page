@@ -11,6 +11,7 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
     { locale: "en", href: "/", name: "English", shortName: "EN" },
     { locale: "ar", href: "/ar/", name: "العربية", shortName: "AR" },
     { locale: "fr", href: "/fr/", name: "Français", shortName: "FR" },
+    { locale: "id", href: "/id/", name: "Bahasa Indonesia", shortName: "ID" },
   ].filter((language) => language.locale !== locale);
   const navLinks = [
     { href: "#features", label: copy.navigation.features },
@@ -20,7 +21,9 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
 
   const learnLinks = [
     { href: learnPath, label: copy.navigation.allGuides },
-    ...copy.learn.guides.map(({ href, title }) => ({ href, label: title })),
+    ...copy.learn.guides
+      .filter((guide) => !("available" in guide) || guide.available)
+      .map(({ href, title }) => ({ href, label: title })),
   ];
 
   return (
@@ -31,7 +34,7 @@ export function Navbar({ locale = "en" }: { locale?: LandingLocale }) {
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 md:px-12 h-20 flex items-center justify-between gap-3 sm:gap-4">
         <a href={homePath} className="min-w-0 flex items-center gap-3 text-islamic-green focus:outline-none focus-visible:ring-4 focus-visible:ring-islamic-gold/30 rounded-full">
           <img src={assetPath("logo-64.webp")} alt={copy.logoAlt} width="32" height="32" className="w-8 h-8 rounded-full object-cover" />
-          <span className="hidden truncate whitespace-nowrap font-display text-xl font-medium min-[360px]:block sm:text-2xl">{copy.brandName}</span>
+          <span className="hidden truncate whitespace-nowrap font-display text-xl font-medium min-[480px]:block sm:text-2xl">{copy.brandName}</span>
         </a>
         
         <div className="hidden md:flex items-center gap-7 text-sm font-semibold text-muted-green">

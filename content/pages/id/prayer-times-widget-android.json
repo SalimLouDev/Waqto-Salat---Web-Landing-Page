@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "prayer-times-widget-android",
+  "locale": "id",
+  "routePath": "/prayer-times-widget-android/",
+  "alternates": [{ "locale": "en", "route": "/prayer-times-widget-android/" }],
+  "seo": {
+    "title": "Widget Jadwal Sholat Android | Waqto Salat",
+    "description": "Tampilkan salat berikutnya dan jadwal sholat di layar utama dengan widget Android Waqto Salat yang terhubung ke pengingat dinamis tanpa membuka aplikasi.",
+    "ogType": "article",
+    "ogTitle": "Widget Jadwal Sholat Android | Waqto Salat",
+    "ogDescription": "Lihat waktu salat berikutnya sekilas langsung dari layar utama Android.",
+    "ogImageAlt": "Widget jadwal sholat dari aplikasi Android Waqto Salat.",
+    "twitterTitle": "Widget Jadwal Sholat Android",
+    "twitterDescription": "Lihat salat berikutnya sekilas dari layar utama Android.",
+    "twitterImageAlt": "Pratinjau widget Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Widget jadwal sholat untuk Android",
+    "description": "Panduan widget Waqto Salat dan kegunaannya untuk menjaga waktu salat berikutnya tetap terlihat sepanjang hari.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Widget jadwal sholat", "path": "/prayer-times-widget-android/" }
+    ],
+    "faqs": [
+      { "question": "Apakah Waqto Salat menyediakan widget Android?", "answer": "Ya. Waqto Salat menyediakan widget layar utama yang menampilkan informasi waktu salat secara sekilas." },
+      { "question": "Apakah widget menggantikan pengingat?", "answer": "Tidak. Widget membantu Anda memeriksa waktu dengan cepat; pengingat dinamis memberi tahu Anda sebelum atau sesudah salat yang dipilih." }
+    ]
+  },
+  "mainFile": "prayer-times-widget-android.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
+}

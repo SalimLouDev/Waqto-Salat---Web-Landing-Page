@@ -1,0 +1,31 @@
+{
+  "type": "static",
+  "key": "terms-of-service",
+  "locale": "id",
+  "routePath": "/terms-of-service/",
+  "alternates": [{ "locale": "en", "route": "/terms-of-service/" }],
+  "seo": {
+    "title": "Ketentuan Layanan | Waqto Salat",
+    "description": "Baca ketentuan penggunaan Waqto Salat, termasuk akurasi waktu salat, penggunaan yang diperbolehkan, dukungan opsional, dan ketersediaan.",
+    "ogType": "website",
+    "ogTitle": "Ketentuan Layanan | Waqto Salat",
+    "ogDescription": "Ketentuan penggunaan, waktu salat, dukungan opsional, dan ketersediaan Waqto Salat.",
+    "ogImageAlt": "Ketentuan layanan aplikasi Android Waqto Salat.",
+    "twitterTitle": "Ketentuan Layanan | Waqto Salat",
+    "twitterDescription": "Ketentuan penggunaan, akurasi waktu salat, dan dukungan opsional Waqto Salat.",
+    "twitterImageAlt": "Ketentuan layanan Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "WebPage",
+    "name": "Ketentuan Layanan | Waqto Salat",
+    "description": "Ketentuan penggunaan aplikasi dan situs Waqto Salat.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Ketentuan Layanan", "path": "/terms-of-service/" }
+    ]
+  },
+  "mainFile": "terms-of-service.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "yearly", "priority": "0.3" }
+}

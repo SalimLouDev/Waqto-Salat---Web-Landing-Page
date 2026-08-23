@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "qibla-compass-app",
+  "locale": "id",
+  "routePath": "/qibla-compass-app/",
+  "alternates": [{ "locale": "en", "route": "/qibla-compass-app/" }],
+  "seo": {
+    "title": "Aplikasi Kompas Kiblat Android | Waqto Salat",
+    "description": "Temukan arah Kiblat dengan kompas yang jelas di Waqto Salat untuk Android, beserta panduan lokasi, sensor, dan cara meningkatkan akurasi di mana saja.",
+    "ogType": "article",
+    "ogTitle": "Aplikasi Kompas Kiblat Android | Waqto Salat",
+    "ogDescription": "Arah Kiblat yang jelas dengan panduan tentang lokasi, sensor ponsel, dan akurasi.",
+    "ogImageAlt": "Kompas Kiblat dalam aplikasi Android Waqto Salat.",
+    "twitterTitle": "Kompas Kiblat Android | Waqto Salat",
+    "twitterDescription": "Arah Kiblat, waktu salat, dan pengingat dalam satu aplikasi Android.",
+    "twitterImageAlt": "Pratinjau kompas Kiblat Waqto Salat."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Aplikasi kompas Kiblat untuk Android",
+    "description": "Panduan kompas Kiblat Waqto Salat dan berbagai faktor yang memengaruhi akurasinya di ponsel.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Kompas Kiblat", "path": "/qibla-compass-app/" }
+    ],
+    "faqs": [
+      { "question": "Apakah Waqto Salat menyediakan arah Kiblat?", "answer": "Ya. Arah Kiblat tersedia bersama waktu salat, pengingat, widget, dan pengaturan kalibrasi." },
+      { "question": "Mengapa arah kompas dapat berubah?", "answer": "Sensor ponsel, ketepatan lokasi, benda logam, dan gangguan magnetik dapat memengaruhi pembacaan." }
+    ]
+  },
+  "mainFile": "qibla-compass-app.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
+}

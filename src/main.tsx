@@ -10,7 +10,9 @@ const locale = documentLanguage.startsWith('ar')
   ? 'ar'
   : documentLanguage.startsWith('fr')
     ? 'fr'
-    : 'en';
+    : documentLanguage.startsWith('id')
+      ? 'id'
+      : 'en';
 const app = (
   <StrictMode>
     <App locale={locale} />

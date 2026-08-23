@@ -1,0 +1,62 @@
+{
+  "type": "guide",
+  "key": "eclipse-prayer",
+  "locale": "id",
+  "routePath": "/learn/eclipse-prayer/",
+  "seo": {
+    "title": "Salat Gerhana Matahari dan Bulan | Waqto Salat",
+    "description": "Pelajari salat Gerhana saat gerhana matahari atau bulan: waktu, dua rakaat, tambahan rukuk, doa, khutbah, sedekah, dan perbedaan pendapat.",
+    "ogType": "article",
+    "ogTitle": "Salat Gerhana Matahari dan Bulan | Waqto Salat",
+    "ogDescription": "Panduan praktis salat Gerhana matahari dan bulan, termasuk waktu, dua rakaat, tambahan rukuk, doa, khutbah, dan sedekah.",
+    "ogImageAlt": "Panduan Waqto Salat tentang salat Gerhana matahari dan bulan.",
+    "twitterTitle": "Salat Gerhana Matahari dan Bulan | Waqto Salat",
+    "twitterDescription": "Apa itu salat Gerhana, kapan dilakukan, dan bagaimana tata cara yang lazim untuk gerhana matahari maupun bulan.",
+    "twitterImageAlt": "Panduan salat Gerhana dari Waqto Salat."
+  },
+  "structuredData": {
+    "headline": "Salat Gerhana Matahari dan Bulan",
+    "alternativeHeadline": "Panduan Sholat Gerhana, Kusuf, dan Khusuf",
+    "description": "Panduan praktis salat Gerhana matahari dan bulan, termasuk waktu, dua rakaat, tambahan rukuk, doa, khutbah, dan sedekah.",
+    "datePublished": "2026-08-23",
+    "dateModified": "2026-08-23",
+    "citations": [
+      "https://sunnah.com/bukhari:1043",
+      "https://sunnah.com/bukhari:1046",
+      "https://sunnah.com/bukhari:1059",
+      "https://sunnah.com/muslim:906a"
+    ],
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Belajar", "path": "/learn/" },
+      { "name": "Salat Gerhana", "path": "/learn/eclipse-prayer/" }
+    ],
+    "faqs": [
+      { "question": "Apakah salat Gerhana dilakukan untuk gerhana matahari dan bulan?", "answer": "Ya. Salat gerhana matahari sering disebut Salat al-Kusuf, sedangkan salat gerhana bulan sering disebut Salat al-Khusuf." },
+      { "question": "Apakah salat Gerhana memakai azan atau iqamah?", "answer": "Salat Gerhana lazim dilakukan tanpa azan atau iqamah seperti salat wajib. Komunitas dapat mengumpulkan jamaah melalui pengumuman sederhana." },
+      { "question": "Berapa rakaat salat Gerhana?", "answer": "Di banyak komunitas Sunni, salat Gerhana terdiri dari dua rakaat dengan tambahan berdiri dan rukuk pada setiap rakaat. Ikuti imam atau panduan ulama setempat." }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Belajar / Panduan salat",
+    "titleHtml": "Salat Gerhana: ibadah saat gerhana matahari dan bulan.",
+    "introductionHtml": "Salat Gerhana dilakukan ketika terjadi gerhana matahari atau bulan, mengubah peristiwa besar di langit menjadi waktu untuk salat, mengingat Allah, berdoa, dan bersedekah.",
+    "summaryLabel": "Sekilas",
+    "summaryHtml": "<ul class=\"space-y-3 text-sm leading-7 text-white/78\">\n                  <li><strong class=\"text-white\">Waktu:</strong> selama gerhana matahari atau bulan berlangsung hingga kembali terang.</li>\n                  <li><strong class=\"text-white\">Nama:</strong> Kusuf sering digunakan untuk gerhana matahari, Khusuf untuk gerhana bulan.</li>\n                  <li><strong class=\"text-white\">Bentuk umum:</strong> dua rakaat dengan tambahan berdiri dan rukuk.</li>\n                  <li><strong class=\"text-white\">Catatan:</strong> rincian berbeda menurut mazhab, jadi ikuti imam atau ulama setempat.</li>\n                </ul>"
+  },
+  "contents": {
+    "label": "Dalam panduan ini",
+    "ariaLabel": "Daftar isi artikel",
+    "items": [
+      { "href": "#what-is-eclipse-prayer", "label": "Apa itu salat Gerhana?" },
+      { "href": "#when-is-it-prayed", "label": "Kapan salat Gerhana dilakukan?" },
+      { "href": "#how-eclipse-prayer-is-commonly-performed", "label": "Tata cara salat Gerhana" },
+      { "href": "#solar-and-lunar-eclipse-differences", "label": "Perbedaan gerhana matahari dan bulan" },
+      { "href": "#common-questions", "label": "Pertanyaan umum" },
+      { "href": "#sources-and-further-reading", "label": "Sumber dan bacaan lanjutan" }
+    ]
+  },
+  "asideMetaHtml": "<p>Disusun oleh Waqto Salat</p>\n                <p class=\"mt-2\">Terakhir ditinjau 23 Agustus 2026</p>\n                <a class=\"mt-2 inline-flex font-semibold text-islamic-green underline decoration-islamic-gold/40 underline-offset-4\" href=\"/id/editorial-methodology/\">Metodologi editorial</a>",
+  "articleFile": "eclipse-prayer.article.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "0.8" }
+}

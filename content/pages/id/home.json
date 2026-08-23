@@ -1,0 +1,98 @@
+{
+  "type": "landing",
+  "key": "home",
+  "locale": "id",
+  "routePath": "/",
+  "alternates": [
+    { "locale": "en", "route": "/" },
+    { "locale": "ar", "route": "/ar/" },
+    { "locale": "fr", "route": "/fr/" },
+    { "locale": "id", "route": "/id/" }
+  ],
+  "seo": {
+    "title": "Waqto Salat - Jadwal Sholat dan Pengingat Android",
+    "description": "Unduh Waqto Salat, aplikasi Android gratis tanpa iklan untuk jadwal sholat, pengingat dinamis, arah Kiblat, dan widget layar utama.",
+    "ogType": "website",
+    "ogTitle": "Waqto Salat - Jadwal Sholat dan Pengingat Android",
+    "ogDescription": "Pengingat yang mengikuti perubahan waktu salat, lengkap dengan arah Kiblat dan widget dalam aplikasi Android tanpa iklan.",
+    "ogImageAlt": "Aplikasi Android Waqto Salat dengan jadwal sholat, pengingat, arah Kiblat, dan widget.",
+    "twitterTitle": "Waqto Salat - Jadwal Sholat Android",
+    "twitterDescription": "Jadwal sholat, pengingat dinamis, arah Kiblat, dan widget dalam aplikasi Android gratis tanpa iklan.",
+    "twitterImageAlt": "Pratinjau aplikasi salat Waqto Salat."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://waqtosalat.com/id/#webpage",
+        "url": "https://waqtosalat.com/id/",
+        "name": "Waqto Salat - Jadwal Sholat dan Pengingat Android",
+        "description": "Halaman Bahasa Indonesia untuk Waqto Salat, aplikasi Android jadwal sholat, pengingat dinamis, arah Kiblat, dan widget.",
+        "inLanguage": "id",
+        "datePublished": "2026-08-22",
+        "dateModified": "2026-08-23",
+        "isPartOf": { "@id": "https://waqtosalat.com/#website" },
+        "about": { "@id": "https://waqtosalat.com/#android-app" },
+        "hasPart": [
+          { "@id": "https://waqtosalat.com/id/ad-free-prayer-times-app/#article" },
+          { "@id": "https://waqtosalat.com/id/salah-reminder-app/#article" },
+          { "@id": "https://waqtosalat.com/id/qibla-compass-app/#article" },
+          { "@id": "https://waqtosalat.com/id/prayer-times-widget-android/#article" },
+          { "@id": "https://waqtosalat.com/id/how-prayer-times-are-calculated/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/five-daily-prayers/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/sunnah-prayers/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/witr-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/nafl-prayers/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/duha-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/tahajjud-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/istikhara-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/eid-al-fitr-and-eid-al-adha-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/janazah-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/eclipse-prayer/#article" },
+          { "@id": "https://waqtosalat.com/id/learn/taraweeh-prayer/#article" }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://waqtosalat.com/#android-app",
+        "name": "Waqto Salat",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Android",
+        "url": "https://waqtosalat.com/id/",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.salimloudev.waqtosalat",
+        "image": "https://waqtosalat.com/og-image-v4.jpg",
+        "screenshot": "https://waqtosalat.com/screenshot-1.png",
+        "description": "Aplikasi Android gratis tanpa iklan untuk jadwal sholat, pengingat dinamis, arah Kiblat, dan widget.",
+        "inLanguage": "id",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "author": { "@id": "https://waqtosalat.com/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://waqtosalat.com/id/#faq",
+        "inLanguage": "id",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apakah Waqto Salat gratis?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ya. Waqto Salat gratis, tanpa iklan atau langganan. Tombol dukungan di dalam aplikasi bersifat opsional." }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah pengingat mengikuti perubahan waktu salat?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ya. Pengingat tetap terhubung dengan salat yang dipilih dan bergerak mengikuti perubahan jadwal harian." }
+          },
+          {
+            "@type": "Question",
+            "name": "Fitur apa saja yang tersedia di Waqto Salat?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Waqto Salat menyediakan waktu salat, pengingat dinamis, arah Kiblat, widget, dan pengaturan kalibrasi per salat." }
+          }
+        ]
+      }
+    ]
+  },
+  "mainFile": "home.main.html",
+  "sitemap": { "lastmod": "2026-08-23", "changefreq": "monthly", "priority": "1.0" }
+}

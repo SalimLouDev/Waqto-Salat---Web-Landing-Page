@@ -1,0 +1,35 @@
+{
+  "type": "static",
+  "key": "ad-free-prayer-times-app",
+  "locale": "id",
+  "routePath": "/ad-free-prayer-times-app/",
+  "alternates": [{ "locale": "en", "route": "/ad-free-prayer-times-app/" }],
+  "seo": {
+    "title": "Aplikasi Jadwal Sholat Tanpa Iklan | Waqto Salat",
+    "description": "Unduh Waqto Salat, aplikasi jadwal sholat Android gratis tanpa iklan dengan pengingat dinamis, arah Kiblat, widget, dan pengaturan kalibrasi di ponsel.",
+    "ogType": "article",
+    "ogTitle": "Aplikasi Jadwal Sholat Tanpa Iklan | Waqto Salat",
+    "ogDescription": "Waktu salat, pengingat, Kiblat, dan widget dalam aplikasi Android yang tenang dan bebas iklan.",
+    "ogImageAlt": "Waqto Salat, aplikasi jadwal sholat Android gratis tanpa iklan.",
+    "twitterTitle": "Aplikasi Jadwal Sholat Android Tanpa Iklan",
+    "twitterDescription": "Waktu salat, pengingat, Kiblat, dan widget dalam satu aplikasi Android gratis.",
+    "twitterImageAlt": "Pratinjau aplikasi Waqto Salat tanpa iklan."
+  },
+  "structuredData": {
+    "schemaType": "Article",
+    "name": "Aplikasi jadwal sholat Android tanpa iklan",
+    "description": "Panduan fitur Waqto Salat sebagai aplikasi Android gratis, tenang, dan bebas iklan.",
+    "datePublished": "2026-08-22",
+    "dateModified": "2026-08-22",
+    "breadcrumbs": [
+      { "name": "Beranda", "path": "/" },
+      { "name": "Aplikasi jadwal sholat tanpa iklan", "path": "/ad-free-prayer-times-app/" }
+    ],
+    "faqs": [
+      { "question": "Apakah Waqto Salat benar-benar gratis?", "answer": "Ya. Waqto Salat gratis, tanpa iklan atau fitur salat penting yang dikunci. Tombol dukungan di dalam aplikasi bersifat opsional." },
+      { "question": "Apakah aplikasi tanpa iklan memiliki lebih sedikit fitur?", "answer": "Tidak. Waqto Salat mencakup waktu salat, pengingat dinamis, arah Kiblat, widget Android, dan pengaturan kalibrasi." }
+    ]
+  },
+  "mainFile": "ad-free-prayer-times-app.main.html",
+  "sitemap": { "lastmod": "2026-08-22", "changefreq": "monthly", "priority": "0.8" }
+}
