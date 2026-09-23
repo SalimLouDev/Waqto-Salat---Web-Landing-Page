@@ -17,6 +17,7 @@
     <link rel="alternate" hreflang="fr" href="https://waqtosalat.com/fr/prayer-times-widget-android/" />
     <link rel="alternate" hreflang="id" href="https://waqtosalat.com/id/prayer-times-widget-android/" />
     <link rel="alternate" hreflang="x-default" href="https://waqtosalat.com/prayer-times-widget-android/" />
+    <link rel="preload" as="image" href="/widget-showcase-light.jpeg" fetchpriority="high" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Prayer Times Widget for Android | Waqto Salat" />
     <meta property="og:description" content="Glanceable Android home screen widgets for prayer times and the next salah." />
@@ -49,7 +50,7 @@
             "name": "Prayer Times Widget for Android",
             "description": "Waqto Salat includes Android prayer times widgets for checking the next salah at a glance, with reminders, Qibla direction, calibration, and no ads.",
             "datePublished": "2026-06-15",
-            "dateModified": "2026-08-22",
+            "dateModified": "2026-09-23",
             "isPartOf": { "@id": "https://waqtosalat.com/#website" },
             "about": { "@id": "https://waqtosalat.com/#android-app" },
             "breadcrumb": { "@id": "https://waqtosalat.com/prayer-times-widget-android/#breadcrumb" }
@@ -60,6 +61,52 @@
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://waqtosalat.com/" },
               { "@type": "ListItem", "position": 2, "name": "Prayer Times Widget", "item": "https://waqtosalat.com/prayer-times-widget-android/" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://waqtosalat.com/prayer-times-widget-android/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does Waqto Salat include Android prayer time widgets?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Waqto Salat includes Android home screen widgets for the full daily prayer schedule, the next prayer, a compact countdown, and a detailed prayer view."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I add a prayer time widget on Android?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Touch and hold an empty area of the Android home screen, open Widgets, find Waqto Salat, then press and drag your preferred widget into place. The exact labels can vary by launcher."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use light and dark prayer widget themes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Waqto Salat provides light and dark widget themes so the prayer information can suit different home screen styles."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does the green compass button in the prayer widget do?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The green compass button provides quick access from the widget to Waqto Salat's Qibla direction screen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do prayer time widgets replace salah reminders?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Widgets keep prayer information visible for quick checks, while dynamic reminders can notify you before or after a selected prayer time."
+                }
+              }
             ]
           }
         ]
@@ -103,19 +150,26 @@
       </a>
 
       <main id="main-content" tabindex="-1" class="pt-20">
-        <section class="bg-islamic-green px-6 py-20 text-white md:px-12 md:py-28">
-          <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
+        <section class="widget-hero bg-islamic-green px-6 py-16 text-white md:px-12 md:py-20">
+          <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
               <p class="mb-5 text-sm font-semibold uppercase tracking-widest text-islamic-gold">Android widgets</p>
               <h1 class="max-w-4xl font-display text-4xl font-medium leading-tight md:text-6xl">Prayer times widget for Android</h1>
-              <p class="mt-6 max-w-3xl text-lg leading-8 text-white/82">
-                Waqto Salat helps keep the next prayer visible with Android home screen widgets, so you can check salah times without opening the full app every time.
+              <p class="mt-6 max-w-2xl text-lg leading-8 text-white/82">
+                See the next salah, its countdown, or the full day’s prayer times without opening the app.
               </p>
+              <a href="#widget-layouts" class="mt-8 inline-flex items-center gap-2 border-b border-islamic-gold pb-1 text-sm font-bold uppercase tracking-widest text-white">
+                Explore the widget layouts
+                <span aria-hidden="true">↓</span>
+              </a>
             </div>
-            <div class="rounded-lg border border-white/12 bg-white/8 p-6">
-              <p class="text-sm leading-7 text-white/78">
-                Quick answer: Waqto Salat includes glanceable Android widgets for daily prayer times.
-              </p>
+            <div class="widget-hero-stage" aria-label="Waqto Salat prayer time widgets in the light theme">
+              <div class="widget-product-shot widget-product-shot--daily widget-hero-daily" style="--shot-ratio: 644 / 360; --shot-width: 114.6%; --shot-left: -7.45%; --shot-top: -30.83%;">
+                <img src="/widget-showcase-light.jpeg" alt="Full daily prayer times widget showing Fajr, sunrise, Dhuhr, Asr, Maghrib, and Isha" width="738" height="1600" decoding="async" fetchpriority="high" />
+              </div>
+              <div class="widget-product-shot widget-product-shot--strip widget-hero-strip" style="--shot-ratio: 610 / 60; --shot-width: 120.98%; --shot-left: -10.66%; --shot-top: -943.33%;">
+                <img src="/widget-showcase-light.jpeg" alt="Slim next prayer widget showing Asr and its countdown" width="738" height="1600" decoding="async" />
+              </div>
             </div>
           </div>
         </section>
@@ -123,13 +177,19 @@
         <section class="px-6 py-16 md:px-12 md:py-24">
           <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.7fr_1.3fr]">
             <aside class="space-y-3 text-sm text-muted-green lg:sticky lg:top-28 lg:self-start">
-              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">Resource guides</p>
-              <a href="/" class="block hover:text-islamic-green">Home</a>
+              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">On this page</p>
+              <a href="#widget-layouts" class="block font-semibold text-islamic-green">Widget layouts and themes</a>
+              <a href="#at-a-glance" class="block hover:text-islamic-green">Prayer times at a glance</a>
+              <a href="#qibla-shortcut" class="block hover:text-islamic-green">Quick Qibla access</a>
+              <a href="#add-widget" class="block hover:text-islamic-green">Add a widget on Android</a>
+              <a href="#everyday-use" class="block hover:text-islamic-green">Everyday widget use</a>
+              <a href="#faq" class="block hover:text-islamic-green">Widget questions</a>
+              <div class="my-6 border-t border-border-light"></div>
+              <p class="mb-5 text-xs font-bold uppercase tracking-widest text-islamic-gold">More resource guides</p>
               <a href="/ad-free-prayer-times-app/" class="block hover:text-islamic-green">Ad-free prayer times</a>
-              <a href="/salah-reminder-app/" class="block hover:text-islamic-green">Salah reminder app</a>
-              <a href="/qibla-compass-app/" class="block hover:text-islamic-green">Qibla compass app</a>
-              <a href="/prayer-times-widget-android/" class="block font-semibold text-islamic-green">Prayer times widget</a>
-              <a href="/how-prayer-times-are-calculated/" class="block hover:text-islamic-green">Prayer time accuracy</a>
+              <a href="/salah-reminder-app/" class="block hover:text-islamic-green">Dynamic salah reminders</a>
+              <a href="/qibla-compass-app/" class="block hover:text-islamic-green">Qibla compass for Android</a>
+              <a href="/how-prayer-times-are-calculated/" class="block hover:text-islamic-green">Prayer time calculation</a>
               <div class="mt-8 hidden rounded-lg border border-islamic-gold/35 bg-white p-5 text-center shadow-sm lg:block">
                 <p class="text-xs font-bold uppercase tracking-widest text-islamic-gold">Waqto Salat for Android</p>
                 <p class="mt-3 font-display text-xl font-medium leading-7 text-islamic-green">Keep the next prayer close.</p>
@@ -156,16 +216,85 @@
               </div>
             </aside>
             <article class="space-y-10 text-base leading-8 text-muted-green">
-            <section>
-              <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Glanceable prayer information</h2>
+            <section id="widget-layouts" data-widget-gallery>
+              <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                  <p class="mb-3 text-xs font-bold uppercase tracking-widest text-islamic-gold">Available layouts and themes</p>
+                  <h2 class="font-display text-3xl font-medium text-islamic-green">Prayer widget layouts</h2>
+                </div>
+                <div class="widget-theme-control" role="group" aria-label="Preview widget theme">
+                  <button type="button" class="widget-theme-button" data-widget-theme="light" aria-pressed="true">Light</button>
+                  <button type="button" class="widget-theme-button" data-widget-theme="dark" aria-pressed="false">Dark</button>
+                </div>
+              </div>
+              <p class="mt-5">
+                Choose the amount of prayer information that suits your home screen. Every layout is available in light and dark themes.
+              </p>
+
+              <div class="widget-gallery mt-8">
+                <figure class="widget-gallery-item widget-gallery-item--daily">
+                  <div class="widget-gallery-stage">
+                    <div class="widget-product-shot widget-product-shot--daily" style="--shot-ratio: 644 / 360; --shot-width: 114.6%; --shot-left: -7.45%; --shot-top: -30.83%;">
+                      <img src="/widget-showcase-light.jpeg" data-light-src="/widget-showcase-light.jpeg" data-dark-src="/widget-showcase-dark.jpeg" alt="Daily prayer schedule Android widget" width="738" height="1600" loading="lazy" decoding="async" />
+                    </div>
+                  </div>
+                  <figcaption><strong>Full daily schedule</strong><span>All five prayers, sunrise, the next salah, and a Qibla shortcut.</span></figcaption>
+                </figure>
+
+                <figure class="widget-gallery-item widget-gallery-item--compact">
+                  <div class="widget-gallery-stage widget-gallery-stage--compact">
+                    <div class="widget-product-shot widget-product-shot--compact" style="--shot-ratio: 265 / 324; --shot-width: 278.49%; --shot-left: -25.28%; --shot-top: -40.12%;">
+                      <img src="/widget-compact-light.jpeg" data-light-src="/widget-compact-light.jpeg" data-dark-src="/widget-compact-dark.jpeg" alt="Compact next prayer countdown Android widget" width="738" height="1600" loading="lazy" decoding="async" />
+                    </div>
+                  </div>
+                  <figcaption><strong>Compact countdown</strong><span>The next salah, remaining time, and quick Qibla access.</span></figcaption>
+                </figure>
+
+                <figure class="widget-gallery-item widget-gallery-item--strip">
+                  <div class="widget-gallery-stage widget-gallery-stage--strip">
+                    <div class="widget-product-shot widget-product-shot--strip" style="--shot-ratio: 610 / 60; --shot-width: 120.98%; --shot-left: -10.66%; --shot-top: -943.33%;">
+                      <img src="/widget-showcase-light.jpeg" data-light-src="/widget-showcase-light.jpeg" data-dark-src="/widget-showcase-dark.jpeg" alt="Narrow next prayer Android widget" width="738" height="1600" loading="lazy" decoding="async" />
+                    </div>
+                  </div>
+                  <figcaption><strong>Next-prayer strip</strong><span>Prayer name, time, and countdown in one slim row.</span></figcaption>
+                </figure>
+
+                <figure class="widget-gallery-item widget-gallery-item--detail">
+                  <div class="widget-gallery-stage">
+                    <div class="widget-product-shot widget-product-shot--detail" style="--shot-ratio: 644 / 364; --shot-width: 114.6%; --shot-left: -7.45%; --shot-top: -196.43%;">
+                      <img src="/widget-showcase-light.jpeg" data-light-src="/widget-showcase-light.jpeg" data-dark-src="/widget-showcase-dark.jpeg" alt="Detailed prayer Android widget with prayer context" width="738" height="1600" loading="lazy" decoding="async" />
+                    </div>
+                  </div>
+                  <figcaption><strong>Detailed prayer view</strong><span>Prayer time, Sunnah context, a short virtue, and a Qibla shortcut.</span></figcaption>
+                </figure>
+              </div>
+            </section>
+            <section id="at-a-glance">
+              <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Prayer information without opening the app</h2>
               <p>
-                A prayer times widget is useful because it lowers friction. Instead of opening an app, searching through a list, or waiting for a notification, you can glance at your Android home screen and see the prayer information you need.
+                A prayer times widget lowers friction. Instead of opening an app and searching through a list, you can glance at your Android home screen for the next salah, its countdown, or the complete daily schedule.
               </p>
             </section>
-            <section>
+            <section id="qibla-shortcut">
+              <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Quick access to the Qibla compass</h2>
+              <p>
+                The green compass button opens Waqto Salat’s <a href="/qibla-compass-app/" class="font-semibold text-islamic-green underline decoration-islamic-gold/55 underline-offset-4">Qibla direction screen</a> directly from the widget. It keeps the compass close without adding extra information to the prayer-time layout.
+              </p>
+            </section>
+            <section id="add-widget">
+              <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">How to add a prayer time widget on Android</h2>
+              <ol class="widget-steps">
+                <li><span>1</span><p>Touch and hold an empty area of your Android home screen.</p></li>
+                <li><span>2</span><p>Tap <strong class="text-islamic-green">Widgets</strong>. The label may vary slightly by phone or launcher.</p></li>
+                <li><span>3</span><p>Find <strong class="text-islamic-green">Waqto Salat</strong> and browse the available layouts.</p></li>
+                <li><span>4</span><p>Press and hold your preferred widget, then drag it onto the home screen.</p></li>
+                <li><span>5</span><p>Move or resize it if your Android launcher supports resizing.</p></li>
+              </ol>
+            </section>
+            <section id="everyday-use">
               <h2 class="mb-4 font-display text-3xl font-medium text-islamic-green">Designed for repeated checks</h2>
               <p>
-                Prayer times are checked repeatedly throughout the day. Waqto Salat keeps widgets connected to a broader calm experience with prayer times, salah reminders, Qibla direction, calibration, multilingual support, and an ad-free interface.
+                Prayer times are checked repeatedly throughout the day. Waqto Salat keeps widgets connected to a broader calm experience with accurate <a href="/how-prayer-times-are-calculated/" class="font-semibold text-islamic-green underline decoration-islamic-gold/55 underline-offset-4">prayer time calculation</a>, <a href="/salah-reminder-app/" class="font-semibold text-islamic-green underline decoration-islamic-gold/55 underline-offset-4">dynamic salah reminders</a>, Qibla direction, multilingual support, and an ad-free interface.
               </p>
             </section>
             <section>
@@ -180,12 +309,30 @@
                 Prayer times are not checked once a day. They shape the rhythm of the whole day. A widget keeps that rhythm visible without opening another screen, searching for the next prayer, or waiting for a notification. In Waqto Salat, widgets work together with dynamic salah reminders, Qibla direction, and calibration so the home screen supports the same calm prayer flow as the app itself.
               </p>
             </section>
-            <section class="rounded-lg border border-border-light bg-white p-6 shadow-sm">
-              <h2 class="mb-4 font-display text-2xl font-medium text-islamic-green">Common questions</h2>
-              <h3 class="font-semibold text-islamic-green">Does Waqto Salat include Android widgets?</h3>
-              <p class="mb-4">Yes. Waqto Salat includes home screen widgets for checking prayer times at a glance.</p>
-              <h3 class="font-semibold text-islamic-green">Do widgets replace reminders?</h3>
-              <p>No. Widgets are best for quick visibility, while dynamic reminders help notify you before or after a selected prayer time.</p>
+            <section id="faq" class="rounded-lg border border-border-light bg-white p-6 shadow-sm">
+              <h2 class="mb-6 font-display text-2xl font-medium text-islamic-green">Prayer widget questions</h2>
+              <div class="space-y-6">
+                <div>
+                  <h3 class="font-semibold text-islamic-green">Does Waqto Salat include Android prayer time widgets?</h3>
+                  <p>Yes. You can choose from a full daily schedule, a next-prayer strip, a detailed prayer view, and a compact countdown.</p>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-islamic-green">How do I add a prayer time widget on Android?</h3>
+                  <p>Touch and hold an empty home-screen area, open Widgets, find Waqto Salat, then drag your preferred layout into place. Exact labels vary by launcher.</p>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-islamic-green">Can I use light and dark prayer widget themes?</h3>
+                  <p>Yes. The widgets are available in light and dark themes to suit different home screens.</p>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-islamic-green">What does the green compass button do?</h3>
+                  <p>It opens Waqto Salat’s Qibla direction screen directly from the prayer widget.</p>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-islamic-green">Do prayer time widgets replace salah reminders?</h3>
+                  <p>No. Widgets support quick checks, while dynamic reminders can notify you before or after a selected prayer time.</p>
+                </div>
+              </div>
             </section>
             <section class="grid gap-4 sm:grid-cols-3">
               <a href="/ad-free-prayer-times-app/" class="rounded-lg border border-border-light bg-white p-5 font-semibold text-islamic-green shadow-sm">Ad-free app</a>

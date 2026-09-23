@@ -3,6 +3,32 @@ import { initLanguageSuggestion } from "./language-suggestion";
 
 initLanguageSuggestion();
 
+const initWidgetGalleries = () => {
+  document.querySelectorAll<HTMLElement>("[data-widget-gallery]").forEach((gallery) => {
+    const buttons = Array.from(gallery.querySelectorAll<HTMLButtonElement>("[data-widget-theme]"));
+    const images = Array.from(gallery.querySelectorAll<HTMLImageElement>("img[data-light-src][data-dark-src]"));
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const theme = button.dataset.widgetTheme;
+
+        if (theme !== "light" && theme !== "dark") return;
+
+        buttons.forEach((candidate) => {
+          candidate.setAttribute("aria-pressed", String(candidate === button));
+        });
+
+        images.forEach((image) => {
+          const source = theme === "light" ? image.dataset.lightSrc : image.dataset.darkSrc;
+          if (source) image.src = source;
+        });
+      });
+    });
+  });
+};
+
+initWidgetGalleries();
+
 document.body.dataset.staticPage = "";
 
 const main = document.querySelector<HTMLElement>("main");
