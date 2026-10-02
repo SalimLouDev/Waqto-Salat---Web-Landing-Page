@@ -21,6 +21,14 @@ const initWidgetGalleries = () => {
         images.forEach((image) => {
           const source = theme === "light" ? image.dataset.lightSrc : image.dataset.darkSrc;
           if (source) image.src = source;
+
+          const shot = image.closest<HTMLElement>(".widget-product-shot");
+          if (!shot) return;
+
+          (["width", "left", "top"] as const).forEach((property) => {
+            const value = image.getAttribute(`data-${theme}-shot-${property}`);
+            if (value) shot.style.setProperty(`--shot-${property}`, value);
+          });
         });
       });
     });
